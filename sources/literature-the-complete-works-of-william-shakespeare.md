@@ -1,5 +1,6 @@
 ---
 title: The Complete Works of William Shakespeare
+work_type: work
 role: source
 format: anthology
 domain: literature
@@ -35,8 +36,6 @@ related_docs:
   - sources/literature-rub-iy-t-of-omar-khayy-m-and-sal-m-n-and-abs-l.md
   - sources/literature-steppenwolf.md
 ---
-# The Complete Works of William Shakespeare
-
 *By William Shakespeare*
 
 ## The Sonnets
