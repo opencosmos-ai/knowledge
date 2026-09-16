@@ -27,7 +27,7 @@ import { Redis } from '@upstash/redis'
 
 const __dirname = dirname(fileURLToPath(import.meta.url))
 const ROOT_DIR  = resolve(__dirname, '..', '..')
-const WIKI_DIR  = resolve(ROOT_DIR, 'knowledge', 'wiki')
+const WIKI_DIR  = resolve(ROOT_DIR, 'wiki')   // the corpus is this repo's root
 
 const envPath = join(ROOT_DIR, 'apps', 'web', '.env')
 if (existsSync(envPath)) {

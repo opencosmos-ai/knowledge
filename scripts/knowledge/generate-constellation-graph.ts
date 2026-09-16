@@ -51,7 +51,18 @@ import {
 
 const __dirname = dirname(fileURLToPath(import.meta.url))
 const ROOT_DIR = resolve(__dirname, '..', '..')
-const KNOWLEDGE_DIR = resolve(ROOT_DIR, 'knowledge')
+
+// The corpus is this repository's root. But node IDs must not move: the app's
+// nodeHref.ts resolves them as `knowledge/sources/foo.md#slug`, so rebasing the
+// path would break every link out of the constellation. Same reasoning, and the
+// same constant, as embed-knowledge.ts.
+const KNOWLEDGE_DIR = ROOT_DIR
+const CORPUS_PREFIX = 'knowledge'
+
+/** Path as it appears in node IDs — always `knowledge/…`. */
+function corpusPath(fullPath: string): string {
+  return join(CORPUS_PREFIX, relative(KNOWLEDGE_DIR, fullPath))
+}
 const SOURCES_DIR = resolve(KNOWLEDGE_DIR, 'sources')
 const QUOTES_DIR = resolve(KNOWLEDGE_DIR, 'quotes')
 const WIKI_DIR = resolve(KNOWLEDGE_DIR, 'wiki')
@@ -172,7 +183,7 @@ function scanWorks(): ScannedWork[] {
     const workType = String(fm.work_type ?? 'work')
     if (workType !== 'work') continue   // skip collections/references for now
 
-    const relPath = relative(ROOT_DIR, fullPath)
+    const relPath = corpusPath(fullPath)
     const id = `sources/${file.replace(/\.md$/, '')}`
     const title = String(fm.title ?? file.replace(/\.md$/, '').replace(/-/g, ' '))
     // Tradition is now mandatory in source frontmatter; emit a warning if missing.
@@ -249,7 +260,7 @@ function scanQuotes(workIds: Set<string>): ScannedQuote[] {
       continue
     }
 
-    const relPath = relative(ROOT_DIR, fullPath)
+    const relPath = corpusPath(fullPath)
 
     for (const record of parsed.records) {
       const status = record.provenance?.status
