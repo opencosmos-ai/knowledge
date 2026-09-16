@@ -1,22 +1,24 @@
 name: Knowledge Sync
 
-# Manual-only until Phase 4 of the migration. Until `knowledge/` is removed
-# from the opencosmos repository, that repository's workflow is still the
-# corpus's single writer; enabling `push` here would give the index two
-# writers for the same content. Flip this to `push` when the corpus leaves.
+# Fires on any corpus change. `.github/**` is excluded so editing this workflow
+# does not itself trigger a full re-embed.
 on:
+  push:
+    branches: [main]
+    paths-ignore:
+      - '.github/**'
   workflow_dispatch:
 
 concurrency:
   # Cancel any in-progress run when a new push arrives.
-  # Safe: the generator always reads from the full repo checkout, not a Redis
+  # Safe: the generators always read from the full repo checkout, not a Redis
   # delta, so restarting from the latest HEAD always includes all merged files.
-  group: knowledge-graph-generator
+  group: knowledge-sync
   cancel-in-progress: true
 
 jobs:
   sync:
-    name: Regenerate the graph and re-embed the corpus
+    name: Regenerate the graphs, re-embed the corpus, rebuild the site
     runs-on: ubuntu-latest
 
     steps:
@@ -31,24 +33,45 @@ jobs:
       - name: Install dependencies
         run: npm ci
 
-      - name: Regenerate knowledge graph
+      - name: Regenerate wiki graph
         env:
           UPSTASH_REDIS_REST_URL:   ${{ secrets.UPSTASH_REDIS_REST_URL }}
           UPSTASH_REDIS_REST_TOKEN: ${{ secrets.UPSTASH_REDIS_REST_TOKEN }}
         run: npm run graph
 
-      - name: Embed knowledge corpus
+      # The constellation is what /library/graph renders, and until now nothing
+      # regenerated it automatically — the old workflow ran `graph` (which writes
+      # knowledge:graph*) but never `graph:constellation` (which writes
+      # knowledge:constellation). The visualisation only refreshed when someone
+      # remembered to run it by hand.
+      - name: Regenerate constellation graph
+        env:
+          UPSTASH_REDIS_REST_URL:   ${{ secrets.UPSTASH_REDIS_REST_URL }}
+          UPSTASH_REDIS_REST_TOKEN: ${{ secrets.UPSTASH_REDIS_REST_TOKEN }}
+        run: npm run graph:constellation
+
+      # Incremental: chunks carry a content hash, so an unchanged corpus costs
+      # zero writes. Only IDs under `knowledge/` are reconciled — Cosmo's kaizen
+      # vectors are written by another repository and must survive this.
+      - name: Embed corpus
         env:
           UPSTASH_VECTOR_REST_URL:   ${{ secrets.UPSTASH_VECTOR_REST_URL }}
           UPSTASH_VECTOR_REST_TOKEN: ${{ secrets.UPSTASH_VECTOR_REST_TOKEN }}
         run: npm run embed
 
       - name: Revalidate graph route (on-demand ISR)
-        # Triggers Next.js ISR so all users see the updated graph within seconds.
-        # The revalidate secret prevents unauthorized cache busting.
+        # Makes the regenerated graph visible within seconds, ahead of the
+        # site rebuild below. The secret prevents unauthorized cache busting.
         run: |
           curl -X POST "${{ secrets.NEXT_PUBLIC_APP_URL }}/api/revalidate" \
             -H "Content-Type: application/json" \
             -H "x-revalidate-secret: ${{ secrets.REVALIDATE_SECRET }}" \
             -d '{"path": "/library/graph"}' \
             --fail-with-body
+
+      # The Library's document pages are statically generated from this corpus
+      # at build time, so a corpus change only reaches readers once the site is
+      # rebuilt. Without this step the site would serve whatever the last
+      # application deploy happened to clone.
+      - name: Rebuild the site
+        run: curl -X POST --fail-with-body "${{ secrets.VERCEL_DEPLOY_HOOK }}"
