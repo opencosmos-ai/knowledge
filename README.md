@@ -2,7 +2,9 @@
 
 > A curated corpus of human wisdom — organized for retrieval by machines and navigation by people.
 
-**Maintainer:** [Shalom Ormsby](https://www.shalomormsby.com/) | **License:** Public Domain (content) | **Status:** Active curation
+**Maintainer:** [Shalom Ormsby](https://www.shalomormsby.com/) · **License:** [CC0 1.0](LICENSE) · **Status:** active curation
+
+> **About this repository.** The corpus lives here on its own so that adding a text, correcting a transcription, or arguing with an attribution does not mean cloning a five-application monorepo. It was extracted from [opencosmos](https://github.com/opencosmos-ai/opencosmos) with its full history, and is consumed from there at build time — the reading room, kept apart from the machinery that renders it.
 
 ---
 
@@ -10,9 +12,9 @@
 
 OpenCosmos Knowledge is an open knowledge base designed to serve two purposes simultaneously:
 
-1. **Retrieval-Augmented Generation (RAG)** — These documents are indexed by [Cosmo AI](../docs/archive-and-deprecated/INCEPTION), a sovereign, solar-powered intelligence layer. When Cosmo AI responds to a prompt, it draws on this corpus to ground its answers in curated wisdom rather than training data alone.
+1. **Retrieval-Augmented Generation (RAG)** — These documents are indexed by [Cosmo AI](https://github.com/opencosmos-ai/opencosmos/tree/main/docs), a sovereign, solar-powered intelligence layer. When Cosmo AI responds to a prompt, it draws on this corpus to ground its answers in curated wisdom rather than training data alone.
 
-2. **A public resource** — This corpus is intended for the public domain. Every document is structured, tagged, and written so that anyone — philosopher, engineer, artist, scientist — can browse, learn from, and contribute to it without needing to understand the software that consumes it. The knowledge base is globally accessible at [opencosmos.ai](https://opencosmos.ai/) as both a browsable docs site and a RAG API endpoint, with a local mirror on the Sovereign Node for offline access and development.
+2. **A public resource** — This corpus is intended for the public domain. Every document is structured, tagged, and written so that anyone — philosopher, engineer, artist, scientist — can browse, learn from, and contribute to it without needing to understand the software that consumes it. The knowledge base is globally accessible at [opencosmos.ai](https://opencosmos.ai/) as both a browsable docs site and a RAG API endpoint.
 
 The organizing principle: **the wisdom of humanity, made accessible to both human minds and artificial intelligence.**
 
@@ -23,7 +25,7 @@ The organizing principle: **the wisdom of humanity, made accessible to both huma
 Documents are organized into **six** categories. Five are for curated source material (organized by role); one — the **wiki** — is the synthesis layer maintained by Claude.
 
 ```
-knowledge/
+./
 ├── sources/          Primary works — the originals
 ├── commentary/       Analysis, interpretation, explanation
 ├── reference/        Definitions, glossaries, specifications
@@ -32,14 +34,14 @@ knowledge/
 └── wiki/             LLM-synthesized concept pages, entity summaries, cross-tradition connections
 ```
 
-The wiki is always loaded into Claude's context via `@knowledge/wiki/index.md` in `.claude/CLAUDE.md`. See [Wiki Layer](#wiki-layer) below for the full spec.
+The wiki is always loaded into Claude's context via `@wiki/index.md` in `.claude/CLAUDE.md`. See [Wiki Layer](#wiki-layer) below for the full spec.
 
 ---
 
 Documents in the five source categories are organized by their **relationship to knowledge** — not by subject, discipline, or tradition. This distinction matters because it's universal: it works for Buddhist scripture and TypeScript specifications alike.
 
 ```
-knowledge/
+./
 ├── sources/          Primary works — the originals
 ├── commentary/       Analysis, interpretation, explanation
 ├── reference/        Definitions, glossaries, specifications
@@ -263,12 +265,12 @@ Format describes the literary or structural form of a document. It matters becau
 
 The wiki is a **synthesis layer** between raw source texts and RAG retrieval. Rather than requiring Cosmo AI to synthesize from scratch on every query, wiki pages pre-build cross-references, extract key claims, and flag contradictions — so retrieval returns already-connected knowledge.
 
-The wiki is **always in Claude's context** via `@knowledge/wiki/index.md` in `.claude/CLAUDE.md`. This is what makes it ambient rather than explicit: Claude sees the current index at session start without being asked.
+The wiki is **always in Claude's context** via `@wiki/index.md` in `.claude/CLAUDE.md`. This is what makes it ambient rather than explicit: Claude sees the current index at session start without being asked.
 
 ### Wiki Directory Structure
 
 ```
-knowledge/wiki/
+wiki/
 ├── index.md               # Master catalog — one-liner per article by category (loaded in context)
 ├── log.md                 # Append-only audit trail of wiki edits (distinct from CURATION_LOG)
 ├── entities/              # People, texts, traditions — who/what
@@ -325,7 +327,7 @@ Three Claude Code skills power the wiki workflow:
 | Skill | Purpose | When to use |
 |-------|---------|-------------|
 | `/knowledge-compile convo` | Extract durable synthesis from the current conversation | After a conversation produces a notable cross-tradition insight |
-| `/knowledge-compile incoming/<file>` | Process a staged external reference into wiki pages | When an article or text drops into `knowledge/incoming/` |
+| `/knowledge-compile incoming/<file>` | Process a staged external reference into wiki pages | When an article or text drops into `incoming/` |
 | `/knowledge-compile log` | Scan CURATION_LOG for recent additions and update affected wiki pages | After ingesting new source documents |
 | `/knowledge-review` | Health check: orphan pages, cross-reference symmetry, staleness, open questions | Periodically or before a major synthesis session |
 | `/knowledge-lookup <query>` | Search wiki pages for relevant synthesis before starting domain work | Before asking Cosmo a question already covered by the wiki |
@@ -346,7 +348,7 @@ To load the wiki index into every Claude session:
 
 ```
 # Add this line to .claude/CLAUDE.md (already done):
-@knowledge/wiki/index.md
+@wiki/index.md
 ```
 
 Claude Code expands this at session start. Claude sees the full wiki index without being explicitly asked — the table of contents is always open.
@@ -457,29 +459,32 @@ The corpus welcomes multilingual content. Add a `language` field to frontmatter 
 
 ### How does this relate to Cosmo AI?
 
-Cosmo AI's RAG pipeline reads from this corpus. When someone asks Cosmo AI a question, it searches this knowledge base for relevant passages, retrieves them, and uses them to ground its response. The quality and organization of this corpus directly determines the quality of Cosmo AI's answers. See [INCEPTION.md](../docs/archive-and-deprecated/INCEPTION) for the full technical architecture.
+Cosmo AI's RAG pipeline reads from this corpus. When someone asks Cosmo AI a question, it searches this knowledge base for relevant passages, retrieves them, and uses them to ground its response. The quality and organization of this corpus directly determines the quality of Cosmo AI's answers. See [INCEPTION.md](https://github.com/opencosmos-ai/opencosmos/tree/main/docs) for the full technical architecture.
 
 ---
 
 ## Technical Context
 
-This corpus is consumed by [Cosmo AI](../docs/archive-and-deprecated/INCEPTION), part of the [OpenCosmos platform](../README) — a monorepo demonstrating that human-centered design can be proven through architecture, not just claimed.
+This corpus is consumed by [Cosmo AI](https://github.com/opencosmos-ai/opencosmos/tree/main/docs), part of the [OpenCosmos platform](https://github.com/opencosmos-ai/opencosmos) — a monorepo demonstrating that human-centered design can be proven through architecture, not just claimed.
 
-**Hosting architecture:** The knowledge base is **cloud-primary with a local mirror.** Knowledge hosting and compute are fundamentally different workloads — serving documents and embeddings costs pennies; running LLM inference costs watts. Global accessibility serves the "Generous by Design" principle.
+**Hosting architecture:** The knowledge base is **cloud-primary.** Knowledge hosting and compute are fundamentally different workloads — serving documents and embeddings costs pennies; running LLM inference costs watts. Global accessibility serves the "Generous by Design" principle.
 
 | Layer | Where | Why |
 |-------|-------|-----|
 | Knowledge base (primary) | Cloud (always-on) | Global access, nominal hosting cost |
-| Knowledge base (local mirror) | Dell Sovereign Node | Offline access, development, seeding |
+| Vector index | Upstash Vector | Similarity search for RAG retrieval |
+| Knowledge graph | Upstash Redis | Precomputed constellation, served via ISR |
 | RAG API endpoint | Cloud (always-on) | Programmatic access for Cosmo clients |
-| Static docs site | [opencosmos.ai](https://opencosmos.ai/) | Human-browsable knowledge |
+| Static docs site | [opencosmos.ai/library](https://opencosmos.ai/library) | Human-browsable knowledge |
 | Inference (Apertus models) | Dell (local, sovereign) | GPU cost, privacy, sovereignty |
 
-**Current RAG infrastructure (Phase 1):** Open WebUI's built-in RAG on the Sovereign Node (Dell XPS 8950, RTX 3090, solar-powered, Marin County, CA) serves as the local mirror. Documents are uploaded manually and indexed via Open WebUI's embedding pipeline. Cloud deployment is planned — see [Migration Phase 1d](../docs/projects/opencosmos-migration#1d-knowledge-base-hosting-strategy-not-started).
+**Current RAG infrastructure:** A GitHub Action fires on every push to this repository. It regenerates the constellation graph into Upstash Redis, embeds the corpus into **Upstash Vector** (BGE_M3, 1024 dimensions), and pings the site to revalidate. Nothing is uploaded by hand, and the application never reads this corpus at runtime — it queries the index.
+
+*A local mirror on the Sovereign Node (Open WebUI, manual uploads) was the Phase 1 arrangement. It was retired on 2026-09-16; the cloud path had long since replaced it in practice, and the documentation had not caught up.*
 
 **Future RAG infrastructure (Phase 3+):** Custom RAG pipeline in `packages/ai/src/rag/` with per-format chunking strategies, metadata-filtered retrieval, and hybrid search. Cloud RAG API endpoint for global access. The migration from Open WebUI's built-in RAG will be informed by retrieval patterns validated during Phase 1.
 
-**Sovereignty note:** [Sovereignty Tiers](../docs/archive-and-deprecated/INCEPTION#sovereign-identity--the-sovereignty-tiers) govern **compute** — where LLMs process prompts. Published knowledge is explicitly intended to be shared globally. This is not a contradiction: the knowledge base is public by design; user inference stays sovereign by default.
+**Sovereignty note:** [Sovereignty Tiers](https://github.com/opencosmos-ai/opencosmos/tree/main/docs) govern **compute** — where LLMs process prompts. Published knowledge is explicitly intended to be shared globally. This is not a contradiction: the knowledge base is public by design; user inference stays sovereign by default.
 
 ---
 

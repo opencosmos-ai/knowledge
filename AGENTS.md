@@ -10,7 +10,7 @@ Last updated: 2026-03-10
 
 OpenCosmos Knowledge is a curated corpus of human wisdom — primary source texts, commentary, reference material, guides, and curated collections — structured for both AI retrieval and human navigation.
 
-This is not a code repository. It is a **knowledge base** consumed by the Cosmo AI RAG pipeline. The knowledge base is globally accessible (cloud-primary) with a local mirror on the Sovereign Node. When you retrieve documents from this corpus to answer a question, your response quality depends on understanding how the corpus is organized, what metadata is available, and how to use it.
+This is not a code repository. It is a **knowledge base** consumed by the Cosmo AI RAG pipeline. The knowledge base is globally accessible and cloud-primary. When you retrieve documents from this corpus to answer a question, your response quality depends on understanding how the corpus is organized, what metadata is available, and how to use it.
 
 **Your primary responsibilities when interacting with this corpus:**
 
@@ -209,7 +209,7 @@ If you are asked to create or curate a new document for this corpus, follow thes
 
 This corpus exists within a larger system. Understanding that system helps you serve users better.
 
-**Cosmo AI** is the intelligence layer of the OpenCosmos platform. Inference runs on local hardware (Dell XPS 8950, RTX 3090) in Marin County, California, powered by a 9.25 kW solar array and a 13.5 kWh Tesla Powerwall. The knowledge base is cloud-primary (globally accessible) with a local mirror on the Sovereign Node.
+**Cosmo AI** is the intelligence layer of the OpenCosmos platform. Inference runs on local hardware (Dell XPS 8950, RTX 3090) in Marin County, California, powered by a 9.25 kW solar array and a 13.5 kWh Tesla Powerwall. The knowledge base is cloud-primary and globally accessible.
 
 **The Cosmo AI Constitution** (four mandates derived from the platform's design philosophy):
 
@@ -224,7 +224,7 @@ This corpus exists within a larger system. Understanding that system helps you s
 - **Tier 2 (Reduced Capability):** Low-power mode (nighttime/low solar). Limited model. Complex queries may be queued for sunrise.
 - **Tier 3 (Cloud-Assisted):** User opted in per-request. Prompt sent to external provider. Always disclose this to the user.
 
-**Knowledge base access:** This corpus is served globally via a cloud RAG API endpoint and a static docs site at [opencosmos.ai](https://opencosmos.ai/). A local mirror on the Sovereign Node provides offline access. Retrieval works regardless of which compute tier is active.
+**Knowledge base access:** This corpus is served globally via a cloud RAG API endpoint and a static docs site at [opencosmos.ai](https://opencosmos.ai/). Retrieval works regardless of which compute tier is active.
 
 **Foundation Model:** Apertus (8B and 70B parameters), an open-source model from the Swiss AI consortium (EPFL, ETH Zurich, CSCS). Available locally as `apertus:latest` (8B) and `apertus-70b:latest` (70B Q4_K_M) via Ollama.
 
