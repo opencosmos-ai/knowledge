@@ -81,6 +81,7 @@ type ChunkMetadata = {
   author?: string
   tradition?: string
   wiki_path?: string       // set for wiki pages only
+  content_hash?: string    // sha256 of `data`, 16 hex — lets a run skip unchanged chunks
 
   // Quote-specific (set only when chunk_type === 'quote')
   chunk_type?: 'quote'
@@ -492,15 +493,28 @@ const RANGE_PAGE_SIZE = 1000
 const DELETE_BATCH_SIZE = 1000
 
 // List every ID currently in the index, paginating through `range()`.
-async function listAllIds(index: Index): Promise<string[]> {
-  const ids: string[] = []
+/**
+ * One range scan, used for two things: deciding what to upsert (by comparing
+ * content hashes) and what to delete (by id). Reads are far cheaper than
+ * writes on Upstash, and a full re-upsert of the corpus is ~4,600 writes
+ * against a 10,000/day ceiling — so scanning first is what makes a no-op run
+ * cost nothing instead of half the daily budget.
+ *
+ * Vectors written before content hashes existed have no hash and so read as
+ * changed. That costs one full re-upsert, once.
+ */
+async function listExisting(index: Index): Promise<Map<string, string | undefined>> {
+  const seen = new Map<string, string | undefined>()
   let cursor: string = ''
   do {
-    const page = await index.range({ cursor, limit: RANGE_PAGE_SIZE })
-    for (const v of page.vectors) ids.push(v.id as string)
+    const page = await index.range({ cursor, limit: RANGE_PAGE_SIZE, includeMetadata: true })
+    for (const v of page.vectors) {
+      const md = v.metadata as ChunkMetadata | undefined
+      seen.set(v.id as string, md?.content_hash)
+    }
     cursor = page.nextCursor ?? ''
   } while (cursor)
-  return ids
+  return seen
 }
 
 async function main() {
@@ -525,6 +539,25 @@ async function main() {
     }
     const bad = chunks.filter(c => !c.id.startsWith(CORPUS_PREFIX + '/'))
     console.log(bad.length ? `❌ ${bad.length} IDs lack the ${CORPUS_PREFIX}/ prefix` : `✅ all ${chunks.length} IDs carry the ${CORPUS_PREFIX}/ prefix`)
+
+    // If credentials are present, report what an incremental run would write —
+    // read-only, no upserts, no deletes.
+    const dryUrl = process.env.UPSTASH_VECTOR_REST_URL
+    const dryToken = process.env.UPSTASH_VECTOR_REST_TOKEN
+    if (dryUrl && dryToken) {
+      for (const c of chunks) {
+        c.metadata.content_hash = createHash('sha256').update(c.data).digest('hex').slice(0, 16)
+      }
+      const existing = await listExisting(new Index({ url: dryUrl, token: dryToken }))
+      const changed = chunks.filter(c => existing.get(c.id) !== c.metadata.content_hash)
+      const ownedIds = [...existing.keys()].filter(id => id.startsWith(CORPUS_PREFIX + '/'))
+      const seen = new Set(chunks.map(c => c.id))
+      console.log(`\nIncremental plan against the live index:`)
+      console.log(`  index holds        ${existing.size} vectors (${ownedIds.length} ours, ${existing.size - ownedIds.length} another writer's)`)
+      console.log(`  would upsert       ${changed.length}`)
+      console.log(`  would delete       ${ownedIds.filter(id => !seen.has(id)).length}`)
+      console.log(`  would leave alone  ${chunks.length - changed.length}`)
+    }
     return
   }
 
@@ -588,15 +621,27 @@ async function main() {
     seenIds.add(chunk.id)
   }
 
-  console.log(`\nBuilt ${allChunks.length} chunks total. Upserting to Upstash Vector...`)
+  for (const c of allChunks) {
+    c.metadata.content_hash = createHash('sha256').update(c.data).digest('hex').slice(0, 16)
+  }
+
+  console.log(`\nBuilt ${allChunks.length} chunks total. Reading index to find what changed...`)
+  const existing = await listExisting(index)
+  const toUpsert = shouldReset
+    ? allChunks
+    : allChunks.filter(c => existing.get(c.id) !== c.metadata.content_hash)
+  const unchanged = allChunks.length - toUpsert.length
+  console.log(`   ${unchanged} unchanged, ${toUpsert.length} new or changed.`)
+
+  if (toUpsert.length === 0) console.log('   Nothing to upsert.')
 
   let upserted = 0
-  for (let i = 0; i < allChunks.length; i += BATCH_SIZE) {
-    const batch = allChunks.slice(i, i + BATCH_SIZE)
+  for (let i = 0; i < toUpsert.length; i += BATCH_SIZE) {
+    const batch = toUpsert.slice(i, i + BATCH_SIZE)
     try {
       await index.upsert(batch)
       upserted += batch.length
-      process.stdout.write(`  ${upserted}/${allChunks.length}\r`)
+      process.stdout.write(`  ${upserted}/${toUpsert.length}\r`)
     } catch (err) {
       console.error(`\n❌ Batch upsert failed at index ${i}:`, err)
       // Log the first few IDs in the batch to help debug
@@ -612,7 +657,7 @@ async function main() {
   // Skipped on --reset (the index is already empty) and --no-sync (escape hatch).
   if (shouldSync && !shouldReset) {
     console.log('\nReconciling index with corpus (sync)...')
-    const existingIds = await listAllIds(index)
+    const existingIds = [...existing.keys()]
     // Only reconcile IDs this repository owns. The index is shared: Cosmo's
     // kaizen vectors are written by another repository, and deleting every ID
     // we did not produce would silently wipe them.
@@ -632,7 +677,7 @@ async function main() {
     }
   }
 
-  console.log(`\n✅ Done — ${allChunks.length} chunks live in Upstash Vector`)
+  console.log(`\n✅ Done — ${allChunks.length} chunks live in Upstash Vector (${toUpsert.length} written this run)`)
 }
 
 main().catch(err => {
