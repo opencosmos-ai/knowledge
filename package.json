@@ -1,0 +1,32 @@
+{
+  "name": "@opencosmos/knowledge",
+  "private": true,
+  "type": "module",
+  "description": "The OpenCosmos knowledge corpus and its tooling",
+  "license": "CC0-1.0",
+  "scripts": {
+    "health": "tsx scripts/knowledge-health.ts",
+    "publish-doc": "tsx scripts/publish-knowledge.ts",
+    "graph": "tsx scripts/knowledge/generate-wiki-graph.ts",
+    "graph:constellation": "tsx scripts/knowledge/generate-constellation-graph.ts",
+    "embed": "tsx scripts/knowledge/embed-knowledge.ts",
+    "embed:dry": "tsx scripts/knowledge/embed-knowledge.ts --dry-run",
+    "quotes:lint": "tsx scripts/normalize-quotes/lint.ts"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.68.0",
+    "@inquirer/prompts": "^8.3.0",
+    "@upstash/redis": "^1.37.0",
+    "@upstash/vector": "^1.2.3",
+    "graphology": "^0.26.0",
+    "graphology-layout-forceatlas2": "^0.10.1",
+    "gray-matter": "^4.0.3",
+    "js-yaml": "^4.1.1"
+  },
+  "devDependencies": {
+    "@types/js-yaml": "^4.0.9",
+    "@types/node": "^20",
+    "tsx": "^4.21.0",
+    "typescript": "^5"
+  }
+}
