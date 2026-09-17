@@ -19,7 +19,11 @@ import yaml from 'js-yaml'
 
 const __dirname = dirname(fileURLToPath(import.meta.url))
 export const REPO_ROOT = resolve(__dirname, '..', '..')
-export const KNOWLEDGE_QUOTES_DIR = join(REPO_ROOT, 'knowledge', 'quotes')
+// `quotes/` is a top-level directory of the corpus repository. Before the
+// corpus moved it was `<monorepo>/knowledge/quotes`; leaving the extra segment
+// here resolved to `<repo>/knowledge/quotes`, which does not exist — so the
+// whole pipeline reported an empty pool and exited 0.
+export const KNOWLEDGE_QUOTES_DIR = join(REPO_ROOT, 'quotes')
 export const SOURCE_JSONL_PATH = join(KNOWLEDGE_QUOTES_DIR, '_source', 'quotes_normalized.jsonl')
 export const PENDING_DIR = join(REPO_ROOT, 'data', 'quotes-pending')
 export const PENDING_JSONL_PATH = join(PENDING_DIR, 'pending.jsonl')

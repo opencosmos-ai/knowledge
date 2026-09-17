@@ -233,7 +233,14 @@ const SKIP_FILES = new Set(['index.md', 'log.md', 'README.md', 'LESSONS.md'])
 //               similarity; its README states it is never embedded.
 //   incoming/ — the staging area. Content here is unreviewed by definition,
 //               so indexing it would let drafts be retrieved and cited as corpus.
-const SKIP_DIRS = new Set(['quotes', 'iching', 'incoming'])
+const SKIP_DIRS = new Set(['quotes', 'iching', 'incoming', 'scripts', 'data', '.github'])
+
+// Never descended into at any depth. When the corpus lived at `<monorepo>/knowledge`
+// the walk could not reach a node_modules; here the corpus IS the repository root,
+// so the rebase quietly put every dependency's README and CHANGELOG inside it.
+// That shipped 482 chunks of Anthropic SDK changelog into the index under the
+// `knowledge/` prefix — which is to say, retrievable by rag.ts as corpus to cite.
+const SKIP_DIRS_ANY_DEPTH = new Set(['node_modules', '.git'])
 
 function walkMd(dir: string): string[] {
   const results: string[] = []
@@ -241,6 +248,7 @@ function walkMd(dir: string): string[] {
     const full = join(dir, entry)
     const stat = statSync(full)
     if (stat.isDirectory()) {
+      if (SKIP_DIRS_ANY_DEPTH.has(entry)) continue
       if (SKIP_DIRS.has(entry) && dir === resolve(KNOWLEDGE_DIR)) continue
       results.push(...walkMd(full))
     } else if (entry.endsWith('.md') && !SKIP_FILES.has(entry)) {
