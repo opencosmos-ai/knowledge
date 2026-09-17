@@ -44,10 +44,16 @@ jobs:
       # knowledge:graph*) but never `graph:constellation` (which writes
       # knowledge:constellation). The visualisation only refreshed when someone
       # remembered to run it by hand.
+      # Vector credentials are required as well as Redis: the generator's last
+      # pass queries Upstash Vector for work-to-work similarity bridges. Without
+      # them it warns, returns zero semantic edges and still exits 0 — so the
+      # constellation loses its semantic underlayer with the step reporting green.
       - name: Regenerate constellation graph
         env:
-          UPSTASH_REDIS_REST_URL:   ${{ secrets.UPSTASH_REDIS_REST_URL }}
-          UPSTASH_REDIS_REST_TOKEN: ${{ secrets.UPSTASH_REDIS_REST_TOKEN }}
+          UPSTASH_REDIS_REST_URL:    ${{ secrets.UPSTASH_REDIS_REST_URL }}
+          UPSTASH_REDIS_REST_TOKEN:  ${{ secrets.UPSTASH_REDIS_REST_TOKEN }}
+          UPSTASH_VECTOR_REST_URL:   ${{ secrets.UPSTASH_VECTOR_REST_URL }}
+          UPSTASH_VECTOR_REST_TOKEN: ${{ secrets.UPSTASH_VECTOR_REST_TOKEN }}
         run: npm run graph:constellation
 
       # Incremental: chunks carry a content hash, so an unchanged corpus costs
