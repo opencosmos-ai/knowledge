@@ -33,7 +33,10 @@ export const DOMAINS = [
 export const AUDIENCES = ['philosopher', 'engineer', 'scientist', 'artist', 'contemplative', 'creator', 'general'] as const
 export const COMPLEXITIES = ['foundational', 'intermediate', 'advanced'] as const
 
-export const KNOWLEDGE_DIR = resolve(__dirname, '..', '..', 'knowledge')
+// The corpus is this repository's root, not a `knowledge/` subdirectory of it.
+// `scanCorpus()` reports paths relative to this constant, so rebasing it leaves
+// every `relativePath` unchanged — `sources/foo.md` either way.
+export const KNOWLEDGE_DIR = resolve(__dirname, '..', '..')
 
 // ─── Types ──────────────────────────────────────────────────────────────────
 
