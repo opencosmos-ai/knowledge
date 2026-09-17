@@ -422,8 +422,14 @@ async function computeSemanticEdges(
   const url   = process.env.UPSTASH_VECTOR_REST_URL
   const token = process.env.UPSTASH_VECTOR_REST_TOKEN
   if (!url || !token) {
-    console.warn('  ⚠️  UPSTASH_VECTOR_REST_URL/TOKEN not set — skipping semantic-edge pass.')
-    return []
+    // Refuse rather than warn. Returning [] here still exits 0, which is how the
+    // workflow published a constellation with zero semantic edges while every
+    // step reported green. Skipping the pass is legitimate, but it has to be
+    // asked for: `--no-semantic` says so out loud.
+    throw new Error(
+      'UPSTASH_VECTOR_REST_URL/TOKEN not set, but the semantic-edge pass was not ' +
+      'skipped. Set both, or pass --no-semantic to build a structural-only graph.',
+    )
   }
 
   const index = new Index({ url, token })
