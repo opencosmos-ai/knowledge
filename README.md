@@ -22,7 +22,7 @@ The organizing principle: **the wisdom of humanity, made accessible to both huma
 
 ## How It's Organized
 
-Documents are organized into **seven** directories. Four hold curated source material, organized by role; three have shapes of their own.
+Documents are organized into **six** directories. Four hold curated source material, organized by role; two have shapes of their own.
 
 ```
 ./
@@ -31,8 +31,7 @@ Documents are organized into **seven** directories. Four hold curated source mat
 ├── guides/           Procedures, how-to, workflows
 ├── collections/      Curated groupings and reading paths
 ├── wiki/             LLM-synthesized concept pages, entity summaries, cross-tradition connections
-├── quotes/           Attributed passages, in YAML, with provenance verdicts
-└── iching/           The 64 hexagrams and 8 trigrams — a keyed lookup, not prose
+└── quotes/           Attributed passages, in YAML, with provenance verdicts
 ```
 
 The canonical list is [`scripts/knowledge/corpus-layout.ts`](scripts/knowledge/corpus-layout.ts), and the tooling refuses a top-level directory that is not declared there — in either direction, so a new category cannot be silently unindexed and a stray one cannot be silently indexed.
