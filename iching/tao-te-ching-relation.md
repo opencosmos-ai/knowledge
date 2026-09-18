@@ -150,7 +150,7 @@ imperial examinations ran on for thirteen centuries.
 
 **This project's data model is therefore already a Wings-interleaved reading of the Changes**, made
 before anyone here chose anything. That is the sharpest single argument for
-[ADR 0016](../../docs/decisions/0016-the-i-ching-is-read-through-the-wings-and-the-lens-is-declared.md):
+[ADR 0016](https://github.com/opencosmos-ai/opencosmos/blob/main/docs/decisions/0016-the-i-ching-is-read-through-the-wings-and-the-lens-is-declared.md):
 the choice was not whether to adopt the merged text but whether to **say** that it had been adopted.
 
 ### The complication that matters most: he is also the method this project refuses
@@ -432,7 +432,7 @@ reason, and have been getting by on "the action rather than the image."**
 ## 9. What follows, and what is owed
 
 **The stance this brief recommends is now written up as
-[ADR 0016](../../docs/decisions/0016-the-i-ching-is-read-through-the-wings-and-the-lens-is-declared.md),
+[ADR 0016](https://github.com/opencosmos-ai/opencosmos/blob/main/docs/decisions/0016-the-i-ching-is-read-through-the-wings-and-the-lens-is-declared.md),
 where it stands as `Proposed` and binds nothing until Shalom accepts it:** **read the Zhouyi through
 the Wings, read the Wings through the same lens as 王弼 — taking his cross-reading and declining his
 image-sweeping — and say so in the front matter.** It is the tradition's own

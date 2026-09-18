@@ -8,10 +8,13 @@ tags: [scripts, cli, terminal, automation, knowledge-management, publishing, hea
 audience: [engineer, creator, general]
 complexity: foundational
 summary: >
-  Reference guide for all automation scripts in the OpenCosmos repo. Covers what scripts
-  are, how to run them from Terminal, and the full usage reference for each script —
-  knowledge publication, corpus health, Dell sync, Cosmo voice testing, and BYOK diagnostics.
+  Reference guide for the OpenCosmos automation scripts, which since September 2026 span
+  two repositories: the corpus toolchain in opencosmos-ai/knowledge and the application
+  scripts in opencosmos-ai/opencosmos. Covers what scripts are, how to run them from
+  Terminal, and full usage for each — knowledge publication, corpus health, Cosmo voice
+  testing, and BYOK diagnostics.
 curated_at: 2026-04-11
+updated_at: 2026-09-18
 curator: shalom
 source: original
 related_docs:
@@ -23,7 +26,14 @@ related_docs:
 
 # OpenCosmos Scripts Reference
 
-Automation scripts live in the `scripts/` directory at the repo root. This guide explains what they are, how to run them, and what each one does.
+Automation scripts live in a `scripts/` directory at a repository root. **Since September 2026 there are two such repositories**, and which you need depends on what you are doing:
+
+| Repository | Holds | Run with |
+|---|---|---|
+| [opencosmos-ai/knowledge](https://github.com/opencosmos-ai/knowledge) | The corpus toolchain — publication, health, graphs, embedding, the quote pipeline | `npm run …` |
+| [opencosmos-ai/opencosmos](https://github.com/opencosmos-ai/opencosmos) | The application scripts — Cosmo voice test, BYOK diagnostic, ADR index | `pnpm …` |
+
+The convention is to check both out as siblings, so `../knowledge` from the applications repository reaches the corpus. This guide explains what the scripts are, how to run them, and what each one does.
 
 ---
 
@@ -31,7 +41,7 @@ Automation scripts live in the `scripts/` directory at the repo root. This guide
 
 A script is a program you run from your terminal to automate a task. Instead of clicking through a UI, you type a command and the script does the work — generating metadata, publishing files, checking for broken links, syncing to hardware, or querying a database.
 
-In this repo, scripts are TypeScript files run by [`tsx`](https://github.com/privatenumber/tsx), a tool that executes TypeScript directly without a separate compilation step. Most scripts have a named shorthand registered in `package.json` and are invoked via `pnpm`. A few are run directly with `pnpm tsx`.
+In both repositories, scripts are TypeScript files run by [`tsx`](https://github.com/privatenumber/tsx), a tool that executes TypeScript directly without a separate compilation step. Most have a named shorthand registered in `package.json` — invoked with `npm run` in the corpus repository and `pnpm` in the applications repository. A few are run directly with `pnpm tsx`.
 
 ---
 
@@ -45,7 +55,7 @@ Once Terminal is open, navigate to the repo:
 cd ~/Developer/opencosmos
 ```
 
-All `pnpm` commands in this guide should be run from the repo root (`opencosmos/`). If you see an error like "command not found: pnpm", install it with:
+Commands in this guide run from the root of whichever repository owns the script — `npm run …` in `knowledge/`, `pnpm …` in `opencosmos/`. If you see an error like "command not found: pnpm", install it with:
 
 ```bash
 npm install -g pnpm
@@ -55,13 +65,13 @@ npm install -g pnpm
 
 ## How pnpm Scripts Work
 
-`pnpm` is the package manager for this repo. It provides two ways to run scripts:
+`pnpm` is the package manager for the applications repository; the corpus repository uses plain `npm`. It provides two ways to run scripts:
 
 **Named scripts** — shortcuts defined in `package.json`:
 
 ```bash
-pnpm knowledge:health
-pnpm knowledge:publish
+npm run health
+npm run publish-doc
 ```
 
 **Direct execution** — for scripts without a named shorthand:
@@ -78,25 +88,35 @@ pnpm tsx scripts/check-byok-flags.ts
 ## Where Scripts Live
 
 ```
-opencosmos/
+knowledge/                          # the corpus and its toolchain
 └── scripts/
-    ├── knowledge-health.ts        # pnpm knowledge:health
-    ├── publish-knowledge.ts       # pnpm knowledge:publish
-    ├── test-cosmo-voice.ts        # pnpm tsx scripts/test-cosmo-voice.ts
-    ├── check-byok-flags.ts        # pnpm tsx scripts/check-byok-flags.ts
-    └── knowledge/                 # shared implementation modules (not directly runnable)
-        ├── shared.ts              # constants, types, corpus scanner
-        ├── frontmatter.ts         # Claude API frontmatter generation
-        ├── git.ts                 # safe git operations
+    ├── knowledge-health.ts         # npm run health
+    ├── publish-knowledge.ts        # npm run publish-doc
+    ├── knowledge/
+    │   ├── embed-knowledge.ts      # npm run embed
+    │   ├── generate-wiki-graph.ts  # npm run graph
+    │   ├── generate-constellation-graph.ts   # npm run graph:constellation
+    │   ├── groom.py                # the /groom processor
+    │   ├── shared.ts               # constants, types, corpus scanner
+    │   ├── frontmatter.ts          # Claude API frontmatter generation
+    │   └── git.ts                  # safe git operations
+    └── normalize-quotes/           # the quote pipeline — npm run quotes:*
+
+opencosmos/                         # the applications
+└── scripts/
+    ├── test-cosmo-voice.ts         # pnpm tsx scripts/test-cosmo-voice.ts
+    ├── check-byok-flags.ts         # pnpm tsx scripts/check-byok-flags.ts
+    ├── adr-index.ts                # pnpm adr:index
+    └── xenso/iching-check.ts       # pnpm xenso:check-iching
 ```
 
-The files in `scripts/knowledge/` are library modules used internally by the scripts above. They are not directly runnable.
+`shared.ts`, `frontmatter.ts` and `git.ts` are library modules used internally by the scripts above; they are not directly runnable. Cosmo's constitutional documents live in a third repository, [opencosmos-ai/cosmo](https://github.com/opencosmos-ai/cosmo), which embeds its own kaizen practice.
 
 ---
 
 ## Script Reference
 
-### `pnpm knowledge:health` — Corpus Health Report
+### `npm run health` — Corpus Health Report
 
 Prints a full health report of the knowledge corpus. Run this to understand the current state of the corpus at a glance, or to find problems before they accumulate.
 
@@ -116,18 +136,18 @@ Prints a full health report of the knowledge corpus. Run this to understand the 
 **Usage:**
 
 ```bash
-pnpm knowledge:health
+npm run health
 ```
 
 No flags. Run it any time to get the full picture.
 
-**What "Broken Body Links" catches:** Inline markdown links in the body of any knowledge document where the target file does not exist. Handles both site-absolute paths (`/knowledge/guides/foo`) and relative `.md` links. Skips `incoming/`, external URLs, and anchor-only links. This is the check that caught the broken link in `opencosmos-skills-reference.md` (a bare filename used instead of the correct route).
+**What "Broken Body Links" catches:** Inline markdown links in the body of any knowledge document where the target file does not exist. Handles both site-absolute paths (`/guides/foo`) and relative `.md` links. Skips `incoming/`, external URLs, and anchor-only links. This is the check that caught the broken link in `opencosmos-skills-reference.md` (a bare filename used instead of the correct route).
 
 **Source:** `scripts/knowledge-health.ts`
 
 ---
 
-### `pnpm knowledge:publish` — Knowledge Publication CLI
+### `npm run publish-doc` — Knowledge Publication CLI
 
 The primary tool for adding new documents to the corpus. It handles frontmatter generation, review, file placement, curation logging, collection auto-linking, and git operations — all in one command.
 
@@ -135,15 +155,15 @@ The primary tool for adding new documents to the corpus. It handles frontmatter 
 
 ```bash
 # Drop a raw text file into the staging area
-pbpaste > knowledge/incoming/my-document.md
+pbpaste > incoming/my-document.md
 
 # Run the CLI — Claude generates all metadata
-pnpm knowledge:publish
+npm run publish-doc
 
 # Review the proposed frontmatter, accept or edit it, done.
 ```
 
-If no file is specified, the CLI automatically discovers all `.md` files in `knowledge/incoming/`.
+If no file is specified, the CLI automatically discovers all `.md` files in `incoming/`.
 
 **What it does, step by step:**
 
@@ -151,7 +171,7 @@ If no file is specified, the CLI automatically discovers all `.md` files in `kno
 2. Calls the Claude API to generate enriched frontmatter (title, role, format, domain, tags, audience, complexity, summary, author, era, tradition)
 3. Presents the frontmatter for your review — accept, open in `$EDITOR`, or cancel
 4. Suggests cross-references based on tag and domain overlap with existing corpus
-5. Writes the document to `knowledge/{role}s/{domain}-{slug}.md`
+5. Writes the document to `{role}s/{domain}-{slug}.md`
 6. Appends to `CURATION_LOG.md`
 7. Checks off matching placeholders in foundation collection files
 8. Creates a git branch, commits, and pushes (optionally opens a PR)
@@ -173,10 +193,10 @@ If no file is specified, the CLI automatically discovers all `.md` files in `kno
 **Examples:**
 
 ```bash
-pnpm knowledge:publish --accept                          # auto-import from incoming/, no review
-pnpm knowledge:publish --dry-run                         # preview without writing anything
-pnpm knowledge:publish ~/drafts/dhammapada.md --role source --domain buddhism
-pnpm knowledge:publish ~/drafts/*.md --accept --pr       # batch import with auto PR
+npm run publish-doc --accept                          # auto-import from incoming/, no review
+npm run publish-doc --dry-run                         # preview without writing anything
+npm run publish-doc ~/drafts/dhammapada.md --role source --domain buddhism
+npm run publish-doc ~/drafts/*.md --accept --pr       # batch import with auto PR
 ```
 
 **Requires:** `ANTHROPIC_API_KEY` in `.env` (for frontmatter generation). Without it, the CLI falls back to manual mode.
@@ -199,7 +219,7 @@ pnpm tsx scripts/test-cosmo-voice.ts "Explain the relationship between impermane
 
 **Output:** Cosmo's response, followed by token usage (`N in / N out`).
 
-**What it uses:** `packages/ai/COSMO_SYSTEM_PROMPT.md` as the system prompt. Model: `claude-sonnet-4-6`. Prompt caching is enabled for the system prompt.
+**What it uses:** `apps/web/.content/cosmo/COSMO_SYSTEM_PROMPT.md` as the system prompt — fetched from [opencosmos-ai/cosmo](https://github.com/opencosmos-ai/cosmo) by `pnpm --filter web content`, so run that first. Prompt caching is enabled for the system prompt.
 
 **Requires:** `ANTHROPIC_API_KEY` in `.env`.
 
@@ -229,7 +249,7 @@ Note the `dotenv -e apps/web/.env.local --` prefix — this injects the Redis cr
 
 ## Environment Variables
 
-Most scripts read from a `.env` file at the repo root. Create one if it doesn't exist:
+Most scripts read from a `.env` file at their own repository root. Create one if it doesn't exist:
 
 ```
 ANTHROPIC_API_KEY=sk-ant-...
@@ -243,9 +263,9 @@ ANTHROPIC_API_KEY=sk-ant-...
 
 | Task | Command |
 |------|---------|
-| Check corpus health and broken links | `pnpm knowledge:health` |
-| Publish documents from `incoming/` | `pnpm knowledge:publish --accept` |
-| Publish a specific file | `pnpm knowledge:publish path/to/file.md` |
-| Preview a publish without writing | `pnpm knowledge:publish --dry-run` |
+| Check corpus health and broken links | `npm run health` |
+| Publish documents from `incoming/` | `npm run publish-doc --accept` |
+| Publish a specific file | `npm run publish-doc path/to/file.md` |
+| Preview a publish without writing | `npm run publish-doc --dry-run` |
 | Test Cosmo's voice | `pnpm tsx scripts/test-cosmo-voice.ts "question"` |
 | Debug BYOK flags in Redis | `dotenv -e apps/web/.env.local -- pnpm tsx scripts/check-byok-flags.ts` |

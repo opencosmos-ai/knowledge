@@ -23,7 +23,7 @@ related_docs:
 
 # Formatting Raw Text for Publication
 
-Raw text arrives in `knowledge/incoming/` from many sources: PDF pastes, Project Gutenberg downloads, web scrapes, book scans. Before the publication CLI can process it effectively, the text needs markdown structure — headers, spacing, cleaned-up artifacts. The `/groom` skill automates this.
+Raw text arrives in `incoming/` from many sources: PDF pastes, Project Gutenberg downloads, web scrapes, book scans. Before the publication CLI can process it effectively, the text needs markdown structure — headers, spacing, cleaned-up artifacts. The `/groom` skill automates this.
 
 ## When to Groom
 
@@ -43,8 +43,8 @@ Skip grooming when:
 In Claude Code, invoke the skill with:
 
 ```
-/groom                                    # Process all files in knowledge/incoming/
-/groom knowledge/incoming/euthyphro       # Process a specific file
+/groom                                    # Process all files in incoming/
+/groom incoming/euthyphro       # Process a specific file
 /groom --dry-run                          # Analyze and report without writing
 /groom --report                           # Show status table of all incoming files
 /groom --force                            # Re-process already-formatted files
@@ -141,7 +141,7 @@ For cases `/groom` doesn't handle, or when you prefer to format by hand:
 Once a file is formatted, publish it:
 
 ```bash
-pnpm knowledge:publish knowledge/incoming/euthyphro-plato --role source --domain philosophy
+npm run publish-doc incoming/euthyphro-plato --role source --domain philosophy
 ```
 
 The publication CLI generates frontmatter, moves the file to its correct location, and handles the git workflow. See the [Publishing Guide](opencosmos-knowledge-publish-workflow) for the full workflow.

@@ -23,7 +23,7 @@ related_docs:
 
 > OpenCosmos is built on interconnection and generosity. How we build the corpus must reflect those same values. The means must match the ends.
 
-For the knowledge base README, see [knowledge/README.md](../README).
+For the knowledge base README, see [README.md](../README).
 For the publication workflow, see [opencosmos-knowledge-publish-workflow.md](opencosmos-knowledge-publish-workflow).
 
 ---
@@ -107,14 +107,14 @@ Every document in the knowledge base must declare a `corpus_tier` in its frontma
 
 ### During /groom
 
-The `/groom` skill is the first human-in-the-loop step when text enters `knowledge/incoming/`. Before formatting, /groom checks whether the incoming text is a copyrighted work. If it is:
+The `/groom` skill is the first human-in-the-loop step when text enters `incoming/`. Before formatting, /groom checks whether the incoming text is a copyrighted work. If it is:
 - **Flag it.** Report the copyright status and recommend the appropriate tier.
 - **Do not format copyrighted full texts for corpus inclusion.** A full copyrighted work should not be groomed as a source — it needs to become a commentary (tier 2) or reference (tier 3) instead.
 - **Public domain works proceed normally** through the formatting pipeline.
 
 ### During publication
 
-The `pnpm knowledge:publish` workflow requires `corpus_tier` in frontmatter. The publish CLI validates:
+The `npm run publish-doc` workflow requires `corpus_tier` in frontmatter. The publish CLI validates:
 - `source` tier documents must have a `source` field indicating public domain status or open license
 - `commentary` tier documents must include attribution and a recommendation to seek the original
 - `reference` tier documents are validated for minimal required fields

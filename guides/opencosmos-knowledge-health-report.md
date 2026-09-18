@@ -7,7 +7,7 @@ tags: [knowledge-base, health-report, corpus, metrics, tooling, graph]
 audience: [creator, engineer]
 complexity: foundational
 summary: >
-  How to run and interpret the corpus health report (pnpm knowledge:health).
+  How to run and interpret the corpus health report (npm run health).
   Explains each section of the report — overview metrics, domain and role
   coverage, foundation collection progress, cross-reference integrity,
   island detection, and import priority scoring.
@@ -27,13 +27,13 @@ The corpus health report gives you the overhead map of the knowledge base — wh
 
 ## Running the Report
 
-From the repository root:
+From the root of this repository (`opencosmos-ai/knowledge`):
 
 ```bash
-pnpm knowledge:health
+npm run health
 ```
 
-No arguments needed. The report scans all documents in the `knowledge/` directory (sources, commentary, references, guides, collections) and prints a structured analysis to the terminal.
+No arguments needed. The report scans all documents in the `` directory (sources, commentary, references, guides, collections) and prints a structured analysis to the terminal.
 
 ## Report Sections
 

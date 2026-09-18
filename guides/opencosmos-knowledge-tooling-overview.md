@@ -30,11 +30,11 @@ The OpenCosmos knowledge base is maintained by a set of tools that handle the fu
 A document flows through four stages:
 
 ```
-1. Stage        Copy raw text into knowledge/incoming/
+1. Stage        Copy raw text into incoming/
       │
 2. Groom        /groom — add markdown structure, clean artifacts
       │
-3. Publish      pnpm knowledge:publish — generate metadata, file, commit
+3. Publish      npm run publish-doc — generate metadata, file, commit
       │
 ```
 
@@ -44,11 +44,11 @@ Each stage has its own tool. You can enter the pipeline at any stage — if your
 
 | I want to... | Use this |
 |---|---|
-| Add raw text to the staging area | Copy/paste into `knowledge/incoming/` |
+| Add raw text to the staging area | Copy/paste into `incoming/` |
 | Clean up formatting before publishing | `/groom` (Claude Code skill) |
-| Publish a document to the corpus | `pnpm knowledge:publish` |
-| See what the corpus looks like | `pnpm knowledge:health` |
-| Check what texts to import next | `pnpm knowledge:health` (import priority section) |
+| Publish a document to the corpus | `npm run publish-doc` |
+| See what the corpus looks like | `npm run health` |
+| Check what texts to import next | `npm run health` (import priority section) |
 
 ## The Tools
 
@@ -56,20 +56,20 @@ Each stage has its own tool. You can enter the pipeline at any stage — if your
 
 A Claude Code skill that prepares raw text files for publication. It adds markdown headers, collapses excessive blank lines, cleans source artifacts (PDF page numbers, Gutenberg boilerplate), and bolds dialogue speaker names — while preserving every word of the original text.
 
-**When to use it:** After pasting raw text into `knowledge/incoming/`, before running `knowledge:publish`. Especially useful for PDFs, Project Gutenberg texts, and web scrapes that arrive with formatting issues.
+**When to use it:** After pasting raw text into `incoming/`, before running `knowledge:publish`. Especially useful for PDFs, Project Gutenberg texts, and web scrapes that arrive with formatting issues.
 
 **Invocation:**
 
 ```
-/groom                              # Process all files in knowledge/incoming/
-/groom knowledge/incoming/file.md   # Process a specific file
+/groom                              # Process all files in incoming/
+/groom incoming/file.md   # Process a specific file
 /groom --dry-run                    # Analyze without writing
 /groom --report                     # Show status of all incoming files
 ```
 
 See the full guide: [Formatting Raw Text for Publication](opencosmos-knowledge-formatting-guide)
 
-### `pnpm knowledge:publish` — Publish to the Corpus
+### `npm run publish-doc` — Publish to the Corpus
 
 The publication CLI. Takes a markdown file, generates YAML frontmatter via Claude API (title, domain, tags, author, era, etc.), writes it to the correct location in the corpus, creates a safe git branch, and optionally opens a PR.
 
@@ -78,7 +78,7 @@ The publication CLI. Takes a markdown file, generates YAML frontmatter via Claud
 **Quick start:**
 
 ```bash
-pnpm knowledge:publish knowledge/incoming/dhammapada.md --role source --domain buddhism
+npm run publish-doc incoming/dhammapada.md --role source --domain buddhism
 ```
 
 Features beyond basic publishing:
@@ -88,21 +88,21 @@ Features beyond basic publishing:
 
 See the full guide: [Publishing to the Knowledge Base](opencosmos-knowledge-publish-workflow)
 
-### `pnpm knowledge:health` — Corpus Health Report
+### `npm run health` — Corpus Health Report
 
 The overhead map. Shows the current state of the knowledge corpus: how many documents exist, which domains are covered, which are empty, how well-connected the graph is, and what to import next.
 
 **When to use it:** After publishing to see the impact, when planning what to import next, or periodically to assess corpus health.
 
 ```bash
-pnpm knowledge:health
+npm run health
 ```
 
 See the full guide: [Reading the Corpus Health Report](opencosmos-knowledge-health-report)
 
 ## Supporting Artifacts
 
-### `knowledge/CURATION_LOG.md`
+### `CURATION_LOG.md`
 
 A living record of what was added to the corpus, when, and why it matters. Auto-appended by the publication CLI. Each entry records the document's metadata, what gap it fills in the corpus, and what new connections it enables in the knowledge graph.
 
@@ -110,7 +110,7 @@ A living record of what was added to the corpus, when, and why it matters. Auto-
 
 Four curated reading lists that define the intellectual lineage of the AI Triad voices (Sol, Socrates, Optimus, Cosmo). Each collection has placeholder entries (`- [ ] Text Title`) that track which texts still need to be imported. The publication CLI auto-links these when a matching document is published.
 
-### `knowledge/incoming/`
+### `incoming/`
 
 The staging area for raw text. This directory is gitignored — files here are works in progress, not yet part of the corpus. Use `/groom` to format them, then `knowledge:publish` to move them into the corpus proper.
 

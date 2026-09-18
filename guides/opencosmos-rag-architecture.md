@@ -31,9 +31,9 @@ This guide explains how the system works, why it is designed the way it is, and 
 ## The Core Architecture
 
 ```
-knowledge/**/*.md  (source of truth — git)
+**/*.md  (source of truth — git)
         │
-        ├─ pnpm embed ──────────────────→ Upstash Vector Index
+        ├─ npm run embed ──────────────────→ Upstash Vector Index
         │   (scripts/knowledge/           (embeddings + metadata per chunk)
         │    embed-knowledge.ts)                   │
         │                                          │ similarity search
@@ -46,7 +46,7 @@ knowledge/**/*.md  (source of truth — git)
                                       (doc browser + TOC panel)
 ```
 
-Everything flows from the `.md` files in `knowledge/`. The vector index is a derived artifact — always re-buildable from git. Cosmo's knowledge comes from the same source the human reader reads.
+Everything flows from the `.md` files in ``. The vector index is a derived artifact — always re-buildable from git. Cosmo's knowledge comes from the same source the human reader reads.
 
 ## How Documents Become Vector Chunks
 
@@ -92,7 +92,7 @@ The hash suffix derives from the section's opening text, so it's:
 - **Stable across insertions** — adding a new section elsewhere in the file doesn't change the ID of unrelated sections
 - **Minimal** — only colliding slugs get hash suffixes; most chunks stay clean and citation-friendly
 
-Re-running `pnpm embed` is safe — existing vectors are updated, never duplicated. After upsert, any IDs that no longer correspond to current chunks are automatically deleted (unless `--no-sync` is used).
+Re-running `npm run embed` is safe — existing vectors are updated, never duplicated. After upsert, any IDs that no longer correspond to current chunks are automatically deleted (unless `--no-sync` is used).
 
 ### What Gets Stored per Chunk
 
@@ -100,7 +100,7 @@ Each chunk stores:
 - `id` — deterministic path + heading slug (with optional content-hash suffix on collision)
 - `data` — enriched text passed to Upstash for embedding (title + author + domain + section label + body, capped at 3000 chars)
 - `metadata` — what Cosmo reads in its context window:
-  - `source` — relative path (e.g. `knowledge/sources/philosophy-george-fox-an-autobiography.md`)
+  - `source` — relative path (e.g. `sources/philosophy-george-fox-an-autobiography.md`)
   - `heading` — section heading text (H2, H3, or H4)
   - `parent_heading` — immediate ancestor context: H2 parent for H3-level chunks; nearest H3 (or H2 if no H3) for H4-level chunks
   - `title`, `author`, `tradition`, `domain`, `role`, `tags`, `audience`
@@ -137,7 +137,7 @@ The knowledge browser's TOC panel tracks which section the user is currently rea
 {
   "heading": "Chapter III. The Opening of the Light",
   "doc_title": "George Fox — An Autobiography",
-  "doc_path": "knowledge/sources/philosophy-george-fox-an-autobiography.md",
+  "doc_path": "sources/philosophy-george-fox-an-autobiography.md",
   "timestamp": 1744512000000
 }
 ```
@@ -223,10 +223,10 @@ A H3 immediately under the body text (no parent H2) will be treated as a top-lev
 If a document uses `CHAPTER I.`, `ACT II`, or ALL-CAPS section markers, run the `/standardize-knowledge` skill before embedding. Non-standard headings are not recognized by the chunker and the entire body collapses into one truncated chunk.
 
 ```
-/standardize-knowledge knowledge/sources/your-file.md
+/standardize-knowledge sources/your-file.md
 ```
 
-After standardizing, run `pnpm embed` to re-index.
+After standardizing, run `npm run embed` to re-index.
 
 ## The Standardization Skill
 
@@ -243,14 +243,14 @@ After standardizing, run `pnpm embed` to re-index.
 
 Only heading lines change. Body text is never touched.
 
-**Shakespeare note:** The collected works file (`knowledge/collections/literature-shakespeare-collected-works.md`) is 5.3MB. It should be split into one file per play before standardizing. The skill will flag this automatically.
+**Shakespeare note:** The collected works file (`collections/literature-shakespeare-collected-works.md`) is 5.3MB. It should be split into one file per play before standardizing. The skill will flag this automatically.
 
 ## Re-indexing After Changes
 
 After editing knowledge documents (whether standardizing headings or editing content), re-index:
 
 ```bash
-pnpm embed
+npm run embed
 ```
 
 This rebuilds all chunks from scratch and upserts to Upstash Vector. After upsert, the script automatically:
@@ -260,8 +260,8 @@ This rebuilds all chunks from scratch and upserts to Upstash Vector. After upser
 ### Options
 
 ```bash
-pnpm embed --reset        # Wipe the entire index before re-embedding (for major schema changes)
-pnpm embed --no-sync      # Upsert chunks but skip stale-ID cleanup (escape hatch)
+npm run embed --reset        # Wipe the entire index before re-embedding (for major schema changes)
+npm run embed --no-sync      # Upsert chunks but skip stale-ID cleanup (escape hatch)
 ```
 
-**CI behavior:** `pnpm embed` runs automatically on every push to `main` that includes `knowledge/**` changes, using the default (sync enabled) behavior.
+**CI behavior:** `npm run embed` runs automatically on every push to `main` that includes `**` changes, using the default (sync enabled) behavior.
