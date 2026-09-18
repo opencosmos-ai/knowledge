@@ -13,7 +13,7 @@ and signed with a date. The two never mix.
 | **What is still owed** | [`WORKLIST.md`](../WORKLIST.md) |
 | **The evidence it was decided from** | [`sources/`](../sources/) |
 
-The split is not duplication. `render:` is **data** — [`build-iching.ts`](../../../scripts/xenso/build-iching.ts)
+The split is not duplication. `render:` is **data** — [`build-iching.ts`](https://github.com/opencosmos-ai/iching/blob/main/scripts/build-iching.ts)
 compiles it into the app, and it has to be one word in one field. The entry here is the
 **reasoning**, which is longer than any field and is the thing a later reader needs when
 the word looks arbitrary. Each trigram or hexagram file points back with `glossary_refs:`.

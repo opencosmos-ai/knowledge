@@ -86,7 +86,7 @@ still open. Somebody later closed it at ten.
 **1 · The trigram renderings come from Wing 8.** Sky, earth, thunder, wind, water, fire, mountain,
 lake are 說卦's images, and 說卦 is commentary written centuries after the hexagrams. That is a real
 dependency and it is now stated rather than assumed — see
-[ADR 0016](../../../../docs/decisions/0016-the-i-ching-is-read-through-the-wings-and-the-lens-is-declared.md).
+[ADR 0016](https://github.com/opencosmos-ai/opencosmos/blob/main/docs/decisions/0016-the-i-ching-is-read-through-the-wings-and-the-lens-is-declared.md).
 
 **2 · The file layout already merged them.** `sources/zhouyi/NN.md` holds 卦辭, 爻辭, 彖傳, 大象傳 and
 小象傳 in one file because the orthodox edition interleaved the Wings under the hexagrams somewhere

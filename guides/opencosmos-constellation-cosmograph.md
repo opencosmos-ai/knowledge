@@ -51,7 +51,7 @@ Edges connect parents to children (`hierarchy`), works to their structural parts
 
 ```
 ┌───────────────────────────────────────────────────────────────────────────┐
-│   knowledge/                                                              │
+│                                                                 │
 │   ├── sources/*.md     ← 84 works, frontmatter declares `tradition:`     │
 │   ├── wiki/{entities,concepts,connections}/*.md  ← 30 synthesis bridges  │
 │   └── quotes/*.yaml    ← 46 verified quotes (per author)                 │
@@ -60,7 +60,7 @@ Edges connect parents to children (`hierarchy`), works to their structural parts
        ┌─────────────────────────┴─────────────────────────┐
        ▼                                                   ▼
 ┌──────────────────────────┐              ┌──────────────────────────────┐
-│ pnpm graph:constellation │              │       pnpm embed             │
+│ npm run graph:constellation │              │       npm run embed             │
 │ (generator script)       │              │  (RAG embedding pipeline)    │
 │                          │              │                              │
 │ scripts/knowledge/       │              │ scripts/knowledge/           │
@@ -82,7 +82,7 @@ Edges connect parents to children (`hierarchy`), works to their structural parts
 └──────────┬───────────────┘              └──────────────────────────────┘
            ▼
 ┌──────────────────────────────────────────────────────────────────────┐
-│  apps/web/app/api/knowledge/constellation/route.ts (consumer repo)   │
+│  apps/web/app/api/constellation/route.ts (consumer repo)   │
 │  Serves the gzipped payload as JSON to the renderer.                 │
 └──────────┬───────────────────────────────────────────────────────────┘
            ▼
@@ -133,12 +133,12 @@ The umbrella structure means Stoicism is reached from Wisdom *via* Philosophy: `
 
 ### Tradition → domain mapping
 
-The full mapping lives in [scripts/knowledge/tradition-domain.ts](../../scripts/knowledge/tradition-domain.ts) as `TRADITION_TO_DOMAIN` (direct) and `TRADITION_TO_PARENT_TRADITION` (nested). The generator and `embed-knowledge.ts` both import the helper `resolveDomainForTradition(tradition)` from this file — there is no duplication.
+The full mapping lives in [scripts/knowledge/tradition-domain.ts](../scripts/knowledge/tradition-domain.ts) as `TRADITION_TO_DOMAIN` (direct) and `TRADITION_TO_PARENT_TRADITION` (nested). The generator and `embed-knowledge.ts` both import the helper `resolveDomainForTradition(tradition)` from this file — there is no duplication.
 
 To add a new tradition:
 1. Edit the source frontmatter `tradition:` field on the relevant work(s).
 2. Add an entry to `TRADITION_TO_DOMAIN` (or `TRADITION_TO_PARENT_TRADITION` if it's a sub-school of Philosophy or another umbrella).
-3. Run `pnpm embed && pnpm graph:constellation`.
+3. Run `npm run embed && npm run graph:constellation`.
 
 ---
 
@@ -249,22 +249,22 @@ Edit [`packages/constellation/src/data/toFloat32.ts`](https://github.com/shalomo
 
 ### To re-categorize a tradition (e.g., move Sufism from Wisdom to Literature)
 
-Edit [`scripts/knowledge/tradition-domain.ts`](../../scripts/knowledge/tradition-domain.ts) — `TRADITION_TO_DOMAIN`. Run `pnpm graph:constellation` to regenerate the graph + re-snapshot. (`pnpm embed` is also needed if you want chunk metadata to reflect the new domain — but that's only used by RAG retrieval, not the constellation render.)
+Edit [`scripts/knowledge/tradition-domain.ts`](../scripts/knowledge/tradition-domain.ts) — `TRADITION_TO_DOMAIN`. Run `npm run graph:constellation` to regenerate the graph + re-snapshot. (`npm run embed` is also needed if you want chunk metadata to reflect the new domain — but that's only used by RAG retrieval, not the constellation render.)
 
 ### To add a new tradition
 
 1. Decide the tradition slug (lowercase, dashes for spaces — e.g., `feminist-philosophy`).
 2. Edit each work's frontmatter `tradition:` field.
-3. Add the tradition → domain mapping in [`tradition-domain.ts`](../../scripts/knowledge/tradition-domain.ts).
-4. Run `pnpm embed && pnpm graph:constellation`.
+3. Add the tradition → domain mapping in [`tradition-domain.ts`](../scripts/knowledge/tradition-domain.ts).
+4. Run `npm run embed && npm run graph:constellation`.
 
 ### To unify two existing tradition slugs (e.g., merge Vedic into Vedanta)
 
-The `vedic` slug is currently emitted by `synthesizeTradition()` in [`scripts/normalize-quotes/shared.ts`](../../scripts/normalize-quotes/shared.ts) (the regex matches `hindu|vedic|nondual|advaita|upanish|\byog`). Change the emitted value from `'vedic'` to `'vedanta'` in `TRADITION_RULES`. Then `pnpm graph:constellation`.
+The `vedic` slug is currently emitted by `synthesizeTradition()` in [`scripts/normalize-quotes/shared.ts`](../scripts/normalize-quotes/shared.ts) (the regex matches `hindu|vedic|nondual|advaita|upanish|\byog`). Change the emitted value from `'vedic'` to `'vedanta'` in `TRADITION_RULES`. Then `npm run graph:constellation`.
 
 For source-file collisions, do a `sed` sweep:
 ```bash
-for f in $(grep -l "^tradition: vedic$" knowledge/sources/*.md); do
+for f in $(grep -l "^tradition: vedic$" sources/*.md); do
   sed -i '' 's/^tradition: vedic$/tradition: vedanta/' "$f"
 done
 ```
@@ -274,16 +274,16 @@ done
 ```bash
 # Both, in order — embed first so vector index is current,
 # then graph generates with up-to-date semantic edges.
-pnpm embed
-pnpm graph:constellation
+npm run embed
+npm run graph:constellation
 ```
 
-If you only changed wiki frontmatter (not source content), you can skip `pnpm embed` — wiki bridges are read directly from disk by the generator.
+If you only changed wiki frontmatter (not source content), you can skip `npm run embed` — wiki bridges are read directly from disk by the generator.
 
 ### To skip the semantic-edge pass during iteration
 
 ```bash
-pnpm graph:constellation --no-semantic   # ~12 sec faster — skips the Upstash query loop
+npm run graph:constellation --no-semantic   # ~12 sec faster — skips the Upstash query loop
 ```
 
 ### To snapshot the live graph into the Studio demo
@@ -294,7 +294,7 @@ cd /Users/shalomormsby/Developer/opencosmos
 pnpm dev --filter web &
 
 # Snapshot
-curl -s http://localhost:3000/api/knowledge/constellation \
+curl -s http://localhost:3000/api/constellation \
   -o /Users/shalomormsby/Developer/opencosmos-ui/apps/web/public/constellation-sample.json
 ```
 
@@ -304,7 +304,7 @@ The Studio demo at [`opencosmos-ui/apps/web/app/constellation/page.tsx`](https:/
 
 ## Frontmatter contract for source files
 
-Every file in `knowledge/sources/` must declare:
+Every file in `sources/` must declare:
 
 ```yaml
 ---
@@ -322,7 +322,7 @@ author: Plato                    # optional but recommended
 
 The `domain:` field was retired on 2026-05-08 — every source file's domain is now a derived property. Keeping it in frontmatter would re-introduce the categorical inconsistency the new hierarchy was built to fix.
 
-Wiki frontmatter (`knowledge/wiki/`) is **not** affected — wiki nodes have their own `domain:` semantics (cross / philosophy / contemplative) used by the legacy wiki graph generator.
+Wiki frontmatter (`wiki/`) is **not** affected — wiki nodes have their own `domain:` semantics (cross / philosophy / contemplative) used by the legacy wiki graph generator.
 
 ---
 
@@ -355,12 +355,12 @@ Every quote currently has `source_work: null` in its yaml frontmatter. Once Stag
 
 | Command | What it does | When to run |
 |---|---|---|
-| `pnpm graph:constellation` | Full graph regen with semantic edges (~15 sec) | After any data change OR config change |
-| `pnpm graph:constellation --no-semantic` | Same minus the Upstash query loop (~3 sec) | Fast iteration on layout / structural edges |
-| `pnpm embed` | Re-embed corpus to Upstash Vector | After source content changes |
+| `npm run graph:constellation` | Full graph regen with semantic edges (~15 sec) | After any data change OR config change |
+| `npm run graph:constellation --no-semantic` | Same minus the Upstash query loop (~3 sec) | Fast iteration on layout / structural edges |
+| `npm run embed` | Re-embed corpus to Upstash Vector | After source content changes |
 | `pnpm --filter @opencosmos/constellation build` | Build the package (in opencosmos-ui repo) | After tweaking colors / LOD / label styles |
 | `pnpm dev --filter web` *(opencosmos-ui)* | Start Studio dev server (port 3001) | To view the constellation demo |
-| `pnpm dev --filter web` *(opencosmos)* | Start consumer app (port 3000) | To serve the live `/api/knowledge/constellation` endpoint |
+| `pnpm dev --filter web` *(opencosmos)* | Start consumer app (port 3000) | To serve the live `/api/constellation` endpoint |
 
 ---
 

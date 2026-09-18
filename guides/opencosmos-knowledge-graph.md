@@ -31,7 +31,7 @@ This guide explains what it is, how it works, and how to maintain it.
 
 ## What It Is
 
-The graph represents the **wiki** (`knowledge/wiki/`), not the source corpus (`knowledge/sources/`). Every markdown file in `wiki/entities/`, `wiki/concepts/`, and `wiki/connections/` becomes a node. Edges are inferred from shared synthesized sources — two nodes are connected if they both cite the same source document in their frontmatter.
+The graph represents the **wiki** (`wiki/`), not the source corpus (`sources/`). Every markdown file in `wiki/entities/`, `wiki/concepts/`, and `wiki/connections/` becomes a node. Edges are inferred from shared synthesized sources — two nodes are connected if they both cite the same source document in their frontmatter.
 
 The result is a force-directed map of intellectual kinship: nodes that share lineage cluster together, nodes that bridge traditions sit at the crossroads, isolated nodes float at the periphery.
 
@@ -48,10 +48,10 @@ The result is a force-directed map of intellectual kinship: nodes that share lin
 ## The Data Pipeline
 
 ```
-knowledge/wiki/**/*.md
+wiki/**/*.md
         │
         ▼
-scripts/knowledge/generate-wiki-graph.ts   (pnpm graph)
+scripts/knowledge/generate-wiki-graph.ts   (npm run graph)
         │  — reads frontmatter + ## Summary
         │  — infers edges from shared sources
         │  — runs ForceAtlas2 layout (graphology)
@@ -63,13 +63,13 @@ scripts/knowledge/generate-wiki-graph.ts   (pnpm graph)
         └──▶ knowledge:graph:preview  (top-40 nodes, plain JSON, for SSR skeleton)
                 │
                 ▼
-        apps/web/app/api/knowledge/graph/route.ts
+        apps/web/app/api/graph/route.ts
                 │  — server route, 1h ISR revalidation
                 │  — gunzips and streams raw JSON
                 │
                 ▼
-        apps/web/app/knowledge/graph/graphWorker.ts
-                │  — Web Worker fetches /api/knowledge/graph
+        apps/web/app/graph/graphWorker.ts
+                │  — Web Worker fetches /api/graph
                 │  — parses JSON off the main thread
                 │  — posts parsed data back to main thread
                 │
@@ -86,16 +86,16 @@ scripts/knowledge/generate-wiki-graph.ts   (pnpm graph)
 ## Running the Generator Locally
 
 ```bash
-# From the repo root
-pnpm graph
+# From the root of opencosmos-ai/knowledge
+npm run graph
 ```
 
-This runs `scripts/knowledge/generate-wiki-graph.ts` via `tsx`. It reads every `.md` file in `knowledge/wiki/entities/`, `knowledge/wiki/concepts/`, and `knowledge/wiki/connections/`, computes the graph, and writes to Upstash Redis.
+This runs `scripts/knowledge/generate-wiki-graph.ts` via `tsx`. It reads every `.md` file in `wiki/entities/`, `wiki/concepts/`, and `wiki/connections/`, computes the graph, and writes to Upstash Redis.
 
 **Prerequisites:**
 
 ```bash
-# .env at repo root
+# .env at this repository root
 UPSTASH_REDIS_REST_URL=https://...
 UPSTASH_REDIS_REST_TOKEN=...
 ```
@@ -126,7 +126,7 @@ The graph page will load the SVG skeleton (from Redis preview) immediately, then
 
 ## How New Wiki Articles Appear
 
-1. **Write the article** following the [wiki workflow guide](opencosmos-knowledge-wiki-workflow). Place it in `knowledge/wiki/entities/`, `knowledge/wiki/concepts/`, or `knowledge/wiki/connections/`.
+1. **Write the article** following the [wiki workflow guide](opencosmos-knowledge-wiki-workflow). Place it in `wiki/entities/`, `wiki/concepts/`, or `wiki/connections/`.
 
 2. **Include `synthesized_from` frontmatter** — this is what creates edges:
    ```yaml
@@ -136,9 +136,9 @@ The graph page will load the SVG skeleton (from Redis preview) immediately, then
    ```
    Any two articles that share a source will be connected in the graph.
 
-3. **Run `pnpm graph`** locally to regenerate and push to Redis, then verify at `localhost:3000/library/graph`.
+3. **Run `npm run graph`** locally to regenerate and push to Redis, then verify at `localhost:3000/library/graph`.
 
-4. **Merge to `main`** — the GitHub Action (`.github/workflows/knowledge-sync.yml`) detects changes under `knowledge/**`, runs `pnpm graph` automatically, and calls `POST /api/revalidate` to trigger ISR. The live graph at `opencosmos.ai` updates within seconds.
+4. **Merge to `main`** — the GitHub Action (`.github/workflows/knowledge-sync.yml`) fires on any push to this repository that touches something other than `.github/`, runs `npm run graph` and `npm run graph:constellation`, re-embeds what changed, calls `POST /api/revalidate` to trigger ISR, and then fires the Vercel deploy hook so the site rebuilds against the new corpus. The live graph at `opencosmos.ai` updates within seconds.
 
 ---
 
@@ -215,13 +215,13 @@ Parsing a 2–3 MB JSON payload on the main thread blocks the UI for 80–150ms.
 | Path | What it is |
 |------|-----------|
 | `scripts/knowledge/generate-wiki-graph.ts` | Generator — reads wiki, writes Redis |
-| `apps/web/app/knowledge/graph/page.tsx` | Server component — fetches preview, renders skeleton |
-| `apps/web/app/knowledge/graph/GraphPageClient.tsx` | Client component — orchestrates Worker + KnowledgeGraph |
-| `apps/web/app/knowledge/graph/graphWorker.ts` | Web Worker — fetches + parses full graph JSON |
-| `apps/web/app/knowledge/graph/domain-colors.ts` | Local copy of `DOMAIN_COLORS` (see note below) |
-| `apps/web/app/api/knowledge/graph/route.ts` | API route — decompresses and streams graph JSON |
+| `apps/web/app/graph/page.tsx` | Server component — fetches preview, renders skeleton |
+| `apps/web/app/graph/GraphPageClient.tsx` | Client component — orchestrates Worker + KnowledgeGraph |
+| `apps/web/app/graph/graphWorker.ts` | Web Worker — fetches + parses full graph JSON |
+| `apps/web/app/graph/domain-colors.ts` | Local copy of `DOMAIN_COLORS` (see note below) |
+| `apps/web/app/api/graph/route.ts` | API route — decompresses and streams graph JSON |
 | `apps/web/app/api/revalidate/route.ts` | API route — triggers ISR on POST from GitHub Actions |
-| `.github/workflows/knowledge-sync.yml` | CI — runs generator on `knowledge/**` push |
+| `.github/workflows/knowledge-sync.yml` | CI — runs generator on `**` push |
 | `packages/ui/src/components/data-display/knowledge-graph/` | `@opencosmos/ui` component (opencosmos-ui repo) |
 
 ### Why `domain-colors.ts` is local
@@ -230,7 +230,7 @@ Parsing a 2–3 MB JSON payload on the main thread blocks the UI for 80–150ms.
 
 Keeping `DOMAIN_COLORS` in a local file breaks the import chain: the server component graph never touches sigma. The `dynamic()` import is the only path that reaches the package, and it only runs in the browser.
 
-**If you update `DOMAIN_COLORS` in `@opencosmos/ui`,** remember to mirror the change in `apps/web/app/knowledge/graph/domain-colors.ts`.
+**If you update `DOMAIN_COLORS` in `@opencosmos/ui`,** remember to mirror the change in `apps/web/app/graph/domain-colors.ts`.
 
 ---
 
@@ -249,11 +249,11 @@ The `REVALIDATE_SECRET` should be a random string (e.g., `openssl rand -hex 32`)
 
 ## Automatic Updates (GitHub Actions)
 
-The workflow at `.github/workflows/knowledge-sync.yml` triggers on any push to `main` that touches `knowledge/**`. It:
+The workflow at `.github/workflows/knowledge-sync.yml` triggers on any push to `main` that touches `**`. It:
 
 1. Checks out the repo
 2. Installs dependencies (`pnpm install --frozen-lockfile`)
-3. Runs `pnpm graph` (writes to Redis)
+3. Runs `npm run graph` (writes to Redis)
 4. Calls `curl -X POST $NEXT_PUBLIC_APP_URL/api/revalidate` with `x-revalidate-secret` header
 
 The `concurrency.cancel-in-progress: true` setting means rapid wiki edits don't queue up — only the latest push runs.
@@ -270,7 +270,7 @@ The graph is fully implemented. Before it works in production, complete these st
 - [ ] **Install sigma.js dependencies** — `@react-sigma/core`, `sigma`, `graphology`, `graphology-layout-forceatlas2` are peer deps. After switching from `file:` to the npm version, install them in `apps/web/`: `pnpm add sigma graphology @react-sigma/core graphology-layout-forceatlas2 --filter web`
 - [ ] **Add environment variables to Vercel** — `UPSTASH_REDIS_REST_URL`, `UPSTASH_REDIS_REST_TOKEN`, `REVALIDATE_SECRET` on the opencosmos.ai deployment
 - [ ] **Add GitHub Actions secrets** — `UPSTASH_REDIS_REST_URL`, `UPSTASH_REDIS_REST_TOKEN`, `REVALIDATE_SECRET`, `NEXT_PUBLIC_APP_URL=https://opencosmos.ai`
-- [ ] **Run `pnpm graph` once** to seed the initial Redis data before deploying
+- [ ] **Run `npm run graph` once** to seed the initial Redis data before deploying
 - [ ] **Deploy and verify** — navigate to `opencosmos.ai/library/graph`, check the skeleton appears immediately, check the sigma graph crossfades in after ~1s
 
 ---
@@ -279,14 +279,14 @@ The graph is fully implemented. Before it works in production, complete these st
 
 **"Graph unavailable" error on the page**
 
-The Web Worker failed to fetch `/api/knowledge/graph`. Usually means:
+The Web Worker failed to fetch `/api/graph`. Usually means:
 - `UPSTASH_REDIS_REST_URL` or `UPSTASH_REDIS_REST_TOKEN` is missing from the Vercel deployment
-- `pnpm graph` has never been run (Redis key does not exist)
+- `npm run graph` has never been run (Redis key does not exist)
 - The `knowledge:graph` Redis key expired (it has no TTL by default — check the Upstash console)
 
 **Graph loads but is empty / shows only a few nodes**
 
-`pnpm graph` only indexes `knowledge/wiki/**/*.md`. Wiki articles must be in `entities/`, `concepts/`, or `connections/` subdirectories. Source corpus files (`knowledge/sources/`) do not become nodes.
+`npm run graph` only indexes `wiki/**/*.md`. Wiki articles must be in `entities/`, `concepts/`, or `connections/` subdirectories. Source corpus files (`sources/`) do not become nodes.
 
 **Node positions scramble on every regeneration**
 

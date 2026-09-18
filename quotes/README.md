@@ -1,6 +1,6 @@
 # Quote substrate (embeddable)
 
-This folder holds **only verified + attributed quotes** — the subset of the corpus that gets embedded and is citable by Cosmo. Records pending verification live in [`data/quotes-pending/`](../../data/quotes-pending/) and migrate here as they pass validation.
+This folder holds **only verified + attributed quotes** — the subset of the corpus that gets embedded and is citable by Cosmo. Records pending verification live in [`data/quotes-pending/`](../data/quotes-pending/) and migrate here as they pass validation.
 
 > **These files and `pending.jsonl` are the source of truth.** `_source/quotes_normalized.jsonl` is the historical import that seeded them in May 2026; it holds none of the provenance verdicts, review decisions, or promotion state accumulated since. Add new quotes with **`/new-quote`** (or `pnpm quotes:add`), never by editing YAML by hand and never by re-running the import.
 
@@ -32,7 +32,7 @@ knowledge/quotes/
 | `apocryphal` | `data/quotes-pending/pending.jsonl` | No |
 | `rejected` | `knowledge/quotes/_archive/rejected.yaml` | No |
 
-A record migrates from pending → embeddable when its status flips to `verified` or `attributed` and either (a) `confidence ≥ 0.8` from Stage 3 validation, or (b) `reviewed_by_human: true` from Stage 4 review. See [`data/quotes-pending/README.md`](../../data/quotes-pending/README.md) for the promotion workflow.
+A record migrates from pending → embeddable when its status flips to `verified` or `attributed` and either (a) `confidence ≥ 0.8` from Stage 3 validation, or (b) `reviewed_by_human: true` from Stage 4 review. See [`data/quotes-pending/README.md`](../data/quotes-pending/README.md) for the promotion workflow.
 
 ## File shape
 
@@ -144,4 +144,4 @@ anchors, so a citation in chat opens the record itself.
 | `apocryphal` | Almost certainly fabricated |
 | `rejected` | Dropped in Stage 4 — moved to `_archive/rejected.yaml`, not embedded |
 
-See [docs/pm.md § Phase 1.3](../../docs/pm.md) for the full plan.
+See [docs/pm.md § Phase 1.3](https://github.com/opencosmos-ai/opencosmos/blob/main/docs/pm.md) for the full plan.

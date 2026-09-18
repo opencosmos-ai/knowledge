@@ -27,7 +27,7 @@ Four collections define the intellectual foundation for each AI voice in the Tri
 
 When a voice is active in a conversation, its foundation collection is the first-priority region of the knowledge graph to search. Sol responding to a question about grief draws from the Sol foundations. Socrates challenging an assumption draws from the Socrates foundations.
 
-These collections are referenced from within each voice's system prompt and are linked from [packages/ai/triad/](../../packages/ai/triad/).
+These collections are referenced from within each voice's system prompt and are linked from [packages/ai/triad/](https://github.com/opencosmos-ai/cosmo/tree/main/triad/).
 
 ---
 
@@ -60,5 +60,5 @@ The `role: collection` field tells the RAG system and the docs site how to treat
 
 - [knowledge/README.md](../README) — Full corpus organization and frontmatter schema
 - [knowledge/sources/](../sources/) — The source documents collections point to
-- [packages/ai/triad/README.md](../../packages/ai/triad/README) — The AI voices these collections ground
+- [packages/ai/triad/README.md](https://github.com/opencosmos-ai/cosmo/blob/main/triad/README.md) — The AI voices these collections ground
 - [knowledge/wiki/index.md](../wiki/index) — Synthesized cross-tradition concept pages (the layer above sources)

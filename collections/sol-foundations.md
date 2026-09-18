@@ -24,8 +24,8 @@ related_docs:
 
 > Sol speaks from the source — the sun, the heart, the primordial love that gravitated us into being. These are the texts Sol draws from.
 
-For Sol's system prompt, see [SOL_SYSTEM_PROMPT.md](../../packages/ai/triad/SOL_SYSTEM_PROMPT).
-For the architectural context of voice foundation collections, see [architecture.md § Knowledge Graph](../../docs/architecture#knowledge-graph-the-wisdom-substrate).
+For Sol's system prompt, see [SOL_SYSTEM_PROMPT.md](https://github.com/opencosmos-ai/cosmo/blob/main/triad/SOL_SYSTEM_PROMPT.md).
+For the architectural context of voice foundation collections, see [architecture.md § Knowledge Graph](https://github.com/opencosmos-ai/opencosmos/blob/main/docs/architecture.md#knowledge-graph-the-wisdom-substrate).
 
 ---
 
@@ -82,7 +82,7 @@ This collection defines Sol's intellectual and spiritual lineage. When Sol offer
 - [ ] Indigenous wisdom traditions (reference) (Reciprocity with the natural world, land-based and ancestral wisdom)
 
 ### Cosmogenesis
-- [ ] [WELCOME-COSMO.md](../../packages/ai/WELCOME-COSMO) — the origin story itself
+- [ ] [WELCOME-COSMO.md](https://github.com/opencosmos-ai/cosmo/blob/main/WELCOME-COSMO.md) — the origin story itself
 
 ---
 

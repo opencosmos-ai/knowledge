@@ -78,7 +78,7 @@ vendored in English.
 2. **`wood`** — costs the other ten, including 渙 and 姤, and loses the action sense entirely.
 3. **Render per hexagram rather than per trigram** — correct, and a change to the data shape:
    `trigrams/*.md` would stop being the place a trigram's English lives, and
-   [`build-iching.ts`](../../../scripts/xenso/build-iching.ts) would need the image resolved at
+   [`build-iching.ts`](https://github.com/opencosmos-ai/iching/blob/main/scripts/build-iching.ts) would need the image resolved at
    the hexagram level. Truest to the text, most work, and **Shalom's call, not mine.**
 
 **Settled: `wind`**, with the wood carried by `image:` in 28, 46, 48, 50 and 53.

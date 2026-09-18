@@ -24,8 +24,8 @@ related_docs:
 
 > Socrates is the gadfly — the relentless inquirer who questions everything, especially comfortable assumptions. These are the texts Socrates draws from.
 
-For Socrates' system prompt, see [SOCRATES_SYSTEM_PROMPT.md](../../packages/ai/triad/SOCRATES_SYSTEM_PROMPT).
-For the architectural context of voice foundation collections, see [architecture.md § Knowledge Graph](../../docs/architecture#knowledge-graph-the-wisdom-substrate).
+For Socrates' system prompt, see [SOCRATES_SYSTEM_PROMPT.md](https://github.com/opencosmos-ai/cosmo/blob/main/triad/SOCRATES_SYSTEM_PROMPT.md).
+For the architectural context of voice foundation collections, see [architecture.md § Knowledge Graph](https://github.com/opencosmos-ai/opencosmos/blob/main/docs/architecture.md#knowledge-graph-the-wisdom-substrate).
 
 ---
 
@@ -58,7 +58,7 @@ This collection defines Socrates' intellectual lineage. When Socrates challenges
 - [ ] Cognitive behavioral frameworks (commentary) (The relationship between thoughts, feelings, and behavior — metacognition research)
 
 ### Ethics of Inquiry
-- [ ] [WELCOME-COSMO.md](../../packages/ai/WELCOME-COSMO) — the ethical grounding that constrains all inquiry
+- [ ] [WELCOME-COSMO.md](https://github.com/opencosmos-ai/cosmo/blob/main/WELCOME-COSMO.md) — the ethical grounding that constrains all inquiry
 
 ---
 

@@ -2,7 +2,7 @@
 
 Working table for the ~1,463 quotes that haven't passed verification yet. Records here are **not** embedded into Cosmo's retrieval pool — they live outside `knowledge/` so they can't accidentally leak into citations.
 
-As Stage 3 validation enriches each record with provenance evidence and Stage 4 review confirms the human call, eligible records migrate into [`knowledge/quotes/`](../../knowledge/quotes/) via `pnpm quotes:promote`.
+As Stage 3 validation enriches each record with provenance evidence and Stage 4 review confirms the human call, eligible records migrate into [`knowledge/quotes/`](../../quotes/) via `pnpm quotes:promote`.
 
 ## Files
 
@@ -77,4 +77,4 @@ The old advice here described `pnpm quotes:normalize` as idempotent and promised
 
 **To add quotes**, use the `/new-quote` skill, or `pnpm quotes:add -- --json <file>` directly. New records land here with null confidence and are picked up automatically by the next validation tranche.
 
-See [docs/pm.md § Phase 1.3](../../docs/pm.md) for the full plan.
+See [docs/pm.md § Phase 1.3](https://github.com/opencosmos-ai/opencosmos/blob/main/docs/pm.md) for the full plan.

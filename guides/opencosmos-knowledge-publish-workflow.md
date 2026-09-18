@@ -28,42 +28,42 @@ This guide walks you through the full workflow for adding a document to the Open
 
 1. **Copy your text.** Find the source text you want to add (a webpage, PDF, book excerpt, etc.) and copy the content to your clipboard.
 
-2. **Create a markdown file.** Save it anywhere — a good default is the `knowledge/incoming/` directory at the repo root:
+2. **Create a markdown file.** Save it anywhere — a good default is the `incoming/` directory at this repository root:
 
    ```bash
    # Create the staging directory if it doesn't exist
-   mkdir -p knowledge/incoming
+   mkdir -p incoming
 
    # Create your file and paste the content
    # (or use your editor — VS Code, vim, etc.)
-   pbpaste > knowledge/incoming/dhammapada.md
+   pbpaste > incoming/dhammapada.md
    ```
 
    The file should contain only the text content — no frontmatter, no metadata. Just the words. The CLI will handle the rest.
 
-3. **Run the CLI.** From the repository root:
+3. **Run the CLI.** From the root of this repository (`opencosmos-ai/knowledge`):
 
    ```
-   pnpm knowledge:publish knowledge/incoming/dhammapada.md --role source --domain buddhism
+   npm run publish-doc incoming/dhammapada.md --role source --domain buddhism
    ```
 
    Or let Claude figure out the metadata for you:
 
    ```
-   pnpm knowledge:publish knowledge/incoming/dhammapada.md --accept
+   npm run publish-doc incoming/dhammapada.md --accept
    ```
 
    Or auto-import everything in the inbox at once:
 
    ```
-   pnpm knowledge:publish --accept
+   npm run publish-doc --accept
    ```
 
-   When no files are specified, the CLI automatically discovers all `.md` files in `knowledge/incoming/` and processes them.
+   When no files are specified, the CLI automatically discovers all `.md` files in `incoming/` and processes them.
 
 4. **Review and merge.** The CLI creates a branch and pushes it. Add `--pr` to auto-create a GitHub PR, or create one manually.
 
-That's it. The CLI generates frontmatter via Claude, writes the file to the correct location in `knowledge/`, creates a safe git branch, commits, and pushes.
+That's it. The CLI generates frontmatter via Claude, writes the file to the correct location in ``, creates a safe git branch, commits, and pushes.
 
 ## Preparing Content
 
@@ -79,13 +79,13 @@ See the full guidelines in the [knowledge README](../README).
 
 ## Running the CLI
 
-From the repository root:
+From the root of this repository (`opencosmos-ai/knowledge`):
 
 ```bash
-pnpm knowledge:publish [file...]
+npm run publish-doc [file...]
 ```
 
-If no files are specified, the CLI auto-imports all `.md` files from `knowledge/incoming/`.
+If no files are specified, the CLI auto-imports all `.md` files from `incoming/`.
 
 ### Options
 
@@ -94,7 +94,7 @@ If no files are specified, the CLI auto-imports all `.md` files from `knowledge/
 | `--role <role>` | Pre-set the document role (source, commentary, reference, guide, collection) |
 | `--domain <domain>` | Pre-set the domain (buddhism, stoicism, ecology, opencosmos, etc.) |
 | `--accept` | Accept Claude's frontmatter suggestions without interactive review |
-| `--branch <name>` | Custom git branch name (default: `knowledge/{date}-{slug}`) |
+| `--branch <name>` | Custom git branch name (default: `{date}-{slug}`) |
 | `--pr` | Create a GitHub PR after pushing |
 | `--dry-run` | Show the generated frontmatter and final document without writing anything |
 | `--no-push` | Commit locally but skip pushing to remote |
@@ -104,31 +104,31 @@ If no files are specified, the CLI auto-imports all `.md` files from `knowledge/
 Auto-import everything in the inbox:
 
 ```bash
-pnpm knowledge:publish --accept
+npm run publish-doc --accept
 ```
 
 Publish a Buddhist source text:
 
 ```bash
-pnpm knowledge:publish ~/drafts/dhammapada.md --role source --domain buddhism
+npm run publish-doc ~/drafts/dhammapada.md --role source --domain buddhism
 ```
 
 Preview what the CLI would generate without writing anything:
 
 ```bash
-pnpm knowledge:publish ~/drafts/essay.md --dry-run
+npm run publish-doc ~/drafts/essay.md --dry-run
 ```
 
 Publish multiple documents at once (one branch, one commit, one PR):
 
 ```bash
-pnpm knowledge:publish ~/drafts/*.md --accept --pr
+npm run publish-doc ~/drafts/*.md --accept --pr
 ```
 
 Trust Claude's suggestions and publish without review:
 
 ```bash
-pnpm knowledge:publish ~/drafts/rumi-poems.md --role source --domain sufism --accept
+npm run publish-doc ~/drafts/rumi-poems.md --role source --domain sufism --accept
 ```
 
 ## What Happens When You Run It
@@ -167,18 +167,18 @@ The CLI scans all existing corpus documents and suggests `related_docs` based on
 The CLI writes the final document (frontmatter + content) to:
 
 ```
-knowledge/{role}s/{domain}-{slug}.md
+{role}s/{domain}-{slug}.md
 ```
 
 For example, a Buddhist source text titled "The Dhammapada" becomes:
 
 ```
-knowledge/sources/buddhism-the-dhammapada.md
+sources/buddhism-the-dhammapada.md
 ```
 
 ### Step 6: Curation log + Collection auto-linking
 
-The CLI appends an entry to `knowledge/CURATION_LOG.md` with the document's metadata, gaps served, and graph impact.
+The CLI appends an entry to `CURATION_LOG.md` with the document's metadata, gaps served, and graph impact.
 
 If the document's title matches an unchecked placeholder in a foundation collection (e.g., `- [ ] The Dhammapada` in sol-foundations.md), the CLI updates the checkbox to a link: `- [x] [The Dhammapada](../sources/buddhism-the-dhammapada)`.
 
@@ -188,7 +188,7 @@ Both changes are included in the same commit.
 
 The CLI creates a **new branch** (never pushes to main), commits the file(s), and pushes:
 
-1. Creates branch `knowledge/{date}-{slug}` (or custom name with `--branch`)
+1. Creates branch `{date}-{slug}` (or custom name with `--branch`)
 2. Stages only the published files, curation log, and updated collections (never `git add .`)
 3. Commits with message: `docs(knowledge): add {domain} {role} — {title}`
 4. Pushes to remote
@@ -204,10 +204,10 @@ After pushing, the branch triggers:
 
 ## Corpus Health Report
 
-Run `pnpm knowledge:health` to see the overhead map of the corpus:
+Run `npm run health` to see the overhead map of the corpus:
 
 ```bash
-pnpm knowledge:health
+npm run health
 ```
 
 Shows: document count, domain/role coverage, foundation collection progress, cross-reference integrity, island detection, and import priority suggestions (top texts to add next based on collection placeholders and domain gaps).
@@ -236,7 +236,7 @@ Full domain list: buddhism, stoicism, sufism, taoism, vedic, indigenous, philoso
 
 ## Troubleshooting
 
-**"tsx: command not found"** — Run `pnpm install` from the repository root.
+**"tsx: command not found"** — Run `npm install` from the root of this repository.
 
 **LLM suggestions are empty or wrong** — Use `--dry-run` to preview, then run again without it. Choose "Edit in $EDITOR" during review to correct any field.
 

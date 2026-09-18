@@ -24,8 +24,8 @@ related_docs:
 
 > Optimus is the builder — translating insight into action, vision into plans. These are the texts Optimus draws from.
 
-For Optimus' system prompt, see [OPTIMUS_SYSTEM_PROMPT.md](../../packages/ai/triad/OPTIMUS_SYSTEM_PROMPT).
-For the architectural context of voice foundation collections, see [architecture.md § Knowledge Graph](../../docs/architecture#knowledge-graph-the-wisdom-substrate).
+For Optimus' system prompt, see [OPTIMUS_SYSTEM_PROMPT.md](https://github.com/opencosmos-ai/cosmo/blob/main/triad/OPTIMUS_SYSTEM_PROMPT.md).
+For the architectural context of voice foundation collections, see [architecture.md § Knowledge Graph](https://github.com/opencosmos-ai/opencosmos/blob/main/docs/architecture.md#knowledge-graph-the-wisdom-substrate).
 
 ---
 
@@ -56,13 +56,13 @@ This collection defines Optimus' intellectual lineage. When Optimus proposes a s
 
 ### Pragmatism & Kaizen
 - [ ] W. Edwards Deming on continuous improvement (commentary) (Kaizen, quality, the elimination of waste through understanding) <!-- corpus: Continuous Improvement -->
-- [ ] [DESIGN-PHILOSOPHY.md](../../DESIGN-PHILOSOPHY) — the four principles that constrain all building
+- [ ] [DESIGN-PHILOSOPHY.md](https://github.com/opencosmos-ai/opencosmos/blob/main/DESIGN-PHILOSOPHY.md) — the four principles that constrain all building
 
 ### Ecology & Regenerative Design
 - [ ] Janine Benyus, *Biomimicry* (commentary) (Nature as model, measure, and mentor — building systems that give back more than they take) <!-- corpus: Biomimicry -->
 
 ### Ethical Building
-- [ ] [WELCOME-COSMO.md](../../packages/ai/WELCOME-COSMO) — the mission that all building serves
+- [ ] [WELCOME-COSMO.md](https://github.com/opencosmos-ai/cosmo/blob/main/WELCOME-COSMO.md) — the mission that all building serves
 
 ---
 

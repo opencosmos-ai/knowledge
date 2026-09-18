@@ -8,11 +8,13 @@ tags: [skills, claude-code, tooling, workflow, knowledge-base, ui, wiki]
 audience: [creator, engineer]
 complexity: foundational
 summary: >-
-  Complete reference for all Claude Code skills available in the OpenCosmos
-  monorepo. Covers the UI building skill (/create), the knowledge base
-  formatting skill (/groom), and the three wiki skills (/knowledge-compile,
-  /knowledge-review, /knowledge-lookup).
+  Complete reference for the eleven Claude Code skills in the OpenCosmos
+  applications repository. Covers the git workflow skills (/pr, /clean,
+  /git-sync), the building skills (/create, /inference-cost), and the six that
+  operate on the knowledge corpus (/groom, /new-quote, /knowledge-compile,
+  /knowledge-review, /knowledge-lookup, /standardize-knowledge).
 curated_at: 2026-04-10
+updated_at: 2026-09-18
 curator: shalom
 source: original
 related_docs:
@@ -23,23 +25,87 @@ related_docs:
 
 # OpenCosmos Claude Code Skills — Reference
 
-Skills are invocable AI workflows defined in `.claude/skills/`. Each skill is a directory containing a `SKILL.md` file that gives Claude a focused set of instructions for a specific task. Invoke any skill with `/skill-name [args]` in a Claude Code session.
+Skills are invocable AI workflows defined in `.claude/skills/`. Each is a directory containing a `SKILL.md` that gives Claude a focused set of instructions for one task. Invoke any of them with `/skill-name [args]` in a Claude Code session.
+
+That directory path is not a filing preference — it is where Claude Code *discovers* skills. A skill moved elsewhere stops being invocable.
+
+> **Two repositories.** All eleven skills live in
+> [opencosmos-ai/opencosmos](https://github.com/opencosmos-ai/opencosmos), which
+> is where you invoke them. Six of them *operate on* the corpus, which lives in
+> [opencosmos-ai/knowledge](https://github.com/opencosmos-ai/knowledge) — the
+> repository you are reading this in. Those six expect a sibling checkout at
+> `../knowledge` and run its scripts with `npm`, not `pnpm`. The corpus left the
+> monorepo in September 2026; anything below describing a single repository is
+> describing the past.
 
 ## Skill Index
 
 | Skill | Category | What it does |
 |-------|----------|-------------|
-| [`/create`](#create) | UI | Build UI components using `@opencosmos/ui` exclusively |
-| [`/groom`](#groom) | Knowledge | Format raw text in `knowledge/incoming/` for corpus publication |
-| [`/knowledge-compile`](#knowledge-compile) | Wiki | Compile durable insights to the knowledge wiki |
-| [`/knowledge-review`](#knowledge-review) | Wiki | Run a wiki health check |
-| [`/knowledge-lookup`](#knowledge-lookup) | Wiki | Search the wiki before starting domain work |
+| [`/pr`](#pr) | Git | Package unmerged work into a branch, changelog entry and pull request |
+| [`/clean`](#clean) | Git | Delete provably-merged local branches, flag the rest, sync to default |
+| [`/git-sync`](#git-sync) | Git | Fetch, rebuild a merged branch from the default, prune stale refs |
+| [`/create`](#create) | Building | Build UI using `@opencosmos/ui` exclusively |
+| [`/inference-cost`](#inference-cost) | Building | View and edit which Claude model each Cosmo surface runs on |
+| [`/groom`](#groom) | Corpus | Format raw text in `incoming/` for corpus publication |
+| [`/new-quote`](#new-quote) | Corpus | Add quotes — parse, dedupe, validate provenance, route to a pool |
+| [`/knowledge-compile`](#knowledge-compile) | Corpus · wiki | Compile durable insights to the knowledge wiki |
+| [`/knowledge-review`](#knowledge-review) | Corpus · wiki | Run a wiki health check |
+| [`/knowledge-lookup`](#knowledge-lookup) | Corpus · wiki | Search the wiki before starting domain work |
+| [`/standardize-knowledge`](#standardize-knowledge) | Corpus | Normalise headings so RAG chunking stays reliable |
+
+---
+
+## /pr
+
+**Category:** Git — **Skill file:** `.claude/skills/pr/SKILL.md`
+
+Packages the repository's current unmerged work — uncommitted changes, staged changes, and any commits on the branch not yet in an open PR — into a pushed branch, a `CHANGELOG.md` entry where the repo keeps one, and an open pull request describing the work.
+
+Use it when asked to open a PR or ship something, or at the natural end of a unit of work before starting something unrelated.
+
+```
+/pr                  # package everything outstanding
+/pr --no-changelog   # skip the CHANGELOG entry
+```
+
+---
+
+## /clean
+
+**Category:** Git — **Skill file:** `.claude/skills/clean/SKILL.md`
+
+The follow-up to `/pr` once its pull request has merged. Audits every local branch against the freshly fetched default branch, deletes those whose work is provably merged, and **flags rather than deletes** anything carrying unmerged commits.
+
+It is local-only: it never pushes, force-pushes, or deletes a branch on `origin`. It halts on a dirty working tree rather than stashing, and never uses `git branch -D` without explicit confirmation.
+
+```
+/clean             # audit, delete what is safe, report the rest
+/clean --dry-run   # print the plan and stop
+```
+
+Squash-merges matter here: `git branch --merged` misses them because the original commits never become ancestors of the default branch, so the skill asks GitHub directly rather than trusting ancestry alone.
+
+---
+
+## /git-sync
+
+**Category:** Git — **Skill file:** `.claude/skills/git-sync/SKILL.md`
+
+Syncs a working copy with its remote: fetch, detect whether the current branch's PR has already merged, rebuild the branch from the latest default branch when it has, and prune stale local branches and remote-tracking refs.
+
+Use at the start of work in any repo, after opening a PR that might merge quickly, or when a git command errors on a ref that *should* exist.
+
+```
+/git-sync                # full sync
+/git-sync --prune-only   # just prune stale refs
+```
 
 ---
 
 ## /create
 
-**Category:** UI — **Skill file:** `.claude/skills/create/SKILL.md`
+**Category:** Building — **Skill file:** `.claude/skills/create/SKILL.md`
 
 Builds UI for OpenCosmos applications using `@opencosmos/ui` components. Never writes custom HTML, custom CSS, or bespoke JSX when a library component exists.
 
@@ -59,7 +125,7 @@ Examples:
 ```
 /create hero section with a centered tagline and two CTA buttons
 /create sidebar navigation with collapsible sections
-/create subscription tier cards for Spark, Flame, and Hearth
+/create a document outline rail that hides below the lg breakpoint
 ```
 
 ### Core rules
@@ -94,13 +160,26 @@ Examples:
 
 ---
 
+## /inference-cost
+
+**Category:** Building — **Skill file:** `.claude/skills/inference-cost/SKILL.md`
+
+The single entry point for OpenCosmos's inference-cost knobs: which Claude model each Cosmo and Inception surface runs on. Reads and edits `apps/web/lib/ai-models.ts` so model choices never have to be hunted down across route files.
+
+```
+/inference-cost                       # show the current model per surface
+/inference-cost <tier> <model-id>     # change one
+```
+
+---
+
 ## /groom
 
-**Category:** Knowledge — **Skill file:** `.claude/skills/groom/SKILL.md`
+**Category:** Corpus — **Skill file:** `.claude/skills/groom/SKILL.md` — **runs against:** `../knowledge`
 
-Prepares raw text in `knowledge/incoming/` for publication. Adds markdown structure (headers, spacing, speaker formatting) while preserving every word of the original text. Also previews which wiki pages the new document will affect after publishing.
+Prepares raw text in `incoming/` for publication. Adds markdown structure (headers, spacing, speaker formatting) while preserving every word of the original text. Also previews which wiki pages the new document will affect after publishing.
 
-**Full pipeline:** drop raw text into `knowledge/incoming/` → **`/groom`** → `pnpm knowledge:publish` → `/knowledge-compile log`
+**Full pipeline:** drop raw text into `incoming/` in the corpus repo → **`/groom`** → `npm run publish-doc` → `/knowledge-compile log`
 
 ### What it does
 
@@ -109,11 +188,11 @@ Runs `scripts/knowledge/groom.py` — a persistent Python script that transforms
 ### Invocation
 
 ```
-/groom                                  # Process all files in knowledge/incoming/
-/groom knowledge/incoming/file.md       # Process a specific file
+/groom                                  # Process all files in incoming/
+/groom incoming/file.md       # Process a specific file
 /groom --dry-run                        # Analyze without writing
 /groom --report                         # Status of all incoming files
-/groom knowledge/sources/file.md --force  # Reprocess an already-formatted file
+/groom sources/file.md --force  # Reprocess an already-formatted file
 ```
 
 ### Content type processors
@@ -136,19 +215,19 @@ Before formatting, `/groom` assesses copyright status. Full text enters the corp
 
 ### Report output (Step 4)
 
-The `/groom` report includes a **Wiki Impact Preview** section: for each processed file, it scans `knowledge/wiki/index.md` and identifies which existing wiki pages the new document will affect after publishing — and which new wiki pages it creates opportunity for. Example:
+The `/groom` report includes a **Wiki Impact Preview** section: for each processed file, it scans `wiki/index.md` and identifies which existing wiki pages the new document will affect after publishing — and which new wiki pages it creates opportunity for. Example:
 
 ```
 ### Wiki Impact Preview
 - incoming/stoicism-meditations.md → affects: wiki/concepts/impermanence.md
                                    → creates opportunity: wiki/entities/marcus-aurelius.md (not yet written)
 
-Next step: after pnpm knowledge:publish, run /knowledge-compile log
+Next step: after npm run publish-doc, run /knowledge-compile log
 ```
 
 ### After publishing (Step 5)
 
-Once `pnpm knowledge:publish` completes, run immediately:
+Once `npm run publish-doc` completes, run immediately:
 
 ```
 /knowledge-compile log
@@ -168,18 +247,18 @@ See the full reference: [Formatting Raw Text for Publication](../guides/opencosm
 
 ## /knowledge-compile
 
-**Category:** Wiki — **Skill file:** `.claude/skills/knowledge-compile/SKILL.md`
+**Category:** Corpus · wiki — **Skill file:** `.claude/skills/knowledge-compile/SKILL.md`
 
-Compiles durable insights into `knowledge/wiki/`. The trigger is **"I just learned something"** — event-driven, not scheduled.
+Compiles durable insights into `wiki/`. The trigger is **"I just learned something"** — event-driven, not scheduled.
 
 ### What it does
 
 Extracts cross-tradition synthesis from a source, checks whether a relevant wiki page already exists, and writes or updates pages with the standardized article structure: Summary → Key Claims → Connections → Contradictions → Open Questions.
 
 Each run:
-1. Writes or updates one or more wiki pages in `knowledge/wiki/`
-2. Updates `knowledge/wiki/index.md` with new/changed entries
-3. Appends to `knowledge/wiki/log.md`
+1. Writes or updates one or more wiki pages in `wiki/`
+2. Updates `wiki/index.md` with new/changed entries
+3. Appends to `wiki/log.md`
 
 ### Invocation
 
@@ -194,7 +273,7 @@ Each run:
 | Mode | Use when |
 |------|----------|
 | `convo` | A conversation just produced a notable cross-tradition synthesis |
-| `incoming/<file>` | An article or text was dropped into `knowledge/incoming/` |
+| `incoming/<file>` | An article or text was dropped into `incoming/` |
 | `log` | New source documents were just published to the corpus |
 
 ### Wiki page frontmatter it writes
@@ -220,9 +299,9 @@ See the full reference: [Knowledge Wiki Workflow](opencosmos-knowledge-wiki-work
 
 ## /knowledge-review
 
-**Category:** Wiki — **Skill file:** `.claude/skills/knowledge-review/SKILL.md`
+**Category:** Corpus · wiki — **Skill file:** `.claude/skills/knowledge-review/SKILL.md`
 
-Runs a health check on `knowledge/wiki/`. Returns a structured report identifying issues and opportunities.
+Runs a health check on `wiki/`. Returns a structured report identifying issues and opportunities.
 
 ### What it checks
 
@@ -256,13 +335,13 @@ Runs a health check on `knowledge/wiki/`. Returns a structured report identifyin
 
 ## /knowledge-lookup
 
-**Category:** Wiki — **Skill file:** `.claude/skills/knowledge-lookup/SKILL.md`
+**Category:** Corpus · wiki — **Skill file:** `.claude/skills/knowledge-lookup/SKILL.md`
 
 Searches the knowledge wiki for existing synthesis before starting domain work. Returns pre-built concept pages and connections.
 
 ### What it does
 
-Reads `knowledge/wiki/index.md`, finds pages relevant to the query, reads their full content, and returns summaries with key claims and connection links. Also reports gaps — topics the query touches that aren't yet in the wiki, with suggestions for which source documents would help.
+Reads `wiki/index.md`, finds pages relevant to the query, reads their full content, and returns summaries with key claims and connection links. Also reports gaps — topics the query touches that aren't yet in the wiki, with suggestions for which source documents would help.
 
 ### Invocation
 
@@ -288,6 +367,41 @@ Before asking Cosmo a deep cross-tradition question — check what the wiki alre
 
 ---
 
+## /new-quote
+
+**Category:** Corpus — **Skill file:** `.claude/skills/new-quote/SKILL.md` — **runs against:** `../knowledge`
+
+Adds one or many quotes to the corpus. Parses free-form input, checks for duplicates, infers category and keywords, validates provenance against `VALIDATION_PROMPT.md`, and routes each record into the right pool — embeddable `quotes/*.yaml`, or the pending pool for records that have not cleared the bar.
+
+**Full pipeline:** `/new-quote` → `npm run quotes:add` → `npm run quotes:promote` → `npm run embed` → `npm run graph:constellation`
+
+```
+/new-quote <paste a quote, or several>
+```
+
+The skill does the judgment a CLI cannot — parsing free-form text, deduping, inferring metadata, and naming the source. The script stays the single enforcement point for ID allocation, key normalisation and routing. `--json` is the primary interface because quotes are full of apostrophes and em-dashes, and shell escaping eventually mangles one.
+
+**Two pools.** A quote is either *embeddable* (verified or attributed, above the promotion bar) or *pending*. Only the embeddable pool reaches Upstash Vector and becomes citable by Cosmo.
+
+---
+
+## /standardize-knowledge
+
+**Category:** Corpus — **Skill file:** `.claude/skills/standardize-knowledge/SKILL.md` — **runs against:** `../knowledge`
+
+Analyses and normalises heading structure across corpus documents to a consistent H2/H3/H4 hierarchy.
+
+This is not cosmetic. The embedder chunks at heading boundaries, so inconsistent or skipped levels produce chunks that are too large to retrieve precisely or too small to carry meaning. Normalising headings is what keeps RAG chunking reliable.
+
+```
+/standardize-knowledge sources/some-file.md   # one file
+/standardize-knowledge all                    # the whole corpus
+```
+
+Re-run `npm run embed` afterwards: changing headings changes chunk IDs and content hashes.
+
+---
+
 ## Adding a New Skill
 
 Skills live in `.claude/skills/{skill-name}/SKILL.md`. The SKILL.md format:
@@ -297,7 +411,7 @@ Skills live in `.claude/skills/{skill-name}/SKILL.md`. The SKILL.md format:
 name: skill-name
 description: One-sentence description (appears in the skill picker)
 argument-hint: "<arg1> [--optional-flag]"
-disable-model-invocation: true   # omit to allow nested model calls
+disable-model-invocation: true   # only on request — never chosen autonomously
 user-invocable: true             # makes it appear in /skill-name tab completion
 ---
 
@@ -308,4 +422,8 @@ user-invocable: true             # makes it appear in /skill-name tab completion
 $ARGUMENTS contains the arguments passed by the user.
 ```
 
-File: `.claude/skills/{name}/SKILL.md` (the directory name is the invocation name).
+File: `.claude/skills/{name}/SKILL.md` — the directory name is the invocation name, and the location is what makes it discoverable.
+
+`description` is load-bearing: it is what an agent reads to decide whether a skill applies, so describe the *situation* it belongs to, not just the action. Set `disable-model-invocation: true` on anything that writes, publishes, deletes or costs money — those should be asked for, not inferred.
+
+There is a second index maintained alongside the skills themselves, at [`.claude/skills/README.md`](https://github.com/opencosmos-ai/opencosmos/blob/main/.claude/skills/README.md) in the applications repository, and a summary table in its [AGENTS.md](https://github.com/opencosmos-ai/opencosmos/blob/main/AGENTS.md#skills). When you add a skill, add it to both.

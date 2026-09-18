@@ -26,10 +26,10 @@ The knowledge wiki is the synthesis layer above raw source texts. It is maintain
 ## Overview
 
 ```
-Source texts (knowledge/sources/)
+Source texts (sources/)
        │
        ▼
-Wiki synthesis (knowledge/wiki/)          ← new layer
+Wiki synthesis (wiki/)          ← new layer
   ├── entities/   — who/what
   ├── concepts/   — ideas and themes
   └── connections/ — cross-tradition comparisons
@@ -47,7 +47,7 @@ Wiki synthesis (knowledge/wiki/)          ← new layer
 The wiki index is always in Claude Code's context via a single directive at the bottom of `.claude/CLAUDE.md`:
 
 ```
-@knowledge/wiki/index.md
+@wiki/index.md
 ```
 
 Claude Code expands `@path` references inline at session start — the entire wiki index becomes part of the starting context before any message is sent. This is what makes it **ambient**: Claude doesn't look it up, it simply knows it.
@@ -58,7 +58,7 @@ Claude Code expands `@path` references inline at session start — the entire wi
 
 From the wiki index, Claude Code sees a structured table of contents: entity summaries (e.g., *"Plato: Athenian philosopher; 12 dialogues; justice, the Good, the soul"*), concept summaries (e.g., *"impermanence: Buddhist anicca, Taoist flux, Whitman's cycles, Nietzsche's eternal recurrence"*), and cross-tradition connections. This gives full corpus orientation — shape, not depth — without loading any source documents.
 
-Full architecture: [docs/architecture.md § Cosmo's Session Context](../../docs/architecture#cosmos-session-context)
+Full architecture: [docs/architecture.md § Cosmo's Session Context](https://github.com/opencosmos-ai/opencosmos/blob/main/docs/architecture.md#cosmos-session-context), in the applications repository
 
 ---
 
@@ -103,13 +103,13 @@ The full pipeline is now: stage → groom → publish → **wiki-update**
 
 ```
 1. Stage
-   pbpaste > knowledge/incoming/my-text.md
+   pbpaste > incoming/my-text.md
 
 2. Groom (format the raw text)
-   /groom knowledge/incoming/my-text.md
+   /groom incoming/my-text.md
 
 3. Publish (frontmatter generation + corpus indexing)
-   pnpm knowledge:publish knowledge/incoming/my-text.md --role source --domain <domain>
+   npm run publish-doc incoming/my-text.md --role source --domain <domain>
 
 4. Wiki update (synthesize into wiki)
    /knowledge-compile log
@@ -167,7 +167,7 @@ speculative → medium → high → superseded (if contradicted)
 | `superseded` | Contradicted by new evidence | Add `failure_reason` note; create replacement page |
 | `archived` | No longer relevant to corpus | — |
 
-To promote manually: edit the `confidence` field in frontmatter and append to `knowledge/wiki/log.md`:
+To promote manually: edit the `confidence` field in frontmatter and append to `wiki/log.md`:
 ```
 2026-04-12  PROMOTED  wiki/concepts/logos-and-tao.md  (speculative → medium; added theaetetus reference)
 ```
@@ -197,8 +197,8 @@ tags: [tag1, tag2]
 ```
 
 4. Follow the article structure: Summary → Key Claims → Connections → Contradictions → Open Questions
-5. Add to `knowledge/wiki/index.md`
-6. Append to `knowledge/wiki/log.md`
+5. Add to `wiki/index.md`
+6. Append to `wiki/log.md`
 
 ---
 
@@ -223,6 +223,6 @@ One exception: if two entities share a name, use `{tradition}-{name}.md` to disa
 ## What the Wiki Is NOT
 
 - **Not a replacement for source texts.** Wiki pages are synthesis and navigation — raw sources remain the authoritative primary material for RAG.
-- **Not commentary.** Wiki pages extract and connect claims; they don't argue or interpret. For original interpretive essays, use `knowledge/commentary/`.
-- **Not a glossary.** Term definitions go in `knowledge/reference/`. Wiki pages synthesize across multiple sources.
+- **Not commentary.** Wiki pages extract and connect claims; they don't argue or interpret. For original interpretive essays, use `commentary/`.
+- **Not a glossary.** Term definitions go in `reference/`. Wiki pages synthesize across multiple sources.
 - **Not permanent.** Wiki pages are designed to be updated and superseded as the corpus grows. `confidence: speculative` is not a flaw — it's the system working as intended.
