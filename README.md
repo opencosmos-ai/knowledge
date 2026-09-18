@@ -22,32 +22,45 @@ The organizing principle: **the wisdom of humanity, made accessible to both huma
 
 ## How It's Organized
 
-Documents are organized into **six** categories. Five are for curated source material (organized by role); one — the **wiki** — is the synthesis layer maintained by Claude.
+Documents are organized into **seven** directories. Four hold curated source material, organized by role; three have shapes of their own.
 
 ```
 ./
 ├── sources/          Primary works — the originals
-├── commentary/       Analysis, interpretation, explanation
-├── reference/        Definitions, glossaries, specifications
+├── references/       Definitions, glossaries, specifications
 ├── guides/           Procedures, how-to, workflows
 ├── collections/      Curated groupings and reading paths
-└── wiki/             LLM-synthesized concept pages, entity summaries, cross-tradition connections
+├── wiki/             LLM-synthesized concept pages, entity summaries, cross-tradition connections
+├── quotes/           Attributed passages, in YAML, with provenance verdicts
+└── iching/           The 64 hexagrams and 8 trigrams — a keyed lookup, not prose
 ```
+
+The canonical list is [`scripts/knowledge/corpus-layout.ts`](scripts/knowledge/corpus-layout.ts), and the tooling refuses a top-level directory that is not declared there — in either direction, so a new category cannot be silently unindexed and a stray one cannot be silently indexed.
 
 The wiki is always loaded into Claude's context via `@wiki/index.md` in `.claude/CLAUDE.md`. See [Wiki Layer](#wiki-layer) below for the full spec.
 
 ---
 
-Documents in the five source categories are organized by their **relationship to knowledge** — not by subject, discipline, or tradition. This distinction matters because it's universal: it works for Buddhist scripture and TypeScript specifications alike.
+Documents in the four source categories are organized by their **relationship to knowledge** — not by subject, discipline, or tradition. This distinction matters because it's universal: it works for Buddhist scripture and TypeScript specifications alike.
 
 ```
 ./
 ├── sources/          Primary works — the originals
-├── commentary/       Analysis, interpretation, explanation
-├── reference/        Definitions, glossaries, specifications
+├── references/       Definitions, glossaries, specifications
 ├── guides/           Procedures, how-to, workflows
 └── collections/      Curated groupings and reading paths
 ```
+
+> **`commentary/` was declared here for months and never existed.** It is struck
+> rather than created: nothing in the corpus was waiting to go in it, and a
+> category that exists only in a README is worse than no category at all. If
+> analysis and interpretation later need a home of their own, add the directory
+> *and* the entry in `corpus-layout.ts` together.
+>
+> `scriptures/` and `specifications/` held one file each and are folded away —
+> the Heart Sutra already declared `role: source`, and the prompt template now
+> declares `role: reference` rather than the `specification` that was never a
+> valid role.
 
 ### sources/
 
@@ -57,13 +70,6 @@ When you place a document here, you're saying: "This is the work itself — not 
 
 **Examples:** The Dhammapada, Marcus Aurelius's *Meditations*, Rumi's poems, the Gaia Hypothesis, the Creative Powerup Manifesto, the Cosmo AI Constitution.
 
-### commentary/
-
-Analysis, interpretation, and explanation of source material. Secondary works that help readers understand, contextualize, or connect primary sources.
-
-This includes cross-domain "bridge" documents that explicitly connect two traditions or disciplines (e.g., "Stoicism for Software Engineers," "Buddhist Ethics and AI Alignment").
-
-**Examples:** An essay on Aristotle's concept of eudaimonia, an analysis comparing the Gaia Hypothesis with systems theory, a piece connecting Stoic practices with engineering resilience.
 
 ### reference/
 
@@ -109,12 +115,9 @@ sources/
   opencosmos-design-philosophy.md
   opencosmos-creative-powerup-manifesto.md
 
-commentary/
-  cross-stoicism-for-software-engineers.md
-  ecology-gaia-and-systems-thinking.md
-
-reference/
+references/
   philosophy-key-terms-glossary.md
+  ai-system-prompt-template-cosmo-and-the-ai-triad.md
   opencosmos-sovereignty-tiers-spec.md
 
 guides/

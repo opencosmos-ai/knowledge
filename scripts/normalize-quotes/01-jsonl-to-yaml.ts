@@ -12,7 +12,7 @@
  * promotion state that exist only in the pools — none of it in the source file.
  * Re-running this would silently discard all of it.
  *
- * The pools are canonical now. New quotes enter through `pnpm quotes:add`.
+ * The pools are canonical now. New quotes enter through `npm run quotes:add`.
  *
  * Kept rather than deleted because it documents how the corpus was built, and
  * because a genuine re-import from a corrected source is imaginable. It refuses
@@ -106,8 +106,8 @@ state accumulated since the original import. All of that would be lost.
 
 The pools are the source of truth now. To add a quote:
 
-  pnpm quotes:add -- --text "..." --author "..."
-  pnpm quotes:add -- --json path/to/quotes.json
+  npm run quotes:add -- --text "..." --author "..."
+  npm run quotes:add -- --json path/to/quotes.json
 
 If you genuinely mean to re-import from a corrected source file, commit first,
 then pass --i-know-this-wipes.

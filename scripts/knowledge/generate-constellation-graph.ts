@@ -22,7 +22,7 @@
  * and is unchanged — the sigma renderer at /knowledge/graph keeps working until
  * the constellation package replaces it in Phase 1.6 proper.
  *
- * Usage: pnpm graph:constellation
+ * Usage: npm run graph:constellation
  */
 
 import { readFileSync, existsSync, readdirSync, statSync } from 'node:fs'

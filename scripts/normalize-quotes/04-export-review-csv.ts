@@ -117,7 +117,7 @@ function main() {
   console.log(`  drop         move to _archive/rejected.yaml`)
   console.log(`  reattribute  set reattribute_to (or leave blank to accept the suggestion)`)
   console.log()
-  console.log(`Then: pnpm quotes:review-apply -- ${outPath} --dry`)
+  console.log(`Then: npm run quotes:review-apply -- ${outPath} --dry`)
 }
 
 main()

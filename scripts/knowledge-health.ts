@@ -11,7 +11,7 @@
  * - Import priority suggestions
  *
  * Usage:
- *   pnpm knowledge:health
+ *   npm run health
  */
 
 import { readFileSync, existsSync, readdirSync, statSync } from 'node:fs'

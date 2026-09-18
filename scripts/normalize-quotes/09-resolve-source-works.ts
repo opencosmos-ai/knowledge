@@ -35,9 +35,14 @@ import {
   parseYamlFile,
   type JsonlRecord,
 } from './shared.js'
+import { WORK_DIRS as CORPUS_WORK_DIRS } from '../knowledge/corpus-layout.js'
 
-const KNOWLEDGE_DIR = join(REPO_ROOT, 'knowledge')
-const WORK_DIRS = ['sources', 'scriptures', 'collections'] as const
+// The corpus is this repository's root. It was still `<root>/knowledge` — a
+// directory that does not exist here — which meant this script loaded zero
+// works and then cleared every quote's source_work as stale. Silent, and
+// destructive: 24 hand-reviewed links, gone, exit code 0.
+const KNOWLEDGE_DIR = REPO_ROOT
+const WORK_DIRS = CORPUS_WORK_DIRS
 
 /** A title shorter than this matches too much prose to trust. */
 const MIN_TITLE_LEN = 5
@@ -152,7 +157,7 @@ function main() {
   }
   if (!dry && linked > 0) {
     console.log()
-    console.log('Next: pnpm quotes:lint && pnpm embed && pnpm graph:constellation')
+    console.log('Next: npm run quotes:lint && npm run embed && npm run graph:constellation')
   }
 }
 
