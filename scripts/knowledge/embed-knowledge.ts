@@ -234,10 +234,10 @@ const SKIP_FILES = new Set(['index.md', 'log.md', 'README.md', 'LESSONS.md'])
 //               similarity; its README states it is never embedded.
 //   incoming/ — the staging area. Content here is unreviewed by definition,
 //               so indexing it would let drafts be retrieved and cited as corpus.
-// Derived from the shared layout: quotes and iching have shapes a markdown walk
-// cannot read (quotes are handled by walkQuotes below), and nothing outside the
-// corpus belongs in the index at all.
-const SKIP_DIRS = new Set<string>(['quotes', 'iching', ...NON_CORPUS_DIRS])
+// Derived from the shared layout: quotes have a shape a markdown walk cannot
+// read (walkQuotes handles them below), and nothing outside the corpus belongs
+// in the index at all.
+const SKIP_DIRS = new Set<string>(['quotes', ...NON_CORPUS_DIRS])
 
 // Never descended into at any depth. When the corpus lived at `<monorepo>/knowledge`
 // the walk could not reach a node_modules; here the corpus IS the repository root,

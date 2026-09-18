@@ -20,7 +20,7 @@
 export const CORPUS_DIRS = ['sources', 'references', 'guides', 'collections'] as const
 
 /** Corpus, but with a shape of its own that a plain markdown walk cannot read. */
-export const SHAPED_DIRS = ['wiki', 'quotes', 'iching'] as const
+export const SHAPED_DIRS = ['wiki', 'quotes'] as const
 
 /** Present in the repository, never corpus. */
 export const NON_CORPUS_DIRS = [
