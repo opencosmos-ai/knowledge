@@ -160,9 +160,9 @@ Drives node color, node size, label appearance threshold, and label typography.
 | **quote** | `#a8b3c7` *(pale slate)* | 1.5 | **≥ 6.0×** | `rgba(255,255,255,0.60)` | 9 px · italic · max-width 180px ellipsis |
 
 **Files:**
-- Node colors + sizes: [`packages/constellation/src/theme/palettes.ts`](https://github.com/shalomormsby/opencosmos-ui/blob/main/packages/constellation/src/theme/palettes.ts) (`DEFAULT_TIER_COLORS`, `DEFAULT_TIER_SIZES`).
-- Label LOD thresholds: [`packages/constellation/src/lod/defaults.ts`](https://github.com/shalomormsby/opencosmos-ui/blob/main/packages/constellation/src/lod/defaults.ts) (`DEFAULT_LOD_VISIBILITY`).
-- Label typography: [`packages/constellation/src/labels/LabelLayer.tsx`](https://github.com/shalomormsby/opencosmos-ui/blob/main/packages/constellation/src/labels/LabelLayer.tsx) (`applyTierStyle`).
+- Node colors + sizes: [`packages/constellation/src/theme/palettes.ts`](https://github.com/opencosmos-ai/opencosmos-ui/blob/main/packages/constellation/src/theme/palettes.ts) (`DEFAULT_TIER_COLORS`, `DEFAULT_TIER_SIZES`).
+- Label LOD thresholds: [`packages/constellation/src/lod/defaults.ts`](https://github.com/opencosmos-ai/opencosmos-ui/blob/main/packages/constellation/src/lod/defaults.ts) (`DEFAULT_LOD_VISIBILITY`).
+- Label typography: [`packages/constellation/src/labels/LabelLayer.tsx`](https://github.com/opencosmos-ai/opencosmos-ui/blob/main/packages/constellation/src/labels/LabelLayer.tsx) (`applyTierStyle`).
 
 **Visible label sets at each zoom range:**
 
@@ -190,13 +190,13 @@ Drives edge color and width per edge type.
 | **synthesizes** | synthesis (wiki bridge) → work | `[0.50, 0.92, 0.78]` | `#80EBC7` *(mint, matches synthesis node)* | 0.95 | 2.0 | 131 |
 | **semantic** | work ↔ work (cosine similarity, top-3 neighbors per work) | `[0.95, 0.95, 1.00]` | `#F2F2FF` *(cool white)* | 0.70 | 1.0 | 140 |
 
-**File:** [`packages/constellation/src/data/toFloat32.ts`](https://github.com/shalomormsby/opencosmos-ui/blob/main/packages/constellation/src/data/toFloat32.ts) — see the `EDGE_STYLE` constant near the top.
+**File:** [`packages/constellation/src/data/toFloat32.ts`](https://github.com/opencosmos-ai/opencosmos-ui/blob/main/packages/constellation/src/data/toFloat32.ts) — see the `EDGE_STYLE` constant near the top.
 
 ### Background + canvas defaults
 
 | Setting | Value | Where |
 |---|---|---|
-| Canvas background | `#0b0d12` (near-black) | Demo page passes via `backgroundColor` prop ([`apps/web/app/constellation/page.tsx`](https://github.com/shalomormsby/opencosmos-ui/blob/main/apps/web/app/constellation/page.tsx)) |
+| Canvas background | `#0b0d12` (near-black) | Demo page passes via `backgroundColor` prop ([`apps/web/app/constellation/page.tsx`](https://github.com/opencosmos-ai/opencosmos-ui/blob/main/apps/web/app/constellation/page.tsx)) |
 | Force simulation | **disabled** (`enableSimulation: false`) | Generator pre-lays positions via ForceAtlas2 once at graph build time |
 | Position transition duration | `0` ms | Required for ambient drift to apply each frame instantly without stale tweens |
 | Initial fitView | duration 400 ms · padding 0.1 | `KnowledgeGraph.tsx` after `graph.ready` resolves |
@@ -206,7 +206,7 @@ Drives edge color and width per edge type.
 
 | Setting | Value | Where |
 |---|---|---|
-| Default amplitude | 0.5% of bbox range | [`packages/constellation/src/motion/useAmbientDrift.ts`](https://github.com/shalomormsby/opencosmos-ui/blob/main/packages/constellation/src/motion/useAmbientDrift.ts) |
+| Default amplitude | 0.5% of bbox range | [`packages/constellation/src/motion/useAmbientDrift.ts`](https://github.com/opencosmos-ai/opencosmos-ui/blob/main/packages/constellation/src/motion/useAmbientDrift.ts) |
 | Default angular frequency | 0.4 rad/sec, jittered ±30% per node | same |
 | Disabled when | `prefers-reduced-motion` is set OR `ambientDrift={false}` | `usePrefersReducedMotion` hook |
 
@@ -214,7 +214,7 @@ Drives edge color and width per edge type.
 
 | Setting | Value | Where |
 |---|---|---|
-| Default focus radius | 1 hop (target + immediate neighbors) | [`packages/constellation/src/motion/useFocus.ts`](https://github.com/shalomormsby/opencosmos-ui/blob/main/packages/constellation/src/motion/useFocus.ts) |
+| Default focus radius | 1 hop (target + immediate neighbors) | [`packages/constellation/src/motion/useFocus.ts`](https://github.com/opencosmos-ai/opencosmos-ui/blob/main/packages/constellation/src/motion/useFocus.ts) |
 | Default tween duration | 800 ms | same |
 | Default fitView padding | 0.2 (20%) | same |
 
@@ -224,7 +224,7 @@ Drives edge color and width per edge type.
 
 ### To re-tune label LOD thresholds
 
-Edit [`packages/constellation/src/lod/defaults.ts`](https://github.com/shalomormsby/opencosmos-ui/blob/main/packages/constellation/src/lod/defaults.ts):
+Edit [`packages/constellation/src/lod/defaults.ts`](https://github.com/opencosmos-ai/opencosmos-ui/blob/main/packages/constellation/src/lod/defaults.ts):
 
 ```ts
 export const DEFAULT_LOD_VISIBILITY: LodVisibilityRules = {
@@ -241,11 +241,11 @@ Rebuild the package (`pnpm --filter @opencosmos/constellation build`) — Studio
 
 ### To change a tier color or size
 
-Edit [`packages/constellation/src/theme/palettes.ts`](https://github.com/shalomormsby/opencosmos-ui/blob/main/packages/constellation/src/theme/palettes.ts) (`DEFAULT_TIER_COLORS`, `DEFAULT_TIER_SIZES`). Rebuild package. No data regen.
+Edit [`packages/constellation/src/theme/palettes.ts`](https://github.com/opencosmos-ai/opencosmos-ui/blob/main/packages/constellation/src/theme/palettes.ts) (`DEFAULT_TIER_COLORS`, `DEFAULT_TIER_SIZES`). Rebuild package. No data regen.
 
 ### To change an edge color, alpha, or width
 
-Edit [`packages/constellation/src/data/toFloat32.ts`](https://github.com/shalomormsby/opencosmos-ui/blob/main/packages/constellation/src/data/toFloat32.ts) — `EDGE_STYLE` constant. Rebuild package. No data regen.
+Edit [`packages/constellation/src/data/toFloat32.ts`](https://github.com/opencosmos-ai/opencosmos-ui/blob/main/packages/constellation/src/data/toFloat32.ts) — `EDGE_STYLE` constant. Rebuild package. No data regen.
 
 ### To re-categorize a tradition (e.g., move Sufism from Wisdom to Literature)
 
@@ -298,7 +298,7 @@ curl -s http://localhost:3000/api/constellation \
   -o /Users/shalomormsby/Developer/opencosmos-ui/apps/web/public/constellation-sample.json
 ```
 
-The Studio demo at [`opencosmos-ui/apps/web/app/constellation/page.tsx`](https://github.com/shalomormsby/opencosmos-ui/blob/main/apps/web/app/constellation/page.tsx) reads from `/constellation-sample.json` (a static snapshot) — not from the live API. This keeps demo iteration offline-friendly.
+The Studio demo at [`opencosmos-ui/apps/web/app/constellation/page.tsx`](https://github.com/opencosmos-ai/opencosmos-ui/blob/main/apps/web/app/constellation/page.tsx) reads from `/constellation-sample.json` (a static snapshot) — not from the live API. This keeps demo iteration offline-friendly.
 
 ---
 
