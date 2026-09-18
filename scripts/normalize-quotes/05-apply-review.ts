@@ -185,7 +185,7 @@ function main() {
   writeFileSync(PENDING_CSV_PATH, emitCsv(nextPending), 'utf-8')
   console.log(`✓ Written: ${PENDING_JSONL_PATH}`)
   console.log()
-  console.log(`Next: pnpm quotes:promote (reattributed records are now eligible)`)
+  console.log(`Next: npm run quotes:promote (reattributed records are now eligible)`)
 }
 
 main()

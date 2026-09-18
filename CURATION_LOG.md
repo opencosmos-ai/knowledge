@@ -260,7 +260,7 @@ A living record of what was added to the knowledge corpus, when, and why it matt
 
 ### Heart Sutra
 - **Role:** scripture | **Domain:** buddhism | **Format:** scripture
-- **Path:** `knowledge/scriptures/buddhism-heart-sutra.md`
+- **Path:** `sources/buddhism-heart-sutra.md`
 - **Curator:** shalom | **Tags:** emptiness, sunyata, prajnaparamita, interdependence, five-skandhas, awakening, non-duality
 - **Author:** Unknown (traditional attribution)
 - **Origin:** ~400 CE (ancient)
@@ -275,7 +275,7 @@ A living record of what was added to the knowledge corpus, when, and why it matt
 
 ### System Prompt Template: Cosmo and the AI Triad
 - **Role:** specification | **Domain:** ai | **Format:** specification
-- **Path:** `knowledge/specifications/ai-system-prompt-template-cosmo-and-the-ai-triad.md`
+- **Path:** `references/ai-system-prompt-template-cosmo-and-the-ai-triad.md`
 - **Curator:** shalom | **Tags:** ai-architecture, system-design, prompt-engineering, synthesis, orchestration, multi-agent, templates
 - **Origin:** contemporary (contemporary)
 - **Related:** guides/opencosmos-knowledge-wiki-workflow.md, collections/cosmo-foundations.md, guides/opencosmos-knowledge-ethical-curation.md, guides/opencosmos-knowledge-formatting-guide.md, guides/opencosmos-knowledge-health-report.md

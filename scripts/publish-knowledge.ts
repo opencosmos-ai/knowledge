@@ -10,7 +10,7 @@
  *   5. Safe git: create branch → commit → push → optional PR
  *
  * Usage:
- *   pnpm knowledge:publish <file...> [--role source] [--domain buddhism] [--accept] [--pr] [--dry-run]
+ *   npm run publish-doc <file...> [--role source] [--domain buddhism] [--accept] [--pr] [--dry-run]
  */
 
 import { readFileSync, writeFileSync, existsSync, mkdirSync, unlinkSync, appendFileSync, readdirSync } from 'node:fs'
@@ -44,7 +44,7 @@ const { values: flags, positionals } = parseArgs({
 const incomingDir = resolve(KNOWLEDGE_DIR, 'incoming')
 
 if (!flags.help && positionals.length === 0) {
-  // No files specified — auto-discover from knowledge/incoming/
+  // No files specified — auto-discover from incoming/
   if (existsSync(incomingDir)) {
     const incoming = readdirSync(incomingDir)
       .filter((f) => f.endsWith('.md'))
@@ -52,7 +52,7 @@ if (!flags.help && positionals.length === 0) {
 
     if (incoming.length > 0) {
       positionals.push(...incoming)
-      console.log(`\n📥 Auto-importing ${incoming.length} file${incoming.length > 1 ? 's' : ''} from knowledge/incoming/`)
+      console.log(`\n📥 Auto-importing ${incoming.length} file${incoming.length > 1 ? 's' : ''} from incoming/`)
       for (const f of incoming) console.log(`   ${basename(f)}`)
     }
   }
@@ -65,9 +65,9 @@ if (flags.help || positionals.length === 0) {
 OpenCosmos Knowledge Publication CLI
 
 Usage:
-  pnpm knowledge:publish [file...] [options]
+  npm run publish-doc [file...] [options]
 
-  If no files are specified, auto-imports all .md files from knowledge/incoming/.
+  If no files are specified, auto-imports all .md files from incoming/.
 
 Options:
   --role <role>        Pre-set the document role (${ROLES.join(', ')})
@@ -77,14 +77,14 @@ Options:
   --pr                 Create a GitHub PR after pushing
   --dry-run            Preview without writing, committing, or pushing
   --no-push            Commit locally but don't push to remote
-  --no-clean           Keep source files in knowledge/incoming/ after publish
+  --no-clean           Keep source files in incoming/ after publish
   -h, --help           Show this help message
 
 Examples:
-  pnpm knowledge:publish --accept                 # auto-import from knowledge/incoming/
-  pnpm knowledge:publish ~/drafts/dhammapada.md --role source --domain buddhism
-  pnpm knowledge:publish ~/drafts/essay.md --dry-run
-  pnpm knowledge:publish ~/drafts/*.md --accept --pr
+  npm run publish-doc --accept                 # auto-import from incoming/
+  npm run publish-doc ~/drafts/dhammapada.md --role source --domain buddhism
+  npm run publish-doc ~/drafts/essay.md --dry-run
+  npm run publish-doc ~/drafts/*.md --accept --pr
 `)
   process.exit(flags.help ? 0 : 1)
 }
@@ -167,7 +167,7 @@ async function main() {
     const destPath = resolve(destDir, filename)
     const finalDoc = matter.stringify(content, frontmatter)
 
-    console.log(`\n   → knowledge/${rolePlural}/${filename}`)
+    console.log(`\n   → ${rolePlural}/${filename}`)
 
     if (flags['dry-run']) {
       console.log('\n── Preview ─────────────────────────────────────────')
@@ -222,7 +222,7 @@ async function main() {
     noPush: flags['no-push'],
   })
 
-  // Step 7: Clean up source files from knowledge/incoming/
+  // Step 7: Clean up source files from incoming/
   if (!flags['no-clean']) {
     const incomingDir = resolve(KNOWLEDGE_DIR, 'incoming')
     const cleaned: string[] = []
@@ -253,7 +253,7 @@ function buildCurationLogEntry(
   for (const { frontmatter: fm, destPath, curationMeta } of entries) {
     lines.push(`### ${fm.title}`)
     lines.push(`- **Role:** ${fm.role} | **Domain:** ${fm.domain} | **Format:** ${fm.format}`)
-    lines.push(`- **Path:** \`knowledge/${destPath}\``)
+    lines.push(`- **Path:** \`${destPath}\``)
     lines.push(`- **Curator:** ${fm.curator} | **Tags:** ${fm.tags.join(', ')}`)
     if (fm.author) lines.push(`- **Author:** ${fm.author}`)
     if (fm.origin_date) lines.push(`- **Origin:** ${fm.origin_date}${fm.era ? ` (${fm.era})` : ''}`)

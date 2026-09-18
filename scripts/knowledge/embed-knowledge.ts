@@ -18,9 +18,9 @@
  * built-in embedding model (e.g. text-embedding-3-small) at console.upstash.com.
  *
  * Usage:
- *   pnpm embed              # incremental upsert + sync (default)
- *   pnpm embed --reset      # wipe the index and re-embed from scratch
- *   pnpm embed --no-sync    # upsert only; skip stale-ID cleanup
+ *   npm run embed              # incremental upsert + sync (default)
+ *   npm run embed --reset      # wipe the index and re-embed from scratch
+ *   npm run embed --no-sync    # upsert only; skip stale-ID cleanup
  *
  * Required env: UPSTASH_VECTOR_REST_URL + UPSTASH_VECTOR_REST_TOKEN
  * (loaded from .env.local or .env at the repository root)
@@ -34,6 +34,7 @@ import matter from 'gray-matter'
 import { Index } from '@upstash/vector'
 import { parseYamlFile, COLLECTIVE_BUCKETS, EMBEDDABLE_STATUSES, type JsonlRecord } from '../normalize-quotes/shared.js'
 import { resolveDomainForTradition } from './tradition-domain.js'
+import { NON_CORPUS_DIRS, assertKnownLayout } from './corpus-layout.js'
 
 // ─── Path setup + .env loading ────────────────────────────────────────────────
 
@@ -233,7 +234,10 @@ const SKIP_FILES = new Set(['index.md', 'log.md', 'README.md', 'LESSONS.md'])
 //               similarity; its README states it is never embedded.
 //   incoming/ — the staging area. Content here is unreviewed by definition,
 //               so indexing it would let drafts be retrieved and cited as corpus.
-const SKIP_DIRS = new Set(['quotes', 'iching', 'incoming', 'scripts', 'data', '.github'])
+// Derived from the shared layout: quotes and iching have shapes a markdown walk
+// cannot read (quotes are handled by walkQuotes below), and nothing outside the
+// corpus belongs in the index at all.
+const SKIP_DIRS = new Set<string>(['quotes', 'iching', ...NON_CORPUS_DIRS])
 
 // Never descended into at any depth. When the corpus lived at `<monorepo>/knowledge`
 // the walk could not reach a node_modules; here the corpus IS the repository root,
@@ -526,13 +530,21 @@ async function listExisting(index: Index): Promise<Map<string, string | undefine
 }
 
 async function main() {
+  // Before anything else, and on every path through this script — dry run or
+  // not. It was briefly inside the `if (dryRun)` branch, which is exactly
+  // backwards: the run that needed guarding was the one that writes.
+  assertKnownLayout(
+    readdirSync(KNOWLEDGE_DIR).filter(e => statSync(join(KNOWLEDGE_DIR, e)).isDirectory()),
+  )
+
   const args = new Set(process.argv.slice(2))
   const shouldReset = args.has('--reset')
   const shouldSync = !args.has('--no-sync')
   const dryRun = args.has('--dry-run')
 
   if (dryRun) {
-    const files = walkMd(KNOWLEDGE_DIR)
+    // Directories only: the root also holds README.md, LICENSE, package.json …
+  const files = walkMd(KNOWLEDGE_DIR)
     const quoteFiles = walkQuotes()
     const chunks = [
       ...files.flatMap(f => buildChunks(f)),

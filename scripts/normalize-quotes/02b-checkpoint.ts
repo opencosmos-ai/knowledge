@@ -20,10 +20,10 @@
  *   tsx 02b-checkpoint.ts status
  *
  * Typical tranche:
- *   pnpm quotes:checkpoint remaining --write-batches --limit 300
+ *   npm run quotes:checkpoint remaining --write-batches --limit 300
  *   …fan out one subagent per batch file, each writing its .output.json…
- *   pnpm quotes:checkpoint append --all
- *   pnpm quotes:merge && pnpm quotes:promote && pnpm quotes:lint
+ *   npm run quotes:checkpoint append --all
+ *   npm run quotes:merge && npm run quotes:promote && npm run quotes:lint
  */
 
 import { appendFileSync, existsSync, mkdirSync, readdirSync, readFileSync, writeFileSync } from 'node:fs'
@@ -142,7 +142,7 @@ function cmdRemaining(): void {
   console.log()
   console.log(`Wrote ${batches.length} input file(s) to ${VALIDATION_BATCHES_DIR}`)
   console.log(`Each subagent reads <stem>.input.json and writes <stem>.output.json.`)
-  console.log(`Then: pnpm quotes:checkpoint append --all`)
+  console.log(`Then: npm run quotes:checkpoint append --all`)
 }
 
 // ─── append ─────────────────────────────────────────────────────────────────
@@ -247,7 +247,7 @@ function cmdAppend(): void {
   if (failed > 0) {
     console.log(`Rejected batches stay queued — re-run those agents and append again.`)
   }
-  console.log(`Next: pnpm quotes:merge --dry`)
+  console.log(`Next: npm run quotes:merge --dry`)
   if (failed > 0) process.exitCode = 1
 }
 
@@ -276,7 +276,7 @@ function cmdStatus(): void {
 
   if (unmerged > 0) {
     console.log()
-    console.log(`⚠ ${unmerged} verdict(s) checkpointed but not merged — run pnpm quotes:merge`)
+    console.log(`⚠ ${unmerged} verdict(s) checkpointed but not merged — run npm run quotes:merge`)
   }
 
   if (results.length > 0) {

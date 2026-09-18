@@ -19,7 +19,14 @@ if (existsSync(envPath)) {
 
 // ─── Constants ──────────────────────────────────────────────────────────────
 
-export const ROLES = ['source', 'commentary', 'reference', 'guide', 'collection'] as const
+/**
+ * A role is the singular of the directory its documents live in, because
+ * publish-knowledge.ts routes by appending an 's'. Deriving it here means the
+ * two cannot drift: `commentary` was a role for months with no directory, and
+ * would have routed a publish into `commentarys/` had anyone ever used it.
+ */
+export const ROLES = CORPUS_DIRS.map(d => d.replace(/s$/, '')) as unknown as
+  readonly ['source', 'reference', 'guide', 'collection']
 export const WORK_TYPES = ['work', 'collection', 'reference', 'wiki'] as const
 export const FORMATS = [
   'treatise', 'poetry', 'aphorisms', 'scripture', 'dialogue', 'essay',
@@ -100,7 +107,9 @@ export type CorpusEntry = {
   frontmatter: Partial<Frontmatter>
 }
 
-const CORPUS_SUBDIRS = ['sources', 'commentary', 'references', 'scriptures', 'guides', 'collections']
+import { CORPUS_DIRS } from './corpus-layout.js'
+
+const CORPUS_SUBDIRS = CORPUS_DIRS
 
 /**
  * Parse YAML frontmatter from a markdown string without external dependencies.

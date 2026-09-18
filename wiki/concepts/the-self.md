@@ -6,7 +6,7 @@ confidence: medium
 status: active
 synthesizes:
   - sources/buddhism-the-dhammapada.md
-  - scriptures/buddhism-heart-sutra.md
+  - sources/buddhism-heart-sutra.md
   - sources/philosophy-phaedo.md
   - sources/philosophy-the-republic.md
   - sources/literature-leaves-of-grass.md

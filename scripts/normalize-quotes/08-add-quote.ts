@@ -10,7 +10,7 @@
  *
  * New quotes always land in the pending pool with whatever provenance they
  * arrive with. If that provenance already clears the promotion bar (a verified
- * status at ≥0.80, or a human-reviewed one), the next `pnpm quotes:promote`
+ * status at ≥0.80, or a human-reviewed one), the next `npm run quotes:promote`
  * moves it into knowledge/quotes/. Promotion stays single-pathed through 07.
  *
  * Usage:
@@ -263,9 +263,9 @@ function main() {
   const unvalidated = records.filter((r) => r.provenance?.confidence == null).length
   if (unvalidated > 0) {
     console.log(`\n${unvalidated} awaiting provenance — they'll appear in the next`)
-    console.log(`  pnpm quotes:checkpoint remaining --write-batches`)
+    console.log(`  npm run quotes:checkpoint remaining --write-batches`)
   }
-  console.log(`Then: pnpm quotes:promote && pnpm quotes:lint && pnpm embed`)
+  console.log(`Then: npm run quotes:promote && npm run quotes:lint && npm run embed`)
 }
 
 try {

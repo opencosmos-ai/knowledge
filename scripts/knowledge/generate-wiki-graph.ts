@@ -9,7 +9,7 @@
  *   knowledge:graph         — full graph, gzip-compressed, Base64-encoded
  *   knowledge:graph:preview — top 40 nodes by connectionCount, < 5KB
  *
- * Usage: pnpm graph
+ * Usage: npm run graph
  *
  * Designed to run server-side only (CI/CD + local dev).
  * graphology-layout-forceatlas2 is NOT shipped to the browser.

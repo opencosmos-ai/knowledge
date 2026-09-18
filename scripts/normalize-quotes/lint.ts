@@ -134,7 +134,7 @@ function lintPendingPool(): { ids: Set<string>; total: number } {
       const c = r.provenance.confidence
       err(
         `pending.jsonl#${r.id}: meets promotion bar (${status}, confidence ${c ?? 'n/a'}` +
-          `${r.provenance.reviewed_by_human ? ', human-reviewed' : ''}) — run pnpm quotes:promote`,
+          `${r.provenance.reviewed_by_human ? ', human-reviewed' : ''}) — run npm run quotes:promote`,
       )
     }
   }

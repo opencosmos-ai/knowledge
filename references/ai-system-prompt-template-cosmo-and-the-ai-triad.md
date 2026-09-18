@@ -1,6 +1,6 @@
 ---
 title: 'System Prompt Template: Cosmo and the AI Triad'
-role: specification
+role: reference
 format: specification
 domain: ai
 tags:
