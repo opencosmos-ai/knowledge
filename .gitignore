@@ -2,3 +2,12 @@ node_modules/
 .env
 .env.local
 *.log
+.DS_Store
+
+# Staging for raw text before /groom's copyright gate. Nothing here is
+# cleared to be published, so nothing here is committed.
+incoming/
+
+# Validation batch inputs are regenerable from the pending pool; only the
+# agent outputs (the audit trail) are worth versioning.
+quotes/_source/validation-batches/*.input.json

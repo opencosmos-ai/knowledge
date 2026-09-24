@@ -1,0 +1,33 @@
+name: Checks
+
+# Runs on every pull request, before anything is merged and embedded. The
+# sync workflow runs only after merge, so without this a malformed quote or a
+# broken link reached Upstash before anyone saw it.
+
+on:
+  pull_request:
+  push:
+    branches: [main]
+
+jobs:
+  checks:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 24
+
+      - run: npm ci
+
+      - name: Quote pools lint
+        run: npm run quotes:lint
+
+      # The health report always exits 0, so assert on what it says. Checking
+      # the line is there proves the check ran. A script that finds nothing
+      # also exits 0.
+      - name: Corpus links resolve
+        run: |
+          npm run -s health | tee health.txt
+          grep -q "All inline links resolve correctly" health.txt
