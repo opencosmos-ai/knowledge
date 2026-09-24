@@ -399,10 +399,10 @@ The recommended workflow uses the **publication CLI**, which handles frontmatter
 
 ```bash
 # 1. Drop your text into the staging area
-pbpaste > knowledge/incoming/my-document.md
+pbpaste > incoming/my-document.md
 
 # 2. Run the CLI (Claude generates all metadata)
-pnpm knowledge:publish knowledge/incoming/my-document.md --role source --domain buddhism
+npm run publish-doc -- incoming/my-document.md --role source --domain buddhism
 
 # 3. Review the generated frontmatter, accept or edit, done.
 ```
@@ -410,14 +410,14 @@ pnpm knowledge:publish knowledge/incoming/my-document.md --role source --domain 
 The CLI will:
 - Generate enriched frontmatter via Claude API (title, role, format, domain, tags, audience, complexity, summary, author, era, tradition)
 - Suggest cross-references based on tag/domain overlap with existing corpus
-- Write to the correct location (`knowledge/{role}s/{domain}-{slug}.md`)
+- Write to the correct location (`{role}s/{domain}-{slug}.md`)
 - Append to `CURATION_LOG.md` with gaps served and graph impact
 - Auto-link foundation collection placeholders
 - Create a safe git branch, commit, and push
 
 Use `--accept` to skip interactive review. Use `--pr` to auto-create a GitHub PR. Use `--dry-run` to preview without writing. See [guides/opencosmos-knowledge-publish-workflow.md](guides/opencosmos-knowledge-publish-workflow) for the full workflow.
 
-**To check corpus health:** `pnpm knowledge:health` shows domain coverage, role gaps, foundation progress, cross-reference integrity, islands, and import priorities.
+**To check corpus health:** `npm run health` shows domain coverage, role gaps, foundation progress, cross-reference integrity, islands, and import priorities.
 
 ### Manual Process
 
@@ -483,8 +483,6 @@ This corpus is consumed by [Cosmo AI](https://github.com/opencosmos-ai/opencosmo
 **Current RAG infrastructure:** A GitHub Action fires on every push to this repository. It regenerates the constellation graph into Upstash Redis, embeds the corpus into **Upstash Vector** (BGE_M3, 1024 dimensions), and pings the site to revalidate. Nothing is uploaded by hand, and the application never reads this corpus at runtime — it queries the index.
 
 *A local mirror on the Sovereign Node (Open WebUI, manual uploads) was the Phase 1 arrangement. It was retired on 2026-09-16; the cloud path had long since replaced it in practice, and the documentation had not caught up.*
-
-**Future RAG infrastructure (Phase 3+):** Custom RAG pipeline in `packages/ai/src/rag/` with per-format chunking strategies, metadata-filtered retrieval, and hybrid search. Cloud RAG API endpoint for global access. The migration from Open WebUI's built-in RAG will be informed by retrieval patterns validated during Phase 1.
 
 **Sovereignty note:** [Sovereignty Tiers](https://github.com/opencosmos-ai/opencosmos/tree/main/docs) govern **compute** — where LLMs process prompts. Published knowledge is explicitly intended to be shared globally. This is not a contradiction: the knowledge base is public by design; user inference stays sovereign by default.
 
