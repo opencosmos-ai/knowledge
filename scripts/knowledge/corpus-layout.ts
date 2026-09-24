@@ -24,7 +24,7 @@ export const SHAPED_DIRS = ['wiki', 'quotes'] as const
 
 /** Present in the repository, never corpus. */
 export const NON_CORPUS_DIRS = [
-  'scripts', 'data', 'incoming', 'node_modules', '.git', '.github',
+  'scripts', 'data', 'incoming', 'node_modules', '.git', '.github', '.claude',
 ] as const
 
 /** Directories that hold *works* a quote can cite. */
@@ -44,7 +44,9 @@ const KNOWN = new Set<string>([...CORPUS_DIRS, ...SHAPED_DIRS, ...NON_CORPUS_DIR
  * own, so the check has to be explicit.
  */
 export function unknownTopLevelDirs(entries: string[]): string[] {
-  return entries.filter(e => !e.startsWith('.') && !KNOWN.has(e)).sort()
+  // Dot-directories are not exempt. `.claude/` was, and its skills were
+  // embedded as corpus for exactly that reason.
+  return entries.filter(e => !KNOWN.has(e)).sort()
 }
 
 /** Throw if the repository has grown a directory the layout does not know. */

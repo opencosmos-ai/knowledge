@@ -8,13 +8,14 @@ tags: [skills, claude-code, tooling, workflow, knowledge-base, ui, wiki]
 audience: [creator, engineer]
 complexity: foundational
 summary: >-
-  Complete reference for the eleven Claude Code skills in the OpenCosmos
-  applications repository. Covers the git workflow skills (/pr, /clean,
-  /git-sync), the building skills (/create, /inference-cost), and the six that
+  Complete reference for the OpenCosmos Claude Code skills. The six that
   operate on the knowledge corpus (/groom, /new-quote, /knowledge-compile,
-  /knowledge-review, /knowledge-lookup, /standardize-knowledge).
+  /knowledge-review, /knowledge-lookup, /standardize-knowledge) live in the
+  knowledge repository; the git workflow skills (/pr, /clean, /git-sync) and
+  the building skills (/create, /inference-cost) live in the applications
+  repository.
 curated_at: 2026-04-10
-updated_at: 2026-09-18
+updated_at: 2026-09-24
 curator: shalom
 source: original
 related_docs:
@@ -29,14 +30,12 @@ Skills are invocable AI workflows defined in `.claude/skills/`. Each is a direct
 
 That directory path is not a filing preference — it is where Claude Code *discovers* skills. A skill moved elsewhere stops being invocable.
 
-> **Two repositories.** All eleven skills live in
-> [opencosmos-ai/opencosmos](https://github.com/opencosmos-ai/opencosmos), which
-> is where you invoke them. Six of them *operate on* the corpus, which lives in
-> [opencosmos-ai/knowledge](https://github.com/opencosmos-ai/knowledge) — the
-> repository you are reading this in. Those six expect a sibling checkout at
-> `../knowledge` and run its scripts with `npm`, not `pnpm`. The corpus left the
-> monorepo in September 2026; anything below describing a single repository is
-> describing the past.
+> **Two repositories.** Each skill lives in the repository it works on, so a
+> contributor who clones one gets the skills for it. The six corpus skills are
+> in [opencosmos-ai/knowledge](https://github.com/opencosmos-ai/knowledge), the
+> repository you are reading this in, and run its scripts with `npm`. The git
+> and building skills are in
+> [opencosmos-ai/opencosmos](https://github.com/opencosmos-ai/opencosmos).
 
 ## Skill Index
 
@@ -175,7 +174,7 @@ The single entry point for OpenCosmos's inference-cost knobs: which Claude model
 
 ## /groom
 
-**Category:** Corpus — **Skill file:** `.claude/skills/groom/SKILL.md` — **runs against:** `../knowledge`
+**Category:** Corpus — **Skill file:** `.claude/skills/groom/SKILL.md`
 
 Prepares raw text in `incoming/` for publication. Adds markdown structure (headers, spacing, speaker formatting) while preserving every word of the original text. Also previews which wiki pages the new document will affect after publishing.
 
@@ -369,7 +368,7 @@ Before asking Cosmo a deep cross-tradition question — check what the wiki alre
 
 ## /new-quote
 
-**Category:** Corpus — **Skill file:** `.claude/skills/new-quote/SKILL.md` — **runs against:** `../knowledge`
+**Category:** Corpus — **Skill file:** `.claude/skills/new-quote/SKILL.md`
 
 Adds one or many quotes to the corpus. Parses free-form input, checks for duplicates, infers category and keywords, validates provenance against `VALIDATION_PROMPT.md`, and routes each record into the right pool — embeddable `quotes/*.yaml`, or the pending pool for records that have not cleared the bar.
 
@@ -387,7 +386,7 @@ The skill does the judgment a CLI cannot — parsing free-form text, deduping, i
 
 ## /standardize-knowledge
 
-**Category:** Corpus — **Skill file:** `.claude/skills/standardize-knowledge/SKILL.md` — **runs against:** `../knowledge`
+**Category:** Corpus — **Skill file:** `.claude/skills/standardize-knowledge/SKILL.md`
 
 Analyses and normalises heading structure across corpus documents to a consistent H2/H3/H4 hierarchy.
 
@@ -426,4 +425,4 @@ File: `.claude/skills/{name}/SKILL.md` — the directory name is the invocation 
 
 `description` is load-bearing: it is what an agent reads to decide whether a skill applies, so describe the *situation* it belongs to, not just the action. Set `disable-model-invocation: true` on anything that writes, publishes, deletes or costs money — those should be asked for, not inferred.
 
-There is a second index maintained alongside the skills themselves, at [`.claude/skills/README.md`](https://github.com/opencosmos-ai/opencosmos/blob/main/.claude/skills/README.md) in the applications repository, and a summary table in its [AGENTS.md](https://github.com/opencosmos-ai/opencosmos/blob/main/AGENTS.md#skills). When you add a skill, add it to both.
+Each repository indexes its own skills: the corpus skills in this repository's [AGENTS.md](../AGENTS.md#skills), the rest in the applications repository's [`.claude/skills/README.md`](https://github.com/opencosmos-ai/opencosmos/blob/main/.claude/skills/README.md). When you add a skill, add it to this guide and to the index of the repository it lives in.
