@@ -21,6 +21,23 @@ This is not a code repository. It is a **knowledge base** consumed by the Cosmo 
 
 ---
 
+## Skills
+
+Six procedures for working on the corpus live in [`.claude/skills/`](.claude/skills/), invoked in Claude Code by typing `/<name>`. Check here before writing a procedure from scratch.
+
+| Skill | What it does |
+|---|---|
+| [`/groom`](.claude/skills/groom/SKILL.md) | Prepare raw markdown in `incoming/` for publication — formatting only, never rewriting, behind a copyright gate |
+| [`/new-quote`](.claude/skills/new-quote/SKILL.md) | Add quotes: parse free-form input, dedupe, infer category, validate provenance, route to the right pool |
+| [`/knowledge-compile`](.claude/skills/knowledge-compile/SKILL.md) | Compile durable cross-tradition insight into the wiki, and log it |
+| [`/knowledge-lookup`](.claude/skills/knowledge-lookup/SKILL.md) | Search the wiki for existing synthesis before starting domain work |
+| [`/knowledge-review`](.claude/skills/knowledge-review/SKILL.md) | Health-check the wiki — orphans, broken cross-refs, asymmetric links, staleness |
+| [`/standardize-knowledge`](.claude/skills/standardize-knowledge/SKILL.md) | Normalise heading structure to H2/H3/H4 so RAG chunking stays reliable |
+
+Full reference: [guides/opencosmos-skills-reference.md](guides/opencosmos-skills-reference.md).
+
+---
+
 ## Corpus Structure
 
 Five top-level directories, organized by the document's **relationship to knowledge**:

@@ -19,6 +19,7 @@ import { resolve, relative, dirname } from 'node:path'
 import matter from 'gray-matter'
 import './knowledge/shared.js' // loads .env
 import { DOMAINS, ROLES, KNOWLEDGE_DIR, scanCorpus, type CorpusEntry } from './knowledge/shared.js'
+import { NON_CORPUS_DIRS } from './knowledge/corpus-layout.js'
 
 // ─── Main ───────────────────────────────────────────────────────────────────
 
@@ -309,7 +310,7 @@ function resolveInternalLink(sourceFile: string, href: string): string | null {
 }
 
 function printBrokenBodyLinks() {
-  const files = findMarkdownFiles(KNOWLEDGE_DIR, ['incoming', 'node_modules'])
+  const files = findMarkdownFiles(KNOWLEDGE_DIR, [...NON_CORPUS_DIRS])
   const broken: { file: string; line: number; href: string }[] = []
   const LINK_RE = /\[([^\]]*)\]\(([^)]+)\)/g
 
