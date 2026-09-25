@@ -46,7 +46,7 @@ The long-form reasoning, including which sources are excluded and why, lives in 
 
 ## How to contribute
 
-**Small corrections** — open a pull request directly. One file, one issue, a sentence saying what you checked.
+**Small corrections** — open a pull request directly. One file, one issue, a sentence saying what you checked. The quickest way: every page on [opencosmos.ai/library](https://opencosmos.ai/library) ends with **Suggest an edit**, which opens that page's file here in GitHub's editor, no clone needed. Some corrections are already identified and waiting: see [good first issue](https://github.com/opencosmos-ai/knowledge/labels/good%20first%20issue).
 
 **Anything larger** — open an issue first. New source texts, structural changes, and anything touching the admission rules are worth discussing before the work is done.
 

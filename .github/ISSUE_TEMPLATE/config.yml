@@ -1,0 +1,11 @@
+blank_issues_enabled: true
+contact_links:
+  - name: How to contribute
+    url: https://github.com/opencosmos-ai/knowledge/blob/main/CONTRIBUTING.md
+    about: The admission rules, what a good contribution looks like, and what doesn't belong.
+  - name: Something Cosmo said
+    url: https://github.com/opencosmos-ai/cosmo/issues/new/choose
+    about: Cosmo reads this corpus, but its voice lives in the cosmo repository.
+  - name: Something broken on opencosmos.ai
+    url: https://github.com/opencosmos-ai/opencosmos/issues/new/choose
+    about: Pages, links, sign-in — the site's code lives there.
