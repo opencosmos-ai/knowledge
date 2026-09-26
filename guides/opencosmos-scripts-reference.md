@@ -107,7 +107,7 @@ opencosmos/                         # the applications
     ├── test-cosmo-voice.ts         # pnpm tsx scripts/test-cosmo-voice.ts
     ├── check-byok-flags.ts         # pnpm tsx scripts/check-byok-flags.ts
     ├── adr-index.ts                # pnpm adr:index
-    └── xenso/iching-check.ts       # pnpm xenso:check-iching
+    └── iching-check.ts             # pnpm xenso:check-iching
 ```
 
 `shared.ts`, `frontmatter.ts` and `git.ts` are library modules used internally by the scripts above; they are not directly runnable. Cosmo's constitutional documents live in a third repository, [opencosmos-ai/cosmo](https://github.com/opencosmos-ai/cosmo), which embeds its own kaizen practice.
