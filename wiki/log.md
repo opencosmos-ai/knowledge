@@ -64,3 +64,8 @@
 2026-09-14  UPDATED   wiki/entities/bhagavad-gita.md  (no longer the corpus's sole Vedic voice; added the internal contradiction and the link to patanjali.md)
 2026-09-14  UPDATED   wiki/index.md  (added Patanjali; refreshed the-self and nonviolence summaries)
 2026-09-14  UPDATED   wiki/entities/patanjali.md  (dating resolved: c. 400 CE, not BCE; the BCE figure came from the 10th-c. Bhoja conflation with Patanjali the grammarian)
+2026-10-15  UPDATED   wiki/entities/lao-tzu.md  (re-quoted from the Open Tao Te Ching, chs. 1-2; the Feng-English quotations were in copyright and are gone from the corpus; renderings follow the translation's locks: sky and earth, the countless things, non-doing, uncarved wood, 德 integrity)
+2026-10-15  UPDATED   wiki/concepts/impermanence.md  (Taoist flux re-quoted from the Open Tao Te Ching, chs. 23, 16, 2; Feng's ch. 2 "rise and fall without cease" has no counterpart in the translation, so the claim now rests on the passages that make it)
+2026-10-15  UPDATED   wiki/concepts/the-good.md  (re-quoted from the Open Tao Te Ching, ch. 1; 德 glossed as integrity, not virtue/power)
+2026-10-15  UPDATED   wiki/concepts/logos-and-tao.md  (re-quoted from the Open Tao Te Ching, ch. 1; sky and earth, the countless things)
+2026-10-15  UPDATED   wiki/connections/cosmology-comparison.md  (ch. 42 re-quoted from the Open Tao Te Ching; the old quotation was unattributed and matched no translation in the corpus)

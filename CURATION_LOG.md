@@ -651,3 +651,15 @@ A living record of what was added to the knowledge corpus, when, and why it matt
 
 ---
 
+
+## 2026-10-15
+
+### Tao Te Ching (replaced)
+- **Role:** source | **Domain:** taoism | **Format:** scripture
+- **Path:** `knowledge/sources/taoism-tao-te-ching.md`
+- **Curator:** shalom | **Translator:** Shalom Ormsby | **License:** CC0-1.0
+- **Source:** [opencosmos-ai/taoteching](https://github.com/opencosmos-ai/taoteching), chapter files at `299051c`
+- **What changed:** Gia-Fu Feng and Jane English's 1972 translation, which is in copyright and was labelled `public-domain`, is replaced by the Open Tao Te Ching. This is an interim copy of the English verse only, under the old `## One` … `## Eighty-One` headings, so every link, quote edge and stored citation still resolves. It will be replaced by a document generated from the translation's export, carrying each chapter's Chinese and the translator's notes ([opencosmos ADR 0020](https://github.com/opencosmos-ai/opencosmos/blob/main/docs/decisions/0020-the-tao-te-ching-is-read-in-the-library-a-chapter-to-a-page.md)). The five wiki pages that quoted Feng–English, or an unattributed rendering, are re-quoted from the new translation (see `wiki/log.md`).
+- **Gaps served:** A Tao Te Ching the corpus has the right to publish, translated without the theistic and moralistic overlays (天 sky, not "Heaven"; 德 integrity, not "virtue").
+
+---

@@ -20,7 +20,7 @@ tags: [the-good, agathon, plato, virtue, forms, taoism, te, ethics, metaphysics,
 
 ## Summary
 
-The Form of the Good (*agathon*) is the highest concept in Platonic metaphysics — the source from which all other Forms derive their being and intelligibility, as the sun provides light and life to the visible world. Plato introduces it in *Republic* Book VI–VII, approaches it indirectly (as Beauty) in *Symposium*, and tests its practical expression in *Gorgias* (justice over power) and *Meno* (virtue as knowledge of the Good). The Good is not merely a moral category — it is an ontological one: the most real thing there is, the condition for the existence of everything else. The closest parallel in the corpus is the Taoist concept of *te* — virtue as the natural power of a thing fully expressing its inherent nature.
+The Form of the Good (*agathon*) is the highest concept in Platonic metaphysics — the source from which all other Forms derive their being and intelligibility, as the sun provides light and life to the visible world. Plato introduces it in *Republic* Book VI–VII, approaches it indirectly (as Beauty) in *Symposium*, and tests its practical expression in *Gorgias* (justice over power) and *Meno* (virtue as knowledge of the Good). The Good is not merely a moral category — it is an ontological one: the most real thing there is, the condition for the existence of everything else. The closest parallel in the corpus is the Taoist concept of *te* (德, integrity) — the integrity of a thing fully expressing its inherent nature.
 
 ## Key Claims
 
@@ -34,13 +34,13 @@ The Form of the Good (*agathon*) is the highest concept in Platonic metaphysics 
 ## Connections
 
 - [[entities/plato.md]] — The Form of the Good is the summit of Platonic metaphysics
-- [[entities/lao-tzu.md]] — *Te* (virtue/power) in Taoism: a thing's natural expression of the Tao parallels the Good as the source of each Form's particular excellence. But the Tao is impersonal and unnameable; Plato's Good has rational structure.
+- [[entities/lao-tzu.md]] — *Te* (德, integrity) in Taoism: a thing's natural expression of the Tao parallels the Good as the source of each Form's particular excellence. But the Tao is impersonal and unnameable; Plato's Good has rational structure.
 - [[concepts/the-self.md]] — The soul's orientation toward the Good determines its moral character; for Plato, the self is constituted by its relationship to the Good
 - [[concepts/logos-and-tao.md]] — The Good as cosmic ordering principle has structural parallels to Logos and Tao
 
 ## Contradictions
 
-- Plato explicitly says the Good cannot be defined in words (*Republic*) — yet the entire *Republic* is an attempt to approach it through dialectic. This mirrors the Taoist "The Tao that can be told is not the eternal Tao." Both traditions acknowledge the limit of language but proceed anyway.
+- Plato explicitly says the Good cannot be defined in words (*Republic*) — yet the entire *Republic* is an attempt to approach it through dialectic. This mirrors the Taoist "The Tao that can be made into a way is not the ever-present Tao" (*Tao Te Ching*, Chapter 1). Both traditions acknowledge the limit of language but proceed anyway.
 - Buddhism has no equivalent to a highest Form or cosmic Good — the emphasis is on the cessation of suffering and the recognition of emptiness, not on an ultimate positive reality. The contrast is instructive: Greek philosophy sought the highest being; Buddhist philosophy sought the end of clinging to any being.
 
 ## Open Questions
