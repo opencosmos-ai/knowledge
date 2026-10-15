@@ -9,7 +9,7 @@ tags:
   - non-action
   - emptiness
   - naturalness
-  - virtue
+  - integrity
   - harmony
 audience:
   - philosopher
@@ -17,14 +17,18 @@ audience:
   - general
 complexity: foundational
 summary: >-
-  The foundational text of Taoism, presenting Lao Tzu's teachings on the Tao
-  (the Way) through poetic verses that explore themes of non-action, natural
-  harmony, and spiritual virtue. This translation by Gia-Fu Feng and Jane
-  English makes the ancient wisdom accessible through clear, contemplative
-  language.
+  The foundational text of Taoism, in the Open Tao Te Ching: a new English
+  translation made directly from the classical Chinese by Shalom Ormsby and
+  dedicated to the public domain (CC0). Eighty-one short chapters on the Tao,
+  non-doing, emptiness, softness, and the sage who leads by not
+  taking control, rendered without the theistic and moralistic overlays of
+  earlier translations.
 curated_at: '2026-03-23'
 curator: shalom
-source: public-domain
+source: https://github.com/opencosmos-ai/taoteching
+license: CC0-1.0
+translator: Shalom Ormsby
+updated_at: '2026-10-15'
 corpus_tier: source
 author: Lao Tzu
 origin_date: ~6th century BCE
@@ -37,1300 +41,1296 @@ related_docs:
   - sources/philosophy-symposium.md
   - sources/philosophy-apology.md
 ---
-*By Lao Tsu*
+*The Open Tao Te Ching, translated from the classical Chinese by Shalom Ormsby. Public domain (CC0).*
 
-*A New Translation by Gia-Fu Feng and Jane English*
+## Curator's Note
 
-## Lao Tsu and Taoism
-Lao Tsu, an older contemporary of Confucius, was keeper of the imperial archives at Loyang in the province of Honan in the sixth century B.C. All his life he taught that "The Tao that can be told is not the eternal Tao"; but, according to ancient legend, as he was riding off into the desert to die - sick at heart at the ways of men - he was persuaded by a gatekeeper in northwestern China to write down his teaching for posterity.
-The essence of Taoism is contained in the eighty-one chapters of the book - roughly 5000 words - which have for 2500 years provided one of the major underlying influences in Chinese thought and culture, emerging also in proverbs and folklore. Whereas Confucianism is concerned with day-to-day rules of conduct, Taoism is concern with a more spiritual level of being.
+This is the Open Tao Te Ching, a new English translation made directly from the classical Chinese and dedicated to the public domain (CC0). It replaces Gia-Fu Feng and Jane English's 1972 translation, which is in copyright and was in this corpus by mistake.
+
+The translation lives in [opencosmos-ai/taoteching](https://github.com/opencosmos-ai/taoteching), where every rendering decision is argued in the open, and its glossary is in the [Open Classical Chinese Character Atlas](https://chinese-atlas.opencosmos.ai/glossary/). Some of its settled renderings differ from the familiar ones: 天 (*tiān*) is *sky*, not "Heaven"; 萬物 (*wàn wù*) is *the countless things*, not "the ten thousand things"; 常 (*cháng*) is *ever-present*; and the sage is never "he."
+
+This copy holds the English verse only, taken from the translation's chapter files on 2026-10-15 (taoteching `299051c`). It is interim and may lag the translation. It will be replaced by a generated document that also carries each chapter's Chinese and the translator's notes; see ADR 0020 in [opencosmos-ai/opencosmos](https://github.com/opencosmos-ai/opencosmos/tree/main/docs/decisions). The chapter headings are spelled as words so that existing links keep working.
 
 ## One
-The Tao that cab be told is not the eternal Tao.
-The name that can be named is not the eternal name.
-The nameless is the beginning of heaven and earth.
-The named is the mother of ten thousand things.
-Ever desireless, one can see the mystery.
-Ever desiring, one can see the manifestatiuons.
-These two spring from the same source but differ in name;
-this appears as darkness.
-The gate to all mystery.
+
+The Tao that can be made into a way is not the ever-present Tao.
+The name that can be named is not the ever-present name.
+The nameless is the beginning of sky and earth.
+The named is the mother of the countless things.
+
+Ever desireless, observe its subtlety;
+Ever desiring, observe its boundaries.
+
+These two have the same origin, but differ in name.
+Together, they are called profound darkness.
+
+Dark, and dark again, the gate of all subtleties.
 
 ## Two
-Under heaven all can see beauty as beauty only because there is uglines.
-All can know good as good only because there is evil.
 
-Therefore having and not having arise together.
-Difficult and easy complement each other.
-Long and short contrast each other;
-High and low rest upon each other;
-Voice and sound harmonize each other;
-Front and back follow one another.
+When the world knows beauty as beauty, ugliness arises.
+When the world knows good as good, the bad arises.
 
-Therefore the sage goes about doing nothing, teaching no-talking.
-The ten thousand things rise and fall without cease,
-Creating, yet not possessing,
-Working, yet not taking credit.
-Work is done, then forgotten.
-Therefore it lasts forever.
+Therefore presence and absence give birth to each other,
+Difficult and easy complete each other,
+Long and short measure each other,
+High and low depend on each other,
+Sound and tone harmonize each other,
+Front and back follow each other.
+
+Therefore the sage dwells in the work of non-doing
+and carries out the teaching without words.
+
+The countless things arise, and the sage does not begin them.
+They are born, and the sage does not possess them.
+The sage acts, yet relies on nothing.
+The work is done, and the sage does not stay in it.
+
+Because the sage does not stay, it does not leave.
 
 ## Three
-Not exalting the gifted prevents quarelling.
-Not collecting treasures prevents stealing.
-Not seeing desirable things prevents confusion of the heart.
 
-The wise therefore rule by emptying hearts and stuffing bellies,
-by weakening ambitions and strengthening bones.
-If people lack knowledge and desire,
-then intellectuals will not try to interfere.
-If nothing is done, then all will be well.
+By not exalting the exceptional, the people have no cause to contend.
+By not prizing rare goods, the people do not become thieves.
+By not displaying the desirable, the people's hearts are not thrown into disorder.
+
+This is how the sage governs:
+emptying their hearts and filling their bellies,
+weakening their ambition and strengthening their bones,
+so the people are ever unknowing, ever desireless,
+and the knowers never push to act.
+Do the not-doing, and nothing is left ungoverned.
 
 ## Four
-The Tao is an empty vessel; it is used, but never filled.
-Oh, unfathomable source of ten thousand things!
-Blunt the sharpness,
-Untangle the knot,
-Soften the glare,
-Merge with dust.
-Oh, hidden deep but ever present!
-I do not know from whence it comes.
-It is the forefather of the emperors.
+
+The Tao is empty, and using it, it never fills.
+Fathomless, it seems to be the ancestor of the countless things.
+
+It blunts the sharpness, untangles the knots,
+dims its own light, is the same as the dust.
+
+Submerged, it seems to be here.
+I do not know whose child it is.
+It seems older than any god.
 
 ## Five
-Heaven and earth are ruthless;
-They see the ten thousand things as dummies.
-The wise are ruthless;
-They see the people as dummies.
 
-The space between heaven and earth is like a bellows.
-The shape changes but not the form;
-The more it moves, the more it yields.
-More words count less.
-Hold fast to the center.
+Sky and earth are not concerned with humaneness: they treat the countless things as straw dogs.
+The sage is not concerned with humaneness: they treat everyone as straw dogs.
+
+Isn't the space between sky and earth like a bellows?
+Empty but never depleted, the more it moves, the more it yields.
+
+Speaking of this is a dead end.
+Instead, hold to the center.
 
 ## Six
-The valley spirit never dies;
-It is the woman, primal mother.
-Her gateway is the root of heaven and earth.
-It is like a veil barely seen.
-Use it; it will never fail.
+
+The spirit of the valley is deathless.
+This is the dark female.
+This dark gateway birthed the sky and the earth.
+Unceasing yet barely perceptible, it can never be exhausted.
 
 ## Seven
-Heaven and earth last forever.
-Why do heaven and earth last forever?
-They are unborn,
-So ever living.
-The sage stays behind, thus he is ahead.
-He is detached, thus at one with all.
-Through selfless action, he attains fulfillment.
+
+The sky is lasting, the earth enduring.
+Sky and earth can last and endure
+because they do not live for themselves,
+and so they live long.
+
+So the sage puts their body last, and their body comes first;
+puts their body outside, and their body survives.
+
+Is it not because they have no private self?
+And so their private self is fulfilled.
 
 ## Eight
-The highest good is like water.
-Water gives life to the ten thousand things and does not strive.
-It flows in places men reject and so is like the Tao.
 
-In dwelling, be close to the land.
-In meditation, go deep in the heart.
-In dealing with others, be gentle and kind.
-In speech, be true.
-In ruling, be just.
-In business, be competent.
-In action, watch the timing.
+The most masterful are like water.
+Water is masterful at benefiting the countless things and does not contend.
+It dwells in what the crowd loathes,
+and so is nearly the Tao.
 
-No fight: No blame.
+In settling, masterful at choosing ground.
+In the heart, masterful at staying deep.
+In giving, masterful at humaneness.
+In speech, masterful at trust.
+In government, masterful at order.
+In affairs, masterful at what can be done.
+In moving, masterful at timing.
+
+Because it does not contend,
+there is no blame.
 
 ## Nine
-Better stop short than fill to the brim.
-Oversharpen the blade, and the edge will soon blunt.
-Amass a store of gold and jade, and no one can protect it.
-Claim wealth and titles, and disaster will follow.
-Retire when the work is done.
-This is the way of heaven.
+
+Rather than keep filling what you hold, stop.
+Hammer a point ever sharper, and it will not keep for long.
+
+Gold and jade fill the hall, and no one can guard them.
+Grow arrogant with wealth and status, and you leave yourself the fault.
+
+The work done, the body withdraws. This is the way of nature.
 
 ## Ten
-Carrying body and soul and embracing the one,
-Can you avoid separation?
-Attending fully and becoming supple,
-Can you be as a newborn babe?
-Washing and cleansing the primal vision,
-Can you be without stain?
-Loving all men and ruling the country,
-Can you be without cleverness?
-Opening and closing the gates of heaven,
-Can you play the role of woman?
-Understanding and being open to all things,
-Are you able to do nothing?
-Gving birth and nourishing,
-Bearing yet not possessing,
-Working yet not taking credit,
-Leading yet not dominating,
-This is the Primal Virtue.
+
+Housing your soul and embracing the one, can you keep these from parting?
+Gathering the breath to softness, can you be like an infant?
+
+Washing and clearing the dark mirror, can you be without blemish?
+Loving the people and governing the state, can you be unknowing?
+
+When the gate of the sky opens and closes, can you be the hen?
+Clarity reaching the four quarters, can you be non-doing?
+
+Giving birth to things and rearing them,
+giving birth without possessing,
+acting yet relying on nothing,
+growing them without ruling them –
+this is called profound integrity.
 
 ## Eleven
-Thirty spokes share the wheel's hub;
-It is the center hole that makes it useful.
-Shape clay into a vessel;
-It is the space within that mekes it useful.
-Cut doors and windows for a room;
-It is the holes which make it useful.
-Therefore profit comes from what is there;
-Usefulness from what is not there.
+
+Thirty spokes share one hub.
+In what is not there,
+the cart has its use.
+
+Knead clay to make a vessel.
+In what is not there,
+the vessel has its use.
+
+Cut a door and a window to make a room.
+In what is not there,
+the room has its use.
+
+So presence gives the advantage,
+and absence gives the use.
 
 ## Twelve
-The five colors blind the eye.
-The five tones deafen the ear.
-The five flavors dull the taste.
-Racing and hunting madden the mind.
-Precious things lead one astray.
 
-Therefore the sage is guided by what he feels and not by what he sees.
-He lets go of that and chooses this.
+The full spectrum of colors makes the eyes blind.
+The full spectrum of tones makes the ears deaf.
+The full spectrum of flavors makes the palate dull.
+
+Galloping in pursuit of prey makes the heart wild.
+Rare goods make actions corrupt.
+
+Therefore the sage acts for the belly, not for the eye.
+They let go of what is out there and take what is here.
 
 ## Thirteen
-Accept disgrace willingly.
-Accept misfortune as the human condition.
 
-What do you mean by "Accept disgrace willingly"?
-Accept being unimportant.
-Do not be concerned with loss or gain.
-This is called "accepthing disgrace willingly."
+Favor and disgrace are both a shock.
+Prize great trouble as your own body.
 
-What do you mean by "Accept misfortune as the human condition"?
-Misfortune comes from having a body.
-Without a body, how could there be misfortune?
+What does it mean that favor and disgrace are both a shock?
+To be favored is to be below.
+Getting it is a shock.
+Losing it is a shock.
+This is what is meant: favor and disgrace are both a shock.
 
-Surrender yourself humbly; then you can be trusted to care for all things.
-Love the world as your own self; then you can truly care for all things.
+What does it mean to prize great trouble as your own body?
+The reason I have great trouble is that I have a body.
+If I had no body, what trouble would I have?
+
+So one who prizes their body as a way to serve the world can be trusted with the world.
+One who loves their body as a way to serve the world can be trusted with it.
 
 ## Fourteen
-Look, it cannot be seen - it is beyond form.
-Listen, it cannot be heard - it is beyond sound.
-Grasp, it cannot be held - it is intangible.
-These three are indefinable;
-Therefore they are joined in one.
 
-From above it is not bright;
-From below it is not dark:
-An unbroken thread beyond description.
-It returns to nothingness.
-The form of the formless,
-The image of the imageless,
-It is called indefinable and beyond imagination.
+Look, but you cannot see it – its name is the invisible.
+Listen, but you cannot hear it – its name is the inaudible.
+Reach, but you cannot touch it – its name is the intangible.
+These three defy comprehension.
+Therefore, they mix into one.
 
-Stand before it and there is no beginning.
-Follow it and there is no end.
-Stay with the ancient Tao,
-Move with the present.
+It doesn’t have a bright top,
+Or a murky bottom.
+Continuously flowing, it cannot be named
+And returns to no-thing.
+This is the shape of no-shape, the image of no-thing.
+This is called the elusive.
 
-Knowing the ancient beginning is the essence of Tao.
+Meet it, and you cannot see its face,
+Follow it, and you cannot see its back.
+
+Grasp the ancient Tao, and steer what is present now.
+If you can know the ancient beginning,
+this is called the thread of the Tao.
 
 ## Fifteen
-The ancient masters were subtle, mysterious, profound, responsive.
-The depth of their knowledge is unfathomable.
-Because it is unfathomable,
-All we can do is describe their appearance.
-Watchful, like men crossing a winter stream.
-Alert, like men aware of danger.
-Courteous, like visiting guests.
-Yielding, like ice about to melt.
-Simple, like uncarved blocks of wood.
-Hollow, like caves.
-Opaque, like muddy pools.
 
-Who can wait quietly while the mud settles?
-Who can remain still until the moment of action?
-Observers of the Tao do not seek fulfillment.
-Not seeking fulfillment, they are not swayed by desire for change.
+The ancients who were masterful in service
+were faint, subtle, dark, and unobstructed,
+so deep they could not be read.
+Precisely because they could not be read,
+I force a likeness:
+
+Careful, like wading across a river in winter.
+Hesitant, like someone wary of the neighbors on all four sides.
+Dignified, like a guest.
+Loosening, like ice about to melt.
+Solid, like uncarved wood.
+Open, like a valley.
+Mixed, like muddy water.
+
+Who can be muddy, and by stilling it slowly come clear?
+Who can be at rest, and by moving it slowly come to life?
+
+Those who keep the Tao safe like this have no wish to be full.
+Precisely because they are never full,
+they can stay covered, and never newly made.
 
 ## Sixteen
-Empty yourself of everything.
-Let the mind rest at peace.
-The ten thousand things rise and fall while the Self watches their return.
-They grow and flourish and then return to the source.
-Returning to the source is stillness, which is the way of nature.
-The way of nature is unchanging.
-Knowing constancy is insight.
-Not knowing constancy leads to disaster.
-Knowing constancy, the mind is open.
-With an open mind, you will be openhearted.
-Being openhearted, you will act royally.
-Being royal, you will attain the divine.
-Being divine, you will be at one with the Tao.
-Being one with the Tao is eternal.
-And though the body dies, the Tao will never pass away.
+
+Go totally empty.
+Hold steadily to stillness.
+The countless things arise together,
+Relying upon this, I observe their return.
+
+Things come to their fullest,
+Each returns again to its root.
+Returning to the root is called stillness.
+This is called returning to what is given.
+Returning to what is given is called the ever-present.
+Knowing the ever-present is called clear-seeing.
+
+Not knowing the ever-present brings reckless action and disaster.
+
+Knowing the ever-present, you contain everything.
+Containing everything leads to impartiality.
+Impartiality leads to supreme authority.
+Supreme authority leads to the sky.
+The sky leads to the Tao.
+The Tao leads to what endures.
+And to the end of your days, no danger will find you.
 
 ## Seventeen
-The very highest is barely known by men.
-Then comes that which they know and love,
-Then that which is feared,
-Then that which is despised.
 
-He who does not trust enough will not be trusted.
+About the greatest leaders, those under them know only that they exist.
+Good leaders are widely loved and praised.
+Poor leaders are feared.
+The worst leaders are despised by all.
 
-When actions are performed
-Without unnecessary speech,
-People say, "We did it!"
+Where trust runs short, there is no trust.
+
+The greatest leaders speak sparingly.
+When their work is done,
+Everyone says, “We did this by ourselves.”
 
 ## Eighteen
-When the great Tao is forgotten,
-Kindness and morality arise.
-When wisdom and intelligence are born,
-The great pretense begins.
 
-When there is no peace within the family,
-Filial piety and devotion arise.
-When the country is confused and in chaos,
-Loyal ministers appear.
+When the great Tao is discarded, humaneness and duty appear.
+When cleverness and erudition arise, great hypocrisy appears.
+When kin are out of harmony, devotion and tenderness appear.
+When states grow clouded and fall into disorder, loyal ministers appear.
 
 ## Nineteen
-Give up sainthood, renounce wisdom,
-And it will be a hundred times better for everyone.
 
-Give up kindness, renounce morality,
-And men will rediscover filial piety and love.
+Cut off sagehood, abandon cleverness, and the people benefit a hundredfold.
+Cut off humaneness, abandon duty, and the people return to devotion and tenderness.
+Cut off cunning, abandon profit, and there are no thieves.
 
-Give up ingenuity, renounce profit,
-And bandits and thieves will disappear.
-
-These three are outward forms alone; they are not sufficient in themselves.
-It is more important
-To see the simplicity,
-To realize one's true nature,
-To cast off selfishness
-And temper desire.
+These three, taken as cultural form, are not enough.
+So give them something to belong to:
+see the undyed silk, embrace the uncarved wood,
+diminish the self, diminish desire.
 
 ## Twenty
-Give up learning, and put an end to your troubles.
 
-Is there a difference between yes and no?
-Is there a difference between good and evil?
-Must I fear what others fear? What nonsense!
-Other people are contented, enjoying the sacrificial feast of the ox.
-In spring some go to the park, and climb the terrace,
-But I alone am drifting, not knowing where I am.
-Like a newborn babe before it learns to smile,
-I am alone, without a place to go.
+Cut off learning and there is no worry.
 
-Others have more than they need, but I alone have nothing.
-I am a fool. Oh, yes! I am confused.
-Other men are clear and bright,
-But I alone am dim and weak.
-Other men are sharp and clever,
-But I alone am dull and stupid.
-Oh, I drift like the waves of the sea,
-Without direction, like the restless wind.
+Between a respectful yes and a careless yeah,
+how much distance?
+Between good and bad,
+how far apart?
+What people fear must be feared.
+How wild it is, and without end!
 
-Everyone else is busy,
-But I alone am aimless and depressed.
-I am different.
-I am nourished by the great mother.
+The crowd is merry, as if at a great feast,
+as if climbing a terrace in spring.
+I alone am moored, and show no sign,
+like an infant who has not yet learned to smile,
+listless, as if with nowhere to return.
+
+The crowd all have more than enough.
+I alone seem to have missed out.
+I have the heart of a fool!
+How muddled!
+The worldly are bright. I alone am clouded.
+The worldly are sharp. I alone am dull.
+
+Calm, like the sea.
+Blown along, as if never stopping.
+
+The crowd all have something to use themselves for.
+I alone am stubborn, and look coarse.
+I alone differ from others:
+I prize feeding from the mother.
 
 ## Twenty-One
-The greatest Virtue is to follow Tao and Tao alone.
-The Tao is elusive and intangible.
-Oh, it is intangible and elusive, and yet within is image.
-Oh, it is elusive and intangible, and yet within is form.
-Oh, it is dim and dark, and yet within is essence.
-This essence is very real, and therein lies faith.
-From the very beginning until now its name has never been forgotten.
-Thus I perceive the creation.
-How do I know the ways of creation?
-Because of this.
+
+The greatest integrity simply follows the Tao.
+Whatever the Tao is, it is only vague, only elusive.
+Elusive and vague, and within it there is an image.
+Vague and elusive, and within it there is a thing.
+Deep and dim, and within it there is vital essence.
+Its essence utterly real, and within it there is trust.
+
+From ancient times until today, the Tao's name has never been erased.
+In this name, I observe the origin of the many.
+How do I know the origin of the many is so? By this.
 
 ## Twenty-Two
-Yield and overcome;
-Bend and be straight;
-Empty and be full;
-Wear out and be new;
-Have little and gain;
-Have much and be confused.
 
-Therefore wise men embrace the one
-And set an example to all.
-Not putting on a display,
-They shine forth.
-Not justifying themselves,
-They are distinguished.
-Not boasting,
-They receive recognition.
-Not bragging,
-They never falter.
-They do not quarrel,
-So no one quarrels with them.
-Therefore the ancients say, "Yield and overcome."
-Is that an empty saying?
-Be really whole,
-And all things will come to you.
+Bend, and stay whole. Be wronged, and be made straight.
+Be hollowed out, and be filled. Be worn out, and be renewed.
+Hold little and gain. Hold much and be confused.
+
+Therefore the sage embraces one thing and serves as the world's pattern.
+
+They do not show themselves off, and so they see clearly.
+They do not insist they are right, and so their rightness shows.
+They do not claim the work, and so the work is theirs.
+They do not boast, and so they endure.
+
+Because they do not contend, no one in the world can contend with them.
+When the ancients said "bend, and stay whole," were those empty words?
+These words hold. Return to them. Stay whole.
 
 ## Twenty-Three
-To talk little is natural.
-High winds do not last all morning.
-Heavy rain does not last all day.
-Why is this? Heaven and earth!
-If heaven and earth cannot make things eternal,
-How is it possible for man?
 
-He who follows the Tao
-Is at one with the Tao.
-He who is virtuous
-Experiences Virtue.
-He who loses the way
-Feels lost.
-When you are at one with the Tao,
-The Tao welcomes you.
-When you are at one with Virtue,
-The Virtue is always there.
-When you are at one with loss,
-The loss is experienced willingly.
+Brevity in speech happens of itself.
+A squall does not last out the morning.
+A downpour does not last out the day.
+Who does this? Sky and earth.
+Even sky and earth cannot make it last long.
+How much less a person?
 
-He who does not trust enough
-Will not be trusted.
+So one whose affairs follow the Tao is the same as the Tao.
+One of integrity is the same as integrity.
+One of loss is the same as loss.
+
+Those the same as the Tao, the Tao too gladly gets them.
+Those the same as integrity, integrity too gladly gets them.
+Those the same as loss, loss too gladly gets them.
+Where trust runs short, there is no trust.
 
 ## Twenty-Four
-He who stands on tiptoe is not steady.
-He who strides cannot maintain the pace.
-He who makes a show is not enlightened.
-He who is self-righteous is not respected.
-He who boasts achieves nothing.
-He who brags will not endure.
-According to the followers of the Tao,
-"These are extra food and unnecessary luggage."
-They do not bring happiness.
-Therefore followers of the Tao avoid them.
+
+Those who stand on tiptoe do not stand.
+Those who take long strides get nowhere.
+
+Those who show themselves off do not see clearly.
+Those who insist they are right convince no one.
+Those who claim the work have none.
+Those who boast do not endure.
+
+Measured by the Tao, these are called leftover food and wasted motion.
+Living things recoil from them.
+Those who are with the Tao do not dwell among them.
 
 ## Twenty-Five
-Something mysteriously formed,
-Born before heaven and earth.
-In the silene and the void,
-Standing alone and unchanging,
-Ever present and in motion.
-Perhaps it is the mother of ten thousand things.
+
+Something mixed and complete, born before sky and earth.
+Silent. Empty. Solitary. Unchanging.
+It moves in a circle, never in danger,
+and can be taken as the mother of the world.
+
 I do not know its name.
-Call it Tao.
-For lack of a better word, I call it great.
+Forcing a label on it, I call it the Tao.
+Forcing a name on it, I call it great.
 
-Being great, it flows.
-It flows far away.
-Having gone far, it returns.
+Great means departing,
+departing means going far,
+going far means returning.
 
-Therefore, "Tao is great;
-Heaven is great;
-Earth is great;
-The king is also great."
-These are the four great powers
-of the universe,
-And the king is one of them.
+Therefore, the Tao is great, the sky is great, the earth is great, and humans are also great.
+Within all bounds there are four great things, and one of them is human.
 
-Man follows the earth.
-Earth follows heaven.
-Heaven follows the Tao.
-Tao follows what is natural.
+Humans model themselves on the earth,
+Earth models itself on the sky,
+The sky models itself on the Tao,
+The Tao models itself on being what it is.
 
 ## Twenty-Six
-The heavy is the root of the light;
-The still is the master of unrest.
 
-Therefore the sage, travelling all day,
-Does not lose sight of his baggage.
-Though there are beautiful things to be seen,
-He remains unattached and calm.
+The heavy is the root of the light.
+Stillness is the ruler of the agitated.
 
-Why should the lord of ten thousand chariots act lightly in public?
-To be light is to lose one's root.
-To be restless is to lose one's control.
+Therefore, the noble travels all day without leaving the baggage wagons.
+Even where the sights are glorious, they dwell at ease and stay apart.
+
+How can the lord of ten thousand chariots
+make their own body light in the world?
+Lightness loses the root.
+Agitation loses the ruler.
 
 ## Twenty-Seven
-A good walker leaves no tracks;
-A good speaker makes no slips;
-A good reckoner need to tally.
-A good door needs no lock,
-Yet no one can open it.
-Good binding requires no knots,
-Yet no one can loosen it.
 
-Therefore the sage takes care of all men
-And abandons no one.
-He takes care of all things
-And abandons nothing.
+Masterful traveling leaves no tracks.
+Masterful speaking is flawless.
+Masterful calculating uses no counting rods.
+Masterful security uses no locks, yet cannot be breached.
+Masterful tying uses no ropes, yet cannot be untied.
 
-This is called "following the light."
+Therefore the sage is always masterful at rescuing people, and so no one is abandoned.
+Always masterful at rescuing things, and so nothing is abandoned.
+This is called clarity worn covered.
 
-What is a good man?
-A teacher of a bad man.
-What is a bad man?
-A good man's charge.
-If the teacher is not respected,
-And the student not cared for,
-Confusion will arise, however clever one is.
-This is the crux of the mystery.
+Therefore, the masterful one naturally teaches the novice.
+And the novice is the raw material of the master.
+
+Not valuing the master and not loving their raw material is a sign of great confusion.
+Even those who appear intelligent are lost. This is the essential secret.
 
 ## Twenty-Eight
-Know the strength of man,
-But keep a woman's care!
-Be the stream of the universe!
-Being the stream of the univere,
-Ever true and unswerving,
-Become as a little child once more.
 
-Know the white,
-But keep the black!
-Be an example to the world!
-Being an example to the world,
-Ever true and unwavering,
-Return to the infinite.
+Know the rooster, hold to the hen,
+serve as the world's ravine.
+Serve as the world's ravine, and the ever-present integrity never leaves you.
+Return again to the infant.
 
-Know honor,
-Yet keep humility.
-Be the valley of the universe!
-Being the valley of the universe,
-Ever true and resourceful,
-Return to the state of the uncarved block.
+Know the white, hold to the black,
+serve as the world's pattern.
+Serve as the world's pattern, and the ever-present integrity never varies.
+Return again to the endless.
 
-When the block is carved, it becomes useful.
-When the sage uses it, he become the ruler.
-Thus, "A great tailor cuts little."
+Know the glory, hold to the disgrace,
+serve as the world's valley.
+Serve as the world's valley, and the ever-present integrity is enough at last.
+Return again to the uncarved wood.
+
+The uncarved wood scatters, and becomes vessels.
+The sage puts them to use and becomes chief of the officers.
+So the great carving severs nothing.
 
 ## Twenty-Nine
-Do you think you can take over the universe and improve it?
-I do not think it can be done.
 
-The universe is sacred.
-You cannot improve it.
-If you try to change it, you will ruin it.
-If you try to hold it, you will lose it.
+Those who would take the world and handle it,
+I see they will not succeed.
+The world is a sacred vessel. It cannot be handled. It cannot be grasped.
+Those who handle it ruin it. Those who grasp it lose it.
 
-So sometimes things are ahead and sometimes they are behind;
-Sometimes breathing is hard, sometimes it comes easily;
-Sometimes ther is strength and sometimes weakness;
-Sometimes one is up and sometimes down.
+So among things, some go ahead, some follow;
+some sigh, some blow;
+some are strong, some are frail;
+some are carried, some are toppled.
 
-Therefore the sage avoids extremes, excesses, and complacency.
+Therefore the sage lets go of excess, lets go of extravagance, lets go of grandeur.
 
 ## Thirty
-Whenever you advise a ruler in the way of Tao,
-Counsel him not to use force to conquer the universe.
-For this would only cause resistance.
-Thorn bushes spring up wherever the army has passed.
-Lean years follow in the wake of a great war.
-Just do what needs to be done.
-Never take advantage of power.
 
-Achieve results,
-But never glory in them.
-Achieve results,
-But never boast.
-Achieve results,
-But never be proud.
-Achieve results,
-Because this is the natural way.
-Achieve results,
-But not through violence.
+One who supports a ruler with the Tao does not use military force to dominate the world.
+Such undertakings tend to come back on you.
+Where armies camp, thorns and brambles grow.
+After a big military campaign, a year of disaster follows.
 
-Force is followed by loss of strength.
-This is not the way of Tao.
-That which goes against the Tao
-comes to an early end.
+The masterful one halts after succeeding and never pushes on to seize dominance.
+They succeed without boasting, succeed without bragging, succeed without arrogance.
+They succeed because their actions are unavoidable. They succeed without using excessive force.
+
+When things reach their prime, they decay.
+This is called not-Tao. Not-Tao comes to an early end.
 
 ## Thirty-One
-Good weapons are instruments of fear; all creatures hate them.
-Therefore followers of Tao never use them.
-The wise man prefers the left.
-The man of war prefers the right.
 
-Weapons are instruments of fear; they are not a wise man's tools.
-He uses them only when he has no choice.
-Peace and quiet are dear to his heart,
-And victory no cause for rejoicing.
-If you rejoice in victory, then you delight in killing;
-If you delight in killing, you cannot fulfill yourself.
+Fine weapons are tools of ill omen.
+Living things recoil from them.
+Those who are with the Tao do not dwell among them.
 
-On happy occasions precedence is given to the left,
-On sad occasions to the right.
-In the army the general stands on the left,
-The commander-in-chief on the right.
-This means that war is conducted like a funeral.
-When many people are being killed,
-They should be mourned in heartfelt sorrow.
-That is why a victory must be observed like a funeral.
+The noble at home prizes the left;
+using weapons prizes the right.
+Weapons are tools of ill omen, not the noble's tools.
+Used only when unavoidable, calm detachment is best.
+
+Win, but do not glorify it.
+To glorify it is to delight in killing people.
+And those who delight in killing people cannot get their will in the world.
+
+Auspicious occasions honor the left; inauspicious occasions honor the right.
+The deputy general takes the left, the higher general the right,
+which is to say they are placed by the rites of mourning.
+For the crowd of people killed, weep with sorrow and grief.
+A victory in battle is placed by the rites of mourning.
 
 ## Thirty-Two
-The Tao is forever undefined.
-Small though it is in the unformed state, it cannot be grasped.
-If kings and lords could harness it,
-The ten thousand things would naturally obey.
-Heaven and earth would come together
-And gentle rain fall.
-Men would need no more instruction
-and all things would take their course.
 
-Once the whole is divided, the parts need names.
-There are already enough names.
-One must know when to stop.
-Knowing when to stop averts trouble.
-Tao in the world is like a river flowing home to the sea.
+The Tao is ever nameless, uncarved.
+Though small, nothing in the world can make it a subject.
+If rulers are able to hold to this, the countless things will submit of themselves.
+Sky and earth join together to send down sweet dew.
+No one commands the people, and they even out of themselves.
+
+When the carving begins, there are names.
+Since names already exist, one must know when to stop.
+Knowing when to stop, you come to no danger.
+
+The Tao in the world is like streams and valleys to the river and the sea.
 
 ## Thirty-Three
-Knowing others is wisdom;
-Knowing the self is enlightenment.
-Mastering others requires force;
-Mastering the self needs strength.
 
-He who knows he has enough is rich.
-Perseverance is a sign of will power.
-He who stays where he is endures.
-To die but not to perish is to be eternally present.
+One who knows others is intelligent.
+One who knows themselves sees clearly.
+
+One who overcomes others has force.
+One who overcomes themselves is strong.
+
+One who knows they have enough is wealthy.
+One who forces themselves onward has will.
+
+One who does not lose their rootedness, endures.
+One who dies but does not perish has long life.
 
 ## Thirty-Four
-The great Tao flows everywhere, both to the left and to the right.
-The ten thousand things depend upon it; it holds nothing back.
-It fulfills its purpose silently and makes no claim.
 
-It nourishes the ten thousand things,
-And yet is not their lord.
-It has no aim; it is very small.
+The great Tao overflows. It can go left or right.
+The countless things rely on it to live, yet it refuses none.
+It works without claiming to be the owner.
 
-The ten thousand things return to it,
-Yet it is not their lord.
-It is very great.
+The Tao clothes and nourishes the countless things, yet it claims no ownership.
+Ever desireless, it can be called small.
+The countless things return to it. Without acting as their master, it can be called great.
 
-It does not show greatness,
-And is therefore truly great.
+It never makes itself great,
+and so completes its greatness.
 
 ## Thirty-Five
-All men will come to him who keeps to the one,
-For there lie rest and happiness and peace.
 
-Passersby may stop for music and good food,
-But a description of the Tao
-Seems without substance or flavor.
-It cannot be seen, it cannot be heard,
-And yet it cannot be exhausted.
+Grasp the great image, and the world comes to you.
+It comes unharmed, at rest, and utterly even.
+
+Music and food bring a passing guest to a halt.
+The Tao is bland in the mouth. It has no flavor.
+Look at it. There is not enough to see.
+Listen for it. There is not enough to hear.
+Use it. It never runs out.
 
 ## Thirty-Six
-That which shrinks
-Must first expand.
-That which fails
-Must first be strong.
-That which is cast down
-Must first be raised.
-Before receiving
-There must be giving.
 
-This is called perception of the nature of things.
-Soft and weak overcome hard and strong.
+If you would draw it in, you must first stretch it out.
+If you would weaken it, you must first strengthen it.
+If you would bring it down, you must first raise it up.
+If you would take from it, you must first give to it.
 
-Fish cannot leave deep waters,
-And a country's weapons should not be displayed.
+This is called the hidden clarity.
+The soft and yielding overcome the unbending and strong.
+
+A fish cannot leave deep water.
+A state's tools of advantage cannot be shown.
 
 ## Thirty-Seven
-Tao abides in non-action,
-Yet nothing is left undone.
-If kings and lords observed this,
-The ten thousand things would develop naturally.
-If they still desired to act,
-They would return to the simplicity of formless substance.
-Without form there is no desire.
-Without desire there is tranquility.
-And in this way all things would be at peace.
+
+The Tao is ever non-doing, yet nothing is left undone.
+If rulers are able to hold to this, the countless things will transform of themselves.
+
+When the countless things urge action, I will stabilize them with the nameless uncarved wood.
+The nameless uncarved wood is without desire.
+
+Relinquishing desire, being still, the world rights itself.
 
 ## Thirty-Eight
-A truly good man is not aware of his goodness,
-And is therefore good.
-A foolish man tries to be good,
-And is therefore not good.
 
-A truly good man does nothing,
-Yet leaved nothing undone.
-A foolish man is always doing,
-Yet much remains to be done.
+The highest integrity does not do integrity, and so it has integrity.
+The lowest integrity does not lose integrity, and so it has none.
+The highest integrity is non-doing, and has nothing it acts for.
+The lowest integrity acts, and has something it acts for.
 
-When a truly kind man does something, he leaves nothing undone.
-When a just man does something, he leaves a great deal to be done.
-When a disciplinarian does something and no one responds,
-He rolls up his sleeves in an attempt to enforce order.
+The highest humaneness acts, and has nothing it acts for.
+The highest duty acts, and has something it acts for.
+The highest ritual acts, and no one answers,
+so it bares its arms and drags them along.
 
-Therefore when Tao is lost, there is goodness.
-When goodness is lost, there is kindness.
-When kindness is lost, there is justice.
-When justice is lost, there is ritual.
-Now ritual is the husk of faith and loyalty, the beginning of confusion.
-Knowledge of the future is only a flowery trapping of Tao.
-It is the beginning of folly.
+So when the Tao is lost, then integrity is lost.
+When integrity is lost, then humaneness is lost.
+When humaneness is lost, then duty is lost.
+When duty is lost, then ritual is lost.
+Ritual is the thinning of loyalty and trust, and the head of disorder.
+Knowing in advance is the blossom of the Tao, and the beginning of foolishness.
 
-Therefore the truly great man dwells on what is real
-and not what is on the surface,
-On the fruit and not the flower.
-Therefore accept the one and reject the other.
+This is why the great person dwells in the thick, not the thin,
+dwells in the substance, not the blossom.
+They let go of what is out there and take what is here.
 
 ## Thirty-Nine
-These things from ancient times arise frome one:
-The sky is whole and clear.
-The earth is whole and firm.
-The spirit is whole and strong.
-the valley is whole and full.
-The ten thousand things are whole and alive.
-Kings and lords are whole, and the country is upright.
-All these are in virtue of wholeness.
 
-The clarity of the sky prevents its falling.
-The firmness of the earth prevents its splitting.
-The strength of the spirit prevents its being used up.
-The fullness of the valley prevents its running dry.
-The growth of the ten thousand things prevents their dying out.
-The leadership of kings and lords prevents the downfall
-of the country.
+These received the one long ago:
+Sky received the one, and so became clear.
+Earth received the one, and so became settled.
+Spirit received the one, and so became numinous.
+The valley received the one, and so became full.
+The countless things received the one, and so came to life.
+Rulers received the one, and so serve as the world's standard.
 
-Therefore the humble is the root of the noble.
-The low is the foundation of the high.
-Princes and lords consider themselves
-"orphaned," "widowed," and "worthless."
-Do they not depend on being humble?
+Follow it through:
+Sky with no way to be clear is likely to split.
+Earth with no way to be settled is likely to burst.
+Spirit with no way to be numinous is likely to cease.
+The valley with no way to be full is likely to run dry.
+The countless things with no way to live are likely to die out.
+Rulers with no way to be prized and high are likely to topple.
 
-Too much success is not an advantage.
-Do not tinkle like jade
-Or clatter like stone chimes.
+So the prized takes the cheap as its root,
+and the high takes the low as its footing.
+This is why rulers call themselves orphaned, alone, and unworthy.
+Is this not taking the cheap as the root? Is it not?
+
+So reduce a cart to the count of its parts, and there is no cart.
+Do not want to be gleaming like jade,
+or common like stone.
 
 ## Forty
-Returning is the motion of the Tao.
-Yielding is the way of the Tao.
-The ten thousand things are born of being.
-Being is born of not being.
+
+Returning is the Tao’s movement;
+Yielding is the Tao’s use.
+The countless things of the world are born from presence;
+Presence is born from absence.
 
 ## Forty-One
-The wise student hears of the Tao and practices it diligently.
-The average student hears of the Tao and gives it thought now and again.
-The foolish student hears of the Tao and laughs aloud.
-If there were no laughter, the Tao would not be what it is.
 
-Hence it is said:
-The bright path seems dim;
-Going forward seems like retreat;
-The easy way seems hard;
-The highest Virtue seems empty;
-Great purity seems sullied;
-A wealth of Virtue seems inadequate;
-The strength of Virtue seems frail;
-Real Virtue seems unreal;
-The perfect square has no corners;
-Great talents ripen late;
-The highest notes are hard to hear;
-The greatest form has no shape.
-The Tao is hidden and without name.
-The Tao alone nourishes and brings everything to fulfillment.
+Those highest in service hear the Tao and practice it with diligence.
+Those middling in service hear the Tao and keep some, forget some.
+Those lowest in service hear the Tao and laugh aloud at it.
+If it weren’t laughed at, the Tao wouldn’t be what it is.
+
+Therefore, as the established sayings have it:
+The clear Tao seems murky.
+The advancing Tao seems to retreat.
+The level Tao seems rough.
+The highest integrity seems a valley.
+The whitest white seems soiled.
+Boundless integrity seems not enough.
+Sturdy integrity seems slack.
+Substantial truth seems to waver.
+
+The great square has no corners.
+The great vessel is never completed.
+The great sound is barely heard.
+The great image has no form.
+
+The Tao is hidden and nameless.
+Only the Tao is masterful at lending, and at completing.
 
 ## Forty-Two
-The Tao begot one.
-One begot two.
-Two begot three.
-And three begot the ten thousand things.
 
-The ten thousand things carry yin and embrance yang.
-They achieve harmony by combining these forces.
+The Tao births the one, the one births the two, the two births the three, the three births the countless things.
+The countless things carry yin on their backs and embrace yang with their arms, blending the vital breath into harmony.
 
-Men hate to be ''orphaned,'' ''widowed,'' or ''worthless,''
-But this is how kings and lords describe themselves.
+What most people hate is to be called orphaned, meager, or unworthy,
+Yet rulers and lords take these very descriptions for themselves.
 
-For one gains by losing
-And loses by gaining.
+For so it is: what is decreased is thereby increased, and what is increased is thereby decreased.
 
-What others teach, I also teach; that is:
-"A violent man will die a violent death!"
-This will be the essence of my teaching.
+What others teach, I also teach:
+The strong and rigid do not die a natural death.
+I take this as the root of learning.
 
 ## Forty-Three
-The softest thing in the universe
-Overcomes the hardest thing in the universe.
-That without substance can enter where there is no room.
-Hence I know the value of non-action.
 
-Teaching without words and work without doing
-Are understood by very few.
+The softest thing in the world gallops over the hardest thing in the world.
+The formless enters the seamless.
+This is how I know the benefit of non-doing.
+
+The wordless teaching, the benefit of non-doing —
+few ever reach this.
 
 ## Forty-Four
-Fame or self: Which matters more?
-Self or wealth: Which is more precious?
-Gain or loss: Which is more painful?
 
-He who is attached to things will suffer much.
-He who saves will suffer heavy loss.
-A contented man is never disappointed.
-He who knows when to stop does not find himself in trouble.
-He will stay forever safe.
+Reputation or your body — which is dearer?
+Your body or goods — which is worth more?
+Gain or loss — which does more harm?
+
+Therefore, extreme attachment inevitably brings great cost
+And hoarding inevitably brings heavy loss.
+
+Know when you have enough, and you are never disgraced.
+Know when to stop, and you come to no danger.
+And so you can last long.
 
 ## Forty-Five
-Great accomplishment seems imperfect,
-Yet it does not outlive its usefulness.
-Great fullness seems empty,
-Yet it cannot be exhausted.
 
-Great straightness seems twisted.
-Great intelligence seems stupid.
-Great eloquence seems awkward.
+Great completeness seems deficient, yet when used, it never wears out.
+Great fullness seems empty, yet when used, it never runs dry.
 
-Movement overcomes cold.
-Stillness overcomes heat.
-Stillness and tranquillity set things in order in the universe.
+Great straightness seems crooked.
+Great skill seems clumsy.
+Great argument seems halting.
+
+Movement overcomes cold; stillness overcomes heat.
+Clear stillness brings order to the world.
 
 ## Forty-Six
-When the Tao is present in the universe,
-The horses haul manure.
-When the Tao is absent from the universe,
-War horses are bred outside the city.
 
-There is no greater sin than desire,
-No greater curse than discontent,
-No greater misfortune than wanting something for oneself.
-Therefore he who knows that enough is enough will always have enough.
+When the world embraces the Tao, swift horses are retired to work the fields.
+When the world lacks the Tao, war horses are bred in the borderlands.
+
+There is no greater disaster than discontent,
+No greater fault than craving to acquire.
+And so the contentment of knowing you have enough is ever-present contentment.
 
 ## Forty-Seven
-Without going outside, you may know the whole world.
-Without looking through the window, you may see the ways of heaven.
-The farther you go, the less you know.
 
-Thus the sage knows without traveling;
-He sees without looking;
-He works without doing.
+Without leaving home, you know the whole world.
+Without looking out the window, you see the way of nature.
+The further out you venture, the less you know.
+
+Therefore, the sage knows without venturing,
+names without seeing,
+and accomplishes without acting.
 
 ## Forty-Eight
-In the pursuit of learning, every day something is acquired.
-In the pursuit of Tao, every day something is dropped.
 
-Less and less is done
-Until non-action is achieved.
-When nothing is done, nothing is left undone.
+In pursuit of learning, you increase daily;
+in pursuit of the Tao, you decrease daily.
+Decreasing and decreasing, until you reach non-doing.
+Non-doing, yet nothing is left undone.
 
-The world is ruled by letting things take their course.
-It cannot be ruled by interfering.
+The world always comes to you by not meddling with it.
+The moment you meddle, it stops coming.
 
 ## Forty-Nine
-The sage has no mind of his own.
-He is aware of the needs of others.
 
-I am good to people who are good.
-I am also good to people who are not good.
-Because Virtue is goodness.
-I have faith in people who are faithful.
-I also have faith in people who are not faithful.
-Because Virtue is faithfulness.
+The sage has no fixed heart;
+they take everyone's heart as their own.
 
-The sage is shy and humble - to the world he seems confusing.
-Men look to him and listen.
-He behaves like a little child.
+The masterful, I count as masterful;
+the unmasterful, I count as masterful too.
+Integrity is mastery.
+
+The trustworthy, I trust;
+the untrustworthy, I trust as well.
+Integrity is trust.
+
+In the world, the sage breathes gently;
+for the sake of the world, they let their heart go muddy.
+Everyone pours out their attention, all eyes and ears;
+the sage sees them pure as infants.
 
 ## Fifty
-Between birth and death,
-Three in ten are followers of life,
-Three in ten are followers of death,
-And men just passing from birth to death also number three in ten.
-Why is this so?
-Because they live their lives on the gross level.
 
-He who knows how to live can walk abroad
-Without fear of rhinoceros or tiger.
-He will not be wounded in battle.
-For in him rhinoceroses can find no place to thrust their horn,
-Tigers no place to use their claws,
-And weapons no place to pierce.
-Why is this so?
-Because he has no place for death to enter.
+Emerge into life, enter into death.
+
+Three in ten people are followers of life.
+Three in ten are followers of death.
+Three in ten, though alive, move toward deadly ground.
+Why? Because they cling too tightly to life.
+
+It’s been said that one who truly tends life
+can travel the land without meeting rhinos or tigers,
+and can enter into battle untouched by armor or weapons.
+The rhino’s horn has nowhere to thrust,
+the tiger’s claws have nowhere to tear into,
+the weapon blades have nothing to cut.
+
+Why? Because they give death no foothold.
 
 ## Fifty-One
-All things arise from Tao.
-They are nourished by Virtue.
-They are formed from matter.
-They are shaped by environment.
-Thus the ten thousand things all respect Tao and honor Virtue.
-Respect of Tao and honor of Virtue are not demanded.
-But they are in the nature of things.
 
-Therefore all things arise from Tao.
-By Virtue they are nourished,
-Developed, cared for,
-Sheltered, comforted,
-Grown, and protected.
-Creating without claiming,
-Doing without taking credit,
-Guiding without interfering,
-This is the Primal Virtue.
+The Tao gives birth to the countless things, integrity rears them,
+matter forms them, circumstance completes them.
+Therefore the countless things, without exception, revere the Tao and value integrity.
+This reverence for the Tao, this valuing of integrity — no one commands it.
+It is always so, of itself.
+
+Thus, the Tao births the countless things and integrity rears them,
+grows and raises them, settles and matures them, nourishes and protects them.
+Giving birth without possessing,
+acting yet relying on nothing,
+growing them without ruling them –
+this is called profound integrity.
 
 ## Fifty-Two
-The beginning of the universe
-Is the mother of all things.
-Knowing the mother, one also knows the sons.
-Knowing the sons, yet remaining in touch with the mother,
-Brings freedom from the fear of death.
 
-Keep your mouth shut,
-Guard the senses,
-And life is ever full.
-Open your mouth,
-Always be busy,
-And life is beyond hope.
+The world has an origin, which serves as the mother of the world.
+Find our mother, and you know her children.
+Know her children, return and hold fast to our mother,
+and to the end of your days, no danger will find you.
 
-Seeing the small is insight;
-Yielding to fore is strength.
-Using the outer light, return to insight,
-And in this way be saved from harm.
-This is learning constancy.
+Block the openings, close the doors, and to the end of your days you will not toil.
+Open the openings, multiply your affairs, and to the end of your days you are beyond saving.
+
+To recognize things in their smallest form is clear-seeing.
+Holding to the soft is called strong.
+
+Use the outer light, return to your inner clarity,
+and leave no calamity for the body.
+
+This is called the ever-present worn covered.
 
 ## Fifty-Three
-If I have even just a little sense,
-I will walk on the main road and my only fear will be of straying from it.
-Keeping to the main road is easy,
-But people love to be sidetracked.
 
-When the court is arrayed in splendor,
-The fields are full of weeds,
-And the granaries are bare.
-Some wear gorgeous clothes,
-Carry sharp swords,
-And indulge themselves with food and drink;
-They have more possessions than they can use.
-They are robber barons.
-This is certainly not the way of Tao.
+If I had just a scrap of knowledge, walking the path of the great Tao, my only fear would be to stray from it.
+The great Tao is very level, yet people love to take shortcuts.
+
+The courts are immaculate, the fields are choked with weeds, the granaries are empty;
+Wearing ornate, colorful clothes, carrying sharp swords, gorged on food and drink, possessing excess wealth and goods —
+This exposes the ringleader of thieves. It is not the Tao\!
 
 ## Fifty-Four
-What is firmly established cannot be uprooted.
-What is firmly grasped cannot slip away.
-It will be honored from generation to generation.
 
-Cultivate Virtue in your self,
-And Virtue will be real.
-Cultivate it in the family,
-And Virtue will abound.
-Cultivate it in the village,
-And Virtue will grow.
-Cultivate it in the nation,
-And Virtue will be abundant.
-Cultivate it in the universe,
-And Virtue will be everywhere.
+What is masterfully planted cannot be uprooted.
+What is masterfully embraced cannot slip away.
+Descendants will never cease offering sacrifices honoring this.
 
-Therefore look at the body as body;
-Look at the family as family;
-Look at the village as village;
-Look at the nation as nation;
-Look at the universe as universe.
+Cultivate this in your body, and its integrity becomes authentic.
+Cultivate this in your family, and its integrity becomes abundant.
+Cultivate this in your community, and its integrity becomes long-lasting.
+Cultivate this in your state, and its integrity becomes bountiful.
+Cultivate this in the world, and its integrity becomes universal.
 
-How do I know the universe is like this?
-By looking!
+Therefore, observe the body through your own body.
+Observe the family through your family.
+Observe the community through your community.
+Observe the state through your state.
+Observe the world through the world.
+
+How do I know the world is so? By this.
 
 ## Fifty-Five
-He who is filled with Virtue is like a newborn child.
-Wasps and serpents will not sting him;
-Wild beasts will not pounce upon him;
-He will not be attacked by birds of prey.
-His bones are soft, his muscles weak,
-But his grip is firm.
-He has not experienced the union of man and woman, but is whole.
-His manhood is strong.
-He screams all day without becoming hoarse.
-This is perfect harmony.
 
-Knowing harmony is constancy.
-Knowing constancy is enlightenment.
+A person with abundant integrity is like a newborn.
+Venomous creatures do not sting them,
+fierce beasts do not seize them,
+birds of prey do not attack them.
+Their bones are yielding and their muscles soft, yet their grip is firm.
+They do not yet know the union of female and male, yet their whole being quickens with life — this is vital essence at its utmost.
+It cries all day and never goes hoarse — this is harmony at its utmost.
 
-It is not wise to rush about.
-Controlling the breath causes strain.
-If too much energy is used, exhaustion follows.
-This is not the way of Tao.
-Whatever is contrary to Tao will not last long.
+Knowing harmony is called the ever-present.
+Knowing the ever-present is called clear-seeing.
+To force life to increase is an ill omen.
+When the heart drives the vital energy, that is called strong.
+When things reach their prime, they decay.
+This is called not-Tao. Not-Tao comes to an early end.
 
 ## Fifty-Six
-Those who know do not talk.
-Those who talk do not know.
 
-Keep your mouth closed.
-Guard your senses.
-Temper your sharpness.
-Simplify your problems.
-Mask your brightness.
-Be at one with the dust of the earth.
-This is primal union.
+Those who know do not speak.
+Those who speak do not know.
+Block the openings, close the doors.
+Blunt the sharpness, untangle the knots.
+Dim your own light, be the same as the dust.
+This is called profound sameness.
 
-He who has achieved this state
-Is unconcerned with friends and enemies,
-With good and harm, with honor and disgrace.
-This therefore is the highest state of man.
+You cannot draw them near nor hold them off,
+neither benefit nor harm them,
+neither honor nor debase them.
+And so, they become the most honored in the world.
 
 ## Fifty-Seven
-Rule a nation with justice.
-Wage war with surprise moves.
-Become master of the universe without striving.
-How do I know that this is so?
-Because of this!
 
-The more laws and restrictions there are,
-The poorer people become.
-The sharper men's weapons,
-The more trouble in the land.
-The more ingenious and clever men are,
-The more strange things happen.
-The more rules and regulations,
-The more thieves and robbers.
+Govern the state with uprightness,
+wage war with surprise,
+and win the world by not meddling.
+How do I know it is so? By this:
+The more taboos in the world, the poorer the people become.
+The more sharp weapons the people have, the more clouded the state becomes.
+The more cunning people become, the more strange contrivances appear.
+The more laws are proclaimed, the more thieves there are.
 
 Therefore the sage says:
-I take no action and people are reformed.
-I enjoy peace and people become honest.
-I do nothing and people become rich.
-I have no desires and people return to the good and simple life.
+I do not do, and the people transform themselves.
+I love stillness, and the people right themselves.
+I do not meddle, and the people enrich themselves.
+I am desireless, and the people become plain of themselves.
 
 ## Fifty-Eight
-When the country is ruled with a light hand
-The people are simple.
-When the country is ruled with severity,
-The people are cunning.
 
-Happiness is rooted in misery.
-Misery lurks beneath happiness.
-Who knows what the future holds?
-There is no honesty.
-Honesty becomes dishonest.
-Goodness becomes witchcraft.
-Man's bewitchment lasts for a long time.
+When the government is dull and undiscerning, the people are pure and honest.
+When the government is sharp and prying, the people turn cunning.
 
-Therefore the sage is sharp but not cutting,
-Pointed but not piercing,
-Straightforward but not unrestrained,
-Brilliant but not blinding.
+Disaster is what fortune leans on;
+fortune is where disaster hides.
+Who knows where it ends? It has no fixed norm —
+The straight turns crooked, the good turns monstrous.
+People have been lost in this for a very long time.
+
+Therefore the sage is square but does not cut,
+sharp but does not wound,
+straight but does not overreach,
+bright but does not dazzle.
 
 ## Fifty-Nine
-In caring for others and serving heaven,
-There is nothing like using restraint.
-Restraint begins with giving up one's own ideas.
-This depends on Virtue gathered in the past.
-If there is a good store of Virtue, then nothing is impossible.
-If nothing is impossible, then there are no limits.
-If a man knows no limits, then he is fit to be a ruler.
-The mother principle of ruling holds good for a long time.
-This is called having deep roots and a firm foundation,
-The Tao of long life and eternal vision.
+
+When governing people and serving nature, nothing compares to conserving.
+Conserving is called accepting early,
+accepting early is called a heavy accumulation of integrity,
+a heavy accumulation of integrity is when nothing cannot be overcome,
+when nothing cannot be overcome, no one knows its limit,
+when no one knows its limit, you can have the state.
+Have the mother of the state, and you can last long.
+
+This is called the Tao of deep roots, firm base, long life, and enduring vision.
 
 ## Sixty
-Ruling the country is like cooking a small fish.
-Approach the universe with Tao,
-And evil will have no power.
-Not that evil is not powerful,
-But its power will not be used to harm others.
-Not only will it do no harm to others,
-But the sage himself will also be protected.
-They do not hurt each other,
-And the Virtue in each one refreshes both.
+
+Governing a large state is like cooking a small fish.
+
+Oversee the world with the Tao, and the ghosts lose their potency,
+not only do ghosts lose their potency, their potency causes no harm to people,
+not only does their potency do no harm, the sage, too, does no harm to people.
+
+And since the two do no harm to each other, their integrity converges and returns.
 
 ## Sixty-One
-A great country is like low land.
-It is the meeting ground of the universe,
-The mother of the universe.
 
-The female overcomes the male with stillness,
-Lying low in stillness.
+The large state is the downstream flow,
+the confluence of the world, the female of the world.
+The female always overcomes the male by stillness.
+By stillness she is underneath.
 
-Therefore if a great country gives way to a smaller country,
-It will conquer the smaller country.
-And if a small country submits to a great country,
-It can conquer the great country.
-Therefore those who would conquer must yield,
-And those who conquer do so because they yield.
+So the large state, by going below the small state, takes the small state.
+The small state, by going below the large state, takes the large state.
+The large state takes by going low, the small state by staying low.
 
-A great nation needs more people;
-A small country needs to serve.
-Each gets what it wants.
-It is fitting for a great nation to yield.
+The large state wants nothing more than to gather and rear people.
+The small state wants nothing more than to enter and serve people.
+Both get what they want.
+The large one ought to be underneath.
 
 ## Sixty-Two
-Tao is the source of the ten thousand things.
-It is the treasure of the good man, and the refuge of the bad.
-Sweet words can buy honor;
-Good deeds can gain respect.
-If a man is bad, do not abandon him.
-Therefore on the day the emperor is crowned,
-Or the three officers of state installed,
-Do not send a gift of jade and a team of four horses,
-But remain still and offer the Tao.
-Why does everyone like the Tao so much at first?
-Isn't it because you find what you seek and are forgiven when you sin?
-Therefore this is the greatest treasure of the universe.
+
+The Tao is the sanctuary of the countless things,
+the treasure of those who are masterful,
+and what keeps safe those who are not.
+
+Fine words can buy honor.
+Fine conduct can raise a person above others.
+So when a person is unmasterful, why abandon them?
+
+When they raise up a child of the sky and install the three ministers,
+though jade discs go before teams of four horses,
+better to sit where you are and offer this Tao.
+
+What made the ancients honor this Tao?
+Did they not say: seek, and you find;
+commit a crime, and you are spared?
+And so it is the most honored in the world.
 
 ## Sixty-Three
-Practice non-action.
-Work without doing.
-Taste the tasteless.
-Magnify the small, increase the few.
-Reward bitterness with care.
 
-See simplicity in the complicated.
-Achieve greatness in little things.
+Do the not-doing,
+serve the not-serving,
+taste the flavorless.
+Great or small, many or few,
+repay resentment with integrity.
 
-In the universe the difficult things are done as if they are easy.
-In the uinverse great acts are made up of small deeds.
-The sage does not attempt anything very big,
-And thus achieves greatness.
+Map out the difficult while it is easy.
+Do the great while it is slight.
+The world's difficult affairs always begin easy.
+The world's great affairs always begin slight.
 
-Easy promises make for little trust.
-Taking things lightly results in great difficulty.
-Because the sage always confronts difficulties,
-He never experiences them.
+So the sage never does the great,
+and so completes their greatness.
+
+Promise lightly and you will be little trusted.
+Take much to be easy and much will be difficult.
+So the sage still finds it difficult,
+and in the end has no difficulty.
 
 ## Sixty-Four
-Peace is easily maintained;
-Trouble is easily overcome before it starts.
-The brittle is easily shattered;
-The small is easily scattered.
 
-Deal with it before it happens.
-Set things in order before there is confusion.
+What is at rest is easy to hold.
+What shows no sign is easy to plan for.
+What is brittle is easy to shatter.
+What is faint is easy to scatter.
+Handle it before it exists.
+Order it before it falls into disorder.
 
-A tree as great as a man's embrace springs from a small shoot;
-A terrace nine stories high begins with a pile of earth;
-A journey of a thousand miles starts under one's feet.
+The tree the width of both arms is born from a hair's tip.
+The nine-tiered terrace rises from a heap of dirt.
+The thousand-mile journey begins beneath your feet.
 
-He who acts defeats his own purpose;
-He who grasps loses.
-The sage does not act, and so is not defeated.
-He does not grasp and therefore does not lose.
+Those who handle it ruin it.
+Those who grasp it lose it.
+Therefore, the sage does not do, and so ruins nothing,
+does not grasp, and so loses nothing.
 
-People usually fail when they are on the verge of success.
-So give as much care to the end as to the beginning;
-Then there will be no failure.
+People always ruin their affairs just short of completing them.
+Be as careful at the end as at the beginning,
+and nothing will be ruined.
 
-Therefore the sage seeks freedom from desire.
-He does not collect precious things.
-He learns not to hold on to ideas.
-He brings men back to what they have lost.
-He helps the ten thousand things find their own nature,
-But refrains from action.
+Therefore, the sage wants the not-wanting
+and does not prize rare goods,
+learns to unlearn,
+brings the crowd back from where they have gone too far,
+and supports the countless things in being so of themselves,
+and never pushes them.
 
 ## Sixty-Five
-In the beginning those who knew the Tao did not try to enlighten others,
-But kept them in the dark.
-Why is it so hard to rule?
-Because people are so clever.
-Rulers who try to use cleverness
-Cheat the country.
-Those who rule without cleverness
-Are a blessing to the land.
-These are the two alternatives.
-Understanding these is Primal Virtue.
-Primal Virtue is deep and far.
-It leads all things back
-Toward the great oneness.
+
+The ancients who were masterful at the Tao
+did not use it to make the people clever.
+They used it to return them to being guileless.
+
+The people are hard to govern
+because they have too much guile.
+
+So to govern a state with guile robs the state.
+Not to govern it with guile is the state's good fortune.
+
+Knowing these two is itself the pattern.
+Always to know the pattern
+is called profound integrity.
+
+Profound integrity is deep, and far,
+and turns back together with things,
+and only then runs with the great current.
 
 ## Sixty-Six
-Why is the sea king of a hundred streams?
-Because it lies below them.
-Therefore it is the king of a hundred streams.
 
-If the sage would guide the people, he must serve with humility.
-If he would lead them, he must follow behind.
-In this way when the sage rules, the people will not feel oppressed;
-When he stands before them, they will not be harmed.
-The whole world will support him and will not tire of him.
+Rivers and seas can rule the hundred valleys
+because they are masterful at staying below them.
+That is how they come to rule the hundred valleys.
 
-Because he does not compete,
-He does not meet competition.
+So to rise above the people, you must speak from below them.
+To walk ahead of the people, you must put your body behind them.
+
+The sage stands above, and the people are not weighed down,
+stands in front, and the people are not hindered.
+So the world gladly pushes them forward and never tires of them.
+
+Because they do not contend,
+no one in the world can contend with them.
 
 ## Sixty-Seven
-Everyone under heaven says that my Tao is great and beyond compare.
-Because it is great, it seems different.
-If it were not different, it would have vanished long ago.
 
-I have three treasures which I hold and keep.
-The first is mercy; the second is economy;
-The third is daring not to be ahead of others.
-From mercy comes courage; from economy comes generosity;
-From humility comes leadership.
+The world says my Tao is great, and looks like nothing.
+Only because it is great does it look like nothing.
+If it looked like anything, it would long since have been slight.
 
-Nowadays men shun mercy, but try to be brave;
-They abandon economy, but try to be generous;
-They do not believe in humility, but always try to be first.
-This is certain death.
+I have three treasures. I hold them and keep them safe.
+The first is tenderness.
+The second is frugality.
+The third is never pushing to be first in the world.
 
-Mercy brings victory in battle and strength in defense.
-It is the means by which heaven saves and guards.
+Tenderness, and so you can be brave.
+Frugality, and so you can reach far.
+Never pushing to be first in the world, and so you can become chief of the vessels.
+
+Now: to abandon tenderness and grab at courage,
+to abandon frugality and grab at reach,
+to abandon the rear and grab at the front.
+That is death.
+
+Tenderness. Fight with it and you win, guard with it and you stand firm.
+When nature would rescue someone, it shields them with tenderness.
 
 ## Sixty-Eight
-A good soldier is not violent.
-A good fighter is not angry.
-A good winner is not vengeful.
-A good employer is humble.
-This is known as the Virtue of not striving.
-This is known as ability to deal with people.
-This since ancient times has been known
-as the ultimate unity with heaven.
+
+Those masterful in service are not martial.
+The master fighter does not rage.
+The master of overcoming enemies does not engage them.
+The master of using people puts themselves below them.
+
+This is called the integrity of not contending.
+This is called using people's force.
+This is called partnered with the sky, the pinnacle of the ancients.
 
 ## Sixty-Nine
-There is a saying among soldiers:
-I dare not make the first move but would rather play the guest;
-I dare not advance an inch but would rather withdraw a foot.
 
-This is called marching without appearing to move,
-Rolling up your sleeves without showing your arm,
-Capturing the enemy without attacking,
-Being armed without weapons.
+Soldiers have a saying:
+I do not push to move first. I move second.
+I do not push an inch into another's ground. I give up a foot of my own.
 
-There is no greater catastrophe than underestimating the enemy.
-By underestimating the enemy, I almost lose what I value.
+This is called marching where there are no ranks,
+baring an arm where there is no arm,
+hauling where there is no enemy,
+grasping where there is no weapon.
 
-Therefore when the battle is joined,
-The underdog will win.
+There is no disaster greater than making light of the enemy.
+Making light of the enemy nearly costs me my treasures.
+
+Therefore, when the armies are evenly matched, the side that grieves wins.
 
 ## Seventy
-My words are easy to understand and easy to perform,
-Yet no man under heaven knows them or practices them.
 
-My words have ancient beginnings.
-My actions are disciplined.
-Because men do not understand, they have no knowledge of me.
+My words are very easy to know,
+very easy to follow.
+In all the world, no one can know them.
+No one can follow them.
 
-Those that know me are few;
-Those that abuse me are honoured.
-Therefore the sage wears rough clothing and holds the jewel in his heart.
+Words have an ancestor.
+Affairs have a ruler.
+Only because there is no knowing it,
+they do not know me.
+
+Those who know me are few.
+Those who pattern themselves on me are precious.
+Therefore, the sage wears coarse cloth, but carries jade against their chest.
 
 ## Seventy-One
-Knowing ignorance is strength.
-Ignoring knowledge is sickness.
 
-If one is sick of sickness, then one is not sick.
-The sage is not sick because he is sick of sickness.
-Therefore he is not sick.
+To know you do not know is highest.
+To not know yet claim to know is sickness.
+
+Only when you are sick of the sickness are you not sick.
+The sage is not sick because they are sick of the sickness.
 
 ## Seventy-Two
-When men lack a sense of awe, there will be disaster.
 
-Do not intrude in their homes.
-Do not harass them at work.
-If you do not interfere, they will not weary of you.
+When the people no longer fear authority,
+the great collapse comes.
+Do not crowd people in their homes.
+Do not oppress their livelihoods.
+Only when you do not oppress them will they not tire of you.
 
-Therefore the sage knows himself but makes no show,
-Has self-respect but is not arrogant.
-He lets go of that and chooses this.
+And so the sage knows themselves and does not display themselves,
+loves themselves and does not hold themselves precious.
+They let go of what is out there and take what is here.
 
 ## Seventy-Three
-A brave and passionate man will kill or be killed.
-A brave and calm man will always preserve life.
-Of these two which is good and which is harmful?
-Some things are not favoured by heaven. Who knows why?
-Even the sage is unsure of this.
 
-The Tao of heaven does not strive, and yet it overcomes.
-It does not speak, and yet is answered.
-It does not ask, yet is supplied with all its needs.
-It seems at ease, and yet it follows a plan.
+Bravery in pushing gets you killed.
+Bravery in not pushing keeps you alive.
+Of these two, one benefits and one harms.
+What nature turns against, who knows why?
+So the sage still finds it difficult.
 
-Heaven's net casts wide.
-Though its meshes are coarse, nothing slips through.
+The way of nature:
+it does not contend, yet is masterful at overcoming.
+It does not speak, yet is masterful at answering.
+It does not summon, yet things come of themselves.
+It is unhurried, yet masterful at planning.
+
+Nature's net is vast.
+Its mesh is wide, and nothing slips through.
 
 ## Seventy-Four
-If men are not afraid to die,
-It is of no avail to threaten them with death.
 
-If men live in constant fear of dying,
-And if breaking the law means that a man will be killed,
-Who will dare to break the law?
+When the people do not fear death,
+why try to frighten them with death?
 
-There is always an official executioner.
-If you try to take his place,
-It is like trying to be a master carpenter and cutting wood.
-If you try to cut wood like a master carpenter,
-you will only hurt your hand.
+Suppose the people always feared death,
+and I could seize whoever steps out of line and kill them.
+Who would still push?
+
+There is always one who does the killing.
+To take their place is to take the place of the master carpenter.
+Of those who carve in place of the master carpenter,
+few fail to cut their own hand.
 
 ## Seventy-Five
-Why are the people starving?
-Because the rulers eat up the money in taxes.
-Therefore the people are starving.
 
-Why are the people rebellious?
-Because the rulers interfere too much.
-Therefore they are rebellious.
+The people go hungry
+because those over them eat up so much in taxes.
 
-Why do the people think so little of death?
-Because the rulers demand too much of life.
-Therefore the people take death lightly.
+The people are hard to govern
+because those over them will not stop doing.
 
-Having little to live on, one knows better than to value life too much.
+The people make light of death
+because those over them want their own lives so rich.
+
+Those who don't use living for doing
+are worthier than those who hold life precious.
 
 ## Seventy-Six
-A man is born gentle and weak.
-At his death he is hard and stiff.
-Green plants are tender and filled with sap.
-At their death they are withered and dry.
 
-Therefore the stiff and unbending is the disciple of death.
-The gentle and yielding is the disciple of life.
+In life a person is soft and yielding.
+In death, hard and strong.
+In life the countless things, the grasses and trees, are soft and tender.
+In death, withered and dry.
 
-Thus an army without flexibility never wins a battle.
-A tree that is unbending is easily broken.
+So the hard and strong are followers of death.
+The soft and yielding are followers of life.
 
-The hard and strong will fall.
-The soft and weak will overcome.
+This is why a strong army does not win,
+and a strong tree snaps.
+
+The strong and the big dwell below.
+The soft and the yielding dwell above.
 
 ## Seventy-Seven
-The Tao of heaven is like the bending of a bow.
-The high is lowered, and the low is raised.
-If the string is too long, it is shortened;
-If there is not enough, it is made longer.
 
-The Tao of heaven is to take from those who have too much
-and give to those who do not have enough.
-Man's way is different.
-He takes from those who do not have enough
-to give to those who already have too much.
-What man has more than enough and gives it to the world?
-Only the man of Tao.
+The way of nature:
+is it not like stringing a bow?
+The high is pressed down, the low is lifted.
+What is too much is drawn off. What is too little is filled in.
 
-Therefore the sage works without recognition.
-He achieves what has to be done without dwelling on it.
-He does not try to show his knowledge.
+The way of nature
+takes from where there is too much
+and mends where there is too little.
+The way of people is not like this.
+It takes from those who have too little
+and offers it up to those who have too much.
+
+Who has more than enough,
+and offers it up to the world?
+Only those who are with the Tao.
+
+Therefore the sage acts yet relies on nothing.
+The work is done, and they do not stay in it.
+They have no wish to appear exceptional.
 
 ## Seventy-Eight
-Under heaven nothing is more soft and yielding than water.
-Yet for attacking the solid and strong, nothing is better;
-It has no equal.
-The weak can overcome the strong;
-The supple can overcome the stiff.
-Under heaven everyone knows this,
-Yet no one puts it into practice.
-Therefore the sage says:
-He who takes upon himself the humiliation of the people
-is fit to rule them.
-He who takes upon himself the country's disasters deserves
-to be king of the universe.
-The truth often sounds paradoxical.
+
+In all the world nothing is softer and more yielding than water,
+yet at attacking the hard and the strong nothing overcomes it,
+for nothing can take its place.
+
+The yielding overcomes the strong.
+The soft overcomes the unbending.
+No one in the world fails to know this,
+yet no one can follow it.
+
+So the sage says:
+whoever takes on the filth of the state
+is the keeper of the soil and the grain.
+Whoever takes on the ill omen of the state
+is the ruler of the world.
+
+Words on the mark seem like their opposite.
 
 ## Seventy-Nine
-After a bitter quarrel, some resentment must remain.
-What can one do about it?
-Therefore the sage keeps his half of the bargain
-But does not exact his due.
-A man of Virtue performs his part,
-But a man without Virtue requires others to fulfill their obligations.
-The Tao of heaven is impartial.
-It stays with good men all the time.
+
+Settle a great grudge
+and some grudge always remains.
+How could that count as masterful?
+
+So the sage grasps the left half of the tally
+and never asks for the other.
+
+Those with integrity keep the tally.
+Those without integrity keep score.
+
+The way of nature plays no favorites.
+It stays with those who are masterful.
 
 ## Eighty
-A small country has fewer people.
-Though there are machines that can work ten to a hundred times faster
-than man, they are not needed.
-The people take death seriously and do not travel far.
-Though they have boats and carriage, no one uses them.
-Though they have armour and weapons, no one displays them.
-Men return to the knotting of rope in place of writing.
-Their food is plain and good, their clothes fine but simple,
-their homes secure;
-They are happy in their ways.
-Though they live within sight of their neighbours,
-And crowing cocks and barking dogs are heard across the way,
-Yet they leave each other in peace while they grow old and die.
+
+A small state, few people.
+Let the people have tools that do the work of ten, of a hundred, yet no need to use them.
+Let the people find death heavy, and not move far away.
+
+Though there are boats and carts, there is no call to travel in them.
+Though there are armor and weapons, there is no call to march them out.
+
+Let the people go back to keeping their records in knotted cord.
+
+They find their food sweet,
+their clothes fine,
+their houses restful,
+their ways a pleasure.
+
+Neighboring states lie within sight of each other.
+They hear each other's chickens and dogs.
+The people grow old and die
+and never once go next door.
 
 ## Eighty-One
-Truthful words are not beautiful.
-Beautiful words are not truthful.
-Good men do not argue.
-Those who argue are not good.
-Those who know are not learned.
-The learned do not know.
 
-The sage never tries to store things up.
-The more he does for others, the more he has.
-The more he gives to others, the greater his abundance.
-The Tao of heaven is pointed but does no harm.
-The Tao of the sage is work without effort.
+Trustworthy words are not pretty.
+Pretty words are not trustworthy.
+
+Those who are masterful do not argue.
+Those who argue are not masterful.
+
+Those who know have not heard it all.
+Those who have heard it all do not know.
+
+The sage does not hoard.
+Having done for others, they have more.
+Having given to others, they have more still.
+
+The way of nature benefits and does not harm.
+The way of the sage acts and does not contend.
