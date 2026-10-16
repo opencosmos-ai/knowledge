@@ -48,6 +48,8 @@ The long-form reasoning, including which sources are excluded and why, lives in 
 
 **Small corrections** — open a pull request directly. One file, one issue, a sentence saying what you checked. The quickest way: every page on [opencosmos.ai/library](https://opencosmos.ai/library) ends with **Suggest an edit**, which opens that page's file here in GitHub's editor, no clone needed. Some corrections are already identified and waiting: see [good first issue](https://github.com/opencosmos-ai/knowledge/labels/good%20first%20issue).
 
+**One exception: the Tao Te Ching.** `sources/taoism-tao-te-ching.md` is generated from the [Open Tao Te Ching](https://github.com/opencosmos-ai/taoteching) and regenerated whenever the translation changes, so an edit here would be overwritten. Its Library pages send "Suggest an edit" to the chapter's own file in that repository instead, which is where a correction belongs.
+
 **Anything larger** — open an issue first. New source texts, structural changes, and anything touching the admission rules are worth discussing before the work is done.
 
 **Every claim carries its evidence.** That is the one standard applied everywhere: a rendering, an attribution, a date, or a correction is only as good as the source you can point at. "This is wrong" invites a shrug. "This is wrong, and here is the 1882 printing that shows it" changes the file.

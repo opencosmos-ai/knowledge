@@ -67,7 +67,6 @@ The script handles:
 | `laws` | Plato's Laws | INTRODUCTION AND ANALYSIS, EXCURSUS, BOOK I-XII |
 | `republic` | Plato's Republic | Publisher title page, sidenotes, Stephanus numbers, page markers, line unwrapping |
 | `heart_sutra` | Heart Sutra | Minimal: H1 + preserve verse structure |
-| `tao` | Tao Te Ching | Chapter numbers (ONE through EIGHTY-ONE) → ## headers |
 | `poetry` | Leaves of Grass, etc. | Preserve line breaks/indentation, BOOK → ## headers |
 | `prophet` | The Prophet | Strip [Illustration], unwrap ~40-char hard wraps, ### chapter titles |
 | `scientific` | Gaia Hypothesis, etc. | Unwrap PDF columns, section headers → ## |

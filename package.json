@@ -11,6 +11,7 @@
     "graph:constellation": "tsx scripts/knowledge/generate-constellation-graph.ts",
     "embed": "tsx scripts/knowledge/embed-knowledge.ts",
     "embed:dry": "tsx scripts/knowledge/embed-knowledge.ts --dry-run",
+    "ttc:generate": "tsx scripts/knowledge/generate-tao-te-ching.ts",
     "quotes:migrate-from-source": "tsx scripts/normalize-quotes/01-jsonl-to-yaml.ts",
     "quotes:validate": "tsx --env-file=.env scripts/normalize-quotes/02-validate-provenance.ts",
     "quotes:validate:pilot": "tsx --env-file=.env scripts/normalize-quotes/02-validate-provenance.ts --pilot",

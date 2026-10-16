@@ -407,53 +407,6 @@ def process_heart_sutra(text: str) -> str:
     return header + body.strip() + '\n'
 
 
-def process_tao_te_ching(text: str) -> str:
-    """Process the Tao Te Ching — scripture with chapter divisions."""
-    text = strip_gutenberg_end(text)
-
-    # Strip leading metadata/TOC up to the first content section
-    # Look for "Lao Tsu and Taoism" or first chapter marker
-    lao_match = re.search(r'^LAO TSU AND TAOISM\.?\s*$', text, re.MULTILINE)
-    if lao_match:
-        text = text[lao_match.start():]
-        text = re.sub(r'^LAO TSU AND TAOISM\.?\s*$', '## Lao Tsu and Taoism', text,
-                       count=1, flags=re.MULTILINE)
-
-    # Convert ALL-CAPS chapter numbers to ## Title Case
-    number_words = [
-        'ONE', 'TWO', 'THREE', 'FOUR', 'FIVE', 'SIX', 'SEVEN', 'EIGHT',
-        'NINE', 'TEN', 'ELEVEN', 'TWELVE', 'THIRTEEN', 'FOURTEEN', 'FIFTEEN',
-        'SIXTEEN', 'SEVENTEEN', 'EIGHTEEN', 'NINETEEN', 'TWENTY',
-        'TWENTY-ONE', 'TWENTY-TWO', 'TWENTY-THREE', 'TWENTY-FOUR',
-        'TWENTY-FIVE', 'TWENTY-SIX', 'TWENTY-SEVEN', 'TWENTY-EIGHT',
-        'TWENTY-NINE', 'THIRTY', 'THIRTY-ONE', 'THIRTY-TWO', 'THIRTY-THREE',
-        'THIRTY-FOUR', 'THIRTY-FIVE', 'THIRTY-SIX', 'THIRTY-SEVEN',
-        'THIRTY-EIGHT', 'THIRTY-NINE', 'FORTY', 'FORTY-ONE', 'FORTY-TWO',
-        'FORTY-THREE', 'FORTY-FOUR', 'FORTY-FIVE', 'FORTY-SIX', 'FORTY-SEVEN',
-        'FORTY-EIGHT', 'FORTY-NINE', 'FIFTY', 'FIFTY-ONE', 'FIFTY-TWO',
-        'FIFTY-THREE', 'FIFTY-FOUR', 'FIFTY-FIVE', 'FIFTY-SIX', 'FIFTY-SEVEN',
-        'FIFTY-EIGHT', 'FIFTY-NINE', 'SIXTY', 'SIXTY-ONE', 'SIXTY-TWO',
-        'SIXTY-THREE', 'SIXTY-FOUR', 'SIXTY-FIVE', 'SIXTY-SIX', 'SIXTY-SEVEN',
-        'SIXTY-EIGHT', 'SIXTY-NINE', 'SEVENTY', 'SEVENTY-ONE', 'SEVENTY-TWO',
-        'SEVENTY-THREE', 'SEVENTY-FOUR', 'SEVENTY-FIVE', 'SEVENTY-SIX',
-        'SEVENTY-SEVEN', 'SEVENTY-EIGHT', 'SEVENTY-NINE', 'EIGHTY',
-        'EIGHTY-ONE'
-    ]
-    for word in number_words:
-        title_word = word.replace('-', '-').title()
-        text = re.sub(
-            rf'^{word}\.?\s*$',
-            f'## {title_word}',
-            text,
-            flags=re.MULTILINE
-        )
-
-    text = collapse_blanks(text)
-
-    header = '# Tao Te Ching\n\n*By Lao Tsu*\n\n*Translated by Gia-Fu Feng and Jane English*\n\n'
-    return header + text.strip() + '\n'
-
-
 def process_poetry(text: str, title: str, author: str) -> str:
     """Process a poetry collection.
 
@@ -1373,7 +1326,9 @@ FILE_REGISTRY: Dict[str, tuple] = {
     'zen-heart-sutra':       ('heart_sutra',),
     'yoga-sutras-of-patanjali': ('yoga_sutras',),
     'yoga-sutras-of-patanjali-woods': ('woods_yoga_sutras',),
-    'taoism-tao-te-ching':   ('tao',),
+    # taoism-tao-te-ching is not groomed: it is generated from opencosmos-ai/taoteching
+    # by scripts/knowledge/generate-tao-te-ching.ts. Its old processor wrote Feng and
+    # English's credit into the file, and grooming it would put it back.
     'buddhism-the-dhammapada': ('scripture', 'The Dhammapada'),
     # Poetry
     'literature-leaves-of-grass': ('poetry', 'Leaves of Grass', 'Walt Whitman'),
@@ -1448,8 +1403,6 @@ def route_file(text: str, stem: str) -> str:
         return process_yoga_sutras(text)
     elif proc_type == 'woods_yoga_sutras':
         return process_woods_yoga_sutras(text)
-    elif proc_type == 'tao':
-        return process_tao_te_ching(text)
     elif proc_type == 'poetry':
         return process_poetry(text, args[0], args[1])
     elif proc_type == 'scientific':
