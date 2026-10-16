@@ -1,0 +1,212 @@
+#!/usr/bin/env tsx
+/**
+ * Writes sources/taoism-tao-te-ching.md from the Open Tao Te Ching.
+ *
+ *   npm run ttc:generate                  # ../taoteching if checked out, else GitHub main
+ *   npm run ttc:generate -- --ref <sha>   # a given taoteching commit, from GitHub
+ *   npm run ttc:generate -- --check       # exit 1 if the file would change
+ *
+ * The corpus copy of the Tao Te Ching is never edited by hand (opencosmos ADR
+ * 0020 §7). The translation lives in opencosmos-ai/taoteching and changes
+ * weekly; a copy nobody regenerates is how this corpus came to hold a
+ * copyright translation labelled public domain. So this file is a function of
+ * taoteching's `data/atlas-export.json` and nothing else: no dates, no commit
+ * ids, so an unchanged translation regenerates byte-identical and the sync
+ * workflow (.github/workflows/tao-te-ching.yml) has nothing to commit.
+ *
+ * Its shape is set by what reads it:
+ *
+ *   ## Chapter N              one per chapter. Cosmo cites a chunk by its heading
+ *                             slug (`…taoism-tao-te-ching.md#chapter-12`), the
+ *                             constellation makes each H2 a section node, and
+ *                             opencosmos's lib/corpus-href.ts maps `#chapter-N`
+ *                             to the chapter's page. The English, then the Chinese.
+ *   ### Notes on chapter N    the translator's notes, under a heading of their own
+ *                             so Cosmo can quote the reasoning without passing it
+ *                             off as the text (ADR 0017). The embedder chunks at
+ *                             H3 too, so the heading names its chapter: a bare
+ *                             `### Notes` would collide 81 times. Headings inside
+ *                             the notes become bold lines, for the same reason.
+ *   *End of chapter N.*       closes each chapter, because the embedder opens a
+ *                             chunk with the previous section's last paragraph.
+ *
+ * No pinyin: it costs tokens and adds almost nothing to retrieval (ADR 0020 §7).
+ * The readings live in the export and the Character Atlas.
+ *
+ * Before this generator, the file was a stopgap with word headings (`## Twelve`).
+ * Citations to those keep resolving through lib/corpus-href.ts in opencosmos,
+ * which is why this could only land after that mapping was deployed.
+ */
+
+import { existsSync, readFileSync, writeFileSync } from 'node:fs'
+import { dirname, join, resolve } from 'node:path'
+import { fileURLToPath } from 'node:url'
+
+const ROOT = resolve(dirname(fileURLToPath(import.meta.url)), '..', '..')
+const OUT = join(ROOT, 'sources', 'taoism-tao-te-ching.md')
+const SIBLING = resolve(ROOT, '..', 'taoteching', 'data', 'atlas-export.json')
+const RAW = (ref: string) => `https://raw.githubusercontent.com/opencosmos-ai/taoteching/${ref}/data/atlas-export.json`
+
+type Export = {
+  contract: number
+  chapters: Record<string, [string | null, string | null, string | null, number, number]>
+  lines: Record<string, [string, string, string, number]>
+  verse: Record<string, string[][]>
+  notes: Record<string, string>
+}
+
+// ── Input ─────────────────────────────────────────────────────────────────────
+
+function arg(name: string): string | undefined {
+  const i = process.argv.indexOf(name)
+  return i === -1 ? undefined : process.argv[i + 1]
+}
+
+async function load(): Promise<{ data: Export; from: string }> {
+  const ref = arg('--ref')
+  const explicit = process.env.TAOTECHING_EXPORT
+  if (!ref && explicit) return { data: JSON.parse(readFileSync(explicit, 'utf-8')), from: explicit }
+  if (!ref && existsSync(SIBLING)) return { data: JSON.parse(readFileSync(SIBLING, 'utf-8')), from: SIBLING }
+  const url = RAW(ref ?? 'main')
+  const res = await fetch(url, { signal: AbortSignal.timeout(60_000) })
+  if (!res.ok) throw new Error(`${url} answered ${res.status}`)
+  return { data: (await res.json()) as Export, from: url }
+}
+
+/** Refuse a thin or foreign export. Counted, never trusted by exit status. */
+function verify(x: Export): void {
+  if (x.contract !== 1) throw new Error(`export is contract ${x.contract}; this generator reads 1`)
+  const chapters = Object.keys(x.chapters ?? {}).length
+  if (chapters !== 81) throw new Error(`export has ${chapters} chapters, not 81`)
+  for (const key of ['verse', 'notes'] as const) {
+    const n = Object.keys(x[key] ?? {}).length
+    if (n !== 81) throw new Error(`export has "${key}" for ${n} chapters, not 81 — does it predate taoteching#30?`)
+  }
+  for (let n = 1; n <= 81; n++) {
+    if (!x.verse[n]?.flat().length) throw new Error(`chapter ${n} has no verse`)
+    if (!(`${n}.1` in x.lines)) throw new Error(`chapter ${n} has no Chinese`)
+  }
+}
+
+// ── Output ────────────────────────────────────────────────────────────────────
+
+const FRONTMATTER = `---
+# GENERATED — do not edit. Written by scripts/knowledge/generate-tao-te-ching.ts
+# from opencosmos-ai/taoteching's data/atlas-export.json, and regenerated by
+# .github/workflows/tao-te-ching.yml whenever the translation changes. Edit the
+# translation in taoteching; to regenerate by hand: npm run ttc:generate
+title: Tao Te Ching
+work_type: work
+role: source
+format: scripture
+tags:
+  - tao
+  - wu-wei
+  - emptiness
+  - naturalness
+  - integrity
+  - harmony
+audience:
+  - philosopher
+  - contemplative
+  - general
+complexity: foundational
+summary: >-
+  The foundational text of Taoism, in the Open Tao Te Ching: a new English
+  translation made directly from the classical Chinese by Shalom Ormsby and
+  dedicated to the public domain (CC0). Each of the eighty-one chapters carries
+  its English verse, the Chinese it translates, and the translator's notes on
+  why contested lines read as they do, all without the theistic and moralistic
+  overlays of earlier translations.
+curated_at: '2026-03-23'
+curator: shalom
+source: https://github.com/opencosmos-ai/taoteching
+license: CC0-1.0
+translator: Shalom Ormsby
+corpus_tier: source
+author: Lao Tzu
+origin_date: ~6th century BCE
+era: ancient
+tradition: taoism
+related_docs:
+  - sources/philosophy-gorgias.md
+  - sources/philosophy-meno.md
+  - sources/philosophy-phaedo.md
+  - sources/philosophy-symposium.md
+  - sources/philosophy-apology.md
+---
+`
+
+// The attribution line and the Curator's Note keep the stopgap's wording where
+// it still holds, so their chunk ids (#intro, #curators-note) are unchanged.
+const INTRO = `*The Open Tao Te Ching, translated from the classical Chinese by Shalom Ormsby. Public domain (CC0).*
+
+## Curator's Note
+
+This is the Open Tao Te Ching, a new English translation made directly from the classical Chinese and dedicated to the public domain (CC0). It replaces Gia-Fu Feng and Jane English's 1972 translation, which is in copyright and was in this corpus by mistake.
+
+The translation lives in [opencosmos-ai/taoteching](https://github.com/opencosmos-ai/taoteching), where every rendering decision is argued in the open, and its glossary is in the [Open Classical Chinese Character Atlas](https://chinese-atlas.opencosmos.ai/glossary/). Some of its settled renderings differ from the familiar ones: 天 (*tiān*) is *sky*, not "Heaven"; 萬物 (*wàn wù*) is *the countless things*, not "the ten thousand things"; 常 (*cháng*) is *ever-present*; and the sage is never "he."
+
+This document is generated from the translation and regenerated whenever it changes, so it is never more than a day behind. Each chapter gives the English verse, then the Chinese it translates. Where the translator has written notes, they follow under their own heading: they explain why a line reads as it does, and are the translator's reasoning, not the text. Readers can find each chapter, with every character glossed, at [opencosmos.ai/library/sources/taoism-tao-te-ching](https://opencosmos.ai/library/sources/taoism-tao-te-ching).
+`
+
+/** Headings inside a chapter's notes, flattened so they cannot become chunks. */
+function flattenHeadings(md: string): string {
+  return md.replace(/^#{1,6}\s+(.+?)\s*#*\s*$/gm, '**$1**')
+}
+
+function chapter(x: Export, n: number): string {
+  const [titleZh, , titleEn] = x.chapters[n] ?? [null, null, null]
+  const out: string[] = [`## Chapter ${n}`, '']
+  if (titleZh) {
+    out.push(`*Heshang Gong's title: ${titleZh}${titleEn ? `, "${titleEn}"` : ''}.*`, '')
+  }
+  for (const stanza of x.verse[n]!) out.push(stanza.join('\n'), '')
+  const chinese: string[] = []
+  for (let seq = 1; `${n}.${seq}` in x.lines; seq++) chinese.push(x.lines[`${n}.${seq}`]![0])
+  out.push('The Chinese:', '', chinese.join('\n'), '')
+  const notes = (x.notes[n] ?? '').trim()
+  if (notes) out.push(`### Notes on chapter ${n}`, '', flattenHeadings(notes), '')
+  // The embedder opens every chunk with the last paragraph of the section
+  // before it, for context. Without this line, chapter 12's chunk would open
+  // with a paragraph of chapter 11's notes, labelled as chapter 12.
+  out.push(`*End of chapter ${n}.*`, '')
+  return out.join('\n')
+}
+
+export function render(x: Export): string {
+  const body = Array.from({ length: 81 }, (_, i) => chapter(x, i + 1)).join('\n')
+  return `${FRONTMATTER}${INTRO}\n${body}`.replace(/\n{3,}/g, '\n\n').trimEnd() + '\n'
+}
+
+// ── Main ──────────────────────────────────────────────────────────────────────
+
+async function main() {
+  const { data, from } = await load()
+  verify(data)
+  const text = render(data)
+
+  const h2 = text.match(/^## /gm)?.length ?? 0
+  const h3 = text.match(/^### /gm)?.length ?? 0
+  const before = existsSync(OUT) ? readFileSync(OUT, 'utf-8') : ''
+  const changed = before !== text
+
+  console.log(`  from ${from}`)
+  console.log(`  ${h2} H2 sections (81 chapters + the Curator's Note) · ${h3} chapters with notes · ${(text.length / 1024).toFixed(0)} KB`)
+  if (process.argv.includes('--check')) {
+    console.log(changed ? '  ✗ sources/taoism-tao-te-ching.md is stale' : '  ✓ current')
+    process.exit(changed ? 1 : 0)
+  }
+  if (h2 !== 82) throw new Error(`expected 82 H2 sections, wrote ${h2}`)
+  if (!changed) {
+    console.log('  unchanged')
+    return
+  }
+  writeFileSync(OUT, text)
+  console.log('  → sources/taoism-tao-te-ching.md')
+}
+
+main().catch((err) => {
+  console.error(`  ✗ ${err.message}`)
+  process.exit(1)
+})

@@ -202,7 +202,6 @@ Runs `scripts/knowledge/groom.py` — a persistent Python script that transforms
 | `republic` | Plato's Republic (sidenotes, Stephanus numbers) |
 | `laws` | Plato's Laws (EXCURSUS, BOOK I-XII) |
 | `heart_sutra` | Heart Sutra |
-| `tao` | Tao Te Ching (chapter numbers → headings) |
 | `poetry` | Leaves of Grass (preserve line breaks) |
 | `prophet` | The Prophet |
 | `scientific` | Gaia Hypothesis, scientific texts |
