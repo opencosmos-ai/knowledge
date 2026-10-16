@@ -174,7 +174,7 @@ The work done, the body withdraws. This is the way of nature.
 
 ## Ten
 
-Housing your soul and embracing the one, can you keep these from parting?
+Housing your aliveness and embracing the one, can you keep these from parting?
 Gathering the breath to softness, can you be like an infant?
 
 Washing and clearing the dark mirror, can you be without blemish?
