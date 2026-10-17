@@ -57,7 +57,7 @@ This document is generated from the translation and regenerated whenever it chan
 
 *Heshang Gong's title: 體道, "Embodying the Tao".*
 
-The Tao that can be made into a way is not the ever-present Tao.
+The Tao that can be made a way is not the ever-present Tao.
 The name that can be named is not the ever-present name.
 The nameless is the beginning of sky and earth.
 The named is the mother of the countless things.
@@ -84,20 +84,33 @@ The Chinese:
 
 ### Notes on chapter 1
 
-**道可道 → *The Tao that can be made into a way*.** *(Shalom's call, 2026-10-13. Was "The Tao that can be spoken.")* **The reason is the reader's first lesson: 道 (*dào*) means *way*.** The book's central word is, in Chinese, the ordinary word for a road, and *Tao* in English is an exotic name that hides it. This line now sets *Tao* and *way* in the same slot of the same sentence, so a reader learns what the name means before learning anything else — consciously or not.
+**道可道 → *The Tao that can be made a way*.** **The book opens on a paradox, and the paradox is in the grammar.** 道可道，非常道 (*dào kě dào, fēi cháng dào* — "the Tao that can be *dào*-ed is not the ever-present Tao") prints one graph three times in six characters: the name, the same word acting as a verb, and the name again. The line turns its own central word back on itself, so the ever-present Tao is denied in its own word. To keep the paradox, the English has to hold three things together:
+- **the name**, *Tao*, which the line also teaches means *way*;
+- **the turn**, the middle 道 being the same word, made to act;
+- **the voice**, the Tao being what the verb is done to.
 
 **How the second 道 is a verb.** Classical Chinese does not inflect; a word's job is its position. 可 (*kě* — can, may) always takes a verb and makes it passive — 可食 (*kě shí*) is *can be eaten*, edible — so whatever stands after 可 is an action. 道 (noun: the Tao) · 可 (can be) · 道 (verb: *dào*-ed). The next line is the same shape, and English can follow that one: 名可名, *the name that can be named*. The move was ordinary in Laozi's century — the 論語 (*Lúnyǔ* — the *Analects*) has 君君，臣臣 (*jūn jūn, chén chén* — "let the lord be a lord, the minister a minister") — so it is not a joke on two meanings but **one word turned on itself.** 說文 (*Shuōwén*) gives the noun as 所行道也 (*suǒ xíng dào yě* — "the road that is walked"), and the verb grows from it: to tread a way, to lead along it (later split off as 導, *dǎo* — to guide), to tell it in words.
 
-**道 three times, and now the English carries the word all three times.** 道可道，非常道 (*dào kě dào, fēi cháng dào*) prints the same graph three times: topic, verb, and the ever-present Tao it is denied to be. *"The Tao that can be spoken is not the ever-present Tao"* kept the word twice and turned the middle one into a different word. Because *Tao* is locked as a name (`glossary/dao-道.md`), the middle 道 cannot be repeated as an English verb — *"the Tao that can be Tao'd"* is not English — so it is rendered by **what the name means**: *Tao · way · Tao*. **The precedent is already in the book**: where 道 is an ordinary way and not the name, this manuscript renders it *way* — 天之道 and 天道 (*tiān zhī dào*, *tiān dào* — the way of heaven) are *"the way of nature"* at ch 9, 47, 73, 77, 79 and 81; 人之道 (*rén zhī dào*) is *"the way of people"* at ch 77; 聖人之道 (*shèng rén zhī dào*) is *"the way of the sage"* at ch 81. The lock forbids *the Way* as a stand-in for the Tao; a lowercase *a way* is the common noun doing its own job.
+**Why the voice is the point.** 可 + verb puts the subject on the receiving end (`glossary/ke-可.md`). The Tao is not doing the *dào*-ing; it is what would be *dào*-ed. So someone other than the Tao does it: a person who lays it out as a route, a course, a program to follow. The Tao's own manner is 自然 (*zì rán* — so of itself), and ch 25 ends on it: 道法自然, *"the Tao models itself on being what it is."* Being made a way is not something the Tao does of itself. It is done to the Tao, by human hands, and the line says that what comes of it is not the ever-present Tao. An English in another voice loses this. *The Tao that can become a way* makes the change the Tao's own, a claim about what the Tao does, where the Chinese speaks of what is done to it.
 
-**What the line now says, and who says it with us.** *Made into a way* — laid out as a route, a course, a program to follow:
+**How the English makes it a verb.** *Tao* is locked as a name (`glossary/dao-道.md`), and *"the Tao that can be Tao'd"* is not English. So the middle 道 is rendered by **what the name means**, and *made* turns it into a verb: *made a way*. *Made* is supplied scaffolding (`process/principles/supplied-verb-is-scaffolding.md`); *way* is 道's own word. The line reads *Tao · way · Tao*, carrying the word all three times the Chinese prints it, and a reader learns what the name means before learning anything else. *Made a way* is the ordinary English passive of *make it a way*, as in *she was made a judge*, and nothing in it is spare. **The precedent is already in the book**: where 道 is an ordinary way and not the name, this manuscript renders it *way* — 天之道 and 天道 (*tiān zhī dào*, *tiān dào* — the way of heaven) are *"the way of nature"* at ch 9, 47, 73, 77, 79 and 81; 人之道 (*rén zhī dào*) is *"the way of people"* at ch 77; 聖人之道 (*shèng rén zhī dào*) is *"the way of the sage"* at ch 81. The lock forbids *the Way* as a stand-in for the Tao; a lowercase *a way* is the common noun doing its own job.
+
+**Where other translations let it go.** English versions keep one or two of the three and give up the rest. What goes most often is the turn.
+- **The middle 道 becomes speech.** Waley (1934), *the Way that can be told of*; Lau (1963), *the way that can be spoken of*; Feng and English (1972), *the Tao that can be told*. The word appears twice, not three times, and the paradox becomes a claim about language: the Tao cannot be put into words. That is the next line's subject (名可名, *the name that can be named*), so the opening line is folded into its partner.
+- **A different word takes the middle.** Legge (1891), *the Tao that can be trodden*, keeps the road and the passive, but the reader hears two words where the Chinese has one.
+- **The turn is kept by translating the name.** Carus (1898), *the Reason that can be reasoned*, turns the word on itself exactly as the Chinese does, but only by making the Tao *Reason*: the Logos of John 1:1, which the Chinese Union Bible renders with 道 (`process/overlay-audit.md`).
+- **The walker is kept, and the name is lost.** Le Guin (1997), *the way you can go*, names the person the line implies, but the Tao is gone from the sentence and *go* is a different word from *way*.
+
+None of these keeps all three. *The Tao that can be made a way* does: the name, the same word in the middle, and the passive.
+
+**What the line says, and who says it with us.** *Made a way* — laid out as a route, a course, a program to follow:
 - 河上公 (*Héshàng Gōng*) glosses the second 道 with the noun itself: 謂經術政教之道也 — *"it means the **way** of classical learning and political instruction."* A Tao that can be laid out and taught.
-- 韓非 (*Hán Fēi*, the oldest reader we carry): the ever-present has 無定理 (*wú dìng lǐ* — "no fixed pattern"), 是以不可道也…然而可論 — *"therefore it cannot be **dào**-ed… and yet it can be discussed."* On a reading of *spoken* that sentence contradicts itself; on *made into a way* it is exact. A fixed course is the thing it cannot be.
+- 韓非 (*Hán Fēi*, the oldest reader we carry): the ever-present has 無定理 (*wú dìng lǐ* — "no fixed pattern"), 是以不可道也…然而可論 — *"therefore it cannot be **dào**-ed… and yet it can be discussed."* On a reading of *spoken* that sentence contradicts itself; on *made a way* it is exact. A fixed course is the thing it cannot be.
 - 王弼 (*Wáng Bì*) is half with us: 可道之道，可名之名，指事造形，非其常也 — *"the Tao that can be dào-ed and the name that can be named point at affairs and **make forms**; they are not its constant."* 造形 (*zào xíng* — to make a form) is the making; 指事 (*zhǐ shì* — to point at affairs) is the designation, and that half we lose.
 
-**And the two lines now do two things, as the Chinese does.** Line 1 asks whether the Tao can be made a road; line 2, 名可名, whether it can be named. *Spoken* had folded the first into the second.
+**And the two lines do two things, as the Chinese does.** Line 1 asks whether the Tao can be made a way; line 2, 名可名, whether it can be named. A speech reading folds the first into the second.
 
-**What it costs, named rather than hidden.** **The speech sense goes.** It is real: the 詩經 (*Shījīng* — the Book of Songs) has 中冓之言，不可道也 (*"the words of the inner chamber cannot be told"*), and 河上公 closes his own gloss on this line with 不可稱道 (*bù kě chēng dào* — "it cannot be spoken of"). **This is a line where the commentators diverge and the English picks a side** — the route reading of 河上公's lemma gloss and 韓非, over 王弼's pointing — which `divergence-stays-open` would refuse. It is taken here on Shalom's call, for the reason at the top of this note. *Made into a way* is also longer than 道可道's three syllables, and a little longer than its partner line, *the name that can be named*.
+**What it costs, named rather than hidden.** **The speech sense goes.** It is real: the 詩經 (*Shījīng* — the Book of Songs) has 中冓之言，不可道也 (*"the words of the inner chamber cannot be told"*), and 河上公 closes his own gloss on this line with 不可稱道 (*bù kě chēng dào* — "it cannot be spoken of"). **This is a line where the commentators diverge and the English picks a side** — the route reading of 河上公's lemma gloss and 韓非, over 王弼's pointing — which `divergence-stays-open` would refuse. It is taken here on Shalom's call, because the route reading is the one that lets the English keep the paradox. *Made a way* is also longer than 道可道's three syllables, and a little longer than its partner line, *the name that can be named*. And it brushes the English idiom *make a way*, to clear a path; in this sentence the Tao is what is made, so the idiom does not take hold.
 
 **What was refused, and why.**
 - ***spoken*** — *speak* is 言 (*yán* — speech)'s English at ch 5, 17, 27, 56, 66 and 73, and it makes ch 1 rhyme in English with ch 56's 知者不言 (*"Those who know do not speak"*), where the Chinese uses a different character. It also makes 韓非 contradict himself.
@@ -105,6 +118,8 @@ The Chinese:
 - ***followed*** — the book says the Tao *is* followed, and praises it: 惟道是從 (*wéi dào shì cóng* — ch 21, *"simply follows the Tao"*), 從事於道 (*cóng shì yú dào* — ch 23). *Follow* is also 從 (*cóng*)'s, 隨 (*suí*)'s and 徒 (*tú*)'s word already.
 - ***conceived as Tao*** — keeps three *Tao*s, but moves the act inside the head, where no commentator puts it; turns line 1 into line 2's naming; and is seminar register.
 - ***mapped*** is 圖 (*tú* — to plan)'s word at ch 63; ***traced*** chimes with 跡 (*jì* — footprints) at ch 27, *"leaves no tracks."*
+- ***become a way*** — lighter, and wrong in voice. It has the Tao turn into a way of itself, where the Chinese has the Tao made one. It breaks the parallel with 名可名, which English keeps passive. And *become* is the English of a verb the line does not print, 為 (*wéi* — to do, to serve as, to become).
+- ***made into a way*** — the same passive with a spare word. *Made* already does the work *into* was added to do.
 
 *The Literal column for this line was changed with it — it read "can be spoken", which was one reading set down as the gloss.*
 
