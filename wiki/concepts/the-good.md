@@ -40,7 +40,7 @@ The Form of the Good (*agathon*) is the highest concept in Platonic metaphysics 
 
 ## Contradictions
 
-- Plato explicitly says the Good cannot be defined in words (*Republic*) — yet the entire *Republic* is an attempt to approach it through dialectic. This mirrors the Taoist "The Tao that can be made a way is not the ever-present Tao" (*Tao Te Ching*, Chapter 1). Both traditions acknowledge the limit of language but proceed anyway.
+- Plato explicitly says the Good cannot be defined in words (*Republic*) — yet the entire *Republic* is an attempt to approach it through dialectic. This mirrors the Taoist "The name that can be named is not the ever-present name" (*Tao Te Ching*, Chapter 1). Both traditions acknowledge the limit of language but proceed anyway.
 - Buddhism has no equivalent to a highest Form or cosmic Good — the emphasis is on the cessation of suffering and the recognition of emptiness, not on an ultimate positive reality. The contrast is instructive: Greek philosophy sought the highest being; Buddhist philosophy sought the end of clinging to any being.
 
 ## Open Questions

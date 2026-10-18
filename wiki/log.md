@@ -73,3 +73,4 @@
 2026-10-17  UPDATED   wiki/concepts/the-good.md  (ch. 1 line 1 re-quoted: "made a way")
 2026-10-17  UPDATED   wiki/concepts/logos-and-tao.md  (ch. 1 line 1 re-quoted: "made a way")
 2026-10-17  UPDATED   wiki/entities/gibran-kahlil.md  (missed by the 2026-10-15 pass: "the Tao that can be named is not the eternal Tao" blended lines 1 and 2 in Feng-English wording; now quotes ch. 1 line 1 from the Open Tao Te Ching)
+2026-10-17  UPDATED   wiki/concepts/the-good.md  (the limit-of-language comparison now quotes ch. 1's second line, "The name that can be named is not the ever-present name"; the first line no longer reads as a claim about speech, the second still does)
