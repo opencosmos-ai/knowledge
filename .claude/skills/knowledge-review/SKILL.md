@@ -40,6 +40,10 @@ For each page referenced in the index, read the file and extract:
 
 ## Step 3: Run Health Checks
 
+### Check 0 — Quotations from living texts
+
+Run `npm run quotes:living`. Every quotation attributed to a text still being revised (the Open Tao Te Ching) must match that chapter's verse as it reads now, and must name the work in its citation. Report each finding with the current wording to re-quote from.
+
 ### Check 1 — Orphan pages
 
 An orphan is a wiki page with either:

@@ -24,6 +24,14 @@ jobs:
       - name: Quote pools lint
         run: npm run quotes:lint
 
+      # The wiki quotes texts that are still being revised. On 2026-10-17 four
+      # pages quoted chapter 1 in a wording the translation had dropped the day
+      # before. Every quotation attributed to a living text must match it now.
+      - name: Quotations match the living texts
+        run: |
+          npm run -s test:living-quotes
+          npm run -s quotes:living
+
       # The health report always exits 0, so assert on what it says. Checking
       # the line is there proves the check ran. A script that finds nothing
       # also exits 0.

@@ -24,7 +24,9 @@
     "quotes:promote": "tsx scripts/normalize-quotes/07-promote-verified.ts",
     "quotes:add": "tsx scripts/normalize-quotes/08-add-quote.ts",
     "quotes:link-works": "tsx scripts/normalize-quotes/09-resolve-source-works.ts",
-    "quotes:lint": "tsx scripts/normalize-quotes/lint.ts"
+    "quotes:lint": "tsx scripts/normalize-quotes/lint.ts",
+    "quotes:living": "tsx scripts/knowledge/check-living-quotes.ts",
+    "test:living-quotes": "tsx --test scripts/knowledge/living-quotes.test.ts"
   },
   "dependencies": {
     "@anthropic-ai/sdk": "^0.68.0",

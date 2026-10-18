@@ -120,6 +120,8 @@ Merge new information:
 - Update `confidence` if promotion criteria are met (see below)
 - Always update `last_reviewed` to today
 
+**Quoting a living text.** Some sources are still being revised: the Open Tao Te Ching is regenerated from its repository every day. Quote it from `sources/taoism-tao-te-ching.md` as it reads now, never from memory or another translation, and **name the work in the citation**, `(*Tao Te Ching*, Chapter N)`, never a bare `(ch. N)`. `npm run quotes:living` checks every such quotation against the chapter's current verse. CI runs it, and the daily sync opens an issue when a revision leaves a quotation behind. Run it before you finish.
+
 **Confidence promotion criteria:**
 - `speculative → medium`: 3+ source documents in `synthesizes`, claims are defensible
 - `medium → high`: 4+ source documents, major contradictions documented, no major gaps
