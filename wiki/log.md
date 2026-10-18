@@ -69,3 +69,7 @@
 2026-10-15  UPDATED   wiki/concepts/the-good.md  (re-quoted from the Open Tao Te Ching, ch. 1; 德 glossed as integrity, not virtue/power)
 2026-10-15  UPDATED   wiki/concepts/logos-and-tao.md  (re-quoted from the Open Tao Te Ching, ch. 1; sky and earth, the countless things)
 2026-10-15  UPDATED   wiki/connections/cosmology-comparison.md  (ch. 42 re-quoted from the Open Tao Te Ching; the old quotation was unattributed and matched no translation in the corpus)
+2026-10-18  UPDATED   wiki/entities/lao-tzu.md  (ch. 1 line 1 re-quoted as the translation now reads it, "made a way", not "made into a way"; "says the Tao cannot be spoken" restated, since the translation reads the middle 道 as being made a way, not as speech)
+2026-10-18  UPDATED   wiki/concepts/the-good.md  (ch. 1 line 1 re-quoted: "made a way")
+2026-10-18  UPDATED   wiki/concepts/logos-and-tao.md  (ch. 1 line 1 re-quoted: "made a way")
+2026-10-18  UPDATED   wiki/entities/gibran-kahlil.md  (missed by the 2026-10-15 pass: "the Tao that can be named is not the eternal Tao" blended lines 1 and 2 in Feng-English wording; now quotes ch. 1 line 1 from the Open Tao Te Ching)
