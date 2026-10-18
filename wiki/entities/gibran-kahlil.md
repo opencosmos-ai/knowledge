@@ -34,7 +34,7 @@ Kahlil Gibran (1883–1931) was a Lebanese-American poet and philosopher who wor
 - [[entities/hesse-hermann.md]] — Hesse's protagonists (especially in *Demian* and *Steppenwolf*) similarly break through social masks to find an authentic self; the "egg and the world" image is structurally parallel to Gibran's shell imagery
 - [[entities/george-fox.md]] — Fox's refusal of social deference (hat-honor, class language) is a practical version of Gibran's philosophical mask-removal; both find that social conventions obscure a more fundamental reality
 - [[concepts/the-self.md]] — Gibran adds a socio-dramatic dimension to the self question: the self is always performing for others; liberation requires seeing through the performance
-- [[entities/lao-tzu.md]] — Gibran's Forerunner and the Taoist sage both operate from a wisdom that cannot be directly taught; the Tao that can be named is not the eternal Tao; Gibran's parables resist direct statement for similar reasons
+- [[entities/lao-tzu.md]] — Gibran's Forerunner and the Taoist sage both operate from a wisdom that cannot be directly taught; "the Tao that can be made a way is not the ever-present Tao" (ch. 1); Gibran's parables resist direct statement for similar reasons
 
 ## Contradictions
 

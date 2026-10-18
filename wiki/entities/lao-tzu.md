@@ -18,7 +18,7 @@ Lao Tzu (c. 6th century BCE) is the legendary author of the *Tao Te Ching*, the 
 
 ## Key Claims
 
-- **The Tao is unnameable:** "The Tao that can be made into a way is not the ever-present Tao. / The name that can be named is not the ever-present name" (ch. 1). Language and conceptual thought are always approximations. The Tao precedes sky and earth; the named is the mother of the countless things, but not of the Tao itself.
+- **The Tao is unnameable:** "The Tao that can be made a way is not the ever-present Tao. / The name that can be named is not the ever-present name" (ch. 1). Language and conceptual thought are always approximations. The Tao precedes sky and earth; the named is the mother of the countless things, but not of the Tao itself.
 - **Wu wei (無為, non-doing):** The sage acts in alignment with the Tao without striving or forcing. "The work is done, and the sage does not stay in it. / Because the sage does not stay, it does not leave" (ch. 2). Action from wu wei is effective precisely because it doesn't impose.
 - **Complementary opposites:** All phenomena arise in pairs: presence/absence, difficult/easy, long/short, high/low, front/back. These are not contradictions but complements that define and sustain each other. "When the world knows beauty as beauty, ugliness arises" (ch. 2).
 - **Return to naturalness:** The goal is not achievement but return — to simplicity, to the uncarved wood (樸, *pu*), to the state before social conditioning imposes false distinctions.
@@ -34,7 +34,7 @@ Lao Tzu (c. 6th century BCE) is the legendary author of the *Tao Te Ching*, the 
 
 ## Contradictions
 
-- The *Tao Te Ching* explicitly says the Tao cannot be spoken, yet Lao Tzu wrote 81 chapters about it. This is the productive paradox at the heart of the text — the words are a finger pointing at the moon, not the moon itself.
+- The *Tao Te Ching* opens by saying that the Tao that can be made a way is not the ever-present Tao, and the name that can be named is not the ever-present name, yet Lao Tzu wrote 81 chapters about it. This is the productive paradox at the heart of the text — the words are a finger pointing at the moon, not the moon itself.
 - Lao Tzu's political philosophy (minimal governance, non-interference) stands in tension with Plato's *Republic* (philosopher-kings, rigorous education, structured city). Both claim to be aligned with the highest principle.
 
 ## Open Questions
