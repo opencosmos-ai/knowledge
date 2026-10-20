@@ -115,7 +115,7 @@ None of these keeps all three. *The Tao that can be made a way* does: the name, 
 **What was refused, and why.**
 - ***spoken*** — *speak* is 言 (*yán* — speech)'s English at ch 5, 17, 27, 56, 66 and 73, and it makes ch 1 rhyme in English with ch 56's 知者不言 (*"Those who know do not speak"*), where the Chinese uses a different character. It also makes 韓非 contradict himself.
 - ***told*** — the strongest alternative: it carries speech *and* directions (*tell someone the way*). It loses the word *way*, which is the point of the line.
-- ***followed*** — the book says the Tao *is* followed, and praises it: 惟道是從 (*wéi dào shì cóng* — ch 21, *"simply follows the Tao"*), 從事於道 (*cóng shì yú dào* — ch 23). *Follow* is also 從 (*cóng*)'s, 隨 (*suí*)'s and 徒 (*tú*)'s word already.
+- ***followed*** — the book says the Tao *is* followed, and praises it: 惟道是從 (*wéi dào shì cóng* — ch 21, *"follows only the Tao"*), 從事於道 (*cóng shì yú dào* — ch 23). *Follow* is also 從 (*cóng*)'s, 隨 (*suí*)'s and 徒 (*tú*)'s word already.
 - ***conceived as Tao*** — keeps three *Tao*s, but moves the act inside the head, where no commentator puts it; turns line 1 into line 2's naming; and is seminar register.
 - ***mapped*** is 圖 (*tú* — to plan)'s word at ch 63; ***traced*** chimes with 跡 (*jì* — footprints) at ch 27, *"leaves no tracks."*
 - ***become a way*** — lighter, and wrong in voice. It has the Tao turn into a way of itself, where the Chinese has the Tao made one. It breaks the parallel with 名可名, which English keeps passive. And *become* is the English of a verb the line does not print, 為 (*wéi* — to do, to serve as, to become).
@@ -147,7 +147,7 @@ They are born, and the sage does not possess them.
 The sage acts, yet relies on nothing.
 The work is done, and the sage does not stay in it.
 
-Because the sage does not stay, it does not leave.
+Only because the sage does not stay does it not leave.
 
 The Chinese:
 
@@ -163,6 +163,10 @@ The Chinese:
 為而弗恃，
 功成而弗居。
 夫唯弗居，是以不去。
+
+### Notes on chapter 2
+
+**夫唯弗居，是以不去 → "Only because the sage does not stay does it not leave."** *(2026-10-19, Shalom's call, `glossary/wei-唯.md`. Was: "Because the sage does not stay, it does not leave.")* 唯 (*wéi*) is *only*, and the bare *because* had dropped it. Not staying is the whole reason the work stays, not one reason among several. *Because* renders 是以 (*shì yǐ* — therefore), moved to the front where English wants it, and the clause after it inverts. The frame reads the same in all nine of its lines.
 
 *End of chapter 2.*
 
@@ -405,8 +409,8 @@ In government, masterful at order.
 In affairs, masterful at what can be done.
 In moving, masterful at timing.
 
-Because it does not contend,
-there is no blame.
+Only because it does not contend
+is there no blame.
 
 The Chinese:
 
@@ -465,7 +469,7 @@ The Chinese:
 
 **"Always blameless" lost both halves.** 常 (*cháng* — the ever-present) has **zero occurrences here**, so *always* rendered nothing. And 尤 (*yóu* — blame) is a **hapax**, its only appearance in all 81 chapters, meaning fault-finding rather than moral purity; *blameless* fails the hymn test. 河上公: **天下无有怨尤水者也** — *"there is no one in the world who resents or blames water."* Kept agentless, as 無尤 is, where 河上公 supplies the agents.
 
-**夫唯不爭 now matches ch 22**, which shares the formula: *"Because they do not contend…"* there, *"Because it does not contend…"* here.
+**夫唯不爭 matches ch 22**, which shares the formula: *"Only because they do not contend…"* there, *"Only because it does not contend / is there no blame"* here. *(2026-10-19, Shalom's call: both had read a bare "Because…", which dropped 唯 (*wéi* — only). The frame reads *Only because* in all nine of its lines. `glossary/wei-唯.md`.)*
 
 **居 and 處 both land on dwelling words, and the seam is named rather than forced.** 說文 makes them near-twins — 處 (*chǔ*) is **止也。得几而止** (*"to stop; to find a stool and stop"*), 居 (*jū*) is **蹲也** (*"to squat"*) — and ch 38 already uses them as stylistic variants in parallel clauses (see `notes/manuscript.md`). Here 處 keeps *dwells*, its English at ch 24, 31, 38 and 76, and 居 takes ***settling***, which is 說文's squat and leaves the two distinguishable.
 
@@ -828,8 +832,8 @@ Colour, sound, form — the three ways a thing presents to the senses, and the s
 The ancients who were masterful in service
 were faint, subtle, dark, and unobstructed,
 so deep they could not be read.
-Precisely because they could not be read,
-I force a likeness:
+Only because they could not be read
+do I force a likeness:
 
 Careful, like wading across a river in winter.
 Hesitant, like someone wary of the neighbors on all four sides.
@@ -843,8 +847,8 @@ Who can be muddy, and by stilling it slowly come clear?
 Who can be at rest, and by moving it slowly come to life?
 
 Those who keep the Tao safe like this have no wish to be full.
-Precisely because they are never full,
-they can stay covered, and never newly made.
+Only because they are never full
+can they stay covered, and never newly made.
 
 The Chinese:
 
@@ -901,7 +905,7 @@ The Chinese:
 
 **"read" is free** — the only two hits on a whole-manuscript reverse search are false positives (*thread*, *already*) — plain, and exactly 識's job: telling what something is. It is metaphorical applied to people, but it is standard English rather than idiom, which *"made out"* was not.
 
-**夫唯 (*fū wéi*) likewise appears twice** — 夫唯不可識 and 夫唯不盈 — and had *"Because they cannot be known"* against *"Because they don't seek to become full."* Both are now **"Precisely because"**, and the invented *seek* is gone: 不盈 is simply *not full*.
+**夫唯 (*fú wéi*) likewise appears twice** — 夫唯不可識 and 夫唯不盈 — and had *"Because they cannot be known"* against *"Because they don't seek to become full."* Both now read **"Only because"**, with the clause after each inverted, *"do I force a likeness"* and *"can they stay covered"*, and the invented *seek* is gone: 不盈 is simply *not full*. *(2026-10-19, Shalom's call. Was "Precisely because" from 2026-09-06, an intensifier where 唯 (*wéi*) is an exclusive. `glossary/wei-唯.md`.)*
 
 **靜 and 安 had been swapped.** 孰能濁以**靜**之徐清 had 靜 (*jìng* — stillness) as *"sit"*, while 孰能**安**以動之徐生 gave *"still"* to 安 (*ān* — at rest). 靜 is **stillness** in seven other chapters. The two questions are a strict grammatical mirror — 孰能 [state] 以 [action] 之 徐 [result] — and *"move in ways that gradually stir life"* padded the second out of parallel with the first. Now: *"by stilling it slowly come clear"* / *"by moving it slowly come to life."* 生 (*shēng*) lands as **come to life**, not "stir life."
 
@@ -1228,7 +1232,7 @@ The Chinese:
 
 *Heshang Gong's title: 虛心, "Emptying the heart".*
 
-The greatest integrity simply follows the Tao.
+The greatest integrity follows only the Tao.
 Whatever the Tao is, it is only vague, only elusive.
 Elusive and vague, and within it there is an image.
 Vague and elusive, and within it there is a thing.
@@ -1255,6 +1259,8 @@ The Chinese:
 以此。
 
 ### Notes on chapter 21
+
+**惟道是從 → "follows only the Tao."** *(2026-10-19, Shalom's call, `glossary/wei-唯.md`. Was: "simply follows the Tao.")* 惟 (*wéi*) is 唯 (*wéi* — only) written with the heart radical, and the next line already reads it *only*, twice: 惟恍惟惚, *"only vague, only elusive."* *Simply* restricted the verb, a manner of following. 惟 X 是 V (*wéi X shì V*) fronts the object and singles it out, the construction of ch 53's 唯施是畏 (*wéi shī shì wèi*), *"my only fear would be to stray."*
 
 **以此 → "By this." — and every word we had added to it is gone.** *(2026-08-30, Pass C, `WORKLIST.md` T2-12.)* The line closed *"By this, here, now."* 以此 (*yǐ cǐ*) is 以 (*yǐ* — by means of) + 此 (*cǐ* — this): **two characters, two words.** The addition came from 河上公 (*Héshàng Gōng*), who glosses the phrase 此，今也 (*cǐ, jīn yě* — "'this' means **now**") and continues 以今萬物皆得道精氣而生 (*"because now the countless things all obtain the Tao's essence-breath and live"*). **A commentator's gloss is evidence for a rendering, not a rendering** — and this one had been lifted straight into the verse.
 
@@ -1283,7 +1289,7 @@ They do not insist they are right, and so their rightness shows.
 They do not claim the work, and so the work is theirs.
 They do not boast, and so they endure.
 
-Because they do not contend, no one in the world can contend with them.
+Only because they do not contend can no one in the world contend with them.
 When the ancients said "bend, and stay whole," were those empty words?
 These words hold. Return to them. Stay whole.
 
@@ -1308,6 +1314,8 @@ The Chinese:
 誠全而歸之。
 
 ### Notes on chapter 22
+
+**夫唯不爭 → "Only because they do not contend can no one in the world contend with them."** *(2026-10-19, Shalom's call, `glossary/wei-唯.md`. Was: "Because they do not contend, no one in the world can contend with them.")* 唯 (*wéi* — only) restored. **It is now what separates this line from ch 66**, which closes on the same clause with 以其不爭 (*yǐ qí bù zhēng* — because they do not contend) and no 唯, and keeps its plain *"Because they do not contend."* One character apart in the Chinese, one word apart in the English.
 
 **不自矜 → "They do not boast."** *(2026-10-14, Shalom's call. Was: "They do not make themselves great.")* *Great* is 大 (*dà*)'s locked English and there is no 大 in the line. The old rendering took the commentary gloss 矜，大也 as its English. *Boast* is 矜's word at ch 30 (果而勿矜), and ch 24 mirrors this line, so the three now agree.
 
@@ -3082,7 +3090,7 @@ The Chinese:
 *Heshang Gong's title: 守道, "Holding fast to the Tao".*
 
 When governing people and serving nature, nothing compares to conserving.
-Conserving is called accepting early,
+Only conserving is called accepting early,
 accepting early is called a heavy accumulation of integrity,
 a heavy accumulation of integrity is when nothing cannot be overcome,
 when nothing cannot be overcome, no one knows its limit,
@@ -3103,6 +3111,8 @@ The Chinese:
 是謂深根固柢，長生久視之道。
 
 ### Notes on chapter 59
+
+**夫唯嗇 → "Only conserving is called accepting early."** *(2026-10-19, Shalom's call, `glossary/wei-唯.md`. Was: "Conserving is called accepting early.")* 唯 (*wéi* — only) had no English. Both commentators keep it exclusive. 河上公 puts 獨 (*dú* — alone) in its place: 夫獨愛民財、愛精氣，則能先得天道也, *"only by cherishing the people's wealth and the vital essence can one obtain the Tao of nature first."* 王弼 opens 唯重積德, *"only by heavily accumulating integrity."* The chain below keeps its *is called*, which is 是謂 (*shì wèi*)'s and 謂之 (*wèi zhī*)'s.
 
 **早服 → "accepting early," twice.** *(2026-10-14, Shalom's call. Was: "returning early"; "early accord" was tried the same day and dropped as jargon.)* 服 (*fú*) has no sense of return, and no witness recorded here reads 復 (*fù* — return). All three commentators read it as accord or taking in. 王弼: 早服常也 (*"early 服 is constancy"*). 河上公: 服得也 (*"服 is to obtain"*). 韓非 (*Hán Fēi*): 夫能令故德不去，新和氣日至者，蚤服者也 (*"one who keeps their old integrity from leaving while new harmonious breath arrives each day is one who 蚤服"*). *Submit* was the literal column's word and reads as defeat. *Accepting* is how you 服 a command or a medicine: you take it in and go along. Set aside: *harmony* (和's word in five lines, and 韓非's 和氣 would turn his explanation into the rendering), *alignment* (self-help register), *receptivity* (names a quality where 服 is an act), *yielding* (弱's locked word).
 
@@ -3419,7 +3429,7 @@ The Chinese:
 
 **細 (*xì*) → "slight," matching ch 63.** *(Was "petty.")* 細 occurs in two chapters and had two Englishes; ch 63's 為大於其細 and 天下大事，必作於細 already read **slight** twice. *Petty* also imported a moral verdict the character does not carry — 細 is the **silk radical** 糸, thread-fine, a matter of size.
 
-**Not touched: 夫唯 (*fū wéi*) still reads "Only because" here.** It is a formula across **11 chapters and 12 lines** and now carries at least three Englishes book-wide — *"Only because"* (67, 70), *"Precisely because"* (15), and a bare *"Because"* (2). Settling it is a term pass, not a line fix. `WORKLIST.md` T2-43.
+**夫唯 (*fú wéi*) reads "Only because" here, and now reads it everywhere.** *(2026-10-19, Shalom's call. This note had left the line untouched, a formula across 11 chapters and 12 lines that carried five Englishes.)* The frame 夫唯…故 / 是以 (*gù / shì yǐ* — therefore) reads *"Only because X, Y,"* with the clause after it inverted, in all nine of its lines. 唯 (*wéi*) is *only*, and 河上公's gloss here doubles it: 唯**獨**名德大者為身害, *"only for one whose name for integrity is great does it become a harm to the body."* `glossary/wei-唯.md` · `WORKLIST.md` T2-43.
 
 **Three of the four holding characters meet on this page, and two of them were sharing an English.** *(2026-09-08, Pass E, `WORKLIST.md` T2-19 — the holding family.)* 我有三**寶**，**持**而**保**之 puts 持 (*chí* — to hold), 保 (*bǎo* — to keep safe) and 寶 (*bǎo* — treasure) in one line; 以**守**則固 adds 守 (*shǒu*); 以慈**衛**之 adds 衛 (*wèi* — to escort, to guard). **守 had read *defend* and 衛 had read *guards*.** Now 守 takes its locked flexion — 以戰則勝，以守則固 → *"Fight with it and you win, **guard** with it and you stand firm"* — which is 說文's own second sense for 守 (寺府之事者, the business of a court, sentry included) and which 河上公 (*Héshàng Gōng*) expands to 以**守衛**則堅固. 衛 moves to *shields*, and 固 (*gù* — 說文 四塞也, *"blocked on all four sides"*) gives up *hold firm* for *stand firm*. See `glossary/shou-守.md`, `glossary/bao-保.md`, `glossary/chi-持.md`.
 
@@ -3498,8 +3508,8 @@ No one can follow them.
 
 Words have an ancestor.
 Affairs have a ruler.
-Only because there is no knowing it,
-they do not know me.
+Only because there is no knowing it
+do they not know me.
 
 Those who know me are few.
 Those who pattern themselves on me are precious.
@@ -3516,6 +3526,8 @@ The Chinese:
 
 ### Notes on chapter 70
 
+**是以不我知 → "do they not know me."** *(2026-10-19, Shalom's call, `glossary/wei-唯.md`. Was: "they do not know me.")* The 2026-08-24 note in `notes/translation.md` recorded this line with an inversion the verse never carried. After a fronted *only because*, English turns the next clause round, and without the turn the line drifts toward *merely because*. 夫唯 (*fú wéi* — "now, only") now reads *Only because…* in all nine lines of its frame.
+
 **希 (*xī*) — the thread from ch 14.** *(Shalom's call, 2026-09-10 — `WORKLIST.md` T2-52.)* 知我者希 renders **希** as *few*. **Chapter 14 is where the book names this character**: 聽之不聞，名曰希, given there as *"its name is the inaudible."* The graph is 爻 (*yáo* — crossed threads) over 巾 (*jīn* — cloth), **loose-woven fabric you can see through** — one property, read across a crowd here and across a sound at ch 41's 大音希聲. **河上公 (*Héshàng Gōng*) ties this chapter's couplet to it directly**: 希，少也…故為貴也, *"希 means few… and that is why it is prized"* — scarcity is where the 貴 (*guì* — precious) of the next clause comes from. Ch 14 renders the meaning rather than the word for that chapter's legibility, so the link is carried here. Also ch 23, 43, 74.
 
 *End of chapter 70.*
@@ -3527,7 +3539,7 @@ The Chinese:
 To know you do not know is highest.
 To not know yet claim to know is sickness.
 
-Only when you are sick of the sickness are you not sick.
+Only because you are sick of the sickness are you not sick.
 The sage is not sick because they are sick of the sickness.
 
 The Chinese:
@@ -3538,6 +3550,8 @@ The Chinese:
 聖人不病，以其病病，是以不病。
 
 ### Notes on chapter 71
+
+**夫唯病病 → "Only because you are sick of the sickness are you not sick."** *(2026-10-19, Shalom's call, `glossary/wei-唯.md`. Was: "Only when…")* 是以 (*shì yǐ* — therefore) is causal, and 河上公 keeps it so: 夫唯能病苦衆人有強知之病，是以不自病也, *"only because they are pained by the crowd's disease of forced knowing do they not sicken themselves."* The next line's 以其病病 (*yǐ qí bìng bìng* — because they are sick of the sickness) is causal too, so both of the chapter's reasons now read *because*.
 
 **上 / 病 is a posture, not a grade.** 上 (*shàng*) is a line with a mark above it: *up, higher*. 病 (*bìng*) is 疒 (*nè* — a person lying against a bed-plank) over a phonetic; *Shuowen* glosses it 疾加也, "illness intensified" — sick enough to be laid up. The pair is standing high against lying down, not best against worst. "Highest" also follows the house rendering of 上 in 上德 (ch 38) and 上士 (ch 41).
 
@@ -3561,7 +3575,7 @@ When the people no longer fear authority,
 the great collapse comes.
 Do not crowd people in their homes.
 Do not oppress their livelihoods.
-Only when you do not oppress them will they not tire of you.
+Only because you do not oppress them do they not tire of you.
 
 And so the sage knows themselves and does not display themselves,
 loves themselves and does not hold themselves precious.
@@ -3578,6 +3592,8 @@ The Chinese:
 
 ### Notes on chapter 72
 
+**夫唯不厭，是以不厭 → "Only because you do not oppress them do they not tire of you."** *(2026-10-19, Shalom's call, reversing his "when" of 2026-08-24. `glossary/wei-唯.md`.)* *When* was chosen so that a fourth *because* would not read as a tic. The repetition is the Chinese's: 夫唯 (*fú wéi* — "now, only") opens nine lines of one causal frame, and *when* had made this one a condition. 王弼 restates it causally, 不自厭，是以天下莫之厭, *"they do not make themselves loathsome, therefore no one in the world loathes them."* **Cost, logged:** two negatives across an inversion, which is heavier in English than 不厭…不厭 (*bù yàn… bù yàn*) is in Chinese.
+
 **大威 is not a bigger stick — and it is not a better one either.** The literal gloss above (*"then great authority/might arrives"*) invites the standard mistranslation, which reads the line as a threat: *fear my authority, or a greater authority will come.* A drafting pass then produced the opposite error and a worse one — *"true authority arises"* — which turns the warning into a reassurance. Neither survives the commentary. 王弼: 上下**大潰**矣，**天誅**將至 — *"high and low collapse utterly; the reckoning of nature is coming."* 河上公, flatly: 威**害**也…大害至，謂**死亡**也 — *"威 means harm… the great harm arrives, meaning death."* Nothing true, nothing arising. 至 (*zhì*) is an arrow striking ground: **arrives**. **What comes when coercion stops working is the end of the arrangement.**
 
 **One character, two referents, and 王弼 splits them for us.** He glosses the ruler's 威 as **威權** (*wēiquán* — awe-power, authority) and the second as **天誅** (nature's reckoning). So the Chinese runs one word through both slots and the shock is that they are not the same thing; English cannot hold that in one word without saying something false, so it splits: *authority* / *the great collapse*. 潰 (*kuì*) in 王弼's 大潰 is a **dyke bursting**, which is where the English gets its noun — a collapse answers to nobody, and that ownerlessness is the line. **Overlay watch:** 天誅 is 天 (*tiān* — sky, nature) plus 誅 (*zhū* — to condemn, to execute). Nature's reckoning, not divine punishment. The pull toward "Heaven's judgment" is strongest in the commentary, where no checker is looking.
@@ -3588,9 +3604,9 @@ The Chinese:
 
 **厭 is a pun, and the English needs both halves of it.** 厭 (*yàn* / *yā*) is 甘 (sweet) over 肉 (meat) under 厂 (a cliff): **sated with rich food**, hence *fed up with*; and by way of the cliff-graph it is the ancestor of 壓 (*yā* — to press down). So 夫唯不厭，是以不厭 says both at once: *do not press them down, and they will not be fed up with you.*
 
-**"Oppress" carries the first half exactly** — *ob-premere*, to press against — and it is the plainer word. **The second half is not pressure but loathing**, and 王弼 spells it out: 不自厭，是以天下**莫之厭**, *"therefore no one in the world loathes them."* Ch 66 already renders that same 不厭 as **"never tires of them"**, sitting directly under 聖人處上而民不重 (*the sage stands above and the people are not weighed down*) — which is this chapter's ethic in one line. Hence *"only when you do not oppress them will they not tire of you."* Ch 53's 厭飲食 → *"gorged on food and drink"* holds the root sense of the graph.
+**"Oppress" carries the first half exactly** — *ob-premere*, to press against — and it is the plainer word. **The second half is not pressure but loathing**, and 王弼 spells it out: 不自厭，是以天下**莫之厭**, *"therefore no one in the world loathes them."* Ch 66 already renders that same 不厭 as **"never tires of them"**, sitting directly under 聖人處上而民不重 (*the sage stands above and the people are not weighed down*) — which is this chapter's ethic in one line. Hence *"only because you do not oppress them do they not tire of you."* Ch 53's 厭飲食 → *"gorged on food and drink"* holds the root sense of the graph.
 
-**This is the second chapter running built on 夫唯 [doubled character]，是以不 [same character].** Ch 71: 夫唯病病，是以不病 → *sick of the sickness / not sick.* Ch 72: 夫唯不厭，是以不厭 → *weary them / weary of you.* Both times the English survives only because one word carries two senses. See `notes/translation.md`.
+**This is the second chapter running built on 夫唯 [doubled character]，是以不 [same character].** Ch 71: 夫唯病病，是以不病 → *sick of the sickness / not sick.* Ch 72: 夫唯不厭，是以不厭 → *oppress them / tire of you.* Ch 71's English survives because one word carries two senses; ch 72's needs two words, because the second 厭 is loathing, not pressure. *(Corrected 2026-10-19: this note had ch 72 as "weary them / weary of you", a draft that was killed.)* See `notes/translation.md`.
 
 **"Loves themselves and does not hold themselves precious."** 貴 (*guì*) sits on 貝, a cowrie shell — money. It means *costly* before it means *honored*, and ch 70 already renders it *precious*. The line's whole force is that these two are separable: you can love a thing without pricing it. 河上公 reads 自愛 physiologically — 自愛其身以保精氣也, *"loves their own person, so as to preserve the vital essence and the energy"* — and 不自貴 socially: 不自貴高榮名於世, *"does not raise themselves up with glory and fame in the world."*
 
@@ -3691,7 +3707,7 @@ because those over them will not stop doing.
 The people make light of death
 because those over them want their own lives so rich.
 
-Those who don't use living for doing
+Only those who don't use living for doing
 are worthier than those who hold life precious.
 
 The Chinese:
@@ -3702,6 +3718,8 @@ The Chinese:
 夫唯無以生為者，是賢於貴生。
 
 ### Notes on chapter 75
+
+**夫唯無以生為者 → "Only those who don't use living for doing."** *(2026-10-19, Shalom's call, `glossary/wei-唯.md`. Was: "Those who don't use living for doing.")* 唯 (*wéi* — only) had no English. 河上公 doubles it: 夫唯**獨**無以生為務者, *"only those who do not make living their business."* The line judges a person, as the note on 是賢於貴生 (*shì xián yú guì shēng* — "are worthier than those who hold life precious") says, and *only* makes the judgment exclusive.
 
 **有為 (*yǒu wéi* — "having doing") occurs exactly once in the whole book, and it is this line.** 無為 (*wúwéi* — non-doing) is named a dozen times as the thing to do; this is the only place Laozi names its opposite outright, and he names it as the cause of a state that cannot be governed. Chapter 75 is where the 無為 lock earns its keep: 為 (*wéi*) is a hand on an elephant — *handling* — so 上之有為 (*shàng zhī yǒu wéi*) is those above having their **doing**, a hand that will not come off.
 
