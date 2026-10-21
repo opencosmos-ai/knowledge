@@ -469,6 +469,8 @@ The Chinese:
 
 **"Always blameless" lost both halves.** 常 (*cháng* — the ever-present) has **zero occurrences here**, so *always* rendered nothing. And 尤 (*yóu* — blame) is a **hapax**, its only appearance in all 81 chapters, meaning fault-finding rather than moral purity; *blameless* fails the hymn test. 河上公: **天下无有怨尤水者也** — *"there is no one in the world who resents or blames water."* Kept agentless, as 無尤 is, where 河上公 supplies the agents.
 
+***Fault* was proposed for 尤 and declined, on three grounds.** *(Shalom's call, 2026-10-20.)* **It is 咎 (*jiù* — calamity / fault)'s English**, at ch 46 and at ch 9, the very next page, where *"you leave yourself the fault"* would read as an answer to water's *"no fault"* — a pairing of two characters the Chinese never pairs. **河上公's 怨尤 (*yuàn yóu* — to resent, to blame) is a verb pair with water as its object**, the pair of the Analects' 不怨天，不尤人 (*bù yuàn tiān, bù yóu rén* — "does not resent heaven, does not blame others"); bare *fault* moves the claim inside water, back toward the purity *blameless* was rejected for. **And 夫唯不爭 (*fú wéi bù zhēng* — only because it does not contend) pays out in other people's response wherever the book names the payout** — ch 22 and 66's 天下莫能與之爭 (*"no one in the world can contend with them"*), ch 72's 夫唯不厭，是以不厭 (*"only because you do not oppress them do they not tire of you"*). 說文 does not decide it: 尢 (*yóu*, 尤's old graph), **異也**, *"out of the ordinary."* **The cost:** *no blame* is the I Ching's formula for 无咎 (*wú jiù* — no 咎), so a reader who knows that book hears 咎 here; that is an echo from outside the book, accepted. If `WORKLIST.md` T2-53 moves 咎 off *fault*, the first ground goes and the other two stand.
+
 **夫唯不爭 matches ch 22**, which shares the formula: *"Only because they do not contend…"* there, *"Only because it does not contend / is there no blame"* here. *(2026-10-19, Shalom's call: both had read a bare "Because…", which dropped 唯 (*wéi* — only). The frame reads *Only because* in all nine of its lines. `glossary/wei-唯.md`.)*
 
 **居 and 處 both land on dwelling words, and the seam is named rather than forced.** 說文 makes them near-twins — 處 (*chǔ*) is **止也。得几而止** (*"to stop; to find a stool and stop"*), 居 (*jū*) is **蹲也** (*"to squat"*) — and ch 38 already uses them as stylistic variants in parallel clauses (see `notes/manuscript.md`). Here 處 keeps *dwells*, its English at ch 24, 31, 38 and 76, and 居 takes ***settling***, which is 說文's squat and leaves the two distinguishable.
@@ -656,12 +658,12 @@ The Chinese:
 
 *Heshang Gong's title: 檢欲, "Reining in desire".*
 
-The full spectrum of colors makes the eyes blind.
-The full spectrum of tones makes the ears deaf.
-The full spectrum of flavors makes the palate dull.
+The full spectrum of colors makes people's eyes blind.
+The full spectrum of tones makes people's ears deaf.
+The full spectrum of flavors makes people's palates dull.
 
-Galloping in pursuit of prey makes the heart wild.
-Rare goods make actions corrupt.
+Galloping in pursuit of prey makes people's hearts wild.
+Rare goods hinder people's conduct.
 
 Therefore the sage acts for the belly, not for the eye.
 They let go of what is out there and take what is here.
@@ -694,7 +696,21 @@ The Chinese:
 
 **This chapter is why "scarce" was refused for 難得.** *Scarce* means a need going unmet — and the chapter's whole hinge is 為腹不為目 (*wèi fù bù wèi mù*), 腹 (*fù* — the belly), the organ that **can** be satisfied, against 目 (*mù* — the eye), the one that cannot. **Scarcity is a fact about bellies. This chapter is about eyes.**
 
-**Still owed here, not fixed:** 妨 (*fáng* — to hinder, obstruct) reads *"corrupt"*, a moral word for an obstruction word. 王弼 (*Wáng Bì*): 難得之貨，塞人正路 — *"goods hard to come by block a person's straight road."* 河上公 (*Héshàng Gōng*): 妨，傷也 — *"妨 means to harm."* That is naturalistic-razor territory and its own item.
+**令人行妨 → "Rare goods hinder people's conduct."** *(2026-10-20, Shalom's call, `WORKLIST-CLOSED.md` T1-26.)* *(was: "Rare goods make actions corrupt.")* 令人行妨 (*lìng rén xíng fáng* — "makes a person's conduct hindered"). Three words moved, and the stanza with them.
+
+**人 (*rén* — a person) is restored in all five lines.** The stanza says 令人 (*lìng rén* — "makes a person's") five times, and the English had dropped 人 every time: *"makes the eyes blind."* That is a claim about eyes. The Chinese is about what happens to a person, and it chose to say so when 五色盲目 (*"colors blind the eyes"*) would have been grammatical. Both commentators read the organs as a person's own faculties, spoiled by that person's own use. 王弼 (*Wáng Bì*): 夫耳目口心皆順其性也…反以傷自然 — *"ears, eyes, mouth and heart are all meant to follow their nature… instead they are turned to wounding what is so of itself."* The silks press harder, binding three of the organs to the person with 之 (*zhī* — 's): 使人之行, 使人之口, 使人之耳. And five lines of 人 set up the turn to 聖人 (*shèng rén* — the sage, literally "sage person"). Rendered *people's*, which `glossary/min-民.md` licenses for 人 while keeping *the people* for 民. **Caught by Shalom.**
+
+**行 (*xíng*) → conduct, as at ch 62** (美行, *"fine conduct"*). 行 starts as walking, 說文 人之步趨也 — *"a person's walking and hurrying"* — and extends to how a person goes. Both commentators take the extension here. 河上公 (*Héshàng Gōng*) marks the sound 行下孟反, which gives *xìng*, the conduct reading, and glosses 行傷身辱 — *"conduct is harmed and the person disgraced."* 王弼's 塞人正路 — *"blocks a person's straight road"* — is Mencius's road, 義，人之正路也, *"duty is a person's straight road"* (孟子 (*Mèngzǐ*) · 離婁上, not vendored): a road of conduct, not of feet. **Not *actions*:** *act* and *action* belong to 為 (*wéi* — to do) and 作 (*zuò* — to arise) across seventeen other lines, including this chapter's next one, *"the sage acts for the belly."* *Steps* was proposed and refused; it kept the root and lost the extension. `glossary/xing-行.md`.
+
+**妨 (*fáng*) → hinder.** 說文 妨，害也。从女方聲 — *"to harm; 女 for its meaning, 方 for its sound."* The commentators split: 王弼 reads *block* (塞), 河上公 reads *harm* (妨，傷也), and 說文 sides with harm. **We follow 王弼**, which is also the word's ordinary sense, and record that the English does not carry 河上公's harm. *Corrupt* fit neither of them. Blocked and harmed are done to conduct from outside; *corrupt* is a verdict on the person. Even the Mencian road does not license it: being kept off the straight road happens to you, and corruption is something you become.
+
+**The graph has a seam in it.** 女 (*nǚ* — woman) carries the meaning: a word for harm filed under woman, as 說文 also files 妄 (*wàng* — reckless; 亂也, "disorder"), the 妄 of ch 16. In a book whose highest image is the female, that is the incidental male default inside a single character. **Named here, not rendered.** It is also the pull the old line was half obeying: the English 女 reaches for is *tempt, lure, seduce*, and *corrupt* was on the way there. The sound component may carry sense too: 方 (*fāng*) also stands in 防 (*fáng* — 說文 隄也, "a dike"), a bank thrown across water. No source found says 妨 and 防 are one word, so that is a suggestion, not evidence.
+
+**The fifth *makes* is carried by the verb.** Four lines say what an organ becomes: 盲 (*máng* — blind), 聾 (*lóng* — deaf), 爽 (*shuǎng* — spoiled), 發狂 (*fā kuáng* — breaking out wild). 妨 is the one thing *done to* a faculty. *"Make people's conduct hindered"* is not English, and a transitive verb is how English says *cause to be hindered*, so 令 (*lìng* — makes) is rendered by *hinder* in this line alone. The English shifts where the Chinese does. *(Hobbled* was proposed to keep *make*, and refused as too esoteric.*)*
+
+**Hinder came back from ch 66.** It was 害 (*hài* — harm)'s English in one line there, borrowed through the compound 妨害 (*fáng hài* — to obstruct); 害 reads *harm* in its other four chapters (35, 56, 73, 81). Ch 66 now reads *"the people are not harmed,"* and *hinder* belongs to 妨. `notes/translation.md` → *Ch 66 · 處前而民不害*.
+
+**The silks** read 使 (*shǐ* — to cause) for 令, put the five lines in another order, write 妨 by its sound (方 in silk A, 仿 in silk B), and close 是以聖人之治也 — *"therefore the sage's governing"* — which is ch 3's frame. Recorded in `sources/variants.yaml`; the one that bears on meaning is argued in `notes/manuscript.md` → *Ch 12*.
 
 *End of chapter 12.*
 
@@ -1021,7 +1037,7 @@ The Chinese:
 
 **没身不殆 → "and to the end of your days, no danger will find you."** *(2026-08-31, Pass C, `WORKLIST.md` T2-11.)* *(was: "Not even death threatens this.")* **This was a mistranslation, not merely a mismatch.** 没身 (*mò shēn* — "to the end of one's body") is an idiom for **all one's life**, which is exactly how ch 52 renders the identical four characters. The old line read 没身 as *death itself* and handed the sentence to the Tao rather than to the person who has just climbed the ladder 公 → 天 → 道 (*gōng* impartiality → *tiān* the open sky → *dào*).
 
-**河上公 (*Héshàng Gōng*) settles the subject:** 無殃無咎…乃與天地俱没，**不危殆**也 — *"no calamity, no blame… then one **sinks away together with sky and earth**, not in peril."* The sinking is the person's, and so is the safety.
+**河上公 (*Héshàng Gōng*) settles the subject:** 無殃無咎…乃與天地俱没，**不危殆**也 — *"no calamity, no fault… then one **sinks away together with sky and earth**, not in peril."* The sinking is the person's, and so is the safety.
 
 **殆 is 歺 (*è*) — the bare-bone radical, the death element in 死 (*sǐ* — to die) and 殃 (*yāng* — calamity) — with 台 for sound.** 說文解字: 危也, *"peril."* It reads **danger** in all five of its occurrences now (16, 25, 32, 44, 52), and *danger* renders nothing else in the book.
 
@@ -3361,7 +3377,7 @@ So to rise above the people, you must speak from below them.
 To walk ahead of the people, you must put your body behind them.
 
 The sage stands above, and the people are not weighed down,
-stands in front, and the people are not hindered.
+stands in front, and the people are not harmed.
 So the world gladly pushes them forward and never tires of them.
 
 Because they do not contend,
