@@ -34,14 +34,16 @@ This guide is the canonical reference for understanding, operating, and tuning t
 
 ## What it is
 
-The constellation renders **700 nodes / 925 edges** of corpus structure as a force-directed graph against a near-black canvas. The rendering layer is purely visual; all the meaning lives in the underlying data:
+The constellation renders the corpus's structure as a force-directed graph against a near-black canvas. The rendering layer is purely visual; all the meaning lives in the underlying data:
 
-- **3 domain nodes** — Wisdom · Literature · Science (the highest-level anchors)
-- **23 tradition nodes** — Stoicism, Buddhism, Elizabethan, etc., with Philosophy as a special umbrella
-- **84 work nodes** — every standardized source document
-- **514 section nodes** — H2 headings inside works
-- **46 quote nodes** — verified embeddable quotes
-- **30 synthesis nodes** — wiki concepts and entities that weave works across traditions
+- **Domain nodes** — Wisdom · Literature · Science (the highest-level anchors)
+- **Tradition nodes** — Stoicism, Buddhism, Elizabethan, etc., with Philosophy as a special umbrella
+- **Work nodes** — every standardized source document
+- **Section nodes** — H2 headings inside works
+- **Quote nodes** — verified embeddable quotes
+- **Synthesis nodes** — wiki concepts and entities that weave works across traditions
+
+*The generator prints the current count of each when it runs (`npm run graph:constellation`); this guide does not keep a copy.*
 
 Edges connect parents to children (`hierarchy`), works to their structural parts (`contains`), wiki bridges to the works they weave (`synthesizes`), quotes to their tradition (`member_of`), and works to their cosine-similarity neighbors via the Upstash Vector index (`semantic`).
 
@@ -52,9 +54,9 @@ Edges connect parents to children (`hierarchy`), works to their structural parts
 ```
 ┌───────────────────────────────────────────────────────────────────────────┐
 │                                                                 │
-│   ├── sources/*.md     ← 84 works, frontmatter declares `tradition:`     │
-│   ├── wiki/{entities,concepts,connections}/*.md  ← 30 synthesis bridges  │
-│   └── quotes/*.yaml    ← 46 verified quotes (per author)                 │
+│   ├── sources/*.md     ← works, frontmatter declares `tradition:`        │
+│   ├── wiki/{entities,concepts,connections}/*.md  ← synthesis bridges     │
+│   └── quotes/*.yaml    ← verified quotes (per author)                    │
 └────────────────────────────────┬──────────────────────────────────────────┘
                                  │
        ┌─────────────────────────┴─────────────────────────┐
@@ -74,7 +76,7 @@ Edges connect parents to children (`hierarchy`), works to their structural parts
            ▼                                              ▼
 ┌──────────────────────────┐              ┌──────────────────────────────┐
 │  Upstash Redis           │              │   Upstash Vector             │
-│  knowledge:constellation │◄─────────────┤   3,715 chunks               │
+│  knowledge:constellation │◄─────────────┤   chunks                     │
 │  (gzipped graph payload) │  (semantic   │   chunk metadata.domain      │
 │                          │   edge pass  │     derived via shared       │
 │                          │   queries    │     resolveDomainForTradition│
