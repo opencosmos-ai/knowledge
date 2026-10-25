@@ -1794,7 +1794,7 @@ The Chinese:
 
 **The two em-dashes are gone as a side effect, not as a decision.** They stood in *"Embodying the deep ravine of the world — this is where…"* and its twin, both lines now rewritten. **T4-3 stays deferred**; ch 28 simply no longer appears on its list.
 
-**知其榮，守其辱 → "Know the white, hold to the soiled," following both silks and the Zhuangzi.** *(2026-10-25, Shalom's call: "soiled" is the more honest rendering.)* *(was: "Know the glory, hold to the disgrace.")* Our base reads 榮 (*róng* — glory). Both Mawangdui silks read 白 (*bái* — white), and so does the *Zhuangzi*'s quotation of this stanza, which goes straight on to 受天下之垢 (*shòu tiān xià zhī gòu* — "take on the world's grime"). Beside white, 辱 (*rǔ*) is a soiling, as it is in ch 41's *"the whitest white seems soiled,"* and Heshang Gong glosses this very 辱 as 汚濁 (*wū zhuó* — dirty and murky) even in a text that reads glory. *Soiled* keeps both halves: the earth the valley is made of, and the low place in other people's eyes. *Disgrace* kept only the second. **We keep our stanza order**, which ends on the uncarved wood and runs straight into 樸散 (*pǔ sàn* — "the uncarved wood scatters"); the silks put the valley second. **The costs:** two stanzas in a row now open *"Know the white,"* and both commentaries gloss a 榮 the verse no longer prints. The *Huainanzi* (139 BCE) already read glory. `notes/manuscript.md`, `DISCOVERIES.md` §8.
+**知其榮，守其辱 → "Know the white, hold to the soiled," following both silks and the Zhuangzi.** *(2026-10-25, Shalom's call: "soiled" is the more honest rendering.)* *(was: "Know the glory, hold to the disgrace.")* Our base reads 榮 (*róng* — glory). Both Mawangdui silks read 白 (*bái* — white), and so does the *Zhuangzi*'s quotation of this stanza, which goes straight on to 受天下之詬 (*shòu tiān xià zhī gòu* — "take on the world's reviling"; one edition reads 垢, grime). *(Corrected 2026-10-25: this quoted the variant 垢 (*gòu* — grime) as the text. The *Zhuangzi*'s main text reads 詬 (*gòu* — reviling, shame), and records 垢 as another edition's reading.)* Beside white, 辱 (*rǔ*) is a soiling, as it is in ch 41's *"the whitest white seems soiled,"* and Heshang Gong glosses this very 辱 as 汚濁 (*wū zhuó* — dirty and murky) even in a text that reads glory. *Soiled* keeps both halves: the earth the valley is made of, and the low place in other people's eyes. *Disgrace* kept only the second. **We keep our stanza order**, which ends on the uncarved wood and runs straight into 樸散 (*pǔ sàn* — "the uncarved wood scatters"); the silks put the valley second. **The costs:** two stanzas in a row now open *"Know the white,"* and both commentaries gloss a 榮 the verse no longer prints. The *Huainanzi* (139 BCE) already read glory. `notes/manuscript.md`, `DISCOVERIES.md` §8.
 
 **Not attested at Guodian** (~300 BCE), and **the stanza order is an editorial restoration** — the Yongle Dadian puts the 雄/雌 stanza second. See `notes/manuscript.md`.
 
@@ -3913,7 +3913,7 @@ No one in the world fails to know this,
 yet no one can follow it.
 
 So the sage says:
-whoever takes on the grime of the state
+whoever takes on the shame of the state
 is the keeper of the soil and the grain.
 Whoever takes on the ill omen of the state
 is the ruler of the world.
@@ -3930,7 +3930,11 @@ The Chinese:
 
 ### Notes on chapter 78
 
-**受國之垢 → "whoever takes on the grime of the state."** *(2026-10-25, Shalom's call. Was: "the filth.")* 垢 (*gòu*) is the Shuowen's 濁也，从土, *"murky; from 土 (tǔ — earth)"*: dirt worked into a thing, not something to recoil from. *Filth* carried disgust, a verdict the character does not pass. Heshang Gong reads it as the ruler who can love the state's 垢濁 (*gòu zhuó* — grime and murk), *"like rivers and seas, which do not refuse the small streams,"* and the *Zhuangzi*, quoting ch 28's valley, goes straight on to 受天下之垢 (*shòu tiān xià zhī gòu* — "take on the world's grime"). The next line's keeper of *the soil and the grain* now sits beside earth it already shares. `DISCOVERIES.md` §8.
+**受國之垢 → "whoever takes on the shame of the state," following both silks.** *(2026-10-25, Shalom's call. Was: "the grime," and before that "the filth.")* Both Mawangdui silks write 訽, a form of 詬 (*gòu* — reviling, shame), where our base has 垢 (*gòu* — grime), and the *Zhuangzi*'s echo of the line has 詬 in its main text. The Shuowen defines 詬 as 恥 (*chǐ* — shame), built on 言 (*yán* — speech). It also pairs with the next clause's 不祥 (*bù xiáng* — ill omen): both are misfortunes a ruler takes on, not substances. The soil stays one line down, in *the soil and the grain*. `notes/manuscript.md`, `DISCOVERIES.md` §8.
+
+*(The note that follows argued "grime" for the received text's 垢, earlier the same day. It is kept as the record of that reading.)*
+
+**受國之垢 → "whoever takes on the grime of the state."** *(2026-10-25, Shalom's call, superseded the same day by "shame." Was: "the filth.")* 垢 (*gòu*) is the Shuowen's 濁也，从土, *"murky; from 土 (tǔ — earth)"*: dirt worked into a thing, not something to recoil from. *Filth* carried disgust, a verdict the character does not pass. Heshang Gong reads it as the ruler who can love the state's 垢濁 (*gòu zhuó* — grime and murk), *"like rivers and seas, which do not refuse the small streams,"* and the *Zhuangzi*, quoting ch 28's valley, goes straight on to 受天下之詬 (*shòu tiān xià zhī gòu* — "take on the world's reviling"), noting that one edition reads 垢, grime. *(Corrected 2026-10-25: this quoted the variant 垢 (*gòu* — grime) as the text. The *Zhuangzi*'s main text reads 詬 (*gòu* — reviling, shame), and records 垢 as another edition's reading.)* **Both Mawangdui silks write 訽, a form of 詬, in this line too: see the fork in `notes/manuscript.md`.** The next line's keeper of *the soil and the grain* now sits beside earth it already shares. `DISCOVERIES.md` §8.
 
 **柔之勝剛 → "The soft overcomes the unbending."** *(2026-10-14, Shalom's call. Was: "the hard.")* This chapter held *hard* for two characters a few lines apart: 攻堅強 (*"attacking the hard and the strong"*, 堅) and 柔之勝剛 (剛). 堅 keeps *hard*. `glossary/ruo-弱.md`.
 
