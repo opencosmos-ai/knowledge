@@ -366,6 +366,8 @@ The Chinese:
 
 ### Notes on chapter 6
 
+**谷神 → "the spirit of the valley": 谷 (*gǔ* — valley) is a noun, as Wang Bi reads it, not Heshang Gong's 谷，養也 (*gǔ, yǎng yě* — "gǔ means to nourish").** *(2026-10-25, Shalom's call.)* The other nine lines where it stands are all a valley, and both Mawangdui silks spell this one with the 浴 (*yù*) they use for the valley in lines that can only mean land. We keep Wang Bi's grammar without his emptiness: the valley is land, and water passes through it. The cost is Heshang Gong's breathing body. `glossary/gu-谷.md`.
+
 **玄牝之門，是謂天地根 → "The gate of the dark female, / this is called the root of sky and earth."** *(Shalom's call, 2026-10-24.)* *(was: "This dark gateway birthed the sky and the earth.")* **The gate is hers, and the Chinese names her twice to say so.** 玄牝 (*xuán pìn* — "the dark female"), then 玄牝之門 (*xuán pìn zhī mén* — "the gate of the dark female"). *This dark gateway* named her once and cut the gate loose from her, the quiet version of the cooling `glossary/mu-母.md` refuses. Both commentators keep the gate hers. 王弼 (*Wáng Bì*): 門，玄牝之所由也 — *"the gate is where the dark female comes from."* 河上公 (*Héshàng Gōng*) reads it as the gate of nose and mouth, 通天地之元氣所從往來 — *"through which the original breath of sky and earth comes and goes."* 門 (*mén* — gate) is *gate*, as in ch 1's 眾妙之門 (*"the gate of all subtleties"*).
 
 **根 (*gēn* — root) is a root, not a birth.** 說文 (*Shuōwén*): 木株也, *"the stump,"* what stays in the ground. It reads *root* at ch 16 (×2) and ch 26, and *birthed* was its only other English. *Birthed* made the gate something that happened once. 根 says it holds now. Neither commentator reads an event: 河上公 glosses 根，元也 (*gēn, yuán yě* — "root means origin"), and 王弼 says the gate is 與極同體 (*yǔ jí tóng tǐ* — "one body with the ultimate"), so it is called the root. **The cost, named:** *birthed* was the warmest verb in the chapter. The birth is still there in the gate of a female, a womb, but no longer in the past tense.
@@ -1732,7 +1734,7 @@ serve as the world's pattern.
 Serve as the world's pattern, and the ever-present integrity never varies.
 Return again to the endless.
 
-Know the glory, hold to the disgrace,
+Know the white, hold to the soiled,
 serve as the world's valley.
 Serve as the world's valley, and the ever-present integrity is enough at last.
 Return again to the uncarved wood.
@@ -1788,6 +1790,8 @@ The Chinese:
 **故大制不割 → "So the great carving severs nothing," and it is a paradox that had been erased.** **制 also carries this chapter's word at ch 32** (始制有名 — *"When the carving begins, there are names"*), and 說文 makes it a knife on timber: **裁也。从刀从未** — *"to cut out; from 刀 (a knife) and 未 (a grown tree)."* *(制 read *cutting* in both places until 2026-09-07, when it moved to **carving** so that 樸 — the **uncarved** — and the blade that ends it share one English root. Full argument in ch 32's notes.)* **割 is a different cut** — 說文 剥也, *"to flay, to strip"* — so it takes **sever**; 河上公 has 无所傷割, *"nothing wounded or cut."* The old *"the great orchestrator itself does not carve"* put **one mechanistic English on two different characters** (官長 and 大制) and lost the knife inside both. 王弼: 大制者，以天下之心為心，故無割也 — *"the great carving takes the world's heart as its own heart, and so there is no cutting."*
 
 **The two em-dashes are gone as a side effect, not as a decision.** They stood in *"Embodying the deep ravine of the world — this is where…"* and its twin, both lines now rewritten. **T4-3 stays deferred**; ch 28 simply no longer appears on its list.
+
+**知其榮，守其辱 → "Know the white, hold to the soiled," following both silks and the Zhuangzi.** *(2026-10-25, Shalom's call: "soiled" is the more honest rendering.)* *(was: "Know the glory, hold to the disgrace.")* Our base reads 榮 (*róng* — glory). Both Mawangdui silks read 白 (*bái* — white), and so does the *Zhuangzi*'s quotation of this stanza, which goes straight on to 受天下之垢 (*shòu tiān xià zhī gòu* — "take on the world's grime"). Beside white, 辱 (*rǔ*) is a soiling, as it is in ch 41's *"the whitest white seems soiled,"* and Heshang Gong glosses this very 辱 as 汚濁 (*wū zhuó* — dirty and murky) even in a text that reads glory. *Soiled* keeps both halves: the earth the valley is made of, and the low place in other people's eyes. *Disgrace* kept only the second. **We keep our stanza order**, which ends on the uncarved wood and runs straight into 樸散 (*pǔ sàn* — "the uncarved wood scatters"); the silks put the valley second. **The costs:** two stanzas in a row now open *"Know the white,"* and both commentaries gloss a 榮 the verse no longer prints. The *Huainanzi* (139 BCE) already read glory. `notes/manuscript.md`, `DISCOVERIES.md` §8.
 
 **Not attested at Guodian** (~300 BCE), and **the stanza order is an editorial restoration** — the Yongle Dadian puts the 雄/雌 stanza second. See `notes/manuscript.md`.
 
@@ -2447,7 +2451,7 @@ The Chinese:
 
 **"The whitest white"** removes the phrase, reads naturally, and doubles 白 the way English intensifies a colour. **The cost, which is real and is the reason this note exists: 大 reads as an intensifier here and as *great* in the four lines of block 3** — 大方, 大器, 大音, 大象 — eleven lines below, inside the same catalogue. A reader cannot see that all five share a character. **That is a deliberate exception to the lock at `glossary/da-大.md`, taken because the alternative ships a line that says something the text never said.** It also touches the question that entry leaves open — whether the whole 大▢若▢ frame wants a superlative — which must still be settled across ch 41 and ch 45 together, not from this line.
 
-**辱 → "soiled" here** rather than *disgrace*, on 河上公's warrant in this very line: 大潔白之人若**汙辱**，不自彰顯 — *"a person of great cleanness-and-whiteness is as though **soiled**, not displaying themselves."* At ch 28 辱 pairs with 榮 (*róng* — glory) and is social standing; here it is a mark on a surface. 說文 gives 恥也, shame, from a graph about **missing the ploughing season** and being punished at the field's boundary.
+**辱 → "soiled" here** rather than *disgrace*, on 河上公's warrant in this very line: 大潔白之人若**汙辱**，不自彰顯 — *"a person of great cleanness-and-whiteness is as though **soiled**, not displaying themselves."* At ch 28 辱 pairs with 榮 (*róng* — glory) and is social standing; here it is a mark on a surface. *(Corrected 2026-10-25: ch 28 now follows the silks' 白 (*bái* — white), so 辱 is* soiled *there too. The split is by partner: soiled beside white (28, 41), disgrace beside favor or as a consequence (13, 44).)* 說文 gives 恥也, shame, from a graph about **missing the ploughing season** and being punished at the field's boundary.
 
 **夷 (*yí*) → "level," not "smooth."** 王弼: 大夷之道因物之性，**不執平以割物**，其平不見，乃更反若纇㘨也 — *"the great level Tao follows the nature of things and does not grasp levelness to cut them; its levelness is not visible, so it looks instead like unevenness."* 割 (*gē* — to sever) ties this to ch 28's 大制不割. **夷 is polysemous across the book** and this is not ch 14's 夷, which is the unseeable one of the three (名曰夷).
 
@@ -3904,7 +3908,7 @@ No one in the world fails to know this,
 yet no one can follow it.
 
 So the sage says:
-whoever takes on the filth of the state
+whoever takes on the grime of the state
 is the keeper of the soil and the grain.
 Whoever takes on the ill omen of the state
 is the ruler of the world.
@@ -3920,6 +3924,8 @@ The Chinese:
 正言若反。
 
 ### Notes on chapter 78
+
+**受國之垢 → "whoever takes on the grime of the state."** *(2026-10-25, Shalom's call. Was: "the filth.")* 垢 (*gòu*) is the Shuowen's 濁也，从土, *"murky; from 土 (tǔ — earth)"*: dirt worked into a thing, not something to recoil from. *Filth* carried disgust, a verdict the character does not pass. Heshang Gong reads it as the ruler who can love the state's 垢濁 (*gòu zhuó* — grime and murk), *"like rivers and seas, which do not refuse the small streams,"* and the *Zhuangzi*, quoting ch 28's valley, goes straight on to 受天下之垢 (*shòu tiān xià zhī gòu* — "take on the world's grime"). The next line's keeper of *the soil and the grain* now sits beside earth it already shares. `DISCOVERIES.md` §8.
 
 **柔之勝剛 → "The soft overcomes the unbending."** *(2026-10-14, Shalom's call. Was: "the hard.")* This chapter held *hard* for two characters a few lines apart: 攻堅強 (*"attacking the hard and the strong"*, 堅) and 柔之勝剛 (剛). 堅 keeps *hard*. `glossary/ruo-弱.md`.
 
