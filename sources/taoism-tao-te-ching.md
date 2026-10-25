@@ -1978,7 +1978,7 @@ When the carving begins, there are names.
 Since names already exist, one must know when to stop.
 Knowing when to stop, you come to no danger.
 
-The Tao in the world is like streams and valleys to the river and the sea.
+The Tao in the world is like small valleys to the river and the sea.
 
 The Chinese:
 
@@ -2026,7 +2026,9 @@ The Chinese:
 
 **王弼's gloss is the finest thing in the chapter, and it ties the ending to the middle:** 川谷之求江與海，**非江海召之**，不召不求而自歸者世。行道於天下者，**不令而自均**，不求而自得 — *"the streams and valleys seek the rivers and the sea; **it is not that the rivers and sea summon them**. Unsummoned and unseeking they return of themselves. One who practises the Tao in the world **does not command, and things even themselves**; does not seek, and gets of themselves."* **不令 and 自均 are quoted verbatim from 民莫之令而自均**, four lines earlier. *(His 召 — to summon — is also ch 73's word at 不召而自來, *"It does not summon, yet things come of themselves."*)*
 
-**The English keeps the Chinese's ambiguity deliberately.** Grammatically 道之在天下 : 川谷之於江海 maps the Tao onto the **streams**; both commentators read it the other way, the Tao as the **sea** that things come to unbidden. *"Like streams and valleys to the river and the sea"* preserves the order and lets both stand.
+**猶川谷之於江海 → "like small valleys to the river and the sea," following Guodian and silk B.** *(2026-10-25, Shalom's call. Was: "like streams and valleys.")* Guodian, the oldest witness, reads 小谷 (*xiǎo gǔ* — small valleys), and silk B has the same in its spelling, 小浴 (*xiǎo yù*); two independent transcriptions agree on both. *Small* answers the chapter's own second line, 樸雖小 (*pǔ suī xiǎo* — "though small"), so the chapter that opens on the Tao's smallness closes on small valleys running down to the great waters. **The cost:** both commentaries print 川谷 (*chuān gǔ* — streams and valleys), so Wang Bi's gloss above now explains a word the verse no longer prints. `notes/manuscript.md`.
+
+**The English keeps the Chinese's ambiguity deliberately.** Grammatically 道之在天下 : 川谷之於江海 maps the Tao onto the **streams** *(since 2026-10-25, the small valleys)*; both commentators read it the other way, the Tao as the **sea** that things come to unbidden. *"Like streams and valleys to the river and the sea"* preserves the order and lets both stand.
 
 **自均 → "even out of themselves," not "naturally harmonize."** **Harmonize is 和's word** (ch 2), where 均 (*jūn*) is to **level** — 河上公: 皆**自均調若一**也, *"all even themselves out, as if one."* And **自 occurs twice in three lines** (自賓, 自均) and had *of themselves* against *naturally*; 自然's lock is *of itself / of themselves*, so both now read alike. *"Without any external command"* had also invented the **external**.
 
