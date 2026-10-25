@@ -349,9 +349,11 @@ The Chinese:
 *Heshang Gong's title: 成象, "Taking form".*
 
 The spirit of the valley is deathless.
-This is the dark female.
-This dark gateway birthed the sky and the earth.
-Unceasing yet barely perceptible, it can never be exhausted.
+This is called the dark female.
+The gate of the dark female,
+this is called the root of sky and earth.
+Unceasing yet barely perceptible,
+use it, and there is no strain.
 
 The Chinese:
 
@@ -361,6 +363,16 @@ The Chinese:
 是謂天地根。
 綿綿若存，
 用之不勤。
+
+### Notes on chapter 6
+
+**玄牝之門，是謂天地根 → "The gate of the dark female, / this is called the root of sky and earth."** *(Shalom's call, 2026-10-24.)* *(was: "This dark gateway birthed the sky and the earth.")* **The gate is hers, and the Chinese names her twice to say so.** 玄牝 (*xuán pìn* — "the dark female"), then 玄牝之門 (*xuán pìn zhī mén* — "the gate of the dark female"). *This dark gateway* named her once and cut the gate loose from her, the quiet version of the cooling `glossary/mu-母.md` refuses. Both commentators keep the gate hers. 王弼 (*Wáng Bì*): 門，玄牝之所由也 — *"the gate is where the dark female comes from."* 河上公 (*Héshàng Gōng*) reads it as the gate of nose and mouth, 通天地之元氣所從往來 — *"through which the original breath of sky and earth comes and goes."* 門 (*mén* — gate) is *gate*, as in ch 1's 眾妙之門 (*"the gate of all subtleties"*).
+
+**根 (*gēn* — root) is a root, not a birth.** 說文 (*Shuōwén*): 木株也, *"the stump,"* what stays in the ground. It reads *root* at ch 16 (×2) and ch 26, and *birthed* was its only other English. *Birthed* made the gate something that happened once. 根 says it holds now. Neither commentator reads an event: 河上公 glosses 根，元也 (*gēn, yuán yě* — "root means origin"), and 王弼 says the gate is 與極同體 (*yǔ jí tóng tǐ* — "one body with the ultimate"), so it is called the root. **The cost, named:** *birthed* was the warmest verb in the chapter. The birth is still there in the gate of a female, a womb, but no longer in the past tense.
+
+**是謂 (*shì wèi* — "this is called") ×2, now rendered both times.** Line 2 had read *"This is the dark female,"* and the fourth line had dissolved the formula altogether. The book reads it *this is called* at chs 10, 14, 16, 51, 56 and 68, and ch 14's *"If you can know the ancient beginning, / this is called the thread of the Tao"* is this line's shape. **天地 (*tiān dì* — sky and earth)** loses the articles it carried here alone, per its lock. The stanza is now six lines, one for each line of the Chinese, so the chapter pairs by count and needs no `## Alignment`.
+
+**用之不勤 → "use it, and there is no strain."** *(Shalom's call, 2026-10-24. `glossary/qin-勤.md`.)* *(was: "it can never be exhausted.")* **用之 (*yòng zhī* — "use it") had gone missing, and 勤 (*qín*) is spending strength, not running out.** 說文 (*Shuōwén*): 勞也, *"labor."* 王弼 (*Wáng Bì*): 用而不勞也, *"it is used, and does not labor."* 河上公 (*Héshàng Gōng*) reads the breath: 用氣常寬舒，不當急疾懃勞也, *"use the breath always loose and easy, never hurried or toiling,"* and *strain* is the opposite of loose and easy. **The two commentators disagree about whose strain it is**: for 王弼 the thing's, for 河上公 the breather's. *There is no strain* names no one, so it carries both. The line has its own line now, as in the Chinese.
 
 *End of chapter 6.*
 
@@ -2376,7 +2388,7 @@ The Chinese:
 
 *Heshang Gong's title: 同異, "Same and different".*
 
-Those highest in service hear the Tao and practice it with diligence.
+Those highest in service hear the Tao and labor to practice it.
 Those middling in service hear the Tao and keep some, forget some.
 Those lowest in service hear the Tao and laugh aloud at it.
 If it weren’t laughed at, the Tao wouldn’t be what it is.
@@ -2494,6 +2506,8 @@ The Chinese:
 **道隱無名 keeps "hidden," and the character is ch 15's.** 說文 defines 隱 as **蔽也** — the graph we settled at ch 15 as *stay covered*. The Tao does at the end of this chapter what the ancients do in that one.
 
 **⚠ 大笑之 renders 大 adverbially as "aloud,"** which `glossary/da-大.md` does not license among its flexions. The entry needs it added. `WORKLIST.md` T2-48.
+
+**勤而行之 → "labor to practice it."** *(Shalom's call, 2026-10-24. `glossary/qin-勤.md`.)* *(was: "practice it with diligence.")* *Diligence* is a virtue, and English hears praise in it. 勤 (*qín*) describes strength spent: 說文 (*Shuōwén*) 勞也, *"labor,"* and 河上公 (*Héshàng Gōng*) 自勤苦竭力而行之, *"of themselves strain and suffer, using up their strength, to practice it."* 王弼 (*Wáng Bì*) hears 有志也, *"they have resolve."* **This is the one line where 勤 is not *strain*, its lock.** In chs 6 and 52 the character is negated, and *strain* is the thing avoided. Here it is affirmed, and *strain* would fault the best students for forcing it, a verdict the Chinese does not pass. *Labor* is 說文's own word for 勤, and it keeps a little difficulty, so the silks' 堇 (*jǐn*), which some scholars read as 僅 (*jǐn* — barely), is not shut out (unverified here, `WORKLIST.md` T2-66). The cost: ch 41 and chs 6, 52 now say near-echoes, *labor* and *strain*, not one word.
 
 *End of chapter 41.*
 
@@ -2823,7 +2837,7 @@ Find our mother, and you know her children.
 Know her children, return and hold fast to our mother,
 and to the end of your days, no danger will find you.
 
-Block the openings, close the doors, and to the end of your days you will not toil.
+Block the openings, close the doors, and to the end of your days you will not strain.
 Open the openings, multiply your affairs, and to the end of your days you are beyond saving.
 
 Seeing the small is called clarity.
@@ -2864,6 +2878,8 @@ The Chinese:
 **襲 is 說文's 左衽袍, a robe closed to the left — grave-clothes**, a garment put on over another. Hence *covered*, which is the motion this movement has just described: 用其光，復歸其明 — *"use the outer light, return to your inner clarity."* The shine is put away, not put on display.
 
 **守 read two ways twelve lines apart, and a third "holding" belonged to 襲.** *(2026-09-08, Pass E, `WORKLIST.md` T2-19 — the holding family.)* 守柔曰強 had read *"To **stay with** the soft is called strong"* against 復守其母's *"hold fast to."* Both are now 守's locked *hold to* (`glossary/shou-守.md`), and the chapter's paradox survives it — 王弼 (*Wáng Bì*) on this very line: **守強不強，守柔乃強也**, *"holding to the strong is not strong; holding to the soft is truly strong."* Same verb in both halves of his sentence; only the object changes. **是謂襲常 → "This is called the ever-present worn covered,"** matching ch 27's 是謂襲明 exactly and taking *holding* off 襲 (*xí* — one garment worn over another) in a chapter where 守 stands twice.
+
+**終身不勤 → "you will not strain."** *(Shalom's call, 2026-10-24. `glossary/qin-勤.md`.)* *(was: "you will not toil.")* 勤 (*qín*) is locked to *strain* across its three lines, beside ch 6's; ch 41, where the character is affirmed, reads *labor*, its one flexion. 王弼 (*Wáng Bì*): 無事永逸，故終身不勤也, *"no affairs, forever at ease, so to the end of your days you do not strain."*
 
 *End of chapter 52.*
 
