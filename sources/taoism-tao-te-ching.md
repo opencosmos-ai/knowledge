@@ -350,8 +350,9 @@ The Chinese:
 
 The spirit of the valley is deathless.
 This is called the dark female.
-The gate of the dark female,
+The dark female's gate —
 this is called the root of sky and earth.
+
 Unceasing yet barely perceptible,
 use it, and there is no strain.
 
@@ -368,7 +369,9 @@ The Chinese:
 
 **谷神 → "the spirit of the valley": 谷 (*gǔ* — valley) is a noun, as Wang Bi reads it, not Heshang Gong's 谷，養也 (*gǔ, yǎng yě* — "gǔ means to nourish").** *(2026-10-25, Shalom's call.)* The other nine lines where it stands are all a valley, and both Mawangdui silks spell this one with the 浴 (*yù*) they use for the valley in lines that can only mean land. We keep Wang Bi's grammar without his emptiness: the valley is land, and water passes through it. The cost is Heshang Gong's breathing body. `glossary/gu-谷.md`.
 
-**玄牝之門，是謂天地根 → "The gate of the dark female, / this is called the root of sky and earth."** *(Shalom's call, 2026-10-24.)* *(was: "This dark gateway birthed the sky and the earth.")* **The gate is hers, and the Chinese names her twice to say so.** 玄牝 (*xuán pìn* — "the dark female"), then 玄牝之門 (*xuán pìn zhī mén* — "the gate of the dark female"). *This dark gateway* named her once and cut the gate loose from her, the quiet version of the cooling `glossary/mu-母.md` refuses. Both commentators keep the gate hers. 王弼 (*Wáng Bì*): 門，玄牝之所由也 — *"the gate is where the dark female comes from."* 河上公 (*Héshàng Gōng*) reads it as the gate of nose and mouth, 通天地之元氣所從往來 — *"through which the original breath of sky and earth comes and goes."* 門 (*mén* — gate) is *gate*, as in ch 1's 眾妙之門 (*"the gate of all subtleties"*).
+**玄牝之門，是謂天地根 → "The gate of the dark female, / this is called the root of sky and earth."** *(Shalom's call, 2026-10-24.)* *(was: "This dark gateway birthed the sky and the earth.")* **The gate is hers, and the Chinese names her twice to say so.** 玄牝 (*xuán pìn* — "the dark female"), then 玄牝之門 (*xuán pìn zhī mén* — "the gate of the dark female"). *This dark gateway* named her once and cut the gate loose from her, the quiet version of the cooling `glossary/mu-母.md` refuses. Both commentators keep the gate hers. 王弼 (*Wáng Bì*): 門，玄牝之所由也 — *"the gate is where the dark female comes from."* 河上公 (*Héshàng Gōng*) reads it as the gate of nose and mouth, 通天地之元氣所從往來 — *"through which the original breath of sky and earth comes and goes."* 門 (*mén* — gate) is *gate*, as in ch 1's 眾妙之門 (*"the gate of all subtleties"*). *(Reshaped 2026-10-25, next note.)*
+
+**是謂玄牝。玄牝之門 → "This is called the dark female. / The dark female's gate —": the anadiplosis, kept on purpose.** *(Shalom's call, 2026-10-25.)* *(was: "The gate of the dark female,")* **The Chinese hands its last words to the next line, and the English now does too, by design.** *Anadiplosis* (Greek, "doubling back") is the device: a line ends on words the next line opens with. 是謂玄牝 (*shì wèi xuán pìn* — "this is called the dark female") ends on 玄牝, and 玄牝之門 (*xuán pìn zhī mén* — "the dark female's gate") opens on it: a chain, 頂真 (*dǐng zhēn* — "capping"), anadiplosis in English. *The gate of the dark female* kept every word and moved them to the end of the line, so the link was gone. *The dark female's gate* keeps the Chinese order, 玄 (*xuán* — dark) · 牝 (*pìn* — female) · 之 (*zhī* — 's) · 門 (*mén* — gate), and still names her twice, as the 2026-10-24 call asked. **The dash holds the gate up before it is named**, as 是 (*shì* — this) points back at its topic. *This* names the subject, so nothing is stranded, and chs 10 and 51 use the same mark in the same formula. It is the rule the dashes have answered to since that day (`CLAUDE.md` standing rule 5). **Two stanzas, 4 / 2:** the naming, 是謂 twice, with the chain inside one stanza; then the use. **Cost:** 之門 (*zhī mén* — "'s gate") now reads two ways, *the gate of all subtleties* at ch 1 and *the dark female's gate* here. Ch 1 has no chain to keep. `process/form-audit.md` → *Chapter 6*.
 
 **根 (*gēn* — root) is a root, not a birth.** 說文 (*Shuōwén*): 木株也, *"the stump,"* what stays in the ground. It reads *root* at ch 16 (×2) and ch 26, and *birthed* was its only other English. *Birthed* made the gate something that happened once. 根 says it holds now. Neither commentator reads an event: 河上公 glosses 根，元也 (*gēn, yuán yě* — "root means origin"), and 王弼 says the gate is 與極同體 (*yǔ jí tóng tǐ* — "one body with the ultimate"), so it is called the root. **The cost, named:** *birthed* was the warmest verb in the chapter. The birth is still there in the gate of a female, a womb, but no longer in the past tense.
 
@@ -558,7 +561,7 @@ Clarity reaching the four quarters, can you be non-doing?
 Giving birth to things and rearing them,
 giving birth without possessing,
 acting yet relying on nothing,
-growing them without ruling them –
+growing them without ruling them —
 this is called profound integrity.
 
 The Chinese:
@@ -619,7 +622,7 @@ The Chinese:
 
 **天門 keeps *the gate of the sky*, and its strain case gains a second reading.** 河上公 gives both: 天門謂**北極紫微宮** (*"the Purple Tenuity Palace at the north pole"*) and, for the body, 天門謂**鼻孔**，開謂喘息，闔謂呼吸也 — *"天門 means the **nostrils**: 開 is breathing out, 闔 breathing in."* 王弼 takes neither: 天門謂天下之所由從也 — *"that by which the world proceeds."* Logged at `notes/translation.md` → 天 family, strain cases.
 
-**The en-dash stays.** `WORKLIST` T4-3 is deferred, and this line's fault was its words, not its punctuation.
+**The en-dash stays.** `WORKLIST` T4-3 is deferred, and this line's fault was its words, not its punctuation. *(T4-3 closed 2026-10-25: the dash stays, its subject named on both sides, and is now the em-dash, Shalom's call.)*
 
 *End of chapter 10.*
 
@@ -784,9 +787,9 @@ The Chinese:
 
 *Heshang Gong's title: 贊玄, "In praise of the dark".*
 
-Look, but you cannot see it – its name is the invisible.
-Listen, but you cannot hear it – its name is the inaudible.
-Reach, but you cannot touch it – its name is the intangible.
+Look, but you cannot see it — its name is the invisible.
+Listen, but you cannot hear it — its name is the inaudible.
+Reach, but you cannot touch it — its name is the intangible.
 These three defy comprehension.
 Therefore, they mix into one.
 
@@ -2811,7 +2814,7 @@ Thus, the Tao births the countless things and integrity rears them,
 grows and raises them, settles and matures them, nourishes and protects them.
 Giving birth without possessing,
 acting yet relying on nothing,
-growing them without ruling them –
+growing them without ruling them —
 this is called profound integrity.
 
 The Chinese:
