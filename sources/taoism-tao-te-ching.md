@@ -1273,8 +1273,8 @@ Deep and dim, and within it there is vital essence.
 Its essence utterly real, and within it there is trust.
 
 From ancient times until today, the Tao's name has never been erased.
-In this name, I observe the origin of the many.
-How do I know the origin of the many is so? By this.
+In this name, I observe the father of the many.
+How do I know the father of the many is so? By this.
 
 The Chinese:
 
@@ -1292,6 +1292,8 @@ The Chinese:
 以此。
 
 ### Notes on chapter 21
+
+**眾甫 → "the father of the many."** *(2026-10-26, Shalom's call, closing `WORKLIST.md` T4-10.)* *(was: "the origin of the many.")* Both Mawangdui silks write 眾父 (*zhòng fù* — "the father of the many"), and 甫 (*fǔ* — a man's honorific) is the received spelling of the same word: Heshang Gong glosses it 甫，始也 (*fǔ, shǐ yě* — "甫 means beginning") here, and glosses ch 42's 父 (*fù* — father) in the same three words. The base text keeps 甫; the English follows the silks, as at ch 42. *Origin* was spoken for: it is 始's (*shǐ* — beginning) English at ch 52. `glossary/fu-父.md`.
 
 **惟道是從 → "follows only the Tao."** *(2026-10-19, Shalom's call, `glossary/wei-唯.md`. Was: "simply follows the Tao.")* 惟 (*wéi*) is 唯 (*wéi* — only) written with the heart radical, and the next line already reads it *only*, twice: 惟恍惟惚, *"only vague, only elusive."* *Simply* restricted the verb, a manner of following. 惟 X 是 V (*wéi X shì V*) fronts the object and singles it out, the construction of ch 53's 唯施是畏 (*wéi shī shì wèi*), *"my only fear would be to stray."*
 
