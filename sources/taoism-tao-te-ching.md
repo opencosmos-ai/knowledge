@@ -1134,7 +1134,7 @@ The Chinese:
 
 **孝慈 had lost half of itself.** The verse read *"filial piety"* for 孝慈, so 慈 (*cí* — tenderness) had no English at all. The two graphs point opposite ways: 孝 is 老 (*lǎo* — old) abbreviated over 子 (*zǐ* — child), **the child bearing up the elder**; 慈 is 心 (*xīn* — heart) under a phonetic carrying *to grow*, the heart increasing toward its offspring. 河上公 makes it a circuit rather than a list: 乃有孝慈**相牧養**也, *"then there is 孝慈, tending each other."* Hence **devotion and tenderness**.
 
-**六親 → "kin," and the number is deliberately not in the English.** 王弼: 六親**父子兄弟夫婦**也 — *"the six kin are parents and children, brothers, husband and wife."* Three **pairs**, counted as six **persons** — so the number enumerates people while the line is about relations, and English cannot carry both without a gloss inside the verse. *Families* was the wrong unit (households, not relations); *the six kin* makes the reader stop for a number that is doing no work in the argument.
+**六親 → "kin," and the number is deliberately not in the English.** 王弼: 六親**父子兄弟夫婦**也 — *"the six kin are father and child, brothers, husband and wife."* Three **pairs**, counted as six **persons** — so the number enumerates people while the line is about relations, and English cannot carry both without a gloss inside the verse. *Families* was the wrong unit (households, not relations); *the six kin* makes the reader stop for a number that is doing no work in the argument.
 
 **The scare quotes are gone from 忠臣.** The Chinese is straight, and the irony is structural — all four lines have one shape, and the shape is the claim. Quotation marks were the edition's voice telling the reader what to hear.
 
@@ -1768,7 +1768,7 @@ The Chinese:
 
 **The chapter is a chain of things you could point at, and the English had been a chain of concepts.** *(2026-09-01, Pass D, `WORKLIST.md` T1-7, T1-15, T1-16, T3-5, and the last of T2-15.)* 說文解字 makes almost every term here a physical object — a bird's father and a bird's mother, a mountain watercourse with no outlet, a spring that runs through to a river, a carpenter's square, a roof's ridgepole, vessels, a knife — and the old English read *assertive energy · yielding energy · deep ravine · **reservoir** · pattern · the limitless · **master orchestrator** · **the great orchestrator***. **The pointing test failed on nearly every line**, and the replacements sat in one register: the mechanistic, with the modern spiritual idiom beside it. ***"Energy" renders no character at all*** — 氣 (*qì* — vital breath) is not in this chapter.
 
-**雄 and 雌 are a rooster and a hen, and the reason is not the graph alone — it is that 牝/牡 have already taken *male* and *female*.** 說文 defines the two pairs in exactly parallel words in two different animal classes: 雄 **鳥父**也 / 雌 **鳥母**也, from 隹 (*zhuī* — a short-tailed bird); 牡 **畜父**也 / 牝 **畜母**也, from 牛 (*niú* — cattle). Our English gives 牝/牡 *the female* and *the male* at ch 6 (是謂玄牝), 55 and 61, so 雌/雄 must have their own words, and the graph says which. **In English ornithology *cock* and *hen* are precisely this pair** — the male and female of any species, as in *a cock pheasant* — and *cock* is unusable in modern English. **The cost: *rooster* is more specific than 雄, which is any male bird.** The pairing is what carries the sense.
+**雄 and 雌 are a rooster and a hen, and the reason is not the graph alone — it is that 牝/牡 have already taken *male* and *female*.** 說文 defines the two pairs in exactly parallel words in two different animal classes: 雄 **鳥父**也 (*"the father among birds"*) / 雌 **鳥母**也 (*"the mother among birds"*), from 隹 (*zhuī* — a short-tailed bird); 牡 **畜父**也 (*"the father among livestock"*) / 牝 **畜母**也 (*"the mother among livestock"*), from 牛 (*niú* — cattle). Our English gives 牝/牡 *the female* and *the male* at ch 6 (是謂玄牝), 55 and 61, so 雌/雄 must have their own words, and the graph says which. **In English ornithology *cock* and *hen* are precisely this pair** — the male and female of any species, as in *a cock pheasant* — and *cock* is unusable in modern English. **The cost: *rooster* is more specific than 雄, which is any male bird.** The pairing is what carries the sense.
 
 **Both commentators read the pair as *position*, not species** — a reading for this note, not a rendering. 王弼 (*Wáng Bì*): 雄先之屬，雌後之屬也。知為天下之先也，必後也。是以聖人後其身而身先也 — *"雄 belongs to the class of going first, 雌 to the class of coming after. To know how to be first in the world, one must be behind. This is why the sage puts their person behind, and their person comes first."* 河上公 (*Héshàng Gōng*): 雄以喻尊，雌以喻卑 — *"雄 figures the honoured, 雌 the lowly"* — 就雌之柔和，如是則天下歸之，如水流入深谿也, *"come to the hen's softness, and the world returns to you as water flows into a deep ravine."*
 
@@ -2534,7 +2534,7 @@ For so it is: what is decreased is thereby increased, and what is increased is t
 
 What others teach, I also teach:
 The strong and rigid do not die a natural death.
-I take this as the root of learning.
+I take this as the father of learning.
 
 The Chinese:
 
@@ -2546,6 +2546,10 @@ The Chinese:
 人之所教，我亦教之。
 強梁者不得其死，
 吾將以為教父。
+
+### Notes on chapter 42
+
+**學父 → "the father of learning."** *(2026-10-26, Shalom's call.)* *(was: "the root of learning.")* 父 (*fù* — father) stands in every witness: the received 教父 (*jiào fù* — "father of teaching") and the silk's 學父 (*xué fù* — "father of learning"). The fork is only the first character. *Root* came from Heshang Gong's 父，始也 (*fù, shǐ yě* — "父 means beginning"), a commentator's gloss on the sense, not a doubt about the word. 父 is *father* as 母 (*mǔ* — mother) is *mother*: the edition does not cool the mother into *the Source*, and it does not cool the father into *a root*. English *the father of* already names the one who began a thing, so Heshang Gong's sense stays in the word. *Root* is 根's (*gēn*). `notes/manuscript.md` → Ch 42.
 
 *End of chapter 42.*
 
@@ -4032,7 +4036,7 @@ The Chinese:
 
 ### Notes on chapter 80
 
-**雞 → "chickens," freeing *rooster* for 雄.** *(2026-09-01, rider on ch 28.)* *(was: "roosters.")* 雞 (*jī*) is the fowl, not specifically the male bird; 雄 (*xióng*) is 說文 鳥父也, *"a bird's father,"* and now reads **rooster** at ch 28, where its pairing with 雌 (*cí* — 鳥母也, a hen) is load-bearing. One English, one character. Nothing else in 雞犬之聲相聞 changes.
+**雞 → "chickens," freeing *rooster* for 雄.** *(2026-09-01, rider on ch 28.)* *(was: "roosters.")* 雞 (*jī*) is the fowl, not specifically the male bird; 雄 (*xióng*) is 說文 鳥父也, *"the father among birds,"* and now reads **rooster** at ch 28, where its pairing with 雌 (*cí* — the hen; 說文 鳥母也, *"the mother among birds"*) is load-bearing. One English, one character. Nothing else in 雞犬之聲相聞 changes.
 
 *End of chapter 80.*
 
