@@ -2,8 +2,6 @@
 
 > **This document is for AI agents and LLMs.** It provides the context you need to effectively retrieve from, reason about, and contribute to this knowledge base. Read this before interacting with the corpus.
 
-Last updated: 2026-03-10
-
 ---
 
 ## What You're Working With

@@ -19,7 +19,7 @@ Lao Tzu (c. 6th century BCE) is the legendary author of the *Tao Te Ching*, the 
 ## Key Claims
 
 - **The Tao is unnameable:** "The Tao that can be made a way is not the ever-present Tao. / The name that can be named is not the ever-present name" (*Tao Te Ching*, ch. 1). Language and conceptual thought are always approximations. The Tao precedes sky and earth; the named is the mother of the countless things, but not of the Tao itself.
-- **Wu wei (無為, non-doing):** The sage acts in alignment with the Tao without striving or forcing. "The work is done, and the sage does not stay in it. / Because the sage does not stay, it does not leave" (*Tao Te Ching*, ch. 2). Action from wu wei is effective precisely because it doesn't impose.
+- **Wu wei (無為, non-doing):** The sage acts in alignment with the Tao without striving or forcing. "The work is done, and the sage does not stay in it. / Only because the sage does not stay does it not leave" (*Tao Te Ching*, ch. 2). Action from wu wei is effective precisely because it doesn't impose.
 - **Complementary opposites:** All phenomena arise in pairs: presence/absence, difficult/easy, long/short, high/low, front/back. These are not contradictions but complements that define and sustain each other. "When the world knows beauty as beauty, ugliness arises" (*Tao Te Ching*, ch. 2).
 - **Return to naturalness:** The goal is not achievement but return — to simplicity, to the uncarved wood (樸, *pu*), to the state before social conditioning imposes false distinctions.
 - **Te (德) — integrity:** Te is the Tao manifested in particular things. It is not moral virtue in the Western sense but the integrity of a thing when it is fully itself, which is why the Open Tao Te Ching renders it *integrity*.
