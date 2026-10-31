@@ -2,8 +2,6 @@
 
 > LLM-synthesized concept pages, entity summaries, and cross-tradition connections. Updated by `/knowledge-compile`. Always loaded in Claude's context via `@knowledge/wiki/index.md` in `.claude/CLAUDE.md`.
 
-**Last updated:** 2026-05-02
-
 ---
 
 ## Entities — People, Texts, Traditions
