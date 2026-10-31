@@ -2044,17 +2044,17 @@ The Chinese:
 
 *Heshang Gong's title: 辯德, "Telling integrity apart".*
 
-One who knows others is intelligent.
-One who knows themselves sees clearly.
+One who knows others is clever.
+One who knows themselves is clear-seeing.
 
 One who overcomes others has force.
 One who overcomes themselves is strong.
 
 One who knows they have enough is wealthy.
-One who forces themselves onward has will.
+One who walks with strength has purpose.
 
-One who does not lose their rootedness, endures.
-One who dies but does not perish has long life.
+One who does not lose their place endures.
+One who dies but does not vanish lives long.
 
 The Chinese:
 
@@ -2066,6 +2066,14 @@ The Chinese:
 強行者有志。
 不失其所者久。
 死而不亡者壽。
+
+### Notes on chapter 33
+
+**The four couplets, set on the chapter's own grammar.** *(2026-10-30, Shalom's call. `WORKLIST.md` T3-21.)* *(was: "is intelligent," "sees clearly," "knows they have enough is wealthy," "forces themselves onward has will," "does not lose their rootedness, endures," "dies but does not perish has long life.")* Every line is ▢者▢ (*▢ zhě ▢* — "one who ▢ is ▢"). Six predicates are one bare word, 智 (*zhì* — clever), 明 (*míng* — clear-seeing), 強 (*qiáng* — strong), 富 (*fù* — wealthy), 久 (*jiǔ* — lasting) and 壽 (*shòu* — long-lived), and two add 有 (*yǒu* — has): 有力 (*yǒu lì* — has strength) and 有志 (*yǒu zhì* — has intent). The English follows it: *is* + one word in the first three couplets, *has* only for the two 有, and the closing couplet turns on two verbs, *endures* and *lives long*, since the Chinese bare words are stative verbs and each couplet stays one shape.
+
+**Couplets 1 and 2 rank; couplets 3 and 4 praise.** The first two set 人 (*rén* — others) against 自 (*zì* — oneself), and Wang Bi ranks them in so many words: 用其智於人，未若用其智於己也 — *"using your cleverness on others is not as good as using it on yourself."* Couplets 3 and 4 drop the marker, and he praises both lines of each: 知足自不失，故富也 — *"one who knows enough does not lose themselves, and so is rich"*; 勤能行之，其志必獲 — *"one who keeps at it diligently surely attains their intent."* So the two lines of couplet 3 stand as equals, not as a contrast.
+
+**Line by line.** 智 → *clever*, the lesser rung, as 智 reads *cleverness* at 18 and 19 (`WORKLIST.md` T2-2 still owes the character). 明 → *is clear-seeing*, a declared flexion in `glossary/ming-明.md`. 知足 keeps *knows they have enough*: *knows enough* is heard as knowledge, and *sufficiency* is ruled out (`glossary/zhizu-知足.md`). 富 → *wealthy*, as it has read since the first draft. 強行 → *walks with strength*: the Shuowen makes 行 (*xíng* — to go) 人之步趨也 (*"a person walking and hurrying"*), the 強 of line 4's *is strong* carries into the going as the Chinese reuses it, and no 自 (*zì* — oneself) stands in the line, so no *themselves*. 志 → *purpose*: the Shuowen's 意也 (*"intent"*), where the heart is headed, and here a good thing to have, unlike chapter 3's *ambition*. 所 (*suǒ* — place) → *place*: nothing in the line is a root, and Wang Bi reads 不失其所，必獲久長 (*"not losing their place, they surely last long"*). 久 → *endures*, as 久 reads at chapter 16. 亡 (*wáng* — to be gone) → *vanish*: the Shuowen makes it 逃也 (*"to flee, to go missing"*), apart from 死 (*sǐ* — to die), 人所離也 (*"what a person departs from"*), so *dies but does not vanish* keeps the gap the paradox lives in, and *does not lose / does not vanish* keeps the couplet's two 不 (*bù* — not). 壽 → *lives long*: present-tense *lives* against *dies*, without the *has* the line does not print, or the *true* the source table's gloss adds. Wang Bi reads the close as a long life made whole past death: 雖死而以為生之道不亡，乃得全其壽 (*"though they die, the way they lived by is not gone, and so their long life is made whole"*). The silks read 忘 (*wàng* — to forget) for 亡: `notes/manuscript.md`.
 
 *End of chapter 33.*
 
