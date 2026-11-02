@@ -180,7 +180,7 @@ By not displaying the desirable, the people's hearts are not thrown into disorde
 
 This is how the sage governs:
 emptying their hearts and filling their bellies,
-weakening their ambition and strengthening their bones,
+teaching their ambition to yield and strengthening their bones,
 so the people are ever unknowing, ever desireless,
 and the knowers never push to act.
 Do the not-doing, and nothing is left ungoverned.
@@ -217,13 +217,17 @@ The Chinese:
 
 **治 (*zhì* — to govern / to order) frames the chapter, and had been dropped from the hinge.** 是以聖人之治 — *"therefore, the sage's governing"* — read only *"Therefore the sage."* 治 opens the second movement and is the chapter's last word; the ring was broken. 無不治 now reads **"nothing is left ungoverned,"** which restores an echo the Chinese has: 無不治 here against 無不為 (*wú bù wéi*) at ch 37 and 48, already rendered *"nothing is left undone."* Ch 65 — 民之難治 (*mín zhī nán zhì* — "the people are hard to govern") — already renders 治 as *govern* three times. 說文解字 on 治 is a **river name**, 水 (*shuǐ* — water) with 台 for sound; governing in this word begins as channelling water, not as forcing it.
 
-**The old English read as manipulation, and the Chinese does not.** Every state the movement names is elsewhere the sage's **own**: 無知 (*wú zhī* — without knowing) is asked of the reader at ch 10, 能無知乎 (*"can you be unknowing?"*); 常…無欲 (*cháng… wú yù* — ever without desire) is the reader at ch 1 and the Tao itself at ch 34, both already rendered **"Ever desireless"**; and 不敢為 (*bù gǎn wéi* — does not push to act) is the sage's own posture at ch 64, 67 and 69. **The English had made asymmetric what the Chinese makes symmetrical, and the asymmetry is what read as coercion.** Three collocations did the work — *"keeping X without knowing"* (an English idiom for *behind someone's back*), *"weakening their will"* (the vocabulary of interrogation), *"keeping X from Y"* (restraint imposed). See [`collocation-carries-a-verdict`](https://github.com/opencosmos-ai/taoteching/blob/main/process/principles/collocation-carries-a-verdict.md).
+**The old English read as manipulation, and the Chinese does not.** Every state the movement names is elsewhere the sage's **own**: 無知 (*wú zhī* — without knowing) is asked of the reader at ch 10, 能無知乎 (*"can you be unknowing?"*); 常…無欲 (*cháng… wú yù* — ever without desire) is the reader at ch 1 and the Tao itself at ch 34, both already rendered **"Ever desireless"**; 不敢為 (*bù gǎn wéi* — does not push to act) is the sage's own posture at ch 64, 67 and 69; and 弱 (*ruò* — yielding) is the Tao's own use at ch 40, 弱者道之用 (*ruò zhě dào zhī yòng* — "Yielding is the Tao's use"). Heshang Gong's gloss on 弱其志 (*ruò qí zhì* — "teach their ambition to yield"), 和柔 (*hé róu* — "gentle and soft"), is the word he uses for rulers and lords at ch 42. **The English had made asymmetric what the Chinese makes symmetrical, and the asymmetry is what read as coercion.** Three collocations did the work — *"keeping X without knowing"* (an English idiom for *behind someone's back*), *"weakening their will"* (the vocabulary of interrogation), *"keeping X from Y"* (restraint imposed). See [`collocation-carries-a-verdict`](https://github.com/opencosmos-ai/taoteching/blob/main/process/principles/collocation-carries-a-verdict.md).
 
 **And the mechanism is subtraction, which ch 57 states outright.** 我無為，而民自化 … 我無欲，而民自樸 — *"I do not do, and the people transform themselves … I am desireless, and the people become plain of themselves."* The operative character is 自 (*zì* — of themselves). All three of stanza 1's 使 clauses take a **not** as their cause, and 王弼 (*Wáng Bì*) spells it out: 故可欲不見，則心無所亂也 — *"so when the desirable is not displayed, the heart has nothing to disorder it."* Nothing is put into anyone. The movement's two 使 clauses are now handled as stanza 1 already handles its three: result of the arrangement, not an act performed on persons.
 
 **河上公 reads the movement as a body, not a population.** He opens it 聖人治國與治身同也 — *"the sage's governing of the state and the governing of the self are one and the same"* — and glosses 實其腹 as 懷道抱一守五神 (*"harbor the Tao, embrace the one, guard the five spirits"*) and 強其骨 as 愛精重施，髓滿骨堅 (*"cherish the vital essence and be sparing in spending it; the marrow fills and the bones grow firm"*). *Govern* holds both readings; it does not shut the inner one out. **What is not smoothed:** this is still a ruler arranging the conditions under which other people want things, and 河上公 titles the chapter 安民 (*ān mín* — "settling the people"). Paternalist is not sinister, and the chapter owns the first.
 
-**弱其志 → "ambition," and 弱 keeps *weaken*.** 說文 on 志: 意也, *"intent"* — 心 (*xīn* — heart) with 之 (*zhī* — to go), the heart going toward something. 王弼: 志生事以亂 — *"ambition generates affairs, and so brings disorder"* — and 心虛則志弱也, *"when the heart is emptied, the ambition weakens,"* which is why the four clauses are one gesture and not four. The lock licenses **weaken** wherever 弱 takes an object, and it does here; the coercion was in *will*, not in *weaken*. **志 is still split against ch 33's *will*** — `WORKLIST` T2-7.
+**弱其志 → *"teaching their ambition to yield."*** *(Shalom's call, 2026-11-02.)* *(was: "weakening their ambition.")* The Shuowen on 志: 意也, *"intent"* — 心 (*xīn* — heart) with 之 (*zhī* — to go), the heart going toward something. Wang Bi: 志生事以亂 — *"ambition generates affairs, and so brings disorder"* — and 心虛則志弱也 (*xīn xū zé zhì ruò yě* — "when the heart is emptied, the ambition yields"), which is why the four clauses are one gesture and not four. His 弱 (*ruò* — yielding) is stative, with no object, so the lock reads it *yields*. In the verse it is the same word made causative, as 虛 (*xū* — empty), 實 (*shí* — full) and 強 (*qiáng* — strong) are beside it. *Weaken* was kept here on the argument that a stance word cannot take an object, which is true of the English adjective and says nothing about the Chinese, and it hid this line's tie to ch 40 (`DISCOVERIES.md` § 9). **志 is still split against ch 33's *will*** — `WORKLIST` T2-7.
+
+**Two witnesses read 弱 as giving way.** Heshang Gong, on this exact phrase: 和柔謙讓不處權也 (*hé róu qiān ràng bù chǔ quán yě* — "gentle and soft, modest and giving way, not holding on to power"). 讓 (*ràng*) means to give way, so this is yielding, not diminishing. The Shuowen defines 弱 as 橈也 (*náo yě* — "to bend"), which describes how a thing gives, not how little force it has.
+
+**Why *teaching*.** English has no one-word causative of *yield*, so the line needs a helper verb, and the helper is the rendering. *Making* is the language of force, and *letting* undersells a real causative. Heshang Gong supplies the word at ch 42: 言我教衆人使去強為弱，去剛為柔 (*yán wǒ jiào zhòng rén shǐ qù qiáng wéi ruò, qù gāng wéi róu* — "I teach the many, so that they leave the strong and become yielding, leave the unbending and become soft"). Wang Bi rules out the force on the same line: 我之非强使人從之也 (*wǒ zhī fēi qiáng shǐ rén cóng zhī yě* — "it is not that I force people to follow"). And ch 2 has just said what kind of teaching this is, the teaching without words, which Heshang Gong glosses 以身師導之也 (*yǐ shēn shī dǎo zhī yě* — "teaching and guiding them with one's own body"). **The costs, named:** *teaching* is not in the line, and a commentator's gloss at another chapter is not the text. It says the paternalism outright, and the couplet loses its run of four single verbs. Full argument: `glossary/ruo-弱.md`.
 
 **常 → "ever," restoring a dropped lock term.** 常使民無知無欲 had no *ever* at all, the same fault as ch 28's three 常德. The 常 entry licenses plain *ever / always* adverbially, and 常…無欲 is already **"Ever desireless"** at ch 1 and ch 34.
 
@@ -2156,7 +2160,7 @@ The Chinese:
 *Heshang Gong's title: 微明, "Subtle clear-seeing".*
 
 If you would draw it in, you must first stretch it out.
-If you would weaken it, you must first strengthen it.
+If you would have it yield, you must first strengthen it.
 If you would bring it down, you must first raise it up.
 If you would take from it, you must first give to it.
 
@@ -2178,6 +2182,10 @@ The Chinese:
 國之利器不可以示人。
 
 ### Notes on chapter 36
+
+**將欲弱之 → *"If you would have it yield."*** *(Shalom's call, 2026-11-02.)* *(was: "If you would weaken it.")* Lines 2 and 6 are one character, 弱 (*ruò* — yielding), and the English now repeats it. With *weaken* the two lines had no visible relation, and a reader could not hear the chapter's close answering its opening. *Have* keeps the causative without the force of *make*, and sits close to Wang Bi's 因物之性令其自戮 (*yīn wù zhī xìng lìng qí zì lù* — "following things' nature, causing them to bring themselves down"). *Make it yielding* would do the object a favor, and every commentator reads an undoing.
+
+**The oldest reader puts both uses in one story.** Han Fei: 越王入宦於吴，而觀之伐齊以弊吳。吳兵既勝齊人於艾陵，張之於江、濟，強之於黄池，故可制於五湖。 — *"The king of Yue went into service in Wu, and steered it into attacking Qi, to wear Wu out. Once Wu's army had beaten the men of Qi at Ailing, it stretched itself out along the Yangtze and the Ji and made itself strong at Huangchi, and so could be subdued at the Five Lakes."* He quotes this very line, and closes the passage with 處小弱而重自卑損，謂「弱勝強」也 (*chǔ xiǎo ruò ér zhòng zì bēi sǔn, wèi "ruò shèng qiáng" yě* — "to dwell in the small and yielding and make much of humbling oneself: this is what 'the yielding overcomes the strong' means"). Yue yields, and Wu is had to yield. **The cost, named:** a word the book gives the sage now stands in a calculating sentence, and that discomfort is the chapter's own. *Have* undersells Wu's defeat. That lines 2 and 6 name two parties is our reading, which the story fits and no commentator states. `glossary/ruo-弱.md`; the history is in `DISCOVERIES.md` § 9.
 
 **剛 → "unbending."** *(2026-10-14, Shalom's call. Was: "the hard and strong.")* 堅 (*jiān*) keeps *hard*; 剛 is the edge that will not give. `glossary/ruo-弱.md`.
 
@@ -2483,7 +2491,7 @@ The Chinese:
 
 **They were unified to *established* first, and the unification had to be undone**, because it made the second line unreadable. *"Established integrity"* collapses in English into **long-standing** — a reputation, which is the opposite of what the line says. The saying needs *fully built* against *looks idle*; **建言** needs *received body of maxims*. One English cannot be both, and the consistency was bought at the price of the sense.
 
-**The grammar differs, which is what licenses the flexion.** 建言 is a **fixed compound** — maxims, a received corpus — where 建德 is 建 **modifying a noun**. This is the same licensed-flexion pattern as 事 (*shì* — affairs / to attend to) and 弱 (*ruò* — yielding / weaken): the register holds, the word bends with the grammar.
+**The grammar differs, which is what licenses the flexion.** 建言 is a **fixed compound** — maxims, a received corpus — where 建德 is 建 **modifying a noun**. This is the same licensed-flexion pattern as 事 (*shì* — affairs / to attend to) and 弱 (*ruò* — yielding / *yield*): the register holds, the word bends with the grammar.
 
 **The cost, recorded rather than hidden:** a reader cannot see from the English that these two lines share a character. The chapter notes are where that lives; the verse cannot carry it.
 
@@ -3911,7 +3919,7 @@ The Chinese:
 
 **張弓 — stringing the bow, not drawing it.** 河上公 glosses 言張弓和調之如是乃可用 — "stringing the bow and tuning it into balance, thus, and then it can be used." 和調 (*hé tiáo* — harmonize and tune) is the bowyer's act, not the archer's: pressing the upper limb down and lifting the lower is how a string is seated. 王弼 names the mechanism as 均 (*jūn* — to make even) — 不欲示其賢以均天下, "does not display their 賢, so as to level the world." Aim would make the chapter about targeting; bracing makes it about tension brought into balance, which is what the four following lines describe.
 
-**The bow is 弱's own graph.** 弱 (*ruò* — yielding) is two 弓 (*gōng* — bow). 河上公's gloss on these lines reads 夫抑高舉下，損強益弱，天之道也 — "pressing down the high and raising the low, diminishing the strong and increasing the yielding: this is the way of nature." The chapter that gave the 弱 lock its argument is the chapter whose central image is the bow itself.
+**The bow, and 弱 beside it.** Heshang Gong's gloss on these lines reads 夫抑高舉下，損強益弱，天之道也 — "pressing down the high and raising the low, diminishing the strong and increasing the yielding: this is the way of nature." The chapter's central image is a thing that works by bending, and the gloss sets 弱 (*ruò* — yielding) beside it. *(Corrected 2026-11-02: this note said the bow is 弱's own graph. The Shuowen defines 弱 as 橈也 (*náo yě* — "to bend") and names no bow. `glossary/ruo-弱.md`.)*
 
 **奉 is tribute.** 奉 (*fèng*) is 廾 (two raised hands) holding an offering up — the verb for giving to a superior. 河上公: 世俗之人損貧以奉富，奪弱以益強 — "worldly people diminish the poor to offer up to the rich, seize from the yielding to increase the strong." Rendered *offer up* in both occurrences so the reversal in the third block lands on the same verb. This is Ch 75's charge about taxes, given a cosmology.
 
