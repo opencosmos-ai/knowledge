@@ -550,7 +550,7 @@ The Chinese:
 *Heshang Gong's title: 能為, "What can be done".*
 
 Housing your aliveness and embracing the one, can you keep these from parting?
-Gathering the breath to softness, can you be like an infant?
+Gathering the breath to softness, can you be an infant?
 
 Washing and clearing the dark mirror, can you be without blemish?
 Loving the people and governing the state, can you be unknowing?
@@ -596,11 +596,13 @@ The Chinese:
 
 **專 → "gathering," on the graph against a commentator.** 說文 makes 專 a **spindle whorl** — 一曰專，紡專 — thread wound onto a core. 河上公 agrees: 專守精氣使不亂 (*"concentrate and guard the essential breath so it is not disordered"*). **王弼 goes the other way** — 專，**任**也, *"專 means to entrust oneself to"* — nearly the opposite. **The character decides**, per the tie-breaking order, and the divergence is recorded rather than averaged.
 
-**氣 → "breath," not "life energy."** 河上公's reading here is bodily and concrete: 呼吸精氣 (*"breathing the essential 氣"*), and 治身者愛氣則身全 (*"one who governs the body loves the 氣 and the body is whole"*). *Energy* is the register ch 28 has just been cleared of. **The book-wide call is still owed** — `WORKLIST` T2-4, where 氣 also reads *vital breath* (42) and *vital energy* (55).
+**氣 → "breath," not "life energy."** 河上公's reading here is bodily and concrete: 呼吸精氣 (*"breathing the essential 氣"*), and 治身者愛氣則身全 (*"one who governs the body loves the 氣 and the body is whole"*). *Energy* is the register ch 28 has just been cleared of. **Locked book-wide, 2026-11-01, Shalom's call** (`glossary/qi-氣.md`): *breath* in all three lines, 10, 42 and 55.
 
 **能為雌乎 → "can you be the hen?"** — the rider ch 28 left. 為 is *serve as / be*, not *embody*, and *"the flow of the feminine"* invented **flow** and abstracted the bird away. **王弼 ties the hen straight to this chapter's last question:** 雌**應而不倡，因而不為** — *"the hen responds and does not lead off; she goes along and does not act."* 河上公 pairs her with the other female graph — 治身當如**雌牝**安靜柔弱 — and gives the political half: 治國應變和而不唱, *"governing the state, respond to change harmoniously and do not lead off."* **The line's own graph is contested**; see `notes/manuscript.md`.
 
 **嬰兒 → "an infant," closing T2-22.** It read *"a newborn"* here and *"an infant"* at ch 20 and ch 28, while 赤子 (*chì zǐ* — a red child) reads *"a newborn"* at ch 55. One character, one English, each way. 王弼: 能若嬰兒之**無所欲**乎 — *"can you be like an infant that has no wants?"*
+
+**能如嬰兒乎 → "can you be an infant?", following every witness, closing T2-76.** *(Shalom's call, 2026-11-01.)* *(was: "can you be like an infant?")* Both Mawangdui silks, the Siku Wang Bi lemma and Heshang Gong's lemma all read 能嬰兒乎 (*néng yīng ér hū* — "can you be an infant?"), without 如 (*rú* — like). Our base stands alone, and both commentators supply the likeness in their glosses, which may be where it came from. The chapter's other questions ask for the thing itself, as *"can you be the hen?"* does. **The base text and the Source table keep 如; only the verse follows the witnesses**, the practice at chapters 21, 41, 42, 47 and 53. `notes/manuscript.md`.
 
 ***"Things," not "the countless things."*** 生之畜之 has **no antecedent anywhere in this chapter** — 萬物 does not occur — and both commentators supply one: 河上公 道生**萬物**而畜養之, 王弼 則**物**自生. So the English must supply one too, and **物 (*wù* — things)** is what the glossary carries as the secondary character, where 萬物 is a locked compound this chapter does not contain.
 
@@ -980,7 +982,7 @@ The countless things arise together,
 Relying upon this, I observe their return.
 
 Things come to their fullest,
-Each returns again to its root.
+Each returns to its root.
 Returning to the root is called stillness.
 This is called returning to what is given.
 Returning to what is given is called the ever-present.
@@ -1038,7 +1040,9 @@ The Chinese:
 
 **芸芸 is a peak, not a motion.** 河上公 (*Héshàng Gōng*): 芸芸者華葉盛 — *"芸芸 means flowers and leaves at their fullest."* The line sits immediately before the turn, and that adjacency is the chapter's teaching: maximum display, then the return. *In full leaf* was tried and rejected — 河上公's gloss explains the word vegetally, but 物 is general, and committing the English to foliage makes all things plants. *Prime* was rejected too: it is 壯 (*zhuàng*)'s word, 壯 is absent here, and ch 30 and ch 55 both read 物壯則老 as the identical sentence *"When things reach their prime, they decay"* — borrowing it would make ch 16 look like a quotation.
 
-**復歸 → *returns again*, following ch 28.** The compound runs seven lines (14, 16, 28 ×3, 52) and ch 28's Pass D rewrite settled it to one shape: *"Return again to the infant / the endless / the uncarved wood."* 歸 carries *return*, 復 carries *again*. 說文解字 keeps them distinct — 復 往來也 (*"going and coming"*), 歸 女嫁也 (*"a woman marrying,"* going to the house that is now hers). *Returns home* was proposed and dropped: *home* does render 歸, but it matches no other line in the formula.
+**復歸 → *returns*, one verb for the doubled verb.** *(Shalom's call, 2026-11-01, closing T2-28.)* *(was: "returns again")* 復歸 (*fù guī*) is two verbs of one motion: 復 (*fù*), 說文 往來也 (*"going and coming back"*), the turn back along the way you came, and 歸 (*guī*), 女嫁也 (*"a woman marrying"*), the arrival where something belongs. *Again* read 復 as the adverb, which says *a second time*; both commentators read it as going **back to the beginning** — Wang Bi 各返其所始也 (*"each goes back to where it began"*), Heshang Gong 各復反其根而更生也 (*"each goes back to its root, and lives anew"*). English *return* is built the same way, *re-* (back) and *turn*, so one word carries both beats; what it drops is the audible doubling, which `glossary/gui-fu-fan-歸復反.md` shows. All seven lines of the compound now read one way (14, 16, 28 ×3, 52).
+
+~~**復歸 → *returns again*, following ch 28.**~~ *(Superseded 2026-11-01, the note above.)* The compound runs seven lines (14, 16, 28 ×3, 52) and ch 28's Pass D rewrite settled it to one shape: *"Return again to the infant / the endless / the uncarved wood."* 歸 carries *return*, 復 carries *again*. 說文解字 keeps them distinct — 復 往來也 (*"going and coming"*), 歸 女嫁也 (*"a woman marrying,"* going to the house that is now hers). *Returns home* was proposed and dropped: *home* does render 歸, but it matches no other line in the formula.
 
 **根 is a stump.** 說文: 木株也 — the stock left in the ground when the growth is gone. Not an origin. That is why 王弼 (*Wáng Bì*) can gloss the whole movement 凡有起於虛，動起於靜 — *"all presence arises from emptiness, all movement arises from stillness"* — and why 河上公 can say 枯落 (*"wither and fall"*) and 更生 (*"born again"*) in one breath. **歸根 is not a euphemism for dying**: 吾以觀復 has the speaker *watching* the returning, and no one watches their own death.
 
@@ -1593,7 +1597,7 @@ The Chinese:
 
 **混 (*hùn*) → "mixed," settled across ch 14, 15 and 25.** *(2026-09-06.)* Three chapters had three Englishes — *"they **blend** into one"* (14), *"**Blended**, like muddy water"* (15), *"formed in the **undifferentiated**"* (25). 說文: 豐流也。从**水**昆聲 — *"**abundant flow**. From 水 (*shuǐ* — water)."* **混 is a water word**, and the mixing sense comes from a full river carrying everything along, which is what muddy water is. 王弼 here: 混然不可得而知而萬物由之以成 — *"混-ly, it cannot be known, yet the countless things come to completion through it."* This line's 有物混成 is now *"Something mixed and complete"* — undifferentiated and already whole, which is the paradox 混成 states. **Not yet a glossary entry** (`WORKLIST.md` T2-40), so the rendering is settled but unenforced.
 
-**A rider the reverse search exposed: *blend* was also 沖's word.** Ch 42's 沖氣以為和 reads *"**blending** the vital breath into harmony,"* where 沖 (*chōng*) is the character ch 4's Pass D work settled as **empty** — 道沖, *"The Tao is empty."* Freeing *blend* from 混 does not fix ch 42; it isolates it. `WORKLIST.md` T2-41.
+**A rider the reverse search exposed: *blend* was also 沖's word.** Ch 42's 沖氣以為和 reads *"**blending** the breath into harmony,"* where 沖 (*chōng*) is the character ch 4's Pass D work settled as **empty** — 道沖, *"The Tao is empty."* Freeing *blend* from 混 does not fix ch 42; it isolates it. `WORKLIST.md` T2-41.
 
 **大曰逝，逝曰遠，遠曰反 → three lines, and 逝 → "departing."** *(2026-09-06. Was: "The vast means expanding, expanding means going far, going far means returning" — one line.)*
 
@@ -1732,17 +1736,17 @@ The Chinese:
 Know the rooster, hold to the hen,
 serve as the world's ravine.
 Serve as the world's ravine, and the ever-present integrity never leaves you.
-Return again to the infant.
+Return to the infant.
 
 Know the white, hold to the black,
 serve as the world's pattern.
 Serve as the world's pattern, and the ever-present integrity never varies.
-Return again to the endless.
+Return to the endless.
 
 Know the white, hold to the soiled,
 serve as the world's valley.
 Serve as the world's valley, and the ever-present integrity is enough at last.
-Return again to the uncarved wood.
+Return to the uncarved wood.
 
 The uncarved wood scatters, and becomes vessels.
 The sage puts them to use and becomes chief of the officers.
@@ -1767,6 +1771,8 @@ The Chinese:
 故大制不割。
 
 ### Notes on chapter 28
+
+**復歸於 → *"Return to …"*, three times.** *(Shalom's call, 2026-11-01, closing T2-28.)* *(was: "Return again to …")* 復歸 (*fù guī*) is a doubled verb, 復 (*fù* — going back) and 歸 (*guī* — arriving where something belongs), and English *return*, *re-* and *turn*, carries both; *again* said a second time, where the commentators read *back to the beginning*. The full note is in chapter 16; the argument in `glossary/gui-fu-fan-歸復反.md`.
 
 **The chapter is a chain of things you could point at, and the English had been a chain of concepts.** *(2026-09-01, Pass D, `WORKLIST.md` T1-7, T1-15, T1-16, T3-5, and the last of T2-15.)* 說文解字 makes almost every term here a physical object — a bird's father and a bird's mother, a mountain watercourse with no outlet, a spring that runs through to a river, a carpenter's square, a roof's ridgepole, vessels, a knife — and the old English read *assertive energy · yielding energy · deep ravine · **reservoir** · pattern · the limitless · **master orchestrator** · **the great orchestrator***. **The pointing test failed on nearly every line**, and the replacements sat in one register: the mechanistic, with the modern spiritual idiom beside it. ***"Energy" renders no character at all*** — 氣 (*qì* — vital breath) is not in this chapter.
 
@@ -2535,7 +2541,7 @@ The Chinese:
 *Heshang Gong's title: 道化, "The Tao transforming".*
 
 The Tao births the one, the one births the two, the two births the three, the three births the countless things.
-The countless things carry yin on their backs and embrace yang with their arms, blending the vital breath into harmony.
+The countless things carry yin on their backs and embrace yang with their arms, blending the breath into harmony.
 
 What most people hate is to be called orphaned, meager, or unworthy,
 Yet rulers and lords take these very descriptions for themselves.
@@ -2558,6 +2564,8 @@ The Chinese:
 吾將以為教父。
 
 ### Notes on chapter 42
+
+**沖氣以為和 → "blending the breath into harmony."** *(Shalom's call, 2026-11-01, locking `glossary/qi-氣.md`.)* *(was: "blending the vital breath into harmony.")* 氣 (*qì* — breath) reads *breath* in all three of its lines. *Vital* is 精 (*jīng* — vital essence)'s word, and chapter 55 holds both, a reserve against a current; *energy* fails the pointing test.
 
 **學父 → "the father of learning."** *(2026-10-26, Shalom's call.)* *(was: "the root of learning.")* 父 (*fù* — father) stands in every witness: the received 教父 (*jiào fù* — "father of teaching") and the silk's 學父 (*xué fù* — "father of learning"). The fork is only the first character. *Root* came from Heshang Gong's 父，始也 (*fù, shǐ yě* — "父 means beginning"), a commentator's gloss on the sense, not a doubt about the word. 父 is *father* as 母 (*mǔ* — mother) is *mother*: the edition does not cool the mother into *the Source*, and it does not cool the father into *a root*. English *the father of* already names the one who began a thing, so Heshang Gong's sense stays in the word. *Root* is 根's (*gēn*). `notes/manuscript.md` → Ch 42.
 
@@ -2987,10 +2995,10 @@ Their bones are yielding and their muscles soft, yet their grip is firm.
 They do not yet know the union of female and male, yet their whole being quickens with life — this is vital essence at its utmost.
 It cries all day and never goes hoarse — this is harmony at its utmost.
 
-Knowing harmony is called the ever-present.
-Knowing the ever-present is called clear-seeing.
+Harmony is called the ever-present.
+Knowing harmony is called clear-seeing.
 To force life to increase is an ill omen.
-When the heart drives the vital energy, that is called strong.
+When the heart drives the breath, that is called strong.
 When things reach their prime, they decay.
 This is called not-Tao. Not-Tao comes to an early end.
 
@@ -3006,6 +3014,10 @@ The Chinese:
 物壯則老，謂之不道，不道早已。
 
 ### Notes on chapter 55
+
+**知和曰常，知常曰明 → "Harmony is called the ever-present. / Knowing harmony is called clear-seeing.", following Guodian and silk A, closing T2-77.** *(Shalom's call, 2026-11-01.)* *(was: "Knowing harmony is called the ever-present. / Knowing the ever-present is called clear-seeing.")* The two oldest witnesses, a century apart, read 和曰常，知和曰明 (*hé yuē cháng, zhī hé yuē míng*). Our base and silk B run the chain 和 → 常 → 明 (*harmony → the ever-present → clear-seeing*) that chapter 16 ends on, likely a copyist bringing this chapter into line with that one. In the oldest reading, clear-seeing is knowing harmony itself, the harmony of the infant who cries all day and never goes hoarse, one line before. **The base text and the Source table keep 知和曰常，知常曰明; only the verse follows the witnesses.** `notes/manuscript.md`.
+
+**心使氣曰強 → "When the heart drives the breath, that is called strong."** *(Shalom's call, 2026-11-01, locking `glossary/qi-氣.md`.)* *(was: "When the heart drives the vital energy, that is called strong.")* 氣 (*qì* — breath) reads *breath* in all three of its lines. *Vital* is 精 (*jīng* — vital essence)'s word, and chapter 55 holds both, a reserve against a current; *energy* fails the pointing test.
 
 **握固 → "their grip is firm."** *(2026-09-08, Pass E, `WORKLIST.md` T2-19 — the holding family.)* *(was: "their grasp is firm.")* 握 (*wò*) is 說文 **搤持也**, *"to squeeze and grip"* — the tightening word the dictionary defines 持 (*chí* — to hold) by, and defines back in the same breath (持，握也). *Grasp* is now 執's alone book-wide (`glossary/zhi-執.md`), and *grip* is the plainer and better English for an infant's fist besides.
 
