@@ -329,6 +329,8 @@ The Chinese:
 
 **道沖 was inverted, and given 器's word.** 沖 (*chōng*) is **empty**; 不盈 (*bù yíng*) is **never fills**. The line read *"The Tao is a vessel that never runs empty"* — **both halves flipped**, and *vessel* is locked to 器 (*qì*). 王弼 (*Wáng Bì*) states the mechanism: 沖而用之，用乃不能窮…滿以造實，實來則溢 — *"empty, and using it, the use cannot be exhausted… fill it to make it solid, and when solidity comes it overflows."* **Emptiness is the capacity; the old line made the Tao a reservoir that never drains, which is the opposite metaphysics.** 河上公 (*Héshàng Gōng*) reads 或 as 常 (*cháng* — always): 道常謙虛不盈滿.
 
+**Why 沖 can mean *empty* at all** *(2026-11-15)*: read as itself it is 涌搖也, *"surging and shaking."* The empty sense is 盅 (*zhōng* — an empty vessel), which shares its sound part 中. Xu Shen's copy of this very line wrote 道盅而用之 (the *Shuowen*, under 盅：器虛也, *"a vessel's emptiness"*), and Fu Yi writes 盅. Heshang Gong reads the word as 中 (*zhōng* — middle) instead, 其用在中 (*"its use lies in the middle"*); the English keeps Wang Bi's reading. `glossary/chong-沖.md`, `notes/manuscript.md` → Ch 4.
+
 **淵 was dropped, and with it a frame.** 淵兮，似X and 湛兮，似X are **two matched frames** around the quatrain; the English rendered only the second, so the symmetry was invisible and the 湛 line arrived as a new topic with nothing to rhyme against. 說文解字 on 淵: 回水也…左右，岸也，中象水皃 — *"eddying water; the left and right are the banks, the middle depicts the water."* A pool of turning water between two banks. 河上公: 道淵深**不可知**也 — *"deep as an abyss and cannot be known"*, which is what **fathomless** means.
 
 **湛 is not "still" — it is submerged.** 說文: **沒也**, *"to sink under"* (水 with 甚 for sound). That matters, because it makes the line **answer the quatrain** rather than start a new thought: the Tao has just blunted its own edge, dimmed its own light and merged with the dust, and now it is **under**.
@@ -1649,7 +1651,7 @@ The Chinese:
 
 **混 (*hùn*) → "mixed," settled across ch 14, 15 and 25.** *(2026-09-06.)* Three chapters had three Englishes — *"they **blend** into one"* (14), *"**Blended**, like muddy water"* (15), *"formed in the **undifferentiated**"* (25). 說文: 豐流也。从**水**昆聲 — *"**abundant flow**. From 水 (*shuǐ* — water)."* **混 is a water word**, and the mixing sense comes from a full river carrying everything along, which is what muddy water is. 王弼 here: 混然不可得而知而萬物由之以成 — *"混-ly, it cannot be known, yet the countless things come to completion through it."* This line's 有物混成 is now *"Something mixed and complete"* — undifferentiated and already whole, which is the paradox 混成 states. **Not yet a glossary entry** (`WORKLIST.md` T2-40), so the rendering is settled but unenforced.
 
-**A rider the reverse search exposed: *blend* was also 沖's word.** Ch 42's 沖氣以為和 reads *"**blending** the breath into harmony,"* where 沖 (*chōng*) is the character ch 4's Pass D work settled as **empty** — 道沖, *"The Tao is empty."* Freeing *blend* from 混 does not fix ch 42; it isolates it. `WORKLIST.md` T2-41.
+**A rider the reverse search exposed: *blend* was also 沖's word.** Ch 42's 沖氣以為和 reads *"**blending** the breath into harmony,"* where 沖 (*chōng*) is the character ch 4's Pass D work settled as **empty** — 道沖, *"The Tao is empty."* Freeing *blend* from 混 does not fix ch 42; it isolates it. `WORKLIST.md` T2-41. *(Resolved 2026-11-15: ch 42 now reads "and the breath within makes harmony," following silk A's 中 (*zhōng* — middle); `glossary/chong-沖.md`.)*
 
 **大曰逝，逝曰遠，遠曰反 → three lines, and 逝 → "departing."** *(2026-09-06. Was: "The vast means expanding, expanding means going far, going far means returning" — one line.)*
 
@@ -2612,7 +2614,7 @@ The Chinese:
 *Heshang Gong's title: 道化, "The Tao transforming".*
 
 The Tao births the one, the one births the two, the two births the three, the three births the countless things.
-The countless things carry yin on their backs and embrace yang with their arms, blending the breath into harmony.
+The countless things carry yin on their backs and embrace yang with their arms, and the breath within makes harmony.
 
 What most people hate is to be called orphaned, meager, or unworthy,
 Yet rulers and lords take these very descriptions for themselves.
@@ -2636,7 +2638,7 @@ The Chinese:
 
 ### Notes on chapter 42
 
-**沖氣以為和 → "blending the breath into harmony."** *(Shalom's call, 2026-11-01, locking `glossary/qi-氣.md`.)* *(was: "blending the vital breath into harmony.")* 氣 (*qì* — breath) reads *breath* in all three of its lines. *Vital* is 精 (*jīng* — vital essence)'s word, and chapter 55 holds both, a reserve against a current; *energy* fails the pointing test.
+**沖氣以為和 → "and the breath within makes harmony."** *(Shalom's call, 2026-11-15.)* *(was: "blending the breath into harmony.")* We follow silk A's 中 (*zhōng* — middle), read as a word: *within*, the English 中 takes in chapter 21. Silk A writes 沖 in full at chapter 45 but the bare 中 here, Beida writes 中 too, and Heshang Gong reads the received 沖 as 中: 萬物中皆有元氣 (*"within all the countless things is the original breath"*). No witness or commentator supports *blending*. *Within* stands bare so it holds both readings: the breath between yin and yang, which makes the third of 二生三 (*èr shēng sān* — "the two births the three"), and Heshang Gong's breath inside each thing. The 2026-11-01 call on 氣 (*qì* — breath) stands; what changes is that 氣 is no longer the object of a verb here but the thing that makes the harmony. **The cost:** the Source table still prints 沖 beside *within*; the motion of Fu Yi's 衝 (*chōng* — to rush) is let go; and 中 beside 和 (*hé* — harmony) is the Zhongyong's pair, which *within* keeps clear of where *center* would not. `glossary/chong-沖.md`, `notes/manuscript.md` → Ch 42.
 
 **學父 → "the father of learning."** *(2026-10-26, Shalom's call.)* *(was: "the root of learning.")* 父 (*fù* — father) stands in every witness: the received 教父 (*jiào fù* — "father of teaching") and the silk's 學父 (*xué fù* — "father of learning"). The fork is only the first character. *Root* came from Heshang Gong's 父，始也 (*fù, shǐ yě* — "父 means beginning"), a commentator's gloss on the sense, not a doubt about the word. 父 is *father* as 母 (*mǔ* — mother) is *mother*: the edition does not cool the mother into *the Source*, and it does not cool the father into *a root*. English *the father of* already names the one who began a thing, so Heshang Gong's sense stays in the word. *Root* is 根's (*gēn*). `notes/manuscript.md` → Ch 42.
 
@@ -2738,6 +2740,8 @@ The Chinese:
 ***Eloquence* is also not what 辯 means.** 說文解字: 治也。从言在辡之閒 — *"to put in order; from 言 (*yán* — words) placed between 辡."* 辡 is two 辛 (*xīn* — tattooing knives, the convict's mark) facing each other: **words between two disputants.** Fine speech is 美言 (*měi yán* — "pretty words"), ch 81's opening.
 
 **訥 → "halting," not "awkward."** 說文: **言難也**, *"difficulty in speech"* — specifically speech, where *awkward* is generic and overlaps 拙 (*zhuō* — clumsy) in the line above.
+
+**大盈若沖 → "Great fullness seems empty" stands, and rests on 盅** *(2026-11-15)*. Read as itself, 沖 (*chōng*) is 涌搖也, *"surging and shaking"*; the empty sense is 盅 (*zhōng* — an empty vessel), which Fu Yi writes here outright (大滿若盅), and which shares 沖's sound part 中. The frame needs the opposite of 盈 (*yíng* — full), as 缺 (*quē* — lacking) answers 成 (*chéng* — complete). 王弼 (*Wáng Bì*) reads it so: 大盈充足……故若沖也 (*"great fullness is ample… so it seems 沖"*). `glossary/chong-沖.md`, `notes/manuscript.md` → Ch 45.
 
 **Still owed here: 巧 reads *skill* in this chapter and *cunning* at ch 19 and ch 57** — the same fault as 辯, one line up. `WORKLIST` T2-20.
 
