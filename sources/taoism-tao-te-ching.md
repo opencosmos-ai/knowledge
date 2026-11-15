@@ -1733,7 +1733,7 @@ The Chinese:
 *Heshang Gong's title: 巧用, "Deft use".*
 
 Masterful traveling leaves no tracks.
-Masterful speaking is flawless.
+Masterful speaking leaves no flaw.
 Masterful calculating uses no counting rods.
 Masterful security uses no locks, yet cannot be breached.
 Masterful tying uses no ropes, yet cannot be untied.
@@ -1742,11 +1742,12 @@ Therefore the sage is always masterful at rescuing people, and so no one is aban
 Always masterful at rescuing things, and so nothing is abandoned.
 This is called clarity worn covered.
 
-Therefore, the masterful one naturally teaches the novice.
-And the novice is the raw material of the master.
+So the masterful are the teachers of the unmasterful;
+the unmasterful are the raw material of the masterful.
 
-Not valuing the master and not loving their raw material is a sign of great confusion.
-Even those who appear intelligent are lost. This is the essential secret.
+Not to value the teacher, not to love the raw material:
+however clever, one is greatly lost.
+This is called the essential subtlety.
 
 The Chinese:
 
@@ -1770,6 +1771,20 @@ The Chinese:
 是謂要妙。
 
 ### Notes on chapter 27
+
+**善言無瑕謫 → "Masterful speaking leaves no flaw."** *(Shalom's call, 2026-11-15, `WORKLIST.md` T3-18.)* *(was: "Masterful speaking is flawless.")* **The five masteries share one frame, 善▢無▢ (*shàn ▢ wú ▢* — "masterful ▢ has no ▢"), and line 2 was the one member out of it.** The other four read *leaves no* or *uses no*; *is flawless* turned the absence into an adjective. Now line 2 answers line 1 as the Chinese does: 無轍跡 / 無瑕謫 (*wú zhé jì / wú xiá zhé* — "no ruts or tracks / no flaw or fault"), *leaves no tracks* / *leaves no flaw*. 瑕 (*xiá*) is a flaw in jade, with 玉 (*yù* — jade) as its radical; 謫 (*zhé*) is blame, with 言 (*yán* — speech). Heshang Gong reads the pair as something left in the world: 善言謂擇言而出，則无瑕疵讁過於天下 — *"masterful speech means choosing words before they go out; then there is no flaw or fault in the world."* Wang Bi has 順物之性，不別不析，故無瑕讁可得其門也 — *"it follows the nature of things, neither dividing nor dissecting, so there is no flaw or fault by which to find a way in."* **The cost:** *flaw* carries 瑕 and lets go of 謫's fault-finding, someone to lay the blame. *Leaves no flaw to fault* keeps both, and it was weighed and set aside: it is longer than its four neighbours and breaks the frame from the other side.
+
+**是謂要妙 → "This is called the essential subtlety."** *(Shalom's call, 2026-11-14.)* *(was: "This is the essential secret.")* **妙 (*miào* — subtle) is locked to *subtle*** (`glossary/xuan-miao-玄妙.md`, which names this very line *"the essential subtlety"*). The graph is 女 (*nǚ* — woman) beside 少 (*shǎo* — small): fineness at the edge of seeing, not something withheld. *Secret* carried the esoteric charge the lock refuses in *mystery* and *the arcane*: a doctrine kept from outsiders, in a chapter whose claim is that no one is abandoned. Heshang Gong reads the line as fineness: 能通此意，是謂知微妙要道也 — *"one who can see through this meaning is said to know the faint, subtle, essential Way,"* and 微妙 (*wēi miào* — faint, subtle) is ch 15's pair. **The concealment in this chapter belongs to 襲 (*xí* — one garment worn over another), not to 妙.** 謂 (*wèi* — called) is restored, so the chapter's two summaries, 是謂襲明 and 是謂要妙, share one frame (`process/form-audit.md`, T3-11). *Subtlety* is plainer than *secret* as a closing word; that is the cost.
+
+**故善人者，不善人之師；不善人者，善人之資 → "So the masterful are the teachers of the unmasterful; / the unmasterful are the raw material of the masterful."** *(Shalom's call, 2026-11-14, `WORKLIST.md` T3-16.)* *(was: "Therefore, the masterful one naturally teaches the novice. / And the novice is the raw material of the master." and, in the next line, "Not to value the master".)* **The Chinese is a mirror, and the English now keeps it:** 善人 (*shàn rén* — the masterful) and 不善人 (*bù shàn rén* — the unmasterful) trade places across the semicolon, and the next line takes up each one's role, 師 (*shī* — teacher) and 資 (*zī* — material). The English had 善人 as *the masterful one*, then *the master*; 不善人 as *the novice*; and 師 as *teaches*, then *the master*. So *master* named two characters in adjacent lines, and the mirror was gone. *Naturally* and *And* rendered nothing.
+
+- **Masterful / unmasterful** is the book's English for 善 (*shàn*) of people, and chs 49, 62 and 79 already say it. `notes/translation.md` → *Ch 62* says it follows ch 27, which is true again.
+- **師 → *teacher*, not *master*.** Beside *masterful*, *master* made a pun the Chinese does not make, and it fails the hymn test: *the Master* is a guru. Heshang Gong reads it plainly: 人之行善者，聖人即以為人師 — *"those who act masterfully, the sage takes as people's teachers."*
+- **資 keeps *raw material*.** Heshang Gong: 資，用也 — *"資 is use"*: the sage teaches the unmasterful until they can be put to use. Wang Bi: 資，取也 — *"資 is what is taken up."* *Raw material* holds both. *Raw* is the English compound's, not a character's.
+- **故 (*gù* — so) → *So*,** leaving *Therefore* to line 6's 是以 (*shì yǐ* — therefore), as `process/form-audit.md` → T3-12 proposes. T3-12 is still open book-wide; this chapter takes its rule early.
+- **The cost:** *the masterful* and *the unmasterful* land four times in two lines. The Chinese does exactly that, so the weight is honest. *Teacher* is humbler than *master*, which we count a gain.
+
+**不貴其師，不愛其資，雖智大迷 → "Not to value the teacher, not to love the raw material: / however clever, one is greatly lost."** *(Shalom's call, 2026-11-14, `process/accuracy-audit.md` item 15.)* *(was: "Not valuing the master and not loving their raw material is a sign of great confusion. / Even those who appear intelligent are lost.")* *A sign of* and *appear* rendered nothing, and 大迷 (*dà mí* — greatly lost) was said twice, as *great confusion* and again as *lost*. The Chinese is one sentence: whoever fails both ways is greatly lost, however clever. 雖 (*suī*) is *even though*, a concession, not an appearance; Heshang Gong: 雖自以為智，言此人乃大迷惑 — *"though they take themselves for clever, this person is greatly deluded."* **迷 (*mí*) takes *lost*:** the graph is 辶 (*chuò* — the road) with 米 (*mǐ*) for sound, losing one's way, and Wang Bi reads it so: 於其道必失 — *"they are sure to lose their way."* A chapter that opens on travel that leaves no tracks closes on a traveler who cannot find the road. *One* is scaffolding for the subject classical Chinese leaves out. **And the break:** with *is greatly lost* and *This is called* run together, *this* had seemed to point at being lost; in the Chinese 是 (*shì* — this) gathers up the whole teaching on the master and the raw material, as 是謂襲明 gathers the rescuing.
 
 **籌策 → "counting rods."** *(2026-10-14, Shalom's call. Was: "abacus.")* 籌策 (*chóu cè*) are counting rods and tally sticks, bamboo laid out to reckon. The abacus is attested centuries after the text.
 
