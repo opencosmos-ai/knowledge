@@ -169,7 +169,7 @@ None of these keeps all three. *The Tao that can be made a way* does: the name, 
 
 The oldest reader, Han Fei (d. 233 BCE), says what the word is doing in line 1. What rises and falls, what flourishes first and fades after, cannot be called 常. Then the turn: 常者無攸易，無定理 — *"the ever-present has nothing it changes into, and **no fixed pattern**,"* 非在於常所 — *"it is in no fixed place,"* 是以不可道也 — *"and that is why it cannot be made a way."* **What is constant here is what is not fixed.** A way that has been made — a teaching, a method, a program to follow — has a fixed shape, and so it rises and falls like everything else. The Tao that is there every time has no fixed shape, and so it does not fade. That is the paradox of the first line.
 
-And the chapter does not leave the word with the Tao. Lines 5 and 6 give it to the one who looks: *ever* desireless, *ever* desiring. Elsewhere the book uses these same words for the Tao's own condition: *"The Tao is ever nameless"* (ch 32), *"The Tao is ever non-doing"* (ch 37), and in ch 34, word for word, 常無欲 — *"Ever desireless, it can be called small."* So the instruction underneath the chapter is this: **to see what is ever-present, you become ever something yourself**, and what you become is what the Tao already is.
+And the chapter does not leave the word with the Tao. Lines 5 and 6 give it to the one who looks: *ever* desireless, *ever* desiring. Elsewhere the book uses these same words for the Tao's own condition: *"The Tao is ever nameless"* (ch 32), *"The Tao is ever non-doing"* (ch 37), and in ch 34, word for word, 常無欲 — *"Ever desireless, it can be named small."* So the instruction underneath the chapter is this: **to see what is ever-present, you become ever something yourself**, and what you become is what the Tao already is.
 
 *End of chapter 1.*
 
@@ -1645,7 +1645,7 @@ The Chinese:
 
 **The circle matters to the chapter.** 周行 is the motion the next movement names — 大曰逝，逝曰遠，遠曰反 (*"Great means departing, departing means going far, going far means returning"*) — so dropping it left the return with nothing to return along.
 
-**大 (*dà*) → "great," replacing *"vast"* on all four lines.** *(2026-09-06, Shalom's call.)* 大 occurs **seven times in this chapter** — it is the chapter's own name for the Tao — and ch 25 was the only place in the book rendering it *vast*. Everywhere else 大 is **great**, across 41 lines. **The decisive comparison is ch 34, which makes the identical move:** 可名為大 reads *"it can be called great"* while ch 25's 強為之名曰大 read *"I call it the vast"* — the same claim, twice, invisible to a reader. It failed in the other direction too: *vast* was also carrying 廣 (*guǎng* — broad) at ch 41 and 恢 (*huī* — vast) at ch 73, so one English wore three characters while 大 answered to two. Ch 25's *vast* also predates every Pass D decision, all of which landed on *great* — 大象 → *the great image* (35), 大制 → *the great carving* (28), 大丈夫 → *the great person* (38).
+**大 (*dà*) → "great," replacing *"vast"* on all four lines.** *(2026-09-06, Shalom's call.)* 大 occurs **seven times in this chapter** — it is the chapter's own name for the Tao — and ch 25 was the only place in the book rendering it *vast*. Everywhere else 大 is **great**, across 41 lines. **The decisive comparison is ch 34, which makes the identical move:** 可名為大 reads *"it can be named great"* while ch 25's 強為之名曰大 read *"I call it the vast"* — the same claim, twice, invisible to a reader. It failed in the other direction too: *vast* was also carrying 廣 (*guǎng* — broad) at ch 41 and 恢 (*huī* — vast) at ch 73, so one English wore three characters while 大 answered to two. Ch 25's *vast* also predates every Pass D decision, all of which landed on *great* — 大象 → *the great image* (35), 大制 → *the great carving* (28), 大丈夫 → *the great person* (38).
 
 **⚠ The sweep is incomplete, deliberately. Ch 67 still reads 大 as *vast* twice**, and swapping it there would expose rather than fix a fault: 天下皆謂我**道**大 (*"everyone says my **Tao** is great"*) is rendered *"Everyone says **I** am vast"* — **道 dropped, and the line handed to the speaker.** *"Everyone says I am great"* would read as boasting the Chinese does not contain. That is a line rewrite, not a term swap. `WORKLIST.md` T2-42.
 
@@ -2158,11 +2158,11 @@ The Chinese:
 
 The great Tao overflows. It can go left or right.
 The countless things rely on it to live, yet it refuses none.
-It works without claiming to be the owner.
+The work is done, and it does not name it its own.
 
-The Tao clothes and nourishes the countless things, yet it claims no ownership.
-Ever desireless, it can be called small.
-The countless things return to it. Without acting as their master, it can be called great.
+The Tao clothes and nourishes the countless things, yet it does not act as their master.
+Ever desireless, it can be named small.
+The countless things return to it, yet it does not act as their master. It can be named great.
 
 It never makes itself great,
 and so completes its greatness.
@@ -2181,6 +2181,14 @@ The Chinese:
 ### Notes on chapter 34
 
 **大道汎兮，其可左右 → "The great Tao overflows. It can go left or right."** *(2026-10-14, with the 可 lock. Was "The great Tao overflows to the left and to the right.")* The old line dropped 可 (*kě* — can) and stated as a fact what the Chinese gives as a possibility: the Tao *can* go either way, and nothing prevents it. Both commentators read it that way. 王弼 (*Wáng Bì*): 言道氾濫無所不適，可左右上下周旋而用 — *"the Tao floods and there is nowhere it cannot go; it can be turned left, right, up and down, all the way round, and used."* 河上公 (*Héshàng Gōng*): 道可左右，无所不宜 — *"the Tao can go left or right; there is nowhere it does not suit."* *Or* rather than *and*, because the claim is that either way is open to it. See `glossary/ke-可.md`.
+
+**名 (*míng* — name) → *named*, and 不為主 read one way twice.** *(2026-11-15, with `glossary/ming-名.md`. Was: "It works without claiming to be the owner. / The Tao clothes and nourishes the countless things, yet it claims no ownership. / Ever desireless, it can be called small. / The countless things return to it. Without acting as their master, it can be called great.")* Three things were wrong, and one entry fixes all of them.
+
+- **可名 is *can be named*, as it is in chapters 1 and 14.** 名可名 (1) and 不可名 (14) read *can be named* and *cannot be named*; here the same 可名 (*kě míng*) read *can be called*. *Called* is 謂's (*wèi* — "is called") word in some thirty lines, 同謂之玄 (1) and 是謂 throughout, and 謂 is not in this chapter. 王弼 (*Wáng Bì*) glosses the pair with 名 itself: 故名於小矣 … 故復可名於大矣, *"so it is named among the small … so again it can be named among the great."*
+- **功成而不名有 → *"The work is done, and it does not name it its own."*** 名 is a verb here, and the old line hid it inside *claiming*, which is 伐's (*fá* — to boast of a deed) word at chapters 22 and 24. 河上公 (*Héshàng Gōng*): 有道不名其有功也, *"having the Tao, it does not name the merit as its own."* 功成 reads *the work is done*, as in chapters 2 and 77, where 功成而弗居 and 功成而不處 end *"and … does not stay in it."* The three lines now share their opening, as the Chinese does.
+- **而不為主 stands twice in six lines and now reads once:** *yet it does not act as their master.* The first had read *claims no ownership*, a second borrowing of *claim*, for 主 (*zhǔ* — master), which says nothing of owning.
+
+**Left open.** The Yongle encyclopedia's text of 王弼 reads 而不居 for 不名有 (the Siku editors' collation note, `concordance.py --commentary 34`), which would make this line chapter 2's 功成而弗居 again. Our base keeps 不名有, and the fork is unrecorded in `sources/variants.yaml`.
 
 *End of chapter 34.*
 
@@ -2673,7 +2681,7 @@ The Chinese:
 
 *Heshang Gong's title: 立戒, "A standing caution".*
 
-Reputation or your body — which is dearer?
+Your name or your body — which is dearer?
 Your body or goods — which is worth more?
 Gain or loss — which does more harm?
 
@@ -2697,11 +2705,13 @@ The Chinese:
 
 ### Notes on chapter 44
 
-**貨 → "goods," swept.** *(2026-08-30, Pass C, `WORKLIST.md` T2-14.)* 身與貨孰多 (*shēn yǔ huò shú duō*) read *"Your self or **wealth** — which is worth more?"* **Wealth belongs to 富 (*fù*)** — *wealth · wealthy · enrich* at ch 9, 33 and 57 — and 富 does not appear in this chapter, so nothing licensed the word here. 貨 (*huò* — goods) is now locked: `glossary/huo-貨.md`. The line's three pairs are 名 (*míng* — name, reputation), 身 (*shēn* — the self), 貨 (goods), and *goods* is the plainest thing the third can be.
+**貨 → "goods," swept.** *(2026-08-30, Pass C, `WORKLIST.md` T2-14.)* 身與貨孰多 (*shēn yǔ huò shú duō*) read *"Your self or **wealth** — which is worth more?"* **Wealth belongs to 富 (*fù*)** — *wealth · wealthy · enrich* at ch 9, 33 and 57 — and 富 does not appear in this chapter, so nothing licensed the word here. 貨 (*huò* — goods) is now locked: `glossary/huo-貨.md`. The line's three pairs are 名 (*míng* — name), 身 (*shēn* — the self), 貨 (goods), and *goods* is the plainest thing the third can be.
 
 **知止不殆 → "Know when to stop, and you come to no danger."** *(2026-08-31, Pass C, `WORKLIST.md` T2-11.)* *(was: "you avoid depletion.")* The same clause stands at ch 32 and the two now read alike. 殆 (*dài*) is **peril** — 說文解字 危也, built on 歺 (*è*), the bare-bone radical that carries 死 (*sǐ* — to die) and 殃 (*yāng* — calamity). *Depletion* is an energy metaphor and renders no character.
 
 **河上公 (*Héshàng Gōng*) on this line:** 知可止則財利不累身，聲色不亂於耳目，則身**不危殆**也 — *"knowing when one can stop, wealth and profit do not burden the body, sounds and colours do not disorder the ears and eyes; then the body is not in peril."* Note that it is **the body** that is spared, which ties the line back to this chapter's opening question, 身與貨孰多 (*"the self or goods, which is worth more?"*).
+
+**名 → *name*, not *reputation*.** *(2026-11-15, with `glossary/ming-名.md`. Was: "Reputation or your body — which is dearer?")* **This is the same word as chapter 1's, and English *name* carries both of its senses**, a word for a thing and a person's standing, as in *a good name* or *make a name for yourself*. *Reputation* spent a second English on one character and cut this chapter off from the two that argue with names. **Chapter 32 makes the link outright:** 名亦既有，夫亦將知止，知止可以不殆, *"Since names already exist, one must know when to stop. / Knowing when to stop, you come to no danger,"* and this chapter closes on the same 知止不殆, *"Know when to stop, and you come to no danger."* Both chapters put names beside knowing when to stop, and with one English a reader can hear it. The commentators keep the word too: 王弼, 尚名好高其身必疏, *"whoever exalts a name and loves height, their body must grow distant"*; 河上公, 名遂則身退也, *"when the name is achieved, the body withdraws,"* the phrase the longer reading of chapter 9 prints (`sources/variants.yaml`). *Your name* answers *your body* in the line, as 名 answers 身 (*shēn* — the body).
 
 *End of chapter 44.*
 
