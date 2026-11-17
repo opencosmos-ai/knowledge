@@ -1267,7 +1267,7 @@ listless, as if with nowhere to return.
 The crowd all have more than enough.
 I alone seem to have missed out.
 I have the heart of a fool!
-How muddled!
+How fluid!
 The worldly are bright. I alone am clouded.
 The worldly are sharp. I alone am dull.
 
@@ -1315,7 +1315,11 @@ The Chinese:
 
 **A fork, unlogged until now.** The Siku editors note on 王弼: 〔案昏昏**河上公注本作若昏**〕 — *"for 昏昏, Heshang Gong's commentary text reads 若昏."* Our base doubles the character; his hedges it to *as if 昏*. We keep the base. Recorded in `sources/variants.yaml`.
 
-**Not changed, and worth seeing:** this chapter runs on **reduplication** — 昭昭 · 昏昏 · 察察 · 悶悶 · 沌沌 — and the English renders every one as a single plain word. Whether that doubling should show is unasked.
+**Not changed, and worth seeing:** this chapter runs on **reduplication** — 昭昭 · 昏昏 · 察察 · 悶悶 · 沌沌 — and the English renders every one as a single plain word. Whether that doubling should show was asked on 2026-11-16 and is still open (`process/form-audit.md` §6).
+
+**沌沌兮 → *"How fluid!"*** *(Shalom's call, 2026-11-16. was: "How muddled!")* 沌 (*dùn*) is not an insult, as 愚 (*yú* — a fool) is. It is the word for the whole before it divides. Guodian writes it in ch 15 where our base has 混 (*hùn* — mixed), *"like muddy water"*; Heshang Gong describes the Tao at ch 25 as 混沌 (*hùn dùn* — mixed and unbroken); the Zhuangzi's emperor of the center is 渾沌 (Hundun). Both commentators say what it is here. Wang Bi: 無所別析 — *"it divides and parses nothing."* Heshang Gong: 无所分別 — *"it makes no distinctions."* *Muddled* named a mind that tried to divide things and made a mess of it, a verdict the Chinese does not make. *Undivided* was weighed and set aside as static, an absence. *Fluid* keeps the water in the graph (氵) and the movement the silks hear in 蠢蠢 (*chǔn chǔn* — stirring, as insects in spring), and water is what cannot be cut: it closes over the blade. It stands against the worldly being *sharp* two lines on, 察察 (*chá chá* — scrutinizing), the edge that cuts and sorts, and it leads into the speaker's own water four lines later, *"Calm, like the sea."* The murk of 混沌 is not 沌's: in ch 15 the book only likens 沌 and 混 to muddy water, with 若 (*ruò* — like), and the dimness here is carried by *clouded* and *dull*. *Fluid* is forbidden for 水 (*shuǐ* — water) as the name of a substance (`glossary/shui-水.md`); here it describes a heart, and 水 does not stand in this chapter.
+
+**This line is what opened the fool.** Seeking to understand 沌沌, rather than letting *muddled* stand beside *fool*, is what unlocked the deeper meaning of 愚 in this book. The two lines are a turn. *"I have the heart of a fool!"* is what the bright, sharp world calls this heart. *"How fluid!"* is what that heart is: uncut, making no distinctions, in the word the book keeps for the ancients and the Tao. So the fool of this book is not the one who is confused. It is the one who has not cut the world into pieces. That reading now runs through ch 65's *"but to make them fools"*: `glossary/yu-愚.md`, `notes/reading.md` → *Ch 65*.
 
 *End of chapter 20.*
 
@@ -2148,7 +2152,7 @@ The Chinese:
 
 **Couplets 1 and 2 rank; couplets 3 and 4 praise.** The first two set 人 (*rén* — others) against 自 (*zì* — oneself), and Wang Bi ranks them in so many words: 用其智於人，未若用其智於己也 — *"using your cleverness on others is not as good as using it on yourself."* Couplets 3 and 4 drop the marker, and he praises both lines of each: 知足自不失，故富也 — *"one who knows enough does not lose themselves, and so is rich"*; 勤能行之，其志必獲 — *"one who keeps at it diligently surely attains their intent."* So the two lines of couplet 3 stand as equals, not as a contrast.
 
-**Line by line.** 智 → *clever*, the lesser rung, as 智 reads *cleverness* at 18 and 19 (`WORKLIST.md` T2-2 still owes the character). 明 → *is clear-seeing*, a declared flexion in `glossary/ming-明.md`. 知足 keeps *knows they have enough*: *knows enough* is heard as knowledge, and *sufficiency* is ruled out (`glossary/zhizu-知足.md`). 富 → *wealthy*, as it has read since the first draft. 強行 → *walks with strength*: the Shuowen makes 行 (*xíng* — to go) 人之步趨也 (*"a person walking and hurrying"*), the 強 of line 4's *is strong* carries into the going as the Chinese reuses it, and no 自 (*zì* — oneself) stands in the line, so no *themselves*. 志 → *purpose*: the Shuowen's 意也 (*"intent"*), where the heart is headed, and here a good thing to have, unlike chapter 3's *ambition*. 所 (*suǒ* — place) → *place*: nothing in the line is a root, and Wang Bi reads 不失其所，必獲久長 (*"not losing their place, they surely last long"*). 久 → *endures*, as 久 reads at chapter 16. 亡 (*wáng* — to be gone) → *vanish*: the Shuowen makes it 逃也 (*"to flee, to go missing"*), apart from 死 (*sǐ* — to die), 人所離也 (*"what a person departs from"*), so *dies but does not vanish* keeps the gap the paradox lives in, and *does not lose / does not vanish* keeps the couplet's two 不 (*bù* — not). 壽 → *lives long*: present-tense *lives* against *dies*, without the *has* the line does not print, or the *true* the source table's gloss adds. Wang Bi reads the close as a long life made whole past death: 雖死而以為生之道不亡，乃得全其壽 (*"though they die, the way they lived by is not gone, and so their long life is made whole"*). The silks read 忘 (*wàng* — to forget) for 亡: `notes/manuscript.md`.
+**Line by line.** 智 → *clever*, the lesser rung, as 智 reads *cleverness* at 18 and 19 (`glossary/zhi-智.md`). 明 → *is clear-seeing*, a declared flexion in `glossary/ming-明.md`. 知足 keeps *knows they have enough*: *knows enough* is heard as knowledge, and *sufficiency* is ruled out (`glossary/zhizu-知足.md`). 富 → *wealthy*, as it has read since the first draft. 強行 → *walks with strength*: the Shuowen makes 行 (*xíng* — to go) 人之步趨也 (*"a person walking and hurrying"*), the 強 of line 4's *is strong* carries into the going as the Chinese reuses it, and no 自 (*zì* — oneself) stands in the line, so no *themselves*. 志 → *purpose*: the Shuowen's 意也 (*"intent"*), where the heart is headed, and here a good thing to have, unlike chapter 3's *ambition*. 所 (*suǒ* — place) → *place*: nothing in the line is a root, and Wang Bi reads 不失其所，必獲久長 (*"not losing their place, they surely last long"*). 久 → *endures*, as 久 reads at chapter 16. 亡 (*wáng* — to be gone) → *vanish*: the Shuowen makes it 逃也 (*"to flee, to go missing"*), apart from 死 (*sǐ* — to die), 人所離也 (*"what a person departs from"*), so *dies but does not vanish* keeps the gap the paradox lives in, and *does not lose / does not vanish* keeps the couplet's two 不 (*bù* — not). 壽 → *lives long*: present-tense *lives* against *dies*, without the *has* the line does not print, or the *true* the source table's gloss adds. Wang Bi reads the close as a long life made whole past death: 雖死而以為生之道不亡，乃得全其壽 (*"though they die, the way they lived by is not gone, and so their long life is made whole"*). The silks read 忘 (*wàng* — to forget) for 亡: `notes/manuscript.md`.
 
 *End of chapter 33.*
 
@@ -3474,17 +3478,17 @@ The Chinese:
 *Heshang Gong's title: 淳德, "Unspoiled integrity".*
 
 The ancients who were masterful at the Tao
-did not use it to make the people clever.
-They used it to return them to being guileless.
+did not use it to make the people see clearly,
+but to make them fools.
 
 The people are hard to govern
-because they have too much guile.
+because they have too much cleverness.
 
-So to govern a state with guile robs the state.
-Not to govern it with guile is the state's good fortune.
+So to govern a state with cleverness robs the state.
+Not to govern it with cleverness is the state's good fortune.
 
 Knowing these two is itself the pattern.
-Always to know the pattern
+Always knowing the pattern
 is called profound integrity.
 
 Profound integrity is deep, and far,
@@ -3503,7 +3507,15 @@ The Chinese:
 
 ### Notes on chapter 65
 
-**非以明民 → "did not use it to make the people clever," a declared exception to 明's lock.** *(Shalom's call, 2026-09-24. `WORKLIST.md` T1-17.)* 明 (*míng*) is locked to *clear-seeing / clarity* everywhere else, where seeing clearly is what the book asks for (16, 33, 52, 55). Here the ancient masters do **not** use the Tao to make the people 明. Rendered by the lock, the line would say the sages kept people from seeing clearly. 王弼 (*Wáng Bì*) says what 明 means here: 明謂多見巧詐蔽其樸也, *"明 here means seeing too much, craft and deceit, which covers over their simplicity."* So this is a different sense of the word, and it gets a different English, recorded as a `flexions:` entry in `glossary/ming-明.md` so the tools report it rather than miss it. The argument, and what the choice costs, are in that entry.
+**非以明民 → "did not use it to make the people see clearly": 明 holds its lock.** *(Shalom's call, 2026-11-16: "We shouldn't gloss over this actual usage of 明 for the sake of an easier translation, or because this usage may create some discomfort.")* *(was: "did not use it to make the people clever," a declared exception from 2026-09-24, in the superseded note below.)* Every witness that has the line reads 明 (*míng* — clear-seeing): Wang Bi's text, Heshang Gong's, and silk A; silk B has 明 and loses what follows. Nothing in the line qualifies it. 非以明民，將以愚之 (*fēi yǐ míng mín, jiāng yǐ yú zhī* — "not using it to make the people see clearly, but meaning to make them 愚") is two causatives in parallel with one object. *Clever* was Wang Bi's gloss put into the line, and it set two characters under one word, since 智 (*zhì* — cleverness) follows four lines later. *See clearly* is the lock's own form in a predicate. The case, and what it costs: `glossary/ming-明.md` → *Left open*.
+
+*(⚠ Superseded 2026-11-16 by the note above.)* **非以明民 → "did not use it to make the people clever," a declared exception to 明's lock.** *(Shalom's call, 2026-09-24. `WORKLIST.md` T1-17.)* 明 (*míng*) is locked to *clear-seeing / clarity* everywhere else, where seeing clearly is what the book asks for (16, 33, 52, 55). Here the ancient masters do **not** use the Tao to make the people 明. Rendered by the lock, the line would say the sages kept people from seeing clearly. 王弼 (*Wáng Bì*) says what 明 means here: 明謂多見巧詐蔽其樸也, *"明 here means seeing too much, craft and deceit, which covers over their simplicity."* So this is a different sense of the word, and it gets a different English, recorded as a `flexions:` entry in `glossary/ming-明.md` so the tools report it rather than miss it. The argument, and what the choice costs, are in that entry.
+
+**以其智多 · 以智治國 ×2 → *"too much cleverness"* · *"with cleverness"*.** *(Shalom's call, 2026-11-16, locking 智 (*zhì* — cleverness): `glossary/zhi-智.md`.)* *(was: "too much guile," "with guile.")* The Chinese says 智 three times and the book says it in five other chapters, so the English says *cleverness* each time. *Guile* had been chosen to mirror 愚 (*yú*) as *guileless*, and that pairing rested on a mistranslation of Wang Bi's gloss on 愚, 無知 (*wú zhī* — unknowing), as "without cunning." Both commentators make artifice what cleverness produces, not what it is: Heshang Gong, 以其智多，故為巧偽 — *"because their cleverness is great, they therefore practise artifice."* *Guile* also made the chapter a platitude, since nobody defends governing with guile; the Chinese says governing with cleverness, a recognised virtue, robs the state. **Owed then:** 愚's English, with the supplied *return*; settled the same day, in the note below.
+
+**將以愚之 → *"but to make them fools,"* and *return* is gone.** *(Shalom's call, 2026-11-16, locking 愚 (*yú* — a fool): `glossary/yu-愚.md`.)* *(was: "They used it to return them to being guileless.")* 愚 is the ordinary word of its time for a fool, and the book claims it for the sage at ch 20, *"I have the heart of a fool!"* *Guileless* turned the insult into a compliment, came from Heshang Gong's 不詐偽 (*bù zhà wěi* — "without deceit or falsity"), and could not stand at ch 38. ***Fools*, not *foolish*:** the bare 愚 can name people (the Analects' 下愚, *xià yú* — "the lowest fools"), the noun repeats ch 20's, and it keeps both sides of the word, the one looked down on and the wise fool. Not *the fool*: the Chinese marks no figure, and *make them the fool* means to dupe them. 將 (*jiāng*) works as *but* in the frame 非 X，將 Y (*fēi X, jiāng Y* — "not X, but rather Y"), and nothing in the line turns back, so *return* goes. The chapter's reading, the authoritarian charge and the fool: `notes/reading.md` → *Ch 65*.
+
+**常知稽式 → *"Always knowing the pattern"*.** *(Shalom's call, 2026-11-16. was: "Always to know the pattern," then briefly "To always know the pattern.")* 常 (*cháng*) keeps its English, *always*, as the lock rules before a verb. *Knowing* is the form line 5 already uses for the same 知 (*zhī* — to know), *"Knowing these two is itself the pattern,"* and the form of ch 16's 知常曰明, *"Knowing the ever-present is called clear-seeing,"* whose two characters this line reverses: 知常 (*zhī cháng*) there, 常知 (*cháng zhī*) here. The chain holds too: *pattern* ends line 5 and opens line 6, as 稽式 (*jī shì*) does.
 
 *End of chapter 65.*
 
