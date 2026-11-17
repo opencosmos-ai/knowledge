@@ -2505,7 +2505,7 @@ The advancing Tao seems to retreat.
 The level Tao seems rough.
 The highest integrity seems a valley.
 The whitest white seems soiled.
-Boundless integrity seems not enough.
+Broad integrity seems not enough.
 Sturdy integrity seems slack.
 Substantial truth seems to waver.
 
@@ -2568,7 +2568,9 @@ The Chinese:
 
 **The cost, recorded rather than hidden:** a reader cannot see from the English that these two lines share a character. The chapter notes are where that lives; the verse cannot carry it.
 
-**廣 → "boundless," not "broad."** *(2026-09-07, Shalom's call.)* *Broad* states a width without implying abundance, so *broad → not enough* read as no paradox at all. **Boundless says why it seems insufficient: there is no edge to arrive at** — which is 王弼's argument exactly, 廓然無形，**不可滿也**. *(Runner-up: **ample**, which literally means more-than-enough, so *"ample… not enough"* is a flat contradiction — sharper as wordplay, but it only states the paradox where *boundless* explains it.)*
+**廣 → "broad."** *(2026-11-15, Shalom's call, setting aside the call below. Was: "Boundless integrity seems not enough.")* One English for 廣 in both its chapters, the hall's own width: a hall too broad to fill looks empty, which is Wang Bi's 不可滿 (*bù kě mǎn* — "cannot be filled"). *Boundless* removed the hall's walls to explain the paradox, and it could not stand at ch 67. `glossary/guang-廣.md`.
+
+**Superseded: 廣 → "boundless," not "broad."** *(2026-09-07, Shalom's call.)* *Broad* states a width without implying abundance, so *broad → not enough* read as no paradox at all. **Boundless says why it seems insufficient: there is no edge to arrive at** — which is 王弼's argument exactly, 廓然無形，**不可滿也**. *(Runner-up: **ample**, which literally means more-than-enough, so *"ample… not enough"* is a flat contradiction — sharper as wordplay, but it only states the paradox where *boundless* explains it.)*
 
 **建德 → "sturdy," and the reason is in the section below.** *Sturdy* sets a solidly-built thing against *slack* and the tension reads at once. **Its cost:** 建 is the **act** of erecting and *sturdy* is the resulting property, so the building is implied rather than named.
 
@@ -2587,7 +2589,7 @@ The Chinese:
 
 **希 (*xī*) is left as "barely heard."** 王弼 defines it by quoting ch 14 outright — 聽之不聞名曰希 — so 大音希聲 and ch 14's 名曰希 are **the same word**, and ours reads *the inaudible* there. 希 runs six chapters with four Englishes and is TRIAGE 14b; the graph is 爻 (crossed threads) over 巾 (cloth), **loosely woven fabric you can see through**. Not settled inside a chapter review.
 
-**廣 (*guǎng*) → "broad" here and "reach far" at ch 67.** Two chapters, two Englishes. *Vast* is now free of 大 and could take it, but 廣 owes a decision of its own.
+**Settled 2026-11-15:** 廣 (*guǎng*) once read "boundless" here and "reach far" at ch 67. It is now *broad* in both (`glossary/guang-廣.md`, `WORKLIST-CLOSED.md` T2-45, T2-81).
 
 **王弼 explains 大音 and 大象 with the same mechanism he uses for 大 at ch 25.** 有聲則有分，有分則不宫而商矣 — *"if it has sound it has divisions, and divided it is either the note 宫 or the note 商"*; 有形則有分 — *"if it has form it has divisions."* At ch 25 he argued 大有繫則必有分，有分則失其極矣, *"大, once tied, must have divisions; having divisions, it loses its utmost."* **One argument, three places:** whatever is fully itself cannot be a particular instance of itself.
 
@@ -3550,11 +3552,11 @@ The second is frugality.
 The third is never pushing to be first in the world.
 
 Tenderness, and so you can be brave.
-Frugality, and so you can reach far.
+Frugality, and so you can be broad.
 Never pushing to be first in the world, and so you can become chief of the vessels.
 
 Now: to abandon tenderness and grab at courage,
-to abandon frugality and grab at reach,
+to abandon frugality and grab at breadth,
 to abandon the rear and grab at the front.
 That is death.
 
@@ -3588,6 +3590,8 @@ The Chinese:
 **夫唯 (*fú wéi*) reads "Only because" here, and now reads it everywhere.** *(2026-10-19, Shalom's call. This note had left the line untouched, a formula across 11 chapters and 12 lines that carried five Englishes.)* The frame 夫唯…故 / 是以 (*gù / shì yǐ* — therefore) reads *"Only because X, Y,"* with the clause after it inverted, in all nine of its lines. 唯 (*wéi*) is *only*, and 河上公's gloss here doubles it: 唯**獨**名德大者為身害, *"only for one whose name for integrity is great does it become a harm to the body."* `glossary/wei-唯.md` · `WORKLIST.md` T2-43.
 
 **Three of the four holding characters meet on this page, and two of them were sharing an English.** *(2026-09-08, Pass E, `WORKLIST.md` T2-19 — the holding family.)* 我有三**寶**，**持**而**保**之 puts 持 (*chí* — to hold), 保 (*bǎo* — to keep safe) and 寶 (*bǎo* — treasure) in one line; 以**守**則固 adds 守 (*shǒu*); 以慈**衛**之 adds 衛 (*wèi* — to escort, to guard). **守 had read *defend* and 衛 had read *guards*.** Now 守 takes its locked flexion — 以戰則勝，以守則固 → *"Fight with it and you win, **guard** with it and you stand firm"* — which is 說文's own second sense for 守 (寺府之事者, the business of a court, sentry included) and which 河上公 (*Héshàng Gōng*) expands to 以**守衛**則堅固. 衛 moves to *shields*, and 固 (*gù* — 說文 四塞也, *"blocked on all four sides"*) gives up *hold firm* for *stand firm*. See `glossary/shou-守.md`, `glossary/bao-保.md`, `glossary/chi-持.md`.
+
+**廣 (*guǎng*) → "broad," and "breadth" as a noun.** *(2026-11-15, Shalom's call. Was: "Frugality, and so you can reach far" and "to abandon frugality and grab at reach.")* 廣 is a hall's width (說文 (*Shuōwén* — the Han dictionary): 殿之大屋也 (*diàn zhī dà wū yě* — "the great hall of a palace")), and *far* is 遠's (*yuǎn* — far) at 25, 65 and 80. All three commentators put the breadth on others: Han Fei's 民衆則國廣 (*mín zhòng zé guó guǎng* — "when the people are many, the state is broad"), Wang Bi's 天下不匱 (*tiān xià bù kuì* — "the world does not run short"), Heshang Gong's 民日用廣 (*mín rì yòng guǎng* — "the people's daily means are broad"). The new line keeps the parallel with the one before it: *brave*, *broad*. Ch 41 reads *broad* too. `glossary/guang-廣.md` · `glossary/jian-儉.md`.
 
 *End of chapter 67.*
 
