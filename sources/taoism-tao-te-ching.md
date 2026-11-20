@@ -193,7 +193,7 @@ and carries out the unspoken teaching.
 The countless things arise, and the sage does not begin them.
 The sage births them, and does not possess them;
 acts, and does not rely on it.
-The work is done, and the sage does not stay in it.
+The work is complete, and the sage does not stay in it.
 
 Only because the sage does not stay does it not leave.
 
@@ -213,6 +213,8 @@ The Chinese:
 夫唯弗居，是以不去。
 
 ### Notes on chapter 2
+
+**功成而弗居 → "The work is complete, and the sage does not stay in it."** *(Shalom's call, 2026-11-20. `glossary/cheng-成.md`.)* *(was: "The work is done…")* 成 (*chéng*) is *complete* in every line it stands in, and the formula 功成 (*gōng chéng*) no longer takes an exception: *complete* marks the moment the work reaches its end as plainly as *done* did, and it leaves *done* to 遂 (*suì* — carried through), which chapter 9 already renders so (功遂, *"The work done"*). The four 功成 lines, 2, 17, 34 and 77, read the same.
 
 **音聲相和 → "Music and sound harmonize each other."** *(Shalom's call, 2026-11-19. `WORKLIST.md` R6; `process/back-translation-audit.md` → *Minor*.)* *(was: "Sound and tone harmonize each other.")* *Sound and tone* were two synonyms in a series of opposites. The Shuowen splits the pair itself: 宮商角徵羽，聲；絲竹金石匏土革木，音也 (*"the five notes are 聲 (shēng — sound); the sounds of silk, bamboo, metal, stone, gourd, earth, hide and wood are 音 (yīn — music)"*), 音 being sound given measure. Heshang Gong hears call and answer, 上唱下必和 (*"the one above sings, the one below answers"*).
 
@@ -422,7 +424,7 @@ The Chinese:
 
 *Heshang Gong's title: 成象, "Taking form".*
 
-The spirit of the valley is deathless.
+The spirit of the valley does not die.
 This is called the dark female.
 The dark female's gate —
 this is called the root of sky and earth.
@@ -440,6 +442,8 @@ The Chinese:
 用之不勤。
 
 ### Notes on chapter 6
+
+**谷神不死 → "The spirit of the valley does not die."** *(Shalom's call, 2026-11-20. `glossary/si-死.md`.)* *(was: "The spirit of the valley is deathless.")* 不死 (*bù sǐ*) is a verb, negated, and every other verbal 死 (*sǐ*) in the book reads *die*. *Deathless* made not-dying a fixed attribute, in a word from elegy and hymn, and leaned the line toward an immortal; it also leaned toward Heshang Gong's 人能養神則不死 (*"if a person can nourish the spirit, they do not die"*), the longevity reading the 2026-10-25 call set aside when it kept 谷 (*gǔ* — valley) a noun. That call was about 谷's grammar, and *deathless* was the English it came with; it was never argued for itself.
 
 **谷神 → "the spirit of the valley": 谷 (*gǔ* — valley) is a noun, as Wang Bi reads it, not Heshang Gong's 谷，養也 (*gǔ, yǎng yě* — "gǔ means to nourish").** *(2026-10-25, Shalom's call.)* The other nine lines where it stands are all a valley, and both Mawangdui silks spell this one with the 浴 (*yù*) they use for the valley in lines that can only mean land. We keep Wang Bi's grammar without his emptiness: the valley is land, and water passes through it. The cost is Heshang Gong's breathing body. `glossary/gu-谷.md`.
 
@@ -468,7 +472,7 @@ Therefore the sage puts their body last, and their body comes first;
 puts their body outside, and their body survives.
 
 Is it not because they have no private self?
-And so they can fulfill their private self.
+And so they can complete their private self.
 
 The Chinese:
 
@@ -482,6 +486,8 @@ The Chinese:
 故能成其私。
 
 ### Notes on chapter 7
+
+**故能成其私 → "And so they can complete their private self."** *(Shalom's call, 2026-11-20, on the evidence of `glossary/cheng-成.md`.)* *(was: "And so they can fulfill their private self.")* The frame 故能成其X (*gù néng chéng qí X* — "and so can complete their X") stands three times, here and at chapters 34 and 63, which read *completed*. Where the Chinese repeats its frame, the English repeats its verb, and 成 (*chéng*) is *complete* everywhere it is a verb of completing. *Fulfill* was a second verb for one frame, in a self-help register. Wang Bi: 無私者，無為於身也。身先身存，故曰能成其私也 (*"having no private self is not acting for the body. The body comes first, the body survives, and so it says they can complete their private self"*).
 
 **故能成其私 → "And so they can fulfill their private self."** *(Shalom's call, 2026-11-19. `WORKLIST.md` R5; `process/accuracy-audit.md` → *Smaller, gathered*.)* *(was: "And so their private self is fulfilled.")* 能 (*néng* — can) and the doer come back. The subject is the one sage, in singular *they*, so *self* stays singular. Heshang Gong: 聖人無私而己自厚 (*"the sage has no private aim, and the self thickens of itself"*).
 
@@ -993,7 +999,7 @@ Who can be at rest, and by moving it slowly come to life?
 
 Those who keep the Tao safe like this do not want to be full.
 Only because they are never full
-can they stay covered, and never newly made.
+can they stay covered, and never newly completed.
 
 The Chinese:
 
@@ -1016,6 +1022,8 @@ The Chinese:
 故能蔽而不新成。
 
 ### Notes on chapter 15
+
+**不新成 → "never newly completed."** *(Shalom's call, 2026-11-20. `glossary/cheng-成.md`.)* *(was: "never newly made.")* The 2026-09-06 note below argued against splitting 不新成 into two negations, and its own gloss is *"not newly-completed"*; Heshang Gong's is 新成者，貴功名 (*"the newly completed means prizing merit and fame"*). *Made* was never argued against *completed*, and the note's chain supports it: 盈 (*yíng*) is a full vessel, and a full vessel is a finished one. With one English, the line joins the book's other refusals of completion: chapter 41's great vessel *never completed*, chapter 45's great completeness that *seems deficient*, and chapter 64's affairs ruined *just short of completing them*.
 
 **故強為之容 → "do I force a likeness on them:"** *(Shalom's call, 2026-11-19. `WORKLIST.md` T2-39.)* *(was: "do I force a likeness:")* **The frame 強為之▢ (*qiǎng wéi zhī ▢* — "force a ▢ on it") stands here and at ch 25**, 強為之名 (*qiǎng wéi zhī míng*), *"Forcing a name on it,"* and 之 (*zhī* — them) had gone unrendered here. Heshang Gong marks both lines with the same sound note, 強其文反, giving *qiǎng*, "to force," and says what is forced is the list that follows: 謂下句也 (*"it means the lines below"*). Each chapter keeps its own noun, because the Chinese does: 容 (*róng* — appearance) here is *likeness*; ch 25 splits 字 (*zì* — courtesy name) *label* from 名 (*míng* — name) *name*, as Wang Bi does (名以定形，字以稱可言). The *Only because … do I* inversion is the 夫唯 formula (Shalom's call, 2026-10-19).
 
@@ -1194,7 +1202,7 @@ Next, those who are despised.
 Where trust runs short, there is no trust.
 
 Hesitant, they prize their words.
-When their work is done,
+When the work is complete and the affairs are done,
 Everyone says, “We did this by ourselves.”
 
 The Chinese:
@@ -1209,6 +1217,8 @@ The Chinese:
 百姓皆謂：「我自然」。
 
 ### Notes on chapter 17
+
+**功成事遂 → "When the work is complete and the affairs are done,"** *(Shalom's call, 2026-11-20. `glossary/cheng-成.md`.)* *(was: "When their work is done," which rendered two of the four characters.)* 事遂 (*shì suì* — the affairs carried through) had dropped out. The line holds 成 (*chéng* — complete) and 遂 (*suì*) together, so they take two words: *complete* for 成, as in every 功成 line, and *done* for 遂, as at chapter 9's 功遂 (*"The work done"*). Wang Bi reads the line whole: 故功成事遂，而百姓不知其所以然也 (*"so the work is complete and the affairs done, and the people do not know how it came about"*). *Their*, which the Chinese does not print, is gone: the work belongs to no one in particular, which is why everyone can say they did it themselves.
 
 **太上 … 其次 ×3 → "The highest: those below know that they are there. / Next, … / Next, … / Next, …"** *(Shalom's call, 2026-11-19. `WORKLIST.md` T3-18, T2-62.)* *(was: "About the greatest leaders, those under them know only that they exist. / Good leaders are widely loved and praised. / Poor leaders are feared. / The worst leaders are despised by all.")* **其次 (*qí cì* — the next) counts; it does not grade.** The English had named the rungs *Good*, *Poor* and *The worst*, and called them *leaders*, which has no character here. Now each rung is named by position, as the Chinese names it. *Only* rendered nothing in 太上，下知有之 (*tài shàng, xià zhī yǒu zhī* — "the highest: those below know they exist") and goes. Heshang Gong's 太上 is 太古无名之君 (*"the nameless rulers of high antiquity"*): the top of a ladder, not a grade of quality.
 
@@ -2110,7 +2120,7 @@ Auspicious occasions honor the left; inauspicious occasions honor the right.
 The deputy general takes the left, the higher general the right,
 which is to say they are placed by the rites of mourning.
 For the crowd of people killed, weep with sorrow and grief.
-A victory in battle is placed by the rites of mourning.
+A battle won is placed by the rites of mourning.
 
 The Chinese:
 
@@ -2134,6 +2144,8 @@ The Chinese:
 戰勝以喪禮處之。
 
 ### Notes on chapter 31
+
+**戰勝以喪禮處之 → "A battle won is placed by the rites of mourning."** *(Shalom's call, 2026-11-20. `glossary/sheng-勝.md`.)* *(was: "A victory in battle is placed by the rites of mourning.")* 勝 (*shèng* — overcome) is locked to *overcome*, with *win* as its declared exception in the four battle lines, this chapter's two among them. *Victory* was a third English and a noun the line does not have: 戰勝 (*zhàn shèng*) is *won in battle*, a verb. *A battle won* keeps the chapter's one verb, *win*, in both its 勝 lines, and it drops the triumph that *victory* carries, which is what the chapter refuses to glorify. Heshang Gong on the line: 古者戰勝，將軍居喪主禮之位，素服而哭之 (*"in ancient times, when a battle was won, the general took the place of the chief mourner, dressed in white, and wept"*).
 
 **不得已而用之，恬淡為上 → "Use them only when unavoidable; calm detachment is best."** *(Shalom's call, 2026-11-19. `WORKLIST.md` R5; `process/accuracy-audit.md` → *Smaller, gathered*.)* *(was: "Used only when unavoidable, calm detachment is best.")* The old line's modifier dangled onto *detachment*; the weapons are now what is used.
 
@@ -2282,7 +2294,7 @@ The Chinese:
 
 The great Tao overflows. It can go left or right.
 The countless things rely on it to live, yet it refuses none.
-The work is done, and it does not name it its own.
+The work is complete, and it does not name it its own.
 
 The Tao clothes and nourishes the countless things, yet it does not act as their master.
 Ever desireless, it can be named small.
@@ -2303,6 +2315,8 @@ The Chinese:
 故能成其大。
 
 ### Notes on chapter 34
+
+**功成而不名有 → "The work is complete, and it does not name it its own."** *(Shalom's call, 2026-11-20. `glossary/cheng-成.md`.)* *(was: "The work is done…")* 成 (*chéng*) is *complete* in every line it stands in, and the formula 功成 (*gōng chéng*) no longer takes an exception: *complete* marks the moment the work reaches its end as plainly as *done* did, and it leaves *done* to 遂 (*suì* — carried through), which chapter 9 already renders so (功遂, *"The work done"*). The four 功成 lines, 2, 17, 34 and 77, read the same.
 
 **故能成其大 → "and so its greatness can be completed."** *(Shalom's call, 2026-11-19, with ch 63. `WORKLIST.md` R6; `process/back-translation-audit.md` → *Minor*.)* *(was: "and so completes its greatness.")* 能 (*néng* — can) is a capacity, as at ch 7 (*"they can fulfill"*) and 77 (*"Who can"*); the formula stands in chapters 34 and 63 and reads the same in both. The passive shape is Shalom's.
 
@@ -3494,8 +3508,8 @@ The Chinese:
 When governing people and serving nature, nothing compares to conserving.
 Only conserving is called accepting early,
 accepting early is called a heavy accumulation of integrity,
-a heavy accumulation of integrity is when nothing cannot be overcome,
-when nothing cannot be overcome, no one knows its limit,
+a heavy accumulation of integrity is when there is nothing you cannot shoulder,
+when there is nothing you cannot shoulder, no one knows its limit,
 when no one knows its limit, you can have the state.
 Have the mother of the state, and you can last long.
 
@@ -3513,6 +3527,8 @@ The Chinese:
 是謂深根固柢，長生久視之道。
 
 ### Notes on chapter 59
+
+**無不克 → "there is nothing you cannot shoulder."** *(Shalom's call, 2026-11-20. `glossary/sheng-勝.md`.)* *(was: "nothing cannot be overcome," twice.)* *Overcome* is 勝 (*shèng*)'s locked English, and 克 (*kè*) stands only here, so the book had two characters on one word. The Shuowen gives 克 as 肩也 (*jiān yě* — "to shoulder"), a carrying word beside 勝's 任也 (*rèn yě* — "to bear a load"), and the line supplies the weight: 重積德 (*zhòng jī dé* — "a heavy accumulation of integrity"). A heavy store, and a strength equal to anything put on it. **Active, with *you*, on Shalom's word:** the passive with the double negative, *"nothing cannot be shouldered,"* was opaque, and *you* is already the chapter's subject (*"you can have the state," "you can last long"*). Both lines change together, so the chain still repeats word for word. **The cost: both commentators who gloss the line read it as 勝.** Heshang Gong: 剋，勝也 (*"克 means 勝"*). Han Fei: 能御萬物則戰易勝敵 (*"able to steer the countless things, in war you easily overcome the enemy"*), and on to arguments that surpass the age. *Shoulder* keeps the capacity they describe and lets go of the conquest.
 
 **夫唯嗇 → "Only conserving is called accepting early."** *(2026-10-19, Shalom's call, `glossary/wei-唯.md`. Was: "Conserving is called accepting early.")* 唯 (*wéi* — only) had no English. Both commentators keep it exclusive. 河上公 puts 獨 (*dú* — alone) in its place: 夫獨愛民財、愛精氣，則能先得天道也, *"only by cherishing the people's wealth and the vital essence can one obtain the Tao of nature first."* 王弼 opens 唯重積德, *"only by heavily accumulating integrity."* The chain below keeps its *is called*, which is 是謂 (*shì wèi*)'s and 謂之 (*wèi zhī*)'s.
 
@@ -3844,7 +3860,7 @@ The third is never pushing to be first in the world.
 
 Tenderness, and so you can be brave.
 Frugality, and so you can be broad.
-Never pushing to be first in the world, and so you can become chief of the vessels.
+Never pushing to be first in the world, and so you can become chief of the completed vessels.
 
 Now, to abandon tenderness and grab at courage,
 to abandon frugality and grab at breadth,
@@ -3869,6 +3885,8 @@ The Chinese:
 天將救之，以慈衛之。
 
 ### Notes on chapter 67
+
+**成器長 → "chief of the completed vessels."** *(Shalom's call, 2026-11-20. `glossary/cheng-成.md`.)* *(was: "become chief of the vessels," which read 成 (*chéng* — complete) as the verb *become*.)* Every early reader puts 成 inside the noun phrase. Han Fei prints a verb our text lacks, 故能為成事長 (*gù néng wéi chéng shì zhǎng* — "and so can become chief of the completed affairs"), and glosses it 處大官之謂為成事長 (*"to hold high office is what 'becoming chief of the completed affairs' means"*): 為 (*wéi* — become) is his verb, and 成事 a noun phrase. Wang Bi: 然後乃能立成器為天下利 (*"then they can set up the completed vessels for the world's benefit"*). Heshang Gong: 成器長謂得道人也 (*"chief of the completed vessels means those who have attained the Tao"*). It closes a circle with chapter 28, where the uncarved wood becomes vessels and the sage, never carved, becomes chief of the officers. *Become* stays as the verb English needs, Han Fei's 為; it is not 成's word. Han Fei's 為 is recorded as fork 128 in `sources/variants.yaml`.
 
 **捨後且先 → "to abandon being last and grab at being first"; 今 → "Now," with a comma.** *(Shalom's call, 2026-11-19.)* *(was: "Now: to abandon tenderness and grab at courage, / … / to abandon the rear and grab at the front.")* Ch 7 keeps *last / first* for 後其身而身先 (Shalom's call, the same day), and this chapter's third treasure already reads *first in the world*, so the line that ends the treasures' undoing takes the same pair. *The rear / the front* was a third pair of words for 後 (*hòu*) and 先 (*xiān*), and an army's (`glossary/xian-hou-先後.md`). *First* also serves 一 (*yī* — one) in *"The first is tenderness"*: an ordinal against a rank, kept knowingly. The colon after *Now* made 今 (*jīn* — now) announce a list; the comma lets it open the sentence, as the Chinese does. And the sentence runs on to its verdict: 今捨慈且勇，捨儉且廣，捨後且先，死矣 is one sentence, its three clauses the subject of 死矣 (*sǐ yǐ* — death), so *first* takes a comma and *that is death* closes it.
 
@@ -4186,7 +4204,7 @@ The people are hard to govern
 because those over them will not stop doing.
 
 The people make light of death
-because those over them want their own lives so rich.
+because those over them seek life too thickly.
 
 Only those who don't use living for doing
 are worthier than those who prize life.
@@ -4199,6 +4217,10 @@ The Chinese:
 夫唯無以生為者，是賢於貴生。
 
 ### Notes on chapter 75
+
+**以其上求生之厚 → "because those over them seek life too thickly."** *(Shalom's call, 2026-11-20. `glossary/si-死.md`.)* *(was: "because those over them want their own lives so rich.")* **It is chapter 50's phrase seen from below.** 求生之厚 (*qiú shēng zhī hòu*) and chapter 50's 生生之厚 (*shēng shēng zhī hòu* — "they live life too thickly") share one frame, and Heshang Gong reads them in nearly the same words: 求生活之事太厚 at 50 and 求生活之道太厚 here (*"seeking the things / the way of living too thickly"*). So the two lines now share their English. *Rich* was 富 (*fù* — wealthy)'s word (chs 33, 57), *want* stood for 求 (*qiú*), which reads *seek* at chapter 62, and *own* rendered nothing.
+
+**What *seeking life too thickly* means here.** 厚 (*hòu*) is the thickness of piled earth (說文 山陵之厚也, *"the thickness of hills and mounds"*): life heaped up, more of it than a life needs. Those over the people want more food, more goods, more honor, more years, and the chapter has already said who pays: the first couplet's taxes are the same appetite, eaten out of the people's grain. **A life laid on that thick above leaves life thin below**, and a people with that little to keep stop guarding it: they *make light of death*, and chapter 74 has said what follows, that a people who do not fear death cannot be governed by it. Wang Bi puts all three charges on the rulers: 皆由上，不由其下也 (*"it is due entirely to those above, not to those below"*). **The closing couplet names the cure in the same terms**: *only those who don't use living for doing are worthier than those who prize life*. 貴生 (*guì shēng* — prizing life) is the thick life's motive, and chapter 50 gives its end: grasping at life is what moves the living toward deadly ground. Heshang Gong, whose text lacks 上 (*shàng* — those over them), reads the line of the people themselves, *"they covet gain and so endanger themselves"* (`notes/manuscript.md`); the diagnosis is the same, aimed one rung lower.
 
 **是賢於貴生 → "are worthier than those who prize life."** *(Shalom's call, 2026-11-19.)* *(was: "…who hold life precious.")* 貴 (*guì*) is a price word, 說文 物不賤也, and its verb is *prize* throughout the book; *precious* is 貨 (*huò* — goods)'s forbidden word. Ch 75's 貴生 (*guì shēng* — prizing life) is the 貴 of ch 72's 不自貴 (*bù zì guì* — not prizing oneself), and the two now read alike, so the reader hears 75 reach back to 72 (`notes/reading.md`; `glossary/gui-jian-貴賤.md`).
 
@@ -4308,7 +4330,7 @@ and offer it up to the world?
 Only those who are with the Tao.
 
 Therefore the sage acts without relying on it.
-The work is done, and they do not stay in it.
+The work is complete, and they do not stay in it.
 They do not want to appear exceptional.
 
 The Chinese:
@@ -4322,6 +4344,8 @@ The Chinese:
 是以聖人為而不恃，功成而不處，其不欲見賢。
 
 ### Notes on chapter 77
+
+**功成而不處 → "The work is complete, and they do not stay in it."** *(Shalom's call, 2026-11-20. `glossary/cheng-成.md`.)* *(was: "The work is done…")* 成 (*chéng*) is *complete* in every line it stands in, and the formula 功成 (*gōng chéng*) no longer takes an exception: *complete* marks the moment the work reaches its end as plainly as *done* did, and it leaves *done* to 遂 (*suì* — carried through), which chapter 9 already renders so (功遂, *"The work done"*). The four 功成 lines, 2, 17, 34 and 77, read the same.
 
 **孰能有餘以奉天下 → "Who can have more than enough / and offer it up to the world?"** *(Shalom's call, 2026-11-19. `WORKLIST.md` R5; `process/accuracy-audit.md`, finding 9.)* *(was: "Who has more than enough, / and offers it up to the world?")* 能 (*néng* — can) asks who is able, and the answer, *"Only those who are with the Tao,"* is about capacity.
 
