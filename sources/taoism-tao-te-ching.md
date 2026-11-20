@@ -1460,7 +1460,7 @@ Therefore the sage embraces one thing and serves as the world's pattern.
 They do not show themselves off, and so they see clearly.
 They do not insist they are right, and so their rightness shows.
 They do not claim the work, and so the work is theirs.
-They do not boast, and so they endure.
+They do not boast, and so they last.
 
 Only because they do not contend can no one in the world contend with them.
 When the ancients said "bend, and stay whole," were those empty words?
@@ -1487,6 +1487,8 @@ The Chinese:
 誠全而歸之。
 
 ### Notes on chapter 22
+
+**不自矜，故長 → "They do not boast, and so they last."** *(Shalom's call, 2026-11-20. `glossary/chang-長.md`.)* *(was: "and so they endure.")* 長 (*cháng* — long, lasting) had worn *endure*, the English of 久 (*jiǔ* — enduring), and chapter 7 holds the two apart in one line: 天長地久 (*tiān cháng dì jiǔ* — "the sky is lasting, the earth enduring"). Both commentators read time here. Wang Bi: 不自矜則其德長也 (*"not boasting, their integrity lasts"*). Heshang Gong, on the mirror line at chapter 24: 好自矜大者不可以長久 (*"those who love to boast of their greatness cannot last long"*). Legge (1891) reads *zhǎng* (*to be chief*) instead: *"from self-complacency, and therefore he acquires superiority."* That reading is kept open in the entry.
 
 **枉則直 → "Be warped, and grow true."** *(Shalom's call, 2026-11-19, on the system: 正 *straight* · 奇 *crooked* · 直 *true* · 屈 *bent*. `WORKLIST.md` T4-2; `glossary/zheng-qi-正奇.md`.)* *(was: "Be warped, and grow straight," set earlier the same day.)* 直 (*zhí*) is the Shuowen's sighting eye, 正見也 (*"seeing straight"*), and warped wood that grows *true* is the carpenter's word for it. *Straight* is now 正 (*zhèng*)'s.
 
@@ -1530,7 +1532,7 @@ Brevity in speech happens of itself.
 A squall does not last out the morning.
 A downpour does not last out the day.
 Who does this? Sky and earth.
-Even sky and earth cannot make it last long.
+Even sky and earth cannot make it endure.
 How much less a person?
 
 So one whose affairs follow the Tao is the same as the Tao.
@@ -1564,6 +1566,8 @@ The Chinese:
 有不信焉。
 
 ### Notes on chapter 23
+
+**天地尚不能久 → "Even sky and earth cannot make it endure."** *(Shalom's call, 2026-11-20. `glossary/chang-長.md`.)* *(was: "Even sky and earth cannot make it last long.")* 久 (*jiǔ* — enduring) stands alone here, and *last* is 長 (*cháng* — long, lasting)'s word. *Endure* is 久's at chapters 7, 16 and 33. Heshang Gong's gloss on the storm uses both characters, one in each half: 言疾不能長，暴不能久也 (*"the rapid cannot last, the violent cannot endure"*). The English now keeps the two apart as he does. The squall and the downpour still *last out* the morning and the day, which renders 終 (*zhōng* — to the end), a third character.
 
 **同 (*tóng* — the same) is the antonym of 異 (*yì* — different), and six lines of this chapter had made it a dissolution.** *(2026-09-03, Pass D, `WORKLIST.md` T2-25. Was: *"merges with the Tao / merges with integrity / merges with the loss,"* and *"Those merged with…"* three times more.)* **Chapter 1 prints the pair in one clause** — 此兩者，**同**出而**異**名, *"these two 同 emerge and 異 in name"* — and our ch 1 renders it correctly as *"the **same** origin."* Everywhere else 同 had drifted: *together* (1), *merges with* (4, 23 ×6, 56), *union* (56). **Five Englishes for one character.**
 
@@ -1627,7 +1631,7 @@ Those who take long strides get nowhere.
 Those who show themselves off do not see clearly.
 Those who insist they are right convince no one.
 Those who claim the work have none.
-Those who boast do not endure.
+Those who boast do not last.
 
 Measured by the Tao, these are called leftover food and wasted motion.
 Living things recoil from them.
@@ -1647,6 +1651,8 @@ The Chinese:
 故有道者不處。
 
 ### Notes on chapter 24
+
+**自矜者不長 → "Those who boast do not last."** *(Shalom's call, 2026-11-20. `glossary/chang-長.md`.)* *(was: "Those who boast do not endure.")* The mirror of chapter 22, changed with it: *endure* is 久 (*jiǔ* — enduring)'s English, and 長 (*cháng* — long, lasting) takes *last*. Heshang Gong reads this line as time: 好自矜大者不可以長久 (*"those who love to boast of their greatness cannot last long"*).
 
 **自矜者不長 → "Those who boast do not endure."** *(2026-10-14, Shalom's call. Was: "Those who make themselves great.")* The mirror of ch 22, changed with it; see that chapter's note.
 
@@ -3240,7 +3246,7 @@ By it, descendants will never cease their sacrifices.
 
 Cultivate this in your body, and its integrity becomes authentic.
 Cultivate this in your family, and its integrity becomes abundant.
-Cultivate this in your community, and its integrity becomes long-lasting.
+Cultivate this in your community, and its integrity grows.
 Cultivate this in your state, and its integrity becomes bountiful.
 Cultivate this in the world, and its integrity becomes universal.
 
@@ -3265,6 +3271,8 @@ The Chinese:
 吾何以知天下然哉？以此。
 
 ### Notes on chapter 54
+
+**其德乃長 → "its integrity grows."** *(Shalom's call, 2026-11-20. `glossary/chang-長.md`.)* *(was: "its integrity becomes long-lasting.")* 長 here is *zhǎng* (to grow), as at chapters 10 and 51. All three commentators read growth or reach, and none reads time. Han Fei: 治鄉者行此節，則家之有餘者益衆 (*"when one who governs a community practises this, the households with a surplus grow more numerous"*). Wang Bi: 修之不廢，所施轉大 (*"cultivate it without ceasing, and what it reaches grows ever greater"*). Heshang Gong: 其德如是乃無不覆及也 (*"its integrity being so, there is nothing it does not cover and reach"*). The series climbs in scope, body to world, and each rung names a larger integrity. *Long-lasting* was the one reading none of them gives. Cost: this rung drops the series' *becomes* + adjective pattern.
 
 **子孫以祭祀不輟 → "By it, descendants will never cease their sacrifices."** *(Shalom's call, 2026-11-19. `WORKLIST.md` R5; `process/accuracy-audit.md` → *Smaller, gathered*.)* *(was: "Descendants will never cease offering sacrifices honoring this.")* 以 (*yǐ* — by it) makes the planting and embracing the means, not the honoree. Heshang Gong: 子孫傳此道以祭祀則不輟也 (*"descendants pass on this Tao, and so the sacrifices never cease"*).
 
