@@ -240,7 +240,7 @@ When the desirable is not displayed, the people's hearts are not thrown into dis
 
 Therefore the sage governs by
 emptying their hearts and filling their bellies,
-teaching their ambition to yield and strengthening their bones,
+teaching their will to yield and strengthening their bones,
 so the people are ever unknowing, ever desireless,
 and the knowers never push to act.
 Do the not-doing, and nothing is left ungoverned.
@@ -258,6 +258,8 @@ The Chinese:
 為無為，則無不治。
 
 ### Notes on chapter 3
+
+**弱其志 → "teaching their will to yield."** *(Shalom's call, 2026-11-20.)* *(was: "teaching their ambition to yield," his call of 2026-11-02.)* 志 (*zhì*) is the heart going toward something, and the book yields it here and praises having it at ch 33, *"One who walks with strength has will."* One word lets a reader see that a yielded will is not no will, and drops the slight verdict *ambition* carried. Wang Bi: 心虛則志弱 (*"when the heart is emptied, the will yields"*). `glossary/zhi-志.md`.
 
 **不尚賢，使民不爭 … → "When the exceptional are not exalted, the people do not contend" ×3.** *(Shalom's call, 2026-11-19. `WORKLIST.md` R6; `process/back-translation-audit.md` → *Minor*.)* *(was: "By not exalting the exceptional, the people …" ×3.)* **The old shape made the people the ones who refrain**, a dangling modifier: in the Chinese the ruler refrains, unnamed, and 使 (*shǐ* — to make) acts on the people. The passive keeps the doer unnamed, as the Chinese does.
 
@@ -472,7 +474,7 @@ Therefore the sage puts their body last, and their body comes first;
 puts their body outside, and their body survives.
 
 Is it not because they have no private self?
-And so they can complete their private self.
+And so their private self can be completed.
 
 The Chinese:
 
@@ -486,6 +488,8 @@ The Chinese:
 故能成其私。
 
 ### Notes on chapter 7
+
+**故能成其私 → "And so their private self can be completed."** *(Shalom's call, 2026-11-20, closing `WORKLIST.md` T2-91.)* *(was: "And so they can complete their private self.")* The frame 故能成其X (*gù néng chéng qí X* — "and so can complete their X") now reads in one voice at 7, 34 and 63, passive with 能 (*néng*)'s *can*. The book's completing has almost no doer (`glossary/cheng-成.md`), and the commentators read this line so: Heshang Gong, 聖人無私而己自厚 (*"the sage has no private aim, and the self thickens of itself"*); Wang Bi, 身先身存 (*"the body comes first, the body survives"*). Cost: the paradox is a little softer than *they can complete it*, and the doer R5 restored on 2026-11-19 is gone again.
 
 **故能成其私 → "And so they can complete their private self."** *(Shalom's call, 2026-11-20, on the evidence of `glossary/cheng-成.md`.)* *(was: "And so they can fulfill their private self.")* The frame 故能成其X (*gù néng chéng qí X* — "and so can complete their X") stands three times, here and at chapters 34 and 63, which read *completed*. Where the Chinese repeats its frame, the English repeats its verb, and 成 (*chéng*) is *complete* everywhere it is a verb of completing. *Fulfill* was a second verb for one frame, in a self-help register. Wang Bi: 無私者，無為於身也。身先身存，故曰能成其私也 (*"having no private self is not acting for the body. The body comes first, the body survives, and so it says they can complete their private self"*).
 
@@ -742,7 +746,7 @@ Cut a door and a window to make a room.
 In what is not there,
 the room has its use.
 
-So presence gives the advantage,
+So presence gives the benefit,
 and absence gives the use.
 
 The Chinese:
@@ -761,6 +765,8 @@ The Chinese:
 
 ### Notes on chapter 11
 
+**有之以為利 (*yǒu zhī yǐ wéi lì*) → "So presence gives the benefit."** *(Shalom's call, 2026-11-20.)* *(was: "the advantage.")* 利 (*lì*) now reads *benefit* in all its lines but chapter 53's *sharp swords* (`glossary/li-利.md`). Wang Bi: 有之所以為利，皆賴無以為用 (*"presence is what gives benefit; all rely on absence for use"*): the walls of the pot are what it gives you, the hollow what you use.
+
 **Rewritten 2026-09-05** (Pass D, `WORKLIST.md` D11 · T3-3). Full reasoning in `notes/translation.md`; the 埏/挻 fork in `notes/manuscript.md`.
 
 - **The repetition is the argument.** 當其無 and 有X之用 repeat letter for letter three times; only 車 / 器 / 室 change. Our English changed everything else instead, so the click never happened. Eleven lines for eleven, the middle line of every stanza identical.
@@ -777,7 +783,7 @@ The Chinese:
 
 The five colors make people's eyes blind.
 The five tones make people's ears deaf.
-The five flavors make people's palates dull.
+The five flavors make people's mouths dull.
 
 Galloping in pursuit of prey makes people's hearts wild.
 Rare goods hinder people's conduct.
@@ -798,6 +804,8 @@ The Chinese:
 故去彼取此。
 
 ### Notes on chapter 12
+
+**五味令人口爽 → "The five flavors make people's mouths dull."** *(Shalom's call, 2026-11-20.)* *(was: "palates dull.")* 口 (*kǒu*) is the Shuowen's 人所以言食也 (*"what a person speaks and eats with"*), and the series names each organ whole: eyes, ears, mouths, hearts. *Palate* named only the tasting part. 口 now reads *mouth* in both its lines, and Heshang Gong ties them: 人嗜五味於口則口亡，言失於道味也 (*"indulge the five flavors in the mouth and the mouth is lost: it loses the taste of the Tao"*), the Tao that is *bland in the mouth* at ch 35. `glossary/kou-口.md`.
 
 **五色 · 五音 · 五味 → "The five colors … The five tones … The five flavors."** *(Shalom's call, 2026-11-19. `WORKLIST.md` R5; `process/accuracy-audit.md`, finding 3.)* *(was: "The full spectrum of colors … of tones … of flavors.")* 五 (*wǔ* — five) stands three times, the named classical system of five colors, tones and flavors, and the chapter's force is the count. *Spectrum* was Newton's word, and fails the pointing test.
 
@@ -1199,7 +1207,7 @@ Next, those who are loved and praised.
 Next, those who are feared.
 Next, those who are despised.
 
-Where trust runs short, there is no trust.
+Where there is not enough trust, there is no trust.
 
 Hesitant, they prize their words.
 When the work is complete and the affairs are done,
@@ -1217,6 +1225,8 @@ The Chinese:
 百姓皆謂：「我自然」。
 
 ### Notes on chapter 17
+
+**信不足焉，有不信焉 (*xìn bù zú yān, yǒu bù xìn yān*) → "Where there is not enough trust, there is no trust."** *(Shalom's line, 2026-11-20; ch 23 alike.)* *(was: "Where trust runs short, there is no trust.")* 不足 (*bù zú*) now reads *not enough* in every line it stands in (`glossary/zu-足.md`), and *short* stays 寡 (*guǎ* — few)'s, at ch 63. The two clauses each open on *there is*, as the Chinese closes each on 焉 (*yān* — there).
 
 **功成事遂 → "When the work is complete and the affairs are done,"** *(Shalom's call, 2026-11-20. `glossary/cheng-成.md`.)* *(was: "When their work is done," which rendered two of the four characters.)* 事遂 (*shì suì* — the affairs carried through) had dropped out. The line holds 成 (*chéng* — complete) and 遂 (*suì*) together, so they take two words: *complete* for 成, as in every 功成 line, and *done* for 遂, as at chapter 9's 功遂 (*"The work done"*). Wang Bi reads the line whole: 故功成事遂，而百姓不知其所以然也 (*"so the work is complete and the affairs done, and the people do not know how it came about"*). *Their*, which the Chinese does not print, is gone: the work belongs to no one in particular, which is why everyone can say they did it themselves.
 
@@ -1288,12 +1298,12 @@ The Chinese:
 
 Cut off sagehood, abandon cleverness, and the people benefit a hundredfold.
 Cut off humaneness, abandon duty, and the people return to devotion and tenderness.
-Cut off skill, abandon profit, and there are no thieves.
+Cut off skill, abandon benefit, and there are no thieves.
 
 These three, taken as cultural form, are not enough.
 So give them something to belong to:
 show the undyed silk, embrace the uncarved wood,
-diminish the self, diminish desire.
+diminish the private self, diminish desire.
 
 The Chinese:
 
@@ -1306,6 +1316,10 @@ The Chinese:
 少私寡欲。
 
 ### Notes on chapter 19
+
+**少私寡欲 → "diminish the private self, diminish desire."** *(Shalom's call, 2026-11-20.)* *(was: "diminish the self.")* 私 (*sī*) now reads *the private self* in all three of its lines, with ch 7's *no private self* and *complete their private self*. *The self* is the lock of 我吾 (*wǒ wú*), which this chapter does not hold. Heshang Gong ties the two chapters together: 少私者，正無私也；寡欲者，當知足也 (*"to diminish the private self is precisely to have no private self; to want little is to know enough"*). Cost: the four-character close loses its even rhythm. `glossary/si-私.md`.
+
+**絕巧棄利 → "Cut off skill, abandon benefit."** *(Shalom's call, 2026-11-20, revising his* profit *of 2026-11-19.)* 利 (*lì*) stands twice in this chapter, and now reads one word in both: abandon 利, and the people 利 a hundredfold. Wang Bi: 巧利，用之善也 (*"skill and benefit are the best of use"*), a good given up, which is the chapter's argument. *Profit* leaned toward Heshang Gong's 塞貪路 (*"block the road of greed"*). `glossary/li-利.md`.
 
 **見素 → "show the undyed silk."** *(Shalom's call, 2026-11-19. `WORKLIST.md` R6; `process/back-translation-audit.md` → *Minor*.)* *(was: "see the undyed silk.")* Heshang Gong marks the sound 賢遍反, *xiàn* (to show), and glosses 見其篤朴以示下 (*"show their steadfast plainness to those below"*); ch 3's 不見可欲 already reads the graph *display*. The reading *jiàn* (to see) is the other possibility, recorded here.
 
@@ -1552,7 +1566,7 @@ One of loss is the same as loss.
 Those the same as the Tao, the Tao too gladly gets them.
 Those the same as integrity, integrity too gladly gets them.
 Those the same as loss, loss too gladly gets them.
-Where trust runs short, there is no trust.
+Where there is not enough trust, there is no trust.
 
 The Chinese:
 
@@ -1576,6 +1590,8 @@ The Chinese:
 有不信焉。
 
 ### Notes on chapter 23
+
+**信不足焉，有不信焉 (*xìn bù zú yān, yǒu bù xìn yān*) → "Where there is not enough trust, there is no trust."** *(Shalom's line, 2026-11-20; ch 17 alike.)* *(was: "Where trust runs short, there is no trust.")* 不足 (*bù zú*) now reads *not enough* in every line it stands in (`glossary/zu-足.md`).
 
 **天地尚不能久 → "Even sky and earth cannot make it endure."** *(Shalom's call, 2026-11-20. `glossary/chang-長.md`.)* *(was: "Even sky and earth cannot make it last long.")* 久 (*jiǔ* — enduring) stands alone here, and *last* is 長 (*cháng* — long, lasting)'s word. *Endure* is 久's at chapters 7, 16 and 33. Heshang Gong's gloss on the storm uses both characters, one in each half: 言疾不能長，暴不能久也 (*"the rapid cannot last, the violent cannot endure"*). The English now keeps the two apart as he does. The squall and the downpour still *last out* the morning and the day, which renders 終 (*zhōng* — to the end), a third character.
 
@@ -1805,7 +1821,7 @@ Stillness is the ruler of the restless.
 Therefore, the noble travels all day without leaving the heavy wagons.
 Even where the sights are glorious, they dwell at ease and stay apart.
 
-How can the lord of ten thousand chariots
+How can the master of ten thousand chariots
 make their own body light in the world?
 Lightness loses the root.
 Restlessness loses the ruler.
@@ -1823,6 +1839,8 @@ The Chinese:
 躁則失君。
 
 ### Notes on chapter 26
+
+**萬乘之主 (*wàn shèng zhī zhǔ*) → "the master of ten thousand chariots."** *(Shalom's call, 2026-11-20.)* *(was: "the lord of ten thousand chariots.")* *Lord* is male only (Shalom). 主 (*zhǔ*) is the flame at the center of a lamp, the master of a house, and *master* keeps it apart from 君 (*jūn*)'s *ruler* three lines away, which both commentators need: they read 躁則失君 as this master losing the ruler's seat. `glossary/zhu-主.md`.
 
 **輜重 → "the heavy wagons."** *(Shalom's call, 2026-11-19. `WORKLIST.md` T3-18.)* *(was: "the baggage wagons.")* 輜重 (*zī zhòng*) is the baggage train, and its 重 (*zhòng* — heavy) is line 1's, *"The heavy is the root of the light."* Both commentators hear it: Wang Bi, 以重為本故不離 (*"taking the heavy as root, so does not leave it"*); Heshang Gong, 不離其靜與重 (*"does not leave stillness and heaviness"*), the chapter's two opening words both.
 
@@ -2114,7 +2132,7 @@ Use them only when unavoidable; calm detachment is best.
 
 Win, but do not glorify it.
 To glorify it is to delight in killing people.
-And those who delight in killing people cannot get their will in the world.
+And those who delight in killing people cannot achieve their aims in the world.
 
 Auspicious occasions honor the left; inauspicious occasions honor the right.
 The deputy general takes the left, the higher general the right,
@@ -2144,6 +2162,8 @@ The Chinese:
 戰勝以喪禮處之。
 
 ### Notes on chapter 31
+
+**得志於天下 → "achieve their aims in the world."** *(Shalom's call, 2026-11-20.)* *(was: "get their will in the world.")* 志 (*zhì*) is the heart's drive and its target; 得志 is the idiom for the target reached, and *will* is the drive, not the result (Shalom). Heshang Gong: 不可使得志於天下 (*"must not be allowed to achieve their aim in the world"*). 得 (*dé*) takes *achieve* as a flexion here. `glossary/zhi-志.md`.
 
 **戰勝以喪禮處之 → "A battle won is placed by the rites of mourning."** *(Shalom's call, 2026-11-20. `glossary/sheng-勝.md`.)* *(was: "A victory in battle is placed by the rites of mourning.")* 勝 (*shèng* — overcome) is locked to *overcome*, with *win* as its declared exception in the four battle lines, this chapter's two among them. *Victory* was a third English and a noun the line does not have: 戰勝 (*zhàn shèng*) is *won in battle*, a verb. *A battle won* keeps the chapter's one verb, *win*, in both its 勝 lines, and it drops the triumph that *victory* carries, which is what the chapter refuses to glorify. Heshang Gong on the line: 古者戰勝，將軍居喪主禮之位，素服而哭之 (*"in ancient times, when a battle was won, the general took the place of the chief mourner, dressed in white, and wept"*).
 
@@ -2181,7 +2201,7 @@ The Chinese:
 
 The Tao is ever nameless, uncarved.
 Though small, nothing in the world can make it a subject.
-If rulers are able to hold to this, the countless things will submit of themselves.
+If nobles and sovereigns are able to hold to this, the countless things will submit of themselves.
 Sky and earth join together to send down sweet dew.
 No one commands the people, and they even out of themselves.
 
@@ -2205,6 +2225,8 @@ The Chinese:
 猶川谷之於江海。
 
 ### Notes on chapter 32
+
+**侯王 (*hóu wáng*) → "nobles and sovereigns."** *(Shalom's call, 2026-11-20.)* *(was: "If rulers are able to hold to this.")* 王 (*wáng*) is the title at the top that the world goes to: the Shuowen's 天下所歸往也 (*"that to which the world returns"*), and the *Hanshi waizhuan*'s 天下往之謂之王 (*"what the world goes to is called 王"*). *Ruler* is now 君 (*jūn*)'s, the ruler *of* something (26, 70). Argument: `glossary/wang-王.md` and `glossary/jun-君.md`. 侯王 (*hóu wáng*) names two ranks, the 侯 (*hóu* — feudal noble) below the 王, and *nobles* keeps both without the male lean of *lords*. Ch 37 opens its last stanza with the same line, and reads alike.
 
 **夫亦將知止 → "they too will know when to stop."** *(Shalom's call, 2026-11-19. `WORKLIST.md` R6; `process/back-translation-audit.md` → *Minor*.)* *(was: "one must know when to stop.")* 夫亦將 (*fū yì jiāng* — "they too will") is a promise, ch 37's frame, where the verse already reads *"they too will be desireless."* *Must* had turned it into an obligation.
 
@@ -2262,7 +2284,7 @@ One who overcomes others has force.
 One who overcomes themselves is strong.
 
 One who knows they have enough is wealthy.
-One who walks with strength has purpose.
+One who walks with strength has will.
 
 One who does not lose their place endures.
 One who dies but does not vanish lives long.
@@ -2279,6 +2301,8 @@ The Chinese:
 死而不亡者壽。
 
 ### Notes on chapter 33
+
+**強行者有志 → "One who walks with strength has will."** *(Shalom's call, 2026-11-20.)* *(was: "has purpose," set with the couplet on 2026-10-30.)* 志 (*zhì*) reads *will* where it is the heart's drive, here and at ch 3, where it is taught to yield. Wang Bi: 勤能行之，其志必獲 (*"keep at it diligently, and the will surely attains"*). `glossary/zhi-志.md`.
 
 **The four couplets, set on the chapter's own grammar.** *(2026-10-30, Shalom's call. `WORKLIST.md` T3-21.)* *(was: "is intelligent," "sees clearly," "knows they have enough is wealthy," "forces themselves onward has will," "does not lose their rootedness, endures," "dies but does not perish has long life.")* Every line is ▢者▢ (*▢ zhě ▢* — "one who ▢ is ▢"). Six predicates are one bare word, 智 (*zhì* — clever), 明 (*míng* — clear-seeing), 強 (*qiáng* — strong), 富 (*fù* — wealthy), 久 (*jiǔ* — lasting) and 壽 (*shòu* — long-lived), and two add 有 (*yǒu* — has): 有力 (*yǒu lì* — has strength) and 有志 (*yǒu zhì* — has intent). The English follows it: *is* + one word in the first three couplets, *has* only for the two 有, and the closing couplet turns on two verbs, *endures* and *lives long*, since the Chinese bare words are stative verbs and each couplet stays one shape.
 
@@ -2425,7 +2449,7 @@ The Chinese:
 *Heshang Gong's title: 為政, "Handling government".*
 
 The Tao is ever non-doing, yet nothing is left undone.
-If rulers are able to hold to this, the countless things will transform of themselves.
+If nobles and sovereigns are able to hold to this, the countless things will transform of themselves.
 
 Transforming, if they want to act, I will stabilize them with the nameless uncarved wood.
 With the nameless uncarved wood, they too will be desireless.
@@ -2441,6 +2465,8 @@ The Chinese:
 不欲以靜，天下將自正。
 
 ### Notes on chapter 37
+
+**侯王 (*hóu wáng*) → "nobles and sovereigns."** *(Shalom's call, 2026-11-20.)* *(was: "If rulers are able to hold to this.")* 王 (*wáng*) is the title at the top that the world goes to: the Shuowen's 天下所歸往也 (*"that to which the world returns"*), and the *Hanshi waizhuan*'s 天下往之謂之王 (*"what the world goes to is called 王"*). *Ruler* is now 君 (*jūn*)'s, the ruler *of* something (26, 70). Argument: `glossary/wang-王.md` and `glossary/jun-君.md`. 侯王 (*hóu wáng*) names two ranks, the 侯 (*hóu* — feudal noble) below the 王, and *nobles* keeps both without the male lean of *lords*. Ch 32 carries the same line, and reads alike.
 
 **天下將自正 → "the world will straighten itself."** *(Shalom's call, 2026-11-19, on the system: 正 *straight* · 奇 *crooked* · 直 *true* · 屈 *bent*. `WORKLIST.md` T4-2; `glossary/zheng-qi-正奇.md`.)* *(was: "the world will right itself.")* 自正 (*zì zhèng* — "straighten of itself") is the verb of 57's 民自正, and both now read *straighten*.
 
@@ -2570,7 +2596,7 @@ Earth received the one, and so became settled.
 Spirit received the one, and so became potent.
 The valley received the one, and so became full.
 The countless things received the one, and so came to life.
-Rulers received the one, and so serve as the world's standard.
+Nobles and sovereigns received the one, and so serve as the world's standard.
 
 Follow it through:
 Sky with no way to be clear is likely to split.
@@ -2578,11 +2604,11 @@ Earth with no way to be settled is likely to burst.
 Spirit with no way to be potent is likely to cease.
 The valley with no way to be full is likely to run dry.
 The countless things with no way to live are likely to die out.
-Rulers with no way to be prized and high are likely to topple.
+Nobles and sovereigns with no way to be prized and high are likely to topple.
 
 So the prized takes the cheap as its root,
 and the high takes the low as its footing.
-Therefore rulers call themselves orphaned, alone, and unworthy.
+Therefore nobles and sovereigns call themselves orphaned, alone, and unworthy.
 Is this not taking the cheap as the root? Is it not?
 
 So reduce a cart to the count of its parts, and there is no cart.
@@ -2614,6 +2640,8 @@ The Chinese:
 珞珞如石。
 
 ### Notes on chapter 39
+
+**侯王 (*hóu wáng*) → "nobles and sovereigns," in all three lines.** *(Shalom's call, 2026-11-20.)* *(was: "Rulers.")* 王 (*wáng*) is the title at the top that the world goes to: the Shuowen's 天下所歸往也 (*"that to which the world returns"*), and the *Hanshi waizhuan*'s 天下往之謂之王 (*"what the world goes to is called 王"*). *Ruler* is now 君 (*jūn*)'s, the ruler *of* something (26, 70). Argument: `glossary/wang-王.md` and `glossary/jun-君.md`. 侯王 (*hóu wáng*) names two ranks, the 侯 (*hóu* — feudal noble) below the 王, and *nobles* keeps both without the male lean of *lords*. **A cost, accepted:** this chapter's 貴 (*guì* — prized) read *"the noble is rooted in the humble"* until 2026-09-05, and *nobles* now stands here three times. As a plural noun it names a class, not a virtue, and 貴 keeps *prized* (`glossary/gui-jian-貴賤.md`).
 
 **是以 (*shì yǐ* — therefore) → *Therefore*.** *(Shalom's call, 2026-11-19, book-wide. `WORKLIST.md` T3-12.)* *(was: "This is why rulers call themselves")* Now: *"Therefore rulers call themselves"* The two connectives are held apart, 是以 *Therefore* and 故 *So*, because they mark the joints where the chapters were put together, and one English each lets a reader hear the seams (`notes/translation.md` → *故 and 是以*).
 
@@ -2793,7 +2821,7 @@ The Tao births the one, the one births the two, the two births the three, the th
 The countless things carry yin on their backs and embrace yang with their arms, and the breath within makes harmony.
 
 What most people hate is to be called orphaned, alone, or unworthy,
-Yet rulers and lords take these very descriptions for themselves.
+Yet sovereigns and nobles take these very descriptions for themselves.
 
 So it is with things: some are decreased and so increased, some increased and so decreased.
 
@@ -2814,6 +2842,8 @@ The Chinese:
 
 ### Notes on chapter 42
 
+**王公 (*wáng gōng*) → "sovereigns and nobles."** *(Shalom's calls, 2026-11-20.)* *(was: "rulers and lords.")* 王 (*wáng*) is the title at the top that the world goes to: the Shuowen's 天下所歸往也 (*"that to which the world returns"*), and the *Hanshi waizhuan*'s 天下往之謂之王 (*"what the world goes to is called 王"*). *Ruler* is now 君 (*jūn*)'s, the ruler *of* something (26, 70). Argument: `glossary/wang-王.md` and `glossary/jun-君.md`. **公 (*gōng*) → *nobles*, not *lords***, which is male only (Shalom): the titles here are ch 39's, which 39 gives to 侯王 (*hóu wáng*), *nobles and sovereigns*, and 王公 mirrors it (`glossary/gong-公.md`).
+
 **故物或損之而益，或益之而損 → "So it is with things: some are decreased and so increased, some increased and so decreased."** *(Shalom's call, 2026-11-19. `WORKLIST.md` R5; `process/accuracy-audit.md`, finding 4.)* *(was: "So it is: what is decreased is thereby increased, and what is increased is thereby decreased.")* 或 … 或 (*huò … huò* — some … some) had gone, turning an observation about some things into a law about all. Ch 29's 或行或隨 reads *"some go ahead, some follow,"* and this line now speaks the same way. 物 (*wù* — things) is rendered too.
 
 **故 (*gù* — so) → *So*.** *(Shalom's call, 2026-11-19, book-wide. `WORKLIST.md` T3-12.)* *(was: "For so it is: what is decreased")* Now: *"So it is: what is decreased"* The two connectives are held apart, 是以 *Therefore* and 故 *So*, because they mark the joints where the chapters were put together, and one English each lets a reader hear the seams (`notes/translation.md` → *故 and 是以*).
@@ -2832,9 +2862,9 @@ The Chinese:
 
 The softest thing in the world gallops over the hardest thing in the world.
 What is not there enters the seamless.
-Therefore I know the benefit of non-doing.
+Therefore I know the abundance of non-doing.
 
-The unspoken teaching, the benefit of non-doing —
+The unspoken teaching, the abundance of non-doing —
 few ever reach this.
 
 The Chinese:
@@ -2846,6 +2876,8 @@ The Chinese:
 天下希及之。
 
 ### Notes on chapter 43
+
+**無為之益 (*wú wéi zhī yì*) → "the abundance of non-doing," twice.** *(Shalom's call, 2026-11-20.)* *(was: "the benefit of non-doing.")* 益 (*yì*) is water standing above a vessel's rim, and the Shuowen glosses it 饒 (*ráo* — plenty), as it does 餘 (*yú*). *Abundance* keeps the overflowing vessel, carries Heshang Gong's 有益於人 (*"beneficial to people"*), since an overflow goes out to others, and leaves *benefit* to 利 (*lì*) alone. Ch 42 and 48 keep *increase*, where 益 is a process paired with 損 (*sǔn* — decrease). `glossary/yi-益.md`.
 
 **無有入無間 → "What is not there enters the seamless."** *(Shalom's call, 2026-11-19. `WORKLIST.md` R5; `process/accuracy-audit.md`, finding 6.)* *(was: "The formless enters the seamless.")* 無有 (*wú yǒu*) is absence, and the 無 & 有 lock declines *form / formless*, which name visibility rather than presence (`glossary/wu-you-無有.md`). *What is not there* is the lock's own wording at ch 11.
 
@@ -2982,7 +3014,7 @@ The further out you venture, the less you know.
 
 Therefore, the sage knows without venturing,
 names without seeing,
-and accomplishes without acting.
+and completes without acting.
 
 The Chinese:
 
@@ -2993,6 +3025,8 @@ The Chinese:
 不見而名，不為而成。
 
 ### Notes on chapter 47
+
+**不為而成 → "and completes without acting."** *(Shalom's call, 2026-11-20, closing `WORKLIST.md` T2-91.)* *(was: "and accomplishes without acting.")* 成 (*chéng*) now reads *complete* in every line of the book. *Accomplish* is an achievement word, a doer taking credit, and Wang Bi reads the line the other way: 明物之性，因之而已，故雖不為而使之成矣 (*"understanding things' nature and simply following it, so though not acting, they let them come to completion"*). `glossary/cheng-成.md`.
 
 **不見而名 → "names without seeing."** *(Shalom's call, 2026-09-24. `WORKLIST.md` T1-24.)* *(was: "understands clearly without seeing," over 不見而明.)* **We restore the received text's 名 (*míng* — to name) and stop following the Mawangdui A silk's 明 (*míng* — clear-seeing).** The two are homophones, and this is the one line in the book where they fork.
 
@@ -3231,7 +3265,7 @@ If I had just a scrap of knowledge, walking the path of the great Tao, my only f
 The great Tao is very level, yet people love to take shortcuts.
 
 The courts are immaculate, the fields are choked with weeds, the granaries are empty;
-Wearing ornate, colorful clothes, carrying sharp swords, gorged on food and drink, possessing excess wealth and goods —
+Wearing ornate, colorful clothes, carrying sharp swords, gorged on food and drink, possessing more than enough wealth and goods —
 This exposes the ringleader of thieves. It is not the Tao!
 
 The Chinese:
@@ -3243,6 +3277,8 @@ The Chinese:
 是謂盜夸。非道也哉！
 
 ### Notes on chapter 53
+
+**財貨有餘 (*cái huò yǒu yú*) → "more than enough wealth and goods."** *(Shalom's call, 2026-11-20.)* *(was: "excess wealth and goods.")* 有餘 (*yǒu yú*) now reads *more than enough* in all six of its lines (20, 53, 77 ×4), and Heshang Gong glosses this one with 足 (*zú* — enough) itself: 多嗜欲無足時 (*"many cravings, never a time of enough"*). *Excess* passed a verdict the Chinese leaves to the scene. `glossary/yu-餘.md`.
 
 **唯施是畏 keeps "my only fear would be to stray from it," and 介然 keeps "just a scrap": both choices recorded.** *(Shalom's call, 2026-11-19. `WORKLIST.md` R6; `process/back-translation-audit.md`, finding 3.)* The verse reads 施 (*shī*) as a loan for 迤 (*yǐ* — to veer), on the strength of the next line's 徑 (*jìng* — byways): the great road is level, and people love the byways, so the fear is of leaving it. **Both commentators read 施 as acting instead**: Wang Bi, 唯施為之是畏也 (*"only taking action is what I fear"*); Heshang Gong, 獨畏有所施為，失道意 (*"I fear only that some action would lose the Tao's intent"*). The road image is the chapter's own, and it is kept, against them. **介然 (*jiè rán*)** is *just a scrap*, the small pole; Heshang Gong glosses 介，大也 (*"介 means great"*), the opposite pole, and that reading is recorded here, not printed. *(Also fixed, 2026-11-19: the verse's* It is not the Tao\! *carried a Markdown escape that reached `data/` raw; it now prints a plain* ! *.)*
 
@@ -3413,7 +3449,7 @@ How do I know it is so? By this:
 The more taboos in the world, the poorer the people become.
 The more beneficial tools the people have, the more clouded the state becomes.
 The more skills people have, the more strange contrivances appear.
-The more laws are proclaimed, the more thieves there are.
+The more laws and commands are proclaimed, the more thieves there are.
 
 So the sage says:
 I do not do, and the people transform themselves.
@@ -3438,6 +3474,8 @@ The Chinese:
 我無欲，而民自樸。
 
 ### Notes on chapter 57
+
+**法令 (*fǎ lìng*) → "laws and commands."** *(Shalom's call, 2026-11-20.)* *(was: "The more laws are proclaimed.")* 法 (*fǎ* — law) and 令 (*lìng* — command): *laws* alone dropped the command. 令 now reads *command* in every line where it is an order (32, 57; `glossary/ling-令.md`). Heshang Gong glosses the line before with 令煩則姦生 (*"when commands are many, treachery arises"*). **His own text reads 法物 (*fǎ wù* — fine things) here**, recorded as fork 129; we keep the base.
 
 **以正治國，以奇用兵 → "Govern the state with the straight, / wage war with the crooked"; 民自正 → "the people straighten themselves."** *(Shalom's call, 2026-11-19, on the system: 正 *straight* · 奇 *crooked* · 直 *true* · 屈 *bent*. `WORKLIST.md` T4-2; `glossary/zheng-qi-正奇.md`.)* *(was: "with uprightness," "with surprise," "the people right themselves.")* **Chapter 58 undoes this line**, and Wang Bi says so: 以正治國則便復以奇用兵矣，故曰正復為奇 (*"govern the state with the straight, and you are back to waging war with the crooked; so it says, the straight turns crooked"*). 正 and 奇 now read alike in both chapters. The chapter opens with the straight imposed and closes with the people straightening themselves, one word moving in opposite directions. 奇 here is the strategists' flanking force, a way of fighting; *crooked* is the cost of hearing 58 in it. 奇物 keeps *strange contrivances*, a flexion.
 
@@ -3812,9 +3850,9 @@ The Chinese:
 
 *Heshang Gong's title: 後巳, "Putting the self last".*
 
-Rivers and seas can rule the hundred valleys
+Rivers and seas can be sovereign of the hundred valleys
 because they are masterful at staying below them.
-That is how they come to rule the hundred valleys.
+That is how they come to be sovereign of the hundred valleys.
 
 Therefore if you want to rise above the people, you must speak from below them.
 If you want to go ahead of the people, you must put your body behind them.
@@ -3838,6 +3876,8 @@ The Chinese:
 以其不爭，故天下莫能與之爭。
 
 ### Notes on chapter 66
+
+**為百谷王 (*wéi bǎi gǔ wáng*) → "be sovereign of the hundred valleys," twice.** *(Shalom's call, 2026-11-20.)* *(was: "rule the hundred valleys.")* The Chinese makes 王 a title the rivers become, 為 (*wéi* — to be) with a noun, and the verb *rule* had turned it into an act. Now the paradox lands as the title: sovereign because below. Everything the valleys hold flows down to the sea, which is the 王 that the world goes to. 王 (*wáng*) is the title at the top that the world goes to: the Shuowen's 天下所歸往也 (*"that to which the world returns"*), and the *Hanshi waizhuan*'s 天下往之謂之王 (*"what the world goes to is called 王"*). *Ruler* is now 君 (*jūn*)'s, the ruler *of* something (26, 70). Argument: `glossary/wang-王.md` and `glossary/jun-君.md`.
 
 **是以 (*shì yǐ* — therefore) → *Therefore*.** *(Shalom's call, 2026-11-19, book-wide. `WORKLIST.md` T3-12.)* *(was: "So if you want to rise above … The sage stands above … So the world gladly pushes")* Now: *"Therefore if you want to rise above … Therefore the sage stands above … Therefore the world gladly pushes"* The two connectives are held apart, 是以 *Therefore* and 故 *So*, because they mark the joints where the chapters were put together, and one English each lets a reader hear the seams (`notes/translation.md` → *故 and 是以*).
 
@@ -4316,14 +4356,14 @@ The Chinese:
 The way of nature:
 is it not like stringing a bow?
 The high is pressed down, the low is lifted.
-What is too much is taken from. What is too little is mended.
+What is more than enough is taken from. What is not enough is mended.
 
 The way of nature
-takes from where there is too much
-and mends where there is too little.
+takes from where there is more than enough
+and mends where there is not enough.
 The way of people is not like this.
-It takes from those who have too little
-and offers it up to those who have too much.
+It takes from those who do not have enough
+and offers it up to those who have more than enough.
 
 Who can have more than enough
 and offer it up to the world?
@@ -4344,6 +4384,8 @@ The Chinese:
 是以聖人為而不恃，功成而不處，其不欲見賢。
 
 ### Notes on chapter 77
+
+**有餘 / 不足 (*yǒu yú / bù zú*) → "more than enough" / "not enough," in every line.** *(Shalom's call, 2026-11-20.)* *(was: "too much" / "too little" in three lines, and "more than enough" in the fourth.)* The chapter rendered 有餘 two ways, *too much* in the bow and the two ways, *more than enough* in 孰能有餘以奉天下, and the earlier note kept the pair identical across two stanzas but missed the third. Now one English each, matching ch 20's 有餘 and 不足 everywhere, and the way of nature visibly restores *enough*, the word of 知足 (*zhī zú* — knowing you have enough) at 33, 44 and 46. Cost: longer and less crisp than *too much / too little*. `glossary/zu-足.md`.
 
 **功成而不處 → "The work is complete, and they do not stay in it."** *(Shalom's call, 2026-11-20. `glossary/cheng-成.md`.)* *(was: "The work is done…")* 成 (*chéng*) is *complete* in every line it stands in, and the formula 功成 (*gōng chéng*) no longer takes an exception: *complete* marks the moment the work reaches its end as plainly as *done* did, and it leaves *done* to 遂 (*suì* — carried through), which chapter 9 already renders so (功遂, *"The work done"*). The four 功成 lines, 2, 17, 34 and 77, read the same.
 
@@ -4392,7 +4434,7 @@ Therefore the sage says:
 whoever takes on the shame of the state
 is called the keeper of the soil and the grain.
 Whoever takes on the ill omen of the state
-is called the ruler of the world.
+is called the sovereign of the world.
 
 Words on the mark seem like their opposite.
 
@@ -4405,6 +4447,8 @@ The Chinese:
 正言若反。
 
 ### Notes on chapter 78
+
+**天下王 (*tiān xià wáng*) → "the sovereign of the world."** *(Shalom's call, 2026-11-20.)* *(was: "the ruler of the world.")* 王 (*wáng*) is the title at the top that the world goes to: the Shuowen's 天下所歸往也 (*"that to which the world returns"*), and the *Hanshi waizhuan*'s 天下往之謂之王 (*"what the world goes to is called 王"*). *Ruler* is now 君 (*jūn*)'s, the ruler *of* something (26, 70). Argument: `glossary/wang-王.md` and `glossary/jun-君.md`.
 
 **是以 (*shì yǐ* — therefore) → *Therefore*.** *(Shalom's call, 2026-11-19, book-wide. `WORKLIST.md` T3-12.)* *(was: "So the sage says:")* Now: *"Therefore the sage says:"* The two connectives are held apart, 是以 *Therefore* and 故 *So*, because they mark the joints where the chapters were put together, and one English each lets a reader hear the seams (`notes/translation.md` → *故 and 是以*).
 
